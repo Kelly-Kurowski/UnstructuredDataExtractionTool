@@ -1,15 +1,10 @@
-import numpy as np
-from pdf2image import convert_from_path
-import pytesseract
 import cv2
+import numpy as np
+import pytesseract
+from pdf2image import convert_from_path
+from PreprocessingModule import preprocess_image
 
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
-
-
-def pages_to_images(pdf_path):
-    # Convert all pages of the PDF to images
-    images = convert_from_path(pdf_path)
-    return images
 
 
 def extract_text_from_image(image):
@@ -19,18 +14,39 @@ def extract_text_from_image(image):
     return text
 
 
+def process_pdf(pdf_path):
+    # Convert all pages of the PDF to images
+    images = convert_from_path(pdf_path)
+
+    extracted_text = ''
+
+    for i, image in enumerate(images):
+        # Convert PIL image to NumPy array
+        image_np = np.array(image)
+
+        # Preprocess the image
+        preprocessed_image = preprocess_image(image_np)
+
+        # Extract text from preprocessed image
+        text = extract_text_from_image(preprocessed_image)
+
+        extracted_text += text
+
+    return extracted_text
+
+
 if __name__ == '__main__':
-    # Path to your PDF or JPEG file
+    # Path to your PDF or image file
     file_path = 'new_img_1_preprocessed.jpg'
 
-    if file_path.endswith(".pdf"):
-        images = pages_to_images(file_path)
-        text = ''
-        for image in images:
-            np_image = np.asarray(image)
-            text += extract_text_from_image(np_image)
-    else:
+    if file_path.lower().endswith(('.jpg', '.jpeg', '.png', '.tif')):
         image = cv2.imread(file_path)
-        text = extract_text_from_image(image)
+        preprocessed_image = preprocess_image(image)
+        extracted_text = extract_text_from_image(preprocessed_image)
+        print(extracted_text)
+    elif file_path.lower().endswith('.pdf'):
+        extracted_text = process_pdf(file_path)
+        print(extracted_text)
+    else:
+        print("Unsupported file format.")
 
-    print(text)
