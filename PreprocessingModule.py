@@ -35,15 +35,15 @@ def preprocess_image(image):
     # Apply the mask to the grayscale image
     result = cv2.bitwise_and(gray_image, dilated_image, mask=mask)
 
-    sharpened_image = cv2.filter2D(result, -1, np.array([[-1, -1, -1],
-                                                        [-1, 12, -1],
-                                                        [-1, -1, -1]]))
+    sharpened_image = cv2.filter2D(result, -1, np.array([[-0.5, -0.5, -0.5],
+                                                        [-0.5, 20, -0.5],
+                                                        [-0.5, -0.5, -0.5]]))
 
     return sharpened_image
 
 
 # Convert PDF to list of PIL images
-images = convert_from_path('Data/inkoop_factuur.pdf')
+images = convert_from_path('Data/soham.pdf')
 
 # Iterate through each PIL image
 for i, image in enumerate(images):
