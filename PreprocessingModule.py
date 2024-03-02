@@ -1,11 +1,10 @@
 import cv2
-from pdf2image import convert_from_path
 import numpy as np
 
 
 def preprocess_image(image):
     # Scale image to a larger size to recognize small characters.
-    img = cv2.resize(image, None, fx=1.3, fy=1.3, interpolation=cv2.INTER_CUBIC)
+    img = cv2.resize(image, None, fx=1.4, fy=1.4, interpolation=cv2.INTER_CUBIC)
 
     # Convert to grayscale
     gray_image = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
@@ -14,10 +13,10 @@ def preprocess_image(image):
     _, binary_image = cv2.threshold(gray_image, 180, 255, cv2.THRESH_BINARY)
 
     # Apply morphological erosion to fill gaps between letters
-    kernelE = np.ones((2, 2), np.uint16)  # Kernel size can be adjusted
+    kernelE = np.ones((1, 1), np.uint16)  # Kernel size can be adjusted
     eroded_image = cv2.erode(binary_image, kernelE, iterations=1)
 
-    kernelD = np.ones((2, 2), np.uint16)
+    kernelD = np.ones((1, 1), np.uint16)
     dilated_image = cv2.dilate(eroded_image, kernelD, iterations=1)
 
     # Find contours
@@ -41,17 +40,3 @@ def preprocess_image(image):
 
     return sharpened_image
 
-
-# Convert PDF to list of PIL images
-images = convert_from_path('Data/soham.pdf')
-
-# Iterate through each PIL image
-for i, image in enumerate(images):
-    # Convert PIL image to NumPy array
-    image_np = np.array(image)
-
-    # Preprocess the image
-    preprocessed_image = preprocess_image(image_np)
-
-    # Write the preprocessed image to disk
-    cv2.imwrite(f'new_img_{i + 1}_preprocessed.jpg', preprocessed_image)
