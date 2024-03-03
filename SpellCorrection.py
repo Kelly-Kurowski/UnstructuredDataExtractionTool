@@ -3,7 +3,7 @@ from joblib import Parallel, delayed
 
 
 def correct_word(spell_checker, word):
-    if word.isupper():  # Do not modify words only containing capital letters
+    if word.isupper():  # Do not modify words that only contain capital letters
         return word
     corrected_word = spell_checker.correction(word)
     return word if corrected_word is None else corrected_word

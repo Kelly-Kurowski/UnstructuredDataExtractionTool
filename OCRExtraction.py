@@ -35,6 +35,7 @@ def process_pdf(pdf_path, lang='eng'):
 
     return extracted_text.strip()
 
+
 def process_image_file(file_path, lang='eng'):
     # Check file format and process accordingly
     if file_path.lower().endswith(('.jpg', '.jpeg', '.png', '.tif')):
@@ -57,6 +58,5 @@ if __name__ == '__main__':
     # Process the file
     OCR_extracted_text = process_image_file(file_path)
     check = correct_misspelled_words(extracted_words=OCR_extracted_text.split(), lang='en')
-    print(OCR_extracted_text.split())
-    print(check)
+    print(" ".join(check))
 
