@@ -4,6 +4,9 @@ import pytesseract
 from pdf2image import convert_from_path
 from PreprocessingModule import preprocess_image
 from SpellCorrection import correct_misspelled_words
+from AICorrection import correct_text_with_OpenAI
+
+
 
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
@@ -36,7 +39,7 @@ def process_pdf(pdf_path, lang='eng'):
     return extracted_text.strip()
 
 
-def process_image_file(file_path, lang='eng'):
+def process_file(file_path, lang='eng'):
     # Check file format and process accordingly
     if file_path.lower().endswith(('.jpg', '.jpeg', '.png', '.tif')):
         image = cv2.imread(file_path)
@@ -53,10 +56,13 @@ def process_image_file(file_path, lang='eng'):
 
 if __name__ == '__main__':
     # Path to your PDF or image file
-    file_path = 'Data/13.pdf'
+    file_path = 'Data/inkoop_factuur.pdf'
 
     # Process the file
-    OCR_extracted_text = process_image_file(file_path)
-    check = correct_misspelled_words(extracted_words=OCR_extracted_text.split(), lang='en')
-    print(" ".join(check))
+    OCR_extracted_text = process_file(file_path)
+    print(OCR_extracted_text)
+    text_with_corrected_words = correct_misspelled_words(extracted_words=OCR_extracted_text.split(), lang='nl')
+    final_result = correct_text_with_OpenAI(" ".join(text_with_corrected_words))
+
+    print(final_result)
 
