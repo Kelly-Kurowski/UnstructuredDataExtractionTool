@@ -6,7 +6,7 @@ from PreprocessingModule import preprocess_image
 from SpellCorrection import correct_misspelled_words
 from AICorrection import correct_text_with_OpenAI
 
-
+# TODO: remove lang='eng' and lang='en' for interactive GUI component
 
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
