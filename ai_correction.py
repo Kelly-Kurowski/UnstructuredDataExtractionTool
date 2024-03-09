@@ -20,4 +20,3 @@ def correct_text_with_OpenAI(text):
       temperature=0.6
     )
     return response.choices[0].message.content
-

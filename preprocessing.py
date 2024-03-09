@@ -39,4 +39,3 @@ def preprocess_image(image):
                                                         [-0.5, -0.5, -0.5]]))
 
     return sharpened_image
-

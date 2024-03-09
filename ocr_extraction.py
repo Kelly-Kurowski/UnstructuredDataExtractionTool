@@ -5,19 +5,23 @@ from pdf2image import convert_from_path
 from preprocessing import preprocess_image
 from spell_correction import correct_misspelled_words
 from ai_correction import correct_text_with_OpenAI
+from language import detect_file_language
 
-# TODO: remove lang='eng' and lang='en' for interactive GUI component
 
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
+# Path to your PDF or image file
+file_path = 'Data/inkoop_factuur.pdf'
+language_code, language_code_tesseract = detect_file_language(file_path)
 
-def extract_text_from_image(image, lang='eng'):
+
+def extract_text_from_image(image, lang=language_code_tesseract):
     # Perform OCR using Tesseract
     text = pytesseract.image_to_string(image, lang=lang)
     return text.strip()
 
 
-def process_pdf(pdf_path, lang='eng'):
+def process_pdf(pdf_path, lang=language_code_tesseract):
     # Convert all pages of the PDF to images
     images = convert_from_path(pdf_path)
 
@@ -29,7 +33,6 @@ def process_pdf(pdf_path, lang='eng'):
 
         # Preprocess the image
         preprocessed_image = preprocess_image(image_np)
-        cv2.imwrite(f'page_{i}_preprocessed.jpg', preprocessed_image)
 
         # Extract text from preprocessed image
         text = extract_text_from_image(preprocessed_image, lang=lang)
@@ -39,7 +42,7 @@ def process_pdf(pdf_path, lang='eng'):
     return extracted_text.strip()
 
 
-def process_file(file_path, lang='eng'):
+def process_file(file_path, lang=language_code_tesseract):
     # Check file format and process accordingly
     if file_path.lower().endswith(('.jpg', '.jpeg', '.png', '.tif')):
         image = cv2.imread(file_path)
@@ -54,15 +57,9 @@ def process_file(file_path, lang='eng'):
         return "Unsupported file format."
 
 
-if __name__ == '__main__':
-    # Path to your PDF or image file
-    file_path = 'Data/inkoop_factuur.pdf'
+# Process the file
+OCR_extracted_text = process_file(file_path)
+text_with_corrected_words = correct_misspelled_words(extracted_words=OCR_extracted_text.split(), lang=language_code)
+final_result = correct_text_with_OpenAI(" ".join(text_with_corrected_words))
 
-    # Process the file
-    OCR_extracted_text = process_file(file_path)
-    print(OCR_extracted_text)
-    text_with_corrected_words = correct_misspelled_words(extracted_words=OCR_extracted_text.split(), lang='nl')
-    final_result = correct_text_with_OpenAI(" ".join(text_with_corrected_words))
-
-    print(final_result)
-
+print(final_result)
