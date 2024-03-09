@@ -7,21 +7,19 @@ from spell_correction import correct_misspelled_words
 from ai_correction import correct_text_with_OpenAI
 from language import detect_file_language
 
-
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
-# Path to your PDF or image file
-file_path = 'Data/inkoop_factuur.pdf'
-language_code, language_code_tesseract = detect_file_language(file_path)
+# Define a default language for Tesseract OCR
+DEFAULT_LANGUAGE_TESSERACT = 'eng'
 
 
-def extract_text_from_image(image, lang=language_code_tesseract):
+def extract_text_from_image(image, lang=DEFAULT_LANGUAGE_TESSERACT):
     # Perform OCR using Tesseract
     text = pytesseract.image_to_string(image, lang=lang)
     return text.strip()
 
 
-def process_pdf(pdf_path, lang=language_code_tesseract):
+def process_pdf(pdf_path, lang=DEFAULT_LANGUAGE_TESSERACT):
     # Convert all pages of the PDF to images
     images = convert_from_path(pdf_path)
 
@@ -42,7 +40,7 @@ def process_pdf(pdf_path, lang=language_code_tesseract):
     return extracted_text.strip()
 
 
-def process_file(file_path, lang=language_code_tesseract):
+def process_file(file_path, lang=DEFAULT_LANGUAGE_TESSERACT):
     # Check file format and process accordingly
     if file_path.lower().endswith(('.jpg', '.jpeg', '.png', '.tif')):
         image = cv2.imread(file_path)
@@ -57,9 +55,11 @@ def process_file(file_path, lang=language_code_tesseract):
         return "Unsupported file format."
 
 
-# Process the file
-OCR_extracted_text = process_file(file_path)
-text_with_corrected_words = correct_misspelled_words(extracted_words=OCR_extracted_text.split(), lang=language_code)
-final_result = correct_text_with_OpenAI(" ".join(text_with_corrected_words))
+def get_final_text(file_path):
+    language_code, language_code_tesseract = detect_file_language(file_path)
 
-print(final_result)
+    OCR_extracted_text = process_file(file_path, lang=language_code_tesseract)
+    text_with_corrected_words = correct_misspelled_words(extracted_words=OCR_extracted_text.split(), lang=language_code)
+    final_result = correct_text_with_OpenAI(" ".join(text_with_corrected_words))
+
+    return final_result

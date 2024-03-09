@@ -1,5 +1,6 @@
 import tkinter as tk
 from tkinter import PhotoImage, filedialog
+from ocr_extraction import get_final_text
 
 
 def on_folder_button_click():
@@ -21,7 +22,7 @@ def on_run_button_click():
     else:
         # Both entries are filled in, clear the error message if it's already shown
         error_label.config(text="")  # Clear the error message
-        # Your code for processing the file and entity information here
+        print(get_final_text(file_path))
         pass
 
 
