@@ -2,9 +2,9 @@ import cv2
 import numpy as np
 import pytesseract
 from pdf2image import convert_from_path
-from PreprocessingModule import preprocess_image
-from SpellCorrection import correct_misspelled_words
-from AICorrection import correct_text_with_OpenAI
+from preprocessing import preprocess_image
+from spell_correction import correct_misspelled_words
+from ai_correction import correct_text_with_OpenAI
 
 # TODO: remove lang='eng' and lang='en' for interactive GUI component
 
