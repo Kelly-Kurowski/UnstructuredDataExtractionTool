@@ -31,6 +31,7 @@ def process_pdf(pdf_path, lang=DEFAULT_LANGUAGE_TESSERACT):
 
         # Preprocess the image
         preprocessed_image = preprocess_image(image_np)
+        # cv2.imwrite(f'new_img_preprocessed{i}.jpg', preprocessed_image)
 
         # Extract text from preprocessed image
         text = extract_text_from_image(preprocessed_image, lang=lang)

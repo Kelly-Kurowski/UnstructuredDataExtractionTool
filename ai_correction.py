@@ -14,9 +14,9 @@ else:
 def correct_text_with_OpenAI(text):
     prompt = "Correct and format the following text:\n\n" + text
     response = openai.chat.completions.create(
-      model="gpt-3.5-turbo",
+      model="gpt-3.5-turbo-1106",
       messages=[{'role': 'user', 'content': prompt}],
-      max_tokens=len(text) + 10,
+      max_tokens=4096,
       temperature=0.6
     )
     return response.choices[0].message.content
