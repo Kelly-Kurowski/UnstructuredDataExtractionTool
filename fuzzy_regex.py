@@ -26,6 +26,15 @@ def extract_information(user_input, text):
         'e-mail': r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b',  # Match email addresses
         'phone number': r'\d(?:[\s-]?\d{1,}){6,}',  # Match phone numbers with optional spaces or dashes
         'age': r'\b\d{2}\b',  # Match 2 digits for age
+        'invoice date': r"\b(?:\d{1,2}-\d{2}-\d{4}|\d{1,2}-[A-Z]{3}-\d{4}|\d{1,2}\s+\w+\s+\d{4}|\d{1,2}/\d{1,2}/\d{4})\b",
+        'bank account number': r"\b[A-Z]{2}\d{2}[A-Z]{4}\d{10}\b",
+
+        # Dutch
+        'leeftijd': r'\b\d{2}\b',
+        'telefoon nummer': r'\d(?:[\s-]?\d{1,}){6,}',
+        'factuurdatum': r"\b(?:\d{1,2}-\d{2}-\d{4}|\d{1,2}-[A-Z]{3}-\d{4}|\d{1,2}\s+\w+\s+\d{4}|\d{1,2}/\d{1,2}/\d{4})\b",
+        'iban': r"\b[A-Z]{2}\d{2}[A-Z]{4}\d{10}\b",
+        'rekeningnummer': r"\b[A-Z]{2}\d{2}[A-Z]{4}\d{10}\b",
     }
 
     # Find the closest match to user input among available options
@@ -48,7 +57,7 @@ def extract_information(user_input, text):
 
 
 # Example usage:
-input_text = "My name is Johans Doe, my email is john@example.com, and my phone number is 06789800. I was born in 1989"
+input_text = "Mijn naam is Kelly, mijn nummer is  033 433 01 88. Factuurdatum dinsdag 31 januari 2023 NL03INGB0679431713"
 
 # Prompt user for input
 user_input = input("What information do you want to extract?: ")
