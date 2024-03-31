@@ -22,6 +22,7 @@ def fuzzy_match_input(user_input, options):
 def extract_information(user_input, text):
     # Define fuzzy regular expressions for different types of information
     fuzzy_regexes = {
+        # English
         'name': r'\b[A-Z][a-z]*\s+[A-Z][a-z]*\b',  # Match alphabetical characters and spaces
         'e-mail': r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b',  # Match email addresses
         'phone number': r'\d(?:[\s-]?\d{1,}){6,}',  # Match phone numbers with optional spaces or dashes
@@ -35,6 +36,8 @@ def extract_information(user_input, text):
         'factuurdatum': r"\b(?:\d{1,2}-\d{2}-\d{4}|\d{1,2}-[A-Z]{3}-\d{4}|\d{1,2}\s+\w+\s+\d{4}|\d{1,2}/\d{1,2}/\d{4})\b",
         'iban': r"\b[A-Z]{2}\d{2}[A-Z]{4}\d{10}\b",
         'rekeningnummer': r"\b[A-Z]{2}\d{2}[A-Z]{4}\d{10}\b",
+        'kvk': r"\bKVK\s+(\d+)\b",
+        'btw': r"\bBTW\s+([A-Za-z0-9]+)\b"
     }
 
     # Find the closest match to user input among available options
@@ -57,7 +60,7 @@ def extract_information(user_input, text):
 
 
 # Example usage:
-input_text = "Mijn naam is Kelly, mijn nummer is  033 433 01 88. Factuurdatum dinsdag 31 januari 2023 NL03INGB0679431713"
+input_text = "Mijn naam is Kelly, mijn nummer is  033 433 01 88. BTW NL808723649B01"
 
 # Prompt user for input
 user_input = input("What information do you want to extract?: ")
