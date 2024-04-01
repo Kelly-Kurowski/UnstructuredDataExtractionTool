@@ -8,7 +8,7 @@ def fuzzy_match_input(user_input, options):
     within a list of options.
     """
     best_match = None
-    max_score = -1
+    max_score = 80  # Input should be at least an 80% match
 
     for option in options:
         score = fuzz.partial_ratio(user_input, option)
@@ -17,6 +17,8 @@ def fuzzy_match_input(user_input, options):
             best_match = option
 
     return best_match
+
+
 
 
 def extract_information(user_input, text):
@@ -56,11 +58,11 @@ def extract_information(user_input, text):
         else:
             return "No {} found in the text.".format(matched_input)
     else:
-        return "Invalid input. Please provide valid information type ('name', 'email', 'phone number')."
+        return "Invalid input. Please provide valid information type."  # Use more advanced technique
 
 
 # Example usage:
-input_text = "Mijn naam is Kelly, mijn nummer is  033 433 01 88. BTW NL808723649B01"
+input_text = "Mijn naam is Kelly Kurowski en zijn naam is Bram Kokje, mijn nummer is 0628401213."
 
 # Prompt user for input
 user_input = input("What information do you want to extract?: ")
