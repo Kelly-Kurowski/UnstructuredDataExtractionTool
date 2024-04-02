@@ -19,8 +19,6 @@ def fuzzy_match_input(user_input, options):
     return best_match
 
 
-
-
 def extract_information(user_input, text):
     # Define fuzzy regular expressions for different types of information
     fuzzy_regexes = {
@@ -62,7 +60,7 @@ def extract_information(user_input, text):
 
 
 # Example usage:
-input_text = "Mijn naam is Kelly Kurowski en zijn naam is Bram Kokje, mijn nummer is 0628401213."
+input_text = ""
 
 # Prompt user for input
 user_input = input("What information do you want to extract?: ")
