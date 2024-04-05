@@ -100,7 +100,7 @@ def map_user_input_to_entity_type(user_input):
 
 
 
-def extract_entities(entity_type, text):
+def extract_entities(entity_types, text):
     # Modified extract_entities function with enhanced custom pattern matching
     nlp = load_package(lang='nl')
 
@@ -110,32 +110,36 @@ def extract_entities(entity_type, text):
     # Initialize an empty list to store entities
     entities = []
 
-    # Add custom pattern matching for money entities
-    if entity_type == 'MONEY':
-        matcher = Matcher(nlp.vocab)
-        pattern1 = [{'IS_DIGIT': True}, {'LOWER': {'IN': ['euro', 'dollar', '€', '$']}}]
-        pattern2 = [{'IS_DIGIT': True}, {'TEXT': {'IN': ['euro', 'dollar', '€', '$']}}]
-        pattern3 = [{'IS_DIGIT': True}, {'LOWER': 'euro'}]
-        pattern4 = [{'IS_DIGIT': True}, {'LOWER': 'dollar'}]
-        matcher.add('MONEY_PATTERN', [pattern1, pattern2, pattern3, pattern4])
+    for entity_type in entity_types:
+        # Add custom pattern matching for money entities
+        if entity_type == 'MONEY':
+            matcher = Matcher(nlp.vocab)
+            pattern1 = [{'IS_DIGIT': True}, {'LOWER': {'IN': ['euro', 'dollar', '€', '$']}}]
+            pattern2 = [{'IS_DIGIT': True}, {'TEXT': {'IN': ['euro', 'dollar', '€', '$']}}]
+            pattern3 = [{'IS_DIGIT': True}, {'LOWER': 'euro'}]
+            pattern4 = [{'IS_DIGIT': True}, {'LOWER': 'dollar'}]
+            matcher.add('MONEY_PATTERN', [pattern1, pattern2, pattern3, pattern4])
 
-        matches = matcher(doc)
-        matched_spans = set()  # Keep track of matched spans to avoid duplicates
-        for match_id, start, end in matches:
-            # Create a new 'MONEY' entity
-            span = doc.char_span(doc[start:end].start_char, doc[start:end].end_char, label='MONEY')
-            if span is not None and span.text not in matched_spans:
-                entities.append(span.text)
-                matched_spans.add(span.text)
-                break  # Stop after the first match
-
-        # If no match found, check for numbers
-        if not entities:
-            for token in doc:
-                if token.like_num:
-                    entities.append(token.text)
+            matches = matcher(doc)
+            matched_spans = set()  # Keep track of matched spans to avoid duplicates
+            for match_id, start, end in matches:
+                # Create a new 'MONEY' entity
+                span = doc.char_span(doc[start:end].start_char, doc[start:end].end_char, label='MONEY')
+                if span is not None and span.text not in matched_spans:
+                    entities.append(span.text)
+                    matched_spans.add(span.text)
                     break  # Stop after the first match
-    else:
-        entities = [ent.text for ent in doc.ents if ent.label_ == entity_type]
+
+            # If no match found, check for numbers
+            if not entities:
+                for token in doc:
+                    if token.like_num:
+                        entities.append(token.text)
+                        break  # Stop after the first match
+        else:
+            entities.extend([ent.text for ent in doc.ents if ent.label_ == entity_type])
 
     return entities
+
+
+print(extract_entities(entity_types=['DATE'], text='KLM is opgericht in 12-11-1978'))
