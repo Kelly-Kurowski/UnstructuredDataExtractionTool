@@ -1,4 +1,5 @@
 from fuzzywuzzy import fuzz
+from ner_extraction import extract_entities
 import re
 
 
