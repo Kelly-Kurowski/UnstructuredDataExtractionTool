@@ -11,98 +11,87 @@ def load_package(lang):
         raise ValueError(f"Unsupported language: {lang}")
 
 
+## user_input is for instance 'person, date'
 def map_user_input_to_entity_type(user_input):
-
-        entity_mapping = {
-            # English mappings
-        'cardinal': 'CARDINAL',
-        'date': 'DATE',
+    entity_mapping = {
+        # English mappings
+        'amount': 'MONEY',
         'birthday': 'DATE',
-        'event': 'EVENT',
-        'conference': 'EVENT',
-        'festival': 'EVENT',
-        'facility': 'FAC',
         'building': 'FAC',
-        'airport': 'FAC',
-        'bridge': 'FAC',
-        'location': 'GPE',
+        'city': 'GPE',
+        'company': 'ORG',
+        'conference': 'EVENT',
+        'date': 'DATE',
+        'event': 'EVENT',
+        'facility': 'FAC',
         'geopolitical entity': 'GPE',
         'language': 'LANGUAGE',
         'law': 'LAW',
-        'place': 'LOC',
+        'location': 'GPE',
         'money': 'MONEY',
-        'total': 'MONEY',
-        'amount': 'MONEY',
-        'total amount': 'MONEY',
         'nationality': 'NORP',
-        'ordinal': 'ORDINAL',
+        'object': 'PRODUCT',
         'organization': 'ORG',
-        'company': 'ORG',
         'percentage': 'PERCENT',
         'person': 'PERSON',
+        'place': 'LOC',
         'product': 'PRODUCT',
-        'food': 'PRODUCT',
-        'vehicle': 'PRODUCT',
-        'object': 'PRODUCT',
         'quantity': 'QUANTITY',
         'time': 'TIME',
         'timestamp': 'TIME',
-        'artwork': 'WORK_OF_ART',
-        'song': 'WORK_OF_ART',
-        'book': 'WORK_OF_ART',
+        'total': 'MONEY',
+        'total amount': 'MONEY',
 
         # Dutch mappings
-        'kaartinaal': 'CARDINAL',
-        'datum': 'DATE',
-        'geboortedatum': 'DATE',
-        'verjaardag': 'DATE',
-        'evenement': 'EVENT',
+        'bedrag': 'MONEY',
+        'bedrijf': 'ORG',
         'conferentie': 'EVENT',
-        'festival': 'EVENT',
+        'datum': 'DATE',
+        'evenement': 'EVENT',
         'faciliteit': 'FAC',
         'gebouw': 'FAC',
-        'vliegveld': 'FAC',
-        'brug': 'FAC',
-        'locatie': 'GPE',  # Generic term for locations
-        'geo-politieke entiteit': 'GPE',  # Generic term for geopolitical entities
-        'taal': 'LANGUAGE',
-        'wet': 'LAW',
-        'plaats': 'LOC',  # Generic term for places
         'geld': 'MONEY',
-        'totaal': 'MONEY',
-        'bedrag': 'MONEY',
-        'totaal bedrag': 'MONEY',
-        'nationaliteit': 'NORP',
-        'rangtelwoord': 'ORDINAL',
-        'organisatie': 'ORG',
-        'bedrijf': 'ORG',
-        'percentage': 'PERCENT',
-        'persoon': 'PERSON',
-        'product': 'PRODUCT',
-        'eten': 'PRODUCT',
-        'voertuig': 'PRODUCT',
-        'object': 'PRODUCT',
+        'geo-politieke entiteit': 'GPE',
+        'geboortedatum': 'DATE',
         'hoeveelheid': 'QUANTITY',
+        'locatie': 'GPE',
+        'nationaliteit': 'NORP',
+        'organisatie': 'ORG',
+        'persoon': 'PERSON',
+        'plaats': 'GPE',
+        'product': 'PRODUCT',
+        'stad': 'GPE',
+        'dorp': 'GPE',
         'tijd': 'TIME',
         'tijdstip': 'TIME',
-        'kunstwerk': 'WORK_OF_ART',
-        'liedje': 'WORK_OF_ART',
-        'boek': 'WORK_OF_ART',
+        'taal': 'LANGUAGE',
+        'totaal': 'MONEY',
+        'totaal bedrag': 'MONEY',
+        'verjaardag': 'DATE',
     }
 
-        # Check if the user input exists in the mapping
+    # Split user input into words
+    words = user_input.lower().split(',')
 
-        if user_input.lower() in entity_mapping:
-            return entity_mapping[user_input.lower()]
+    # Map each word individually
+    entity_types = []
+    for word in words:
+        word = word.strip()
+        if word in entity_mapping:
+            entity_types.append(entity_mapping[word])
         else:
-            # If the user input doesn't match any predefined mapping, return None
-            return None
+            # If the word doesn't match any predefined mapping, append None
+            entity_types.append(None)
+
+    return entity_types
 
 
 
-def extract_entities(entity_types, text):
+def extract_entities(user_input, text):
     # Modified extract_entities function with enhanced custom pattern matching
-    nlp = load_package(lang='nl')
+    nlp = load_package(lang='en')
+
+    entity_types = map_user_input_to_entity_type(user_input)
 
     # Process the input text with the NLP pipeline
     doc = nlp(text)
@@ -140,6 +129,3 @@ def extract_entities(entity_types, text):
             entities.extend([ent.text for ent in doc.ents if ent.label_ == entity_type])
 
     return entities
-
-
-print(extract_entities(entity_types=['DATE'], text='KLM is opgericht in 12-11-1978'))
