@@ -1,4 +1,5 @@
 import spacy
+from spacy.matcher import Matcher
 
 
 def load_package(lang):
@@ -16,6 +17,7 @@ def map_user_input_to_entity_type(user_input):
             # English mappings
         'cardinal': 'CARDINAL',
         'date': 'DATE',
+        'birthday': 'DATE',
         'event': 'EVENT',
         'conference': 'EVENT',
         'festival': 'EVENT',
@@ -52,6 +54,8 @@ def map_user_input_to_entity_type(user_input):
         # Dutch mappings
         'kaartinaal': 'CARDINAL',
         'datum': 'DATE',
+        'geboortedatum': 'DATE',
+        'verjaardag': 'DATE',
         'evenement': 'EVENT',
         'conferentie': 'EVENT',
         'festival': 'EVENT',
@@ -95,21 +99,43 @@ def map_user_input_to_entity_type(user_input):
             return None
 
 
+
 def extract_entities(entity_type, text):
-    # Load the English language model with transformer-based architecture
+    # Modified extract_entities function with enhanced custom pattern matching
     nlp = load_package(lang='nl')
 
     # Process the input text with the NLP pipeline
     doc = nlp(text)
 
-    # Extract entities of the specified type from the document
-    entities = [ent.text for ent in doc.ents if ent.label_ == entity_type]
+    # Initialize an empty list to store entities
+    entities = []
+
+    # Add custom pattern matching for money entities
+    if entity_type == 'MONEY':
+        matcher = Matcher(nlp.vocab)
+        pattern1 = [{'IS_DIGIT': True}, {'LOWER': {'IN': ['euro', 'dollar', '€', '$']}}]
+        pattern2 = [{'IS_DIGIT': True}, {'TEXT': {'IN': ['euro', 'dollar', '€', '$']}}]
+        pattern3 = [{'IS_DIGIT': True}, {'LOWER': 'euro'}]
+        pattern4 = [{'IS_DIGIT': True}, {'LOWER': 'dollar'}]
+        matcher.add('MONEY_PATTERN', [pattern1, pattern2, pattern3, pattern4])
+
+        matches = matcher(doc)
+        matched_spans = set()  # Keep track of matched spans to avoid duplicates
+        for match_id, start, end in matches:
+            # Create a new 'MONEY' entity
+            span = doc.char_span(doc[start:end].start_char, doc[start:end].end_char, label='MONEY')
+            if span is not None and span.text not in matched_spans:
+                entities.append(span.text)
+                matched_spans.add(span.text)
+                break  # Stop after the first match
+
+        # If no match found, check for numbers
+        if not entities:
+            for token in doc:
+                if token.like_num:
+                    entities.append(token.text)
+                    break  # Stop after the first match
+    else:
+        entities = [ent.text for ent in doc.ents if ent.label_ == entity_type]
 
     return entities
-
-
-entity_type = map_user_input_to_entity_type(input())
-print(entity_type)
-print(extract_entities('MONEY', 'Ik heb 67 euro bestaald voor die ouwe iPhone.'))
-
-
