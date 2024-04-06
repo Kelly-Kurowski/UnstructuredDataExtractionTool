@@ -80,8 +80,8 @@ def map_user_input_to_entity_type(user_input):
         if word in entity_mapping:
             entity_types.append(entity_mapping[word])
         else:
-            # If the word doesn't match any predefined mapping, append None
-            entity_types.append(None)
+            # If the word doesn't match any predefined mapping
+            entity_types.append(f"{word}: No Matches Found")
 
     return entity_types
 
@@ -100,6 +100,15 @@ def extract_entities(user_input, text):
     entities = []
 
     for entity_type in entity_types:
+        # Check if the entity_type has a message indicating it wasn't found
+        if ": No Matches Found" in entity_type:
+            # Extract the word from the message
+            word = entity_type.split(":")[0]
+            # Append the word with the message to entities
+            entities.append(f"{word}: No Matches Found")
+            # Skip further processing for this entity_type
+            continue
+
         # Add custom pattern matching for money entities
         if entity_type == 'MONEY':
             matcher = Matcher(nlp.vocab)
