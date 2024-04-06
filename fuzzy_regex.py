@@ -1,7 +1,6 @@
+import re
 from fuzzywuzzy import fuzz
 from ner_extraction import extract_entities
-import re
-
 
 def fuzzy_match_input(user_input, options):
     """
@@ -13,18 +12,20 @@ def fuzzy_match_input(user_input, options):
 
     for option in options:
         score = fuzz.partial_ratio(user_input, option)
-        if score > max_score:
+        if score == 100 and len(user_input) == len(option):
+            return user_input
+        elif score > max_score:
             max_score = score
             best_match = option
 
     return best_match
-
 
 def extract_information(user_input, text):
     # Define fuzzy regular expressions for different types of information
     fuzzy_regexes = {
         # English
         'name': r'\b[A-Z][a-z]*\s+[A-Z][a-z]*\b',  # Match alphabetical characters and spaces
+        'surname': r'\b[A-Z][a-z]*\s+([A-Z][a-z]*)\b',
         'e-mail': r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b',  # Match email addresses
         'phone number': r'\d(?:[\s-]?\d{1,}){6,}',  # Match phone numbers with optional spaces or dashes
         'age': r'\b\d{2}\b',  # Match 2 digits for age
@@ -32,6 +33,8 @@ def extract_information(user_input, text):
         'bank account number': r"\b[A-Z]{2}\d{2}[A-Z]{4}\d{10}\b",
 
         # Dutch
+        'naam': r'\b[A-Z][a-z]*\s+[A-Z][a-z]*\b',
+        'achternaam': r'\b[A-Z][a-z]*\s+([A-Z][a-z]*)\b',
         'leeftijd': r'\b\d{2}\b',
         'telefoon nummer': r'\d(?:[\s-]?\d{1,}){6,}',
         'factuurdatum': r"\b(?:\d{1,2}-\d{2}-\d{4}|\d{1,2}-[A-Z]{3}-\d{4}|\d{1,2}\s+\w+\s+\d{4}|\d{1,2}/\d{1,2}/\d{4})\b",
@@ -41,31 +44,40 @@ def extract_information(user_input, text):
         'btw': r"\bBTW\s+([A-Za-z0-9]+)\b"
     }
 
-    # Find the closest match to user input among available options
-    matched_input = fuzzy_match_input(user_input.lower(), fuzzy_regexes.keys())
+    # Convert user_input to lowercase to ensure case-insensitive matching
+    user_input = user_input.lower()
 
-    if matched_input:
-        # Use the matched input to select the appropriate fuzzy regex
-        fuzzy_regex = fuzzy_regexes[matched_input]
-
-        # Find matches in the text using the fuzzy regex
-        matches = re.findall(fuzzy_regex, text)
-
-        # If matches are found, return the first match
-        if matches:
-            return matches[0]  # Return only the first match
-        else:
-            return "No {} found in the text.".format(matched_input)
+    # Check if user_input is a comma-separated list
+    if ',' in user_input:
+        user_input_list = [x.strip() for x in user_input.split(',')]
     else:
-        return "Invalid input. Please provide valid information type."  # Use more advanced technique
+        user_input_list = [user_input]
 
+    results = []
 
-# Example usage:
-input_text = ""
+    for input_type in user_input_list:
+        # Find the closest match to user input among available options
+        matched_input = fuzzy_match_input(input_type, fuzzy_regexes.keys())
 
-# Prompt user for input
-user_input = input("What information do you want to extract?: ")
+        if matched_input:
+            # Use the matched input to select the appropriate fuzzy regex
+            fuzzy_regex = fuzzy_regexes[matched_input]
 
-# Extract information based on user input
-result = extract_information(user_input, input_text)
-print(result)
+            # Find matches in the text using the fuzzy regex
+            matches = re.findall(fuzzy_regex, text)
+
+            # If matches are found, add to results list
+            if matches:
+                # Extend the results list with each match separately
+                for match in matches:
+                    results.append(f'{input_type}: {match}')
+            else:
+                results.append(f'{input_type}: No Matches Found')
+        else:
+            # If the input type is not found in fuzzy_regexes, use NER extraction
+            ner_matches = extract_entities(input_type, text)
+            for match in ner_matches:
+                results.append(f'{match}')
+
+    return results
+
