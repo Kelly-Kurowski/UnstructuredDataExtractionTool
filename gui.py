@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter import PhotoImage, filedialog
 from ocr_extraction import get_final_text
+from fuzzy_regex import extract_information
 
 
 def on_folder_button_click():
@@ -22,7 +23,10 @@ def on_run_button_click():
     else:
         # Both entries are filled in, clear the error message if it's already shown
         error_label.config(text="")  # Clear the error message
-        print(get_final_text(file_path))
+        text = get_final_text(file_path)
+        print(text)
+        information = extract_information(entity_info, text)
+        print(information)
         pass
 
 
