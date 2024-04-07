@@ -116,7 +116,9 @@ def extract_entities(user_input, text):
             pattern2 = [{'IS_DIGIT': True}, {'TEXT': {'IN': ['euro', 'dollar', '€', '$']}}]
             pattern3 = [{'IS_DIGIT': True}, {'LOWER': 'euro'}]
             pattern4 = [{'IS_DIGIT': True}, {'LOWER': 'dollar'}]
-            matcher.add('MONEY_PATTERN', [pattern1, pattern2, pattern3, pattern4])
+            pattern5 = [{'TEXT': {'IN': ['€', '$']}}, {'IS_DIGIT': True}]
+            pattern6 = [{'TEXT': {'IN': ['€', '$']}}, {'LIKE_NUM': True}]
+            matcher.add('MONEY_PATTERN', [pattern1, pattern2, pattern3, pattern4, pattern5, pattern6])
 
             matches = matcher(doc)
             matched_spans = set()  # Keep track of matched spans to avoid duplicates
@@ -126,14 +128,14 @@ def extract_entities(user_input, text):
                 if span is not None and span.text not in matched_spans:
                     entities.append(span.text)
                     matched_spans.add(span.text)
-                    break  # Stop after the first match
 
-            # If no match found, check for numbers
-            if not entities:
-                for token in doc:
-                    if token.like_num:
-                        entities.append(token.text)
-                        break  # Stop after the first match
+            # # If no match found, check for numbers
+            # if not entities:
+            #     for token in doc:
+            #         if token.like_num:
+            #             entities.append(token.text)
+            #             break  # Stop after the first match
+
         else:
             entities.extend([ent.text for ent in doc.ents if ent.label_ == entity_type])
 
