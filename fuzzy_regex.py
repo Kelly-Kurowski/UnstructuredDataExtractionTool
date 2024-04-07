@@ -30,16 +30,18 @@ def extract_information(user_input, text):
         'phone number': r'\d(?:[\s-]?\d{1,}){6,}',  # Match phone numbers with optional spaces or dashes
         'age': r'\b\d{2}\b',  # Match 2 digits for age
         'invoice date': r"\b(?:\d{1,2}-\d{2}-\d{4}|\d{1,2}-[A-Z]{3}-\d{4}|\d{1,2}\s+\w+\s+\d{4}|\d{1,2}/\d{1,2}/\d{4})\b",
-        'bank account number': r"\b[A-Z]{2}\d{2}[A-Z]{4}\d{10}\b",
+        'bank account number': r"\b[A-Z]{2}\s*\d{2}\s*[A-Z]{4,}\s*\d{7,}\b|\b[A-Z]{2}\s*\d{2}\s*[A-Z]{4,}\s*\d{4}\s*\d{4}\s*\d{2}\b",
+        'website': r"\b(?:https?://)?(?:www\.)?[a-zA-Z0-9-]+(?:\.[a-zA-Z]{2,})+\b",
 
         # Dutch
         'naam': r'\b[A-Z][a-z]*\s+[A-Z][a-z]*\b',
         'achternaam': r'\b[A-Z][a-z]*\s+([A-Z][a-z]*)\b',
+        'adres': r"\b[A-Z]\w*\s+\d{1,3}(?:\s*[-\s]?[A-Z]|\s*[A-Z]?)?(?:,\s*|\s+)\d{4}\s+[A-Z]{2}\s+[A-Z]\w*\b",
         'leeftijd': r'\b\d{2}\b',
         'telefoon nummer': r'\d(?:[\s-]?\d{1,}){6,}',
         'factuurdatum': r"\b(?:\d{1,2}-\d{2}-\d{4}|\d{1,2}-[A-Z]{3}-\d{4}|\d{1,2}\s+\w+\s+\d{4}|\d{1,2}/\d{1,2}/\d{4})\b",
-        'iban': r"\b[A-Z]{2}\d{2}[A-Z]{4}\d{10}\b",
-        'rekeningnummer': r"\b[A-Z]{2}\d{2}[A-Z]{4}\d{10}\b",
+        'iban': r"\b[A-Z]{2}\s*\d{2}\s*[A-Z]{4,}\s*\d{7,}\b|\b[A-Z]{2}\s*\d{2}\s*[A-Z]{4,}\s*\d{4}\s*\d{4}\s*\d{2}\b",
+        'rekeningnummer': r"\b[A-Z]{2}\s*\d{2}\s*[A-Z]{4,}\s*\d{7,}\b|\b[A-Z]{2}\s*\d{2}\s*[A-Z]{4,}\s*\d{4}\s*\d{4}\s*\d{2}\b",
         'kvk': r"\bKVK\s+(\d+)\b",
         'btw': r"\bBTW\s+([A-Za-z0-9]+)\b"
     }
@@ -77,7 +79,10 @@ def extract_information(user_input, text):
             # If the input type is not found in fuzzy_regexes, use NER extraction
             ner_matches = extract_entities(input_type, text)
             for match in ner_matches:
-                results.append(f'{match}')
+                results.append(f'{input_type}: {match}')
+
+        results = [result.replace('\n', ' ') for result in results]
 
     return results
+
 
