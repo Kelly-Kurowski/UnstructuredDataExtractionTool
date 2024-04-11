@@ -103,18 +103,16 @@ def extract_entities(user_input, text):
             # Append the word with the message to entities
             entities.append(f"{word}: No Matches Found")
             # Skip further processing for this entity_type
+            # Add AI solution
             continue
 
         # Add custom pattern matching for money entities
         if entity_type == 'MONEY':
             matcher = Matcher(nlp.vocab)
-            pattern1 = [{'IS_DIGIT': True}, {'LOWER': {'IN': ['euro', 'dollar', '€', '$']}}]
-            pattern2 = [{'IS_DIGIT': True}, {'TEXT': {'IN': ['euro', 'dollar', '€', '$']}}]
-            pattern3 = [{'IS_DIGIT': True}, {'LOWER': 'euro'}]
-            pattern4 = [{'IS_DIGIT': True}, {'LOWER': 'dollar'}]
-            pattern5 = [{'TEXT': {'IN': ['€', '$']}}, {'IS_DIGIT': True}]
-            pattern6 = [{'TEXT': {'IN': ['€', '$']}}, {'LIKE_NUM': True}]
-            matcher.add('MONEY_PATTERN', [pattern1, pattern2, pattern3, pattern4, pattern5, pattern6])
+            pattern1 = [{'LIKE_NUM': True}, {'LOWER': {'IN': ['euro', 'dollar', '€', '$', 'USD', 'EUR']}}]
+            pattern2 = [{'TEXT': {'IN': ['€', '$', 'USD', 'EUR']}}, {'LIKE_NUM': True}]
+
+            matcher.add('MONEY_PATTERN', [pattern1, pattern2])
 
             matches = matcher(doc)
             matched_spans = set()  # Keep track of matched spans to avoid duplicates
@@ -124,13 +122,6 @@ def extract_entities(user_input, text):
                 if span is not None and span.text not in matched_spans:
                     entities.append(span.text)
                     matched_spans.add(span.text)
-
-            # # If no match found, check for numbers
-            # if not entities:
-            #     for token in doc:
-            #         if token.like_num:
-            #             entities.append(token.text)
-            #             break  # Stop after the first match
 
         else:
             entities.extend([ent.text for ent in doc.ents if ent.label_ == entity_type])
