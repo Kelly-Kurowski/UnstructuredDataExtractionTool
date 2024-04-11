@@ -27,6 +27,7 @@ def on_run_button_click():
         print(text)
         information = extract_information(entity_info, text)
         print(information)
+        error_label.config(text=f"{information}", fg="black")
         pass
 
 

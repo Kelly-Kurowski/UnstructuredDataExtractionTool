@@ -1,5 +1,6 @@
 import spacy
 from spacy.matcher import Matcher
+from ai_correction import extract_info_OpenAI
 
 
 def load_package(lang):
@@ -101,10 +102,10 @@ def extract_entities(user_input, text):
             # Extract the word from the message
             word = entity_type.split(":")[0]
             # Append the word with the message to entities
-            entities.append(f"{word}: No Matches Found")
-            # Skip further processing for this entity_type
-            # Add AI solution
-            continue
+            # entities.append(f"{word}: No Matches Found")
+            # Use OpenAI key to find information in text
+            info = extract_info_OpenAI(word, text)
+            entities.append(f"{info}")
 
         # Add custom pattern matching for money entities
         if entity_type == 'MONEY':
@@ -127,3 +128,4 @@ def extract_entities(user_input, text):
             entities.extend([ent.text for ent in doc.ents if ent.label_ == entity_type])
 
     return entities
+

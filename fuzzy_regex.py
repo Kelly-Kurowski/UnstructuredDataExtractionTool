@@ -87,3 +87,4 @@ def extract_information(user_input, text):
         results = [result.replace('\n', ' ') for result in results]
 
     return results
+
