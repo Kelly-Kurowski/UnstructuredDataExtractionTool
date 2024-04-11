@@ -32,7 +32,7 @@ def extract_information(user_input, text):
         'invoice date': r"\b(?:\d{1,2}-\d{2}-\d{4}|\d{1,2}-[A-Z]{3}-\d{4}|\d{1,2}\s+\w+\s+\d{4}|\d{1,2}/\d{1,2}/\d{4})\b",
         'bank account number': r"\b[A-Z]{2}\s*\d{2}\s*[A-Z]{4,}\s*\d{7,}\b|\b[A-Z]{2}\s*\d{2}\s*[A-Z]{4,}\s*\d{4}\s*\d{4}\s*\d{2}\b",
         'website': r"\b(?:https?://)?(?:www\.)?[a-zA-Z0-9-]+(?:\.[a-zA-Z]{2,})+\b",
-        'total': r"(?i)(?:totaal|total|totaal\sbedrag|total\samount)[:\s]*([€]?\s*[\d.,]+)",
+        'total': r"(?i)(?:totaal|total|totaal\sbedrag|total\samount)[:\s]*.*?([€]?\s*[\d.,]+)",
 
         # Dutch
         'naam': r'\b[A-Z][a-z]*\s+[A-Z][a-z]*\b',
@@ -45,8 +45,8 @@ def extract_information(user_input, text):
         'rekeningnummer': r"\b[A-Z]{2}\s*\d{2}\s*[A-Z]{4,}\s*\d{7,}\b|\b[A-Z]{2}\s*\d{2}\s*[A-Z]{4,}\s*\d{4}\s*\d{4}\s*\d{2}\b",
         'kvk': r"\bKVK\s+(\d+)\b|\bKvK\s+(\d+)\b",
         'btw': r"\bBTW\s+([A-Za-z0-9]+)\b",
-        'totaal': r"(?i)(?:totaal|total|totaal\sbedrag|total\samount)[:\s]*([€]?\s*[\d.,]+)",
-        'totaal bedrag': r"(?i)(?:totaal|total|totaal\sbedrag|total\samount)[:\s]*([€]?\s*[\d.,]+)",
+        'totaal': r"(?i)(?:totaal|total|totaal\sbedrag|total\samount)[:\s]*.*?([€]?\s*[\d.,]+)",
+        'totaal bedrag': r"(?i)(?:totaal|total|totaal\sbedrag|total\samount)[:\s]*.*?([€]?\s*[\d.,]+)",
     }
 
     # Convert user_input to lowercase to ensure case-insensitive matching
@@ -87,6 +87,3 @@ def extract_information(user_input, text):
         results = [result.replace('\n', ' ') for result in results]
 
     return results
-
-
-print(extract_information("total", "Basisbedrag belast met 0% btw € 642,97 Basisbedrag belast met 21% btw € 0,00 Btw 21% € 0,00 Totaal: € 642,97"))
