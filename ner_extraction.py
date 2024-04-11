@@ -39,8 +39,6 @@ def map_user_input_to_entity_type(user_input):
         'quantity': 'QUANTITY',
         'time': 'TIME',
         'timestamp': 'TIME',
-        'total': 'MONEY',
-        'total amount': 'MONEY',
 
         # Dutch mappings
         'bedrag': 'MONEY',
@@ -65,8 +63,6 @@ def map_user_input_to_entity_type(user_input):
         'tijd': 'TIME',
         'tijdstip': 'TIME',
         'taal': 'LANGUAGE',
-        'totaal': 'MONEY',
-        'totaal bedrag': 'MONEY',
         'verjaardag': 'DATE',
     }
 
