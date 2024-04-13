@@ -1,4 +1,5 @@
 import re
+import nltk
 from fuzzywuzzy import fuzz
 from ner_extraction import extract_entities
 
@@ -24,7 +25,7 @@ def extract_information(user_input, text):
     # Define fuzzy regular expressions for different types of information
     fuzzy_regexes = {
         # English
-        'name': r'\b[A-Z][a-z]*\s+[A-Z][a-z]*\b',  # Match alphabetical characters and spaces
+        'name': r'\b[A-Z][a-zA-Z]*\s+(?:(?:van\s+)?(?:[A-Z]\.\s*)*)?[A-Z][a-zA-Z]*\b',  # Match alphabetical characters and spaces
         'surname': r'\b[A-Z][a-z]*\s+([A-Z][a-z]*)\b',
         'e-mail': r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b',  # Match email addresses
         'phone number': r'\d(?:[\s-]?\d{1,}){6,}',  # Match phone numbers with optional spaces or dashes
@@ -35,7 +36,7 @@ def extract_information(user_input, text):
         'total': r"(?i)(?:totaal|total|totaal\sbedrag|total\samount)[:\s]*.*?([€]?\s*[\d.,]+)",
 
         # Dutch
-        'naam': r'\b[A-Z][a-z]*\s+[A-Z][a-z]*\b',
+        'naam': r'\b[A-Z][a-zA-Z]*\s+(?:(?:van\s+)?(?:[A-Z]\.\s*)*)?[A-Z][a-zA-Z]*\b',
         'achternaam': r'\b[A-Z][a-z]*\s+([A-Z][a-z]*)\b',
         'adres': r"\b[A-Z]\w*\s+\d{1,3}(?:\s*[-\s]?[A-Z]|\s*[A-Z]?)?(?:,\s*|\s+)\d{4}\s+[A-Z]{2}\s+[A-Z]\w*\b",
         'leeftijd': r'\b\d{2}\b',
@@ -88,3 +89,4 @@ def extract_information(user_input, text):
 
     return results
 
+print(extract_information('name', 'John F. Kennedy was a president and Kelly van Dalen a farmer'))
