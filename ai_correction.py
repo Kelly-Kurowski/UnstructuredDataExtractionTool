@@ -12,18 +12,28 @@ else:
 
 
 def correct_text_with_OpenAI(text):
-    prompt = "Correct and format the following text:\n\n" + text
+    prompt = f"""
+Correct spelling mistakes and format the following text below.
+
+Text: "{text}"
+"""
     response = openai.chat.completions.create(
-      model="gpt-3.5-turbo-1106",
-      messages=[{'role': 'user', 'content': prompt}],
-      max_tokens=4096,
-      temperature=0.6
+        model="gpt-3.5-turbo-1106",
+        messages=[{'role': 'user', 'content': prompt}],
+        max_tokens=4096,
+        temperature=0.6
     )
     return response.choices[0].message.content
 
 
 def extract_info_OpenAI(user_input, text):
-    prompt = f"Extract {user_input} from the following text:\n\n" + text + f"\n\n Give me ONLY the information from the text, nothing more and do not repeat the {user_input}."
+    prompt = f"""
+Extract {user_input} from the following text below.
+
+Text: "{text}"
+
+{user_input}: 
+"""
     response = openai.chat.completions.create(
         model="gpt-3.5-turbo-1106",
         messages=[{'role': 'user', 'content': prompt}],
