@@ -31,6 +31,7 @@ def map_user_input_to_entity_type(user_input):
         'location': 'GPE',
         'money': 'MONEY',
         'nationality': 'NORP',
+        'name': 'PERSON',
         'object': 'PRODUCT',
         'organization': 'ORG',
         'percentage': 'PERCENT',
@@ -55,6 +56,7 @@ def map_user_input_to_entity_type(user_input):
         'hoeveelheid': 'QUANTITY',
         'locatie': 'GPE',
         'nationaliteit': 'NORP',
+        'name': 'PERSON',
         'organisatie': 'ORG',
         'persoon': 'PERSON',
         'plaats': 'GPE',
@@ -128,4 +130,3 @@ def extract_entities(user_input, text):
             entities.extend([ent.text for ent in doc.ents if ent.label_ == entity_type])
 
     return entities
-
