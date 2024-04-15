@@ -4,25 +4,6 @@ from nltk.corpus import wordnet
 from fuzzywuzzy import fuzz
 from ner_extraction import extract_entities
 
-nltk.download('wordnet')
-
-
-def is_common_noun(synset):
-    # Filter out synsets that are proper nouns (tags starting with 'n')
-    return synset.pos() == 'n' and not synset.lexname().startswith('noun.person')
-
-
-def is_english_word(word):
-    # Check if all words in the input string are common nouns
-    words = word.split()
-
-    for w in words:
-        synsets = wordnet.synsets(w)
-        if not any(is_common_noun(synset) for synset in synsets):
-            return False
-
-    return True
-
 
 def fuzzy_match_input(user_input, options):
     """
@@ -46,8 +27,6 @@ def extract_information(user_input, text):
     # Define fuzzy regular expressions for different types of information
     fuzzy_regexes = {
         # English
-        'name': r'\b[A-Z][a-zA-Z]*\s+(?:(?:van\s+)?(?:[A-Z]\.\s*)*)?[A-Z][a-zA-Z]*\b',  # Match alphabetical characters and spaces
-        # 'surname': r'\b(?:[A-Z][a-zA-Z]*\s+)?(?:van\s+)?(?:[A-Z][a-zA-Z]*)\b',
         'e-mail': r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b',  # Match email addresses
         'phone number': r'\d(?:[\s-]?\d{1,}){6,}',  # Match phone numbers with optional spaces or dashes
         'age': r'\b\d{2}\b',  # Match 2 digits for age
@@ -57,8 +36,6 @@ def extract_information(user_input, text):
         'total': r"(?i)(?:totaal|total|totaal\sbedrag|total\samount)[:\s]*.*?([€]?\s*[\d.,]+)",
 
         # Dutch
-        'naam': r'\b[A-Z][a-zA-Z]*\s+(?:(?:van\s+)?(?:[A-Z]\.\s*)*)?[A-Z][a-zA-Z]*\b',
-        # 'achternaam': r'\b[A-Z][a-z]*\s+([A-Z][a-z]*)\b',
         'adres': r"\b[A-Z]\w*\s+\d{1,3}(?:\s*[-\s]?[A-Z]|\s*[A-Z]?)?(?:,\s*|\s+)\d{4}\s+[A-Z]{2}\s+[A-Z]\w*\b",
         'leeftijd': r'\b\d{2}\b',
         'telefoon nummer': r'\d(?:[\s-]?\d{1,}){6,}',
@@ -96,13 +73,6 @@ def extract_information(user_input, text):
 
             # If matches are found, add to results list
             if matches:
-
-                if matched_input == 'name':
-                    for match in matches:
-                        if not is_english_word(match):
-                            results.append(f'{input_type}: {match}')
-                    continue
-
                 # Extend the results list with each match separately
                 for match in matches:
                     results.append(f'{input_type}: {match}')
