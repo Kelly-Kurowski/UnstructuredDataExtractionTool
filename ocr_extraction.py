@@ -31,7 +31,7 @@ def process_pdf(pdf_path, lang=DEFAULT_LANGUAGE_TESSERACT):
 
         # Preprocess the image
         preprocessed_image = preprocess_image(image_np)
-        cv2.imwrite(f'new_img_preprocessed{i}.jpg', preprocessed_image)
+        # cv2.imwrite(f'new_img_preprocessed{i}.jpg', preprocessed_image)
 
         # Extract text from preprocessed image
         text = extract_text_from_image(preprocessed_image, lang=lang)
@@ -43,11 +43,11 @@ def process_pdf(pdf_path, lang=DEFAULT_LANGUAGE_TESSERACT):
 
 def process_file(file_path, lang=DEFAULT_LANGUAGE_TESSERACT):
     # Check file format and process accordingly
-    if file_path.lower().endswith(('.jpg', '.jpeg', '.png', '.tif')):
+    if file_path.lower().endswith(('.jpg', '.jpeg', '.png', '.tif', '.img')):
         image = cv2.imread(file_path)
         preprocessed_image = preprocess_image(image)
         extracted_text = extract_text_from_image(preprocessed_image, lang=lang)
-        cv2.imwrite(f'new_img_preprocessed.jpg', preprocessed_image)
+
         return extracted_text
     elif file_path.lower().endswith('.pdf'):
         extracted_text = process_pdf(file_path, lang=lang)
@@ -63,4 +63,4 @@ def get_final_text(file_path):
     text_with_corrected_words = correct_misspelled_words(extracted_words=OCR_extracted_text.split(), lang=language_code)
     final_result = correct_text_with_OpenAI(" ".join(text_with_corrected_words))
 
-    return final_result
+    return final_result, language_code

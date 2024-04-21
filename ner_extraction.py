@@ -86,9 +86,9 @@ def map_user_input_to_entity_type(user_input):
 
 
 
-def extract_entities(user_input, text):
+def extract_entities(user_input, text, language):
     # Modified extract_entities function with enhanced custom pattern matching
-    nlp = load_package(lang='en')
+    nlp = load_package(language)
 
     entity_types = map_user_input_to_entity_type(user_input)
 

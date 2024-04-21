@@ -1,6 +1,4 @@
 import re
-import nltk
-from nltk.corpus import wordnet
 from fuzzywuzzy import fuzz
 from ner_extraction import extract_entities
 
@@ -23,7 +21,7 @@ def fuzzy_match_input(user_input, options):
 
     return best_match
 
-def extract_information(user_input, text):
+def extract_information(user_input, text, language):
     # Define fuzzy regular expressions for different types of information
     fuzzy_regexes = {
         # English
@@ -33,7 +31,7 @@ def extract_information(user_input, text):
         'invoice date': r"\b(?:\d{1,2}-\d{2}-\d{4}|\d{1,2}-[A-Z]{3}-\d{4}|\d{1,2}\s+\w+\s+\d{4}|\d{1,2}/\d{1,2}/\d{4})\b",
         'bank account number': r"\b[A-Z]{2}\s*\d{2}\s*[A-Z]{4,}\s*\d{7,}\b|\b[A-Z]{2}\s*\d{2}\s*[A-Z]{4,}\s*\d{4}\s*\d{4}\s*\d{2}\b",
         'website': r'\b(?:https?://)?(?:www\.)?[a-zA-Z0-9-]+(?:\.[a-zA-Z]{2,})+(?:\/[a-zA-Z0-9-]*)*\b',
-        'total': r"(?i)(?:totaal|total|totaal\sbedrag|total\samount)[:\s]*.*?([€]?\s*[\d.,]+)",
+        'total': r"(?i)\b(?:totaal|total|totaal\s?bedrag|total\s?amount)\b[:\s]*.*?([€,$]?\s*[\d.,]+)",
 
         # Dutch
         'adres': r"\b[A-Z]\w*\s+\d{1,3}(?:\s*[-\s]?[A-Z]|\s*[A-Z]?)?(?:,\s*|\s+)\d{4}\s+[A-Z]{2}\s+[A-Z]\w*\b",
@@ -44,8 +42,8 @@ def extract_information(user_input, text):
         'rekeningnummer': r"\b[A-Z]{2}\s*\d{2}\s*[A-Z]{4,}\s*\d{7,}\b|\b[A-Z]{2}\s*\d{2}\s*[A-Z]{4,}\s*\d{4}\s*\d{4}\s*\d{2}\b",
         'kvk': r"\bKVK\s+(\d+)\b|\bKvK\s+(\d+)\b",
         'btw': r"\bBTW\s+([A-Za-z0-9]+)\b",
-        'totaal': r"(?i)(?:totaal|total|totaal\sbedrag|total\samount)[:\s]*.*?([€]?\s*[\d.,]+)",
-        'totaal bedrag': r"(?i)(?:totaal|total|totaal\sbedrag|total\samount)[:\s]*.*?([€]?\s*[\d.,]+)",
+        'totaal': r"(?i)\b(?:totaal|total|totaal\s?bedrag|total\s?amount)\b[:\s]*.*?([€,$]?\s*[\d.,]+)",
+        'totaal bedrag': r"(?i)\b(?:totaal|total|totaal\s?bedrag|total\s?amount)\b[:\s]*.*?([€,$]?\s*[\d.,]+)",
     }
 
     # Convert user_input to lowercase to ensure case-insensitive matching
@@ -81,7 +79,7 @@ def extract_information(user_input, text):
 
         else:
             # If the input type is not found in fuzzy_regexes, use NER extraction
-            ner_matches = extract_entities(input_type, text)
+            ner_matches = extract_entities(input_type, text, language)
             for match in ner_matches:
                 results.append(f'{input_type}: {match}')
 

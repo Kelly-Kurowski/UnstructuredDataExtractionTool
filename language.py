@@ -4,11 +4,11 @@ from langdetect import detect
 # Detected language code with corresponding Tesseract language codes.
 language_mapping = {
     'en': 'eng',
-    'es': 'spa',
-    'fr': 'fra',
-    'de': 'deu',
-    'it': 'ita',
     'nl': 'nld',
+    # 'es': 'spa',
+    # 'fr': 'fra',
+    # 'de': 'deu',
+    # 'it': 'ita',
 }
 
 
