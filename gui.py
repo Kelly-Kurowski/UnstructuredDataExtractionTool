@@ -111,4 +111,5 @@ run_button.place(x=300, y=106)
 error_label = tk.Label(root, text="", fg="red", background="white")
 error_label.place(x=50, y=140)
 
+# Open the window
 root.mainloop()
