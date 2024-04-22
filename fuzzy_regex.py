@@ -30,7 +30,7 @@ def extract_information(user_input, text, language):
         'age': r'\b\d{2}\b',  # Match 2 digits for age
         'invoice date': r"\b(?:\d{1,2}-\d{2}-\d{4}|\d{1,2}-[A-Z]{3}-\d{4}|\d{1,2}\s+\w+\s+\d{4}|\d{1,2}/\d{1,2}/\d{4})\b",
         'bank account number': r"\b[A-Z]{2}\s*\d{2}\s*[A-Z]{4,}\s*\d{7,}\b|\b[A-Z]{2}\s*\d{2}\s*[A-Z]{4,}\s*\d{4}\s*\d{4}\s*\d{2}\b",
-        'website': r'\b(?:https?://)?(?:www\.)?[a-zA-Z0-9-]+(?:\.[a-zA-Z]{2,})+(?:\/[a-zA-Z0-9-]*)*\b',
+        'website': r'\b(?:https?:\\/\\/)?(?:www\.)?(?<!@)[a-zA-Z0-9-]+(?:\.[a-zA-Z]{2,})+(?:\/[a-zA-Z0-9-]*)*\b',
         'total': r"(?i)\b(?:totaal|total|totaal\s?bedrag|total\s?amount)\b[:\s]*.*?([€,$]?\s*[\d.,]+)",
 
         # Dutch
