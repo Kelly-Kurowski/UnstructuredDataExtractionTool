@@ -47,7 +47,6 @@ def process_file(file_path, lang=DEFAULT_LANGUAGE_TESSERACT):
         image = cv2.imread(file_path)
         preprocessed_image = preprocess_image(image)
         extracted_text = extract_text_from_image(preprocessed_image, lang=lang)
-
         return extracted_text
     elif file_path.lower().endswith('.pdf'):
         extracted_text = process_pdf(file_path, lang=lang)

@@ -26,7 +26,7 @@ def extract_information(user_input, text, language):
     fuzzy_regexes = {
         # English
         'e-mail': r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b',  # Match email addresses
-        'phone number': r'\d(?:[\s-]?\d{1,}){6,}',  # Match phone numbers with optional spaces or dashes
+        'phone number': r'\d(?:[\s\-.]?\d{1,}){6,}',  # Match phone numbers with optional spaces, dashes, or dots
         'age': r'\b\d{2}\b',  # Match 2 digits for age
         'invoice date': r"\b(?:\d{1,2}-\d{2}-\d{4}|\d{1,2}-[A-Z]{3}-\d{4}|\d{1,2}\s+\w+\s+\d{4}|\d{1,2}/\d{1,2}/\d{4})\b",
         'bank account number': r"\b[A-Z]{2}\s*\d{2}\s*[A-Z]{4,}\s*\d{7,}\b|\b[A-Z]{2}\s*\d{2}\s*[A-Z]{4,}\s*\d{4}\s*\d{4}\s*\d{2}\b",
@@ -86,3 +86,4 @@ def extract_information(user_input, text, language):
         results = [result.replace('\n', ' ') for result in results]
 
     return results
+
