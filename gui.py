@@ -20,13 +20,15 @@ def on_run_button_click():
             entity_info.strip() == "" or entity_info == placeholder_text_entity:
         # If either entry is empty (i.e., containing placeholder text or is just whitespace), display a message
         error_label.config(text="Error: Both Entry fields must be filled in.", fg="red")
+    elif not file_path.lower().endswith(('.pdf', '.jpeg', '.jpg', '.tif', '.img', '.png')):
+        error_label.config(text="Error: File path should end with .pdf, .png, .jpeg, .jpg, .img or .tif -extension", fg="red")
     else:
         # Both entries are filled in, clear the error message if it's already shown
         error_label.config(text="")  # Clear the error message
         text, language = get_final_text(file_path)
-        print(text)
+        # print(text)
         information = extract_information(entity_info, text, language)
-        print(information)
+        # print(information)
         error_label.config(text=f"{information}", fg="black")
         pass
 

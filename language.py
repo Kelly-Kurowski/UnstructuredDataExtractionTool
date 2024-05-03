@@ -5,10 +5,7 @@ from langdetect import detect
 language_mapping = {
     'en': 'eng',
     'nl': 'nld',
-    # 'es': 'spa',
-    # 'fr': 'fra',
-    # 'de': 'deu',
-    # 'it': 'ita',
+
 }
 
 

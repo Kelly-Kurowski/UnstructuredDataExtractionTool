@@ -13,13 +13,16 @@ def fuzzy_match_input(user_input, options):
 
     for option in options:
         score = fuzz.partial_ratio(user_input, option)
-        if score == 100 and len(user_input) == len(option):
+        if user_input == option:
+            return user_input
+        elif score == 100 and len(user_input) == len(option):
             return user_input
         elif score > max_score:
             max_score = score
             best_match = option
 
     return best_match
+
 
 def extract_information(user_input, text, language):
     # Define fuzzy regular expressions for different types of information
