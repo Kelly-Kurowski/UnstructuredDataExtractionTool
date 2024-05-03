@@ -37,7 +37,15 @@ def extract_information(user_input, text, language):
         'total': r"(?i)\b(?:totaal|total|totaal\s?bedrag|total\s?amount)\b[:\s]*.*?([€,$]?\s*[\d.,]+)",
 
         # Dutch
-        'adres': r"\b[A-Z]\w*\s+\d{1,3}(?:\s*[-\s]?[A-Z]|\s*[A-Z]?)?(?:,\s*|\s+)\d{4}\s+[A-Z]{2}\s+[A-Z]\w*\b",
+        'adres': r"\b[A-Z]\w*\s+\d{1,3}(?:\s*[-\s]?[A-Z]|\s*[A-Z]?)?(?:,\s*|\s+)\d{4}\s+[A-Z]{2}\s+[A-Z]\w*\b|"
+                 r"\d+\s\w+\s\w+\s\w+\s\d+\,\s\w+\s\w+\,\s\w+\s\d+|"
+                 r"\w+\s\d+\s\w+\s\d+\,\s\w+\s\w+\s\d+|"
+                 r"\d+\s\w+\s\w+\,\s\w+\,\s\w+\s\d+|"
+                 r"\w+\s\w+\,\s\w+\s\w+\s\d+|"
+                 r"\d+\s\w+\s\w+\,\s\w+\s\w+\,\s\w+\s\d+|"
+                 r"\d+\s\w+\s\w+\s\w+\s\d+\,\s\w+\,\s\w+\s\d+|"
+                 r"\d+\s\w+\s\w+\s\w+\.\s\d+\,\s\w+\,\s\w+\s\d+|"
+                 r"\d+\s\w+\s\w+\s\w+\.\s\d+\,\s\w+\s\w+\,\s\w+\s\d+",
         'leeftijd': r'\b\d{2}\b',
         'telefoon nummer': r'\d(?:[\s-]?\d{1,}){6,}',
         'factuurdatum': r"\b(?:\d{1,2}-\d{2}-\d{4}|\d{1,2}-[A-Z]{3}-\d{4}|\d{1,2}\s+\w+\s+\d{4}|\d{1,2}/\d{1,2}/\d{4})\b",

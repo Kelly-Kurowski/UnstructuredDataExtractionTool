@@ -26,8 +26,6 @@ def generate_fake_resume(output_path, name, email, phone_number, address, langua
     heading_style = ParagraphStyle('Heading', parent=styles['Heading1'], fontName=heading_font, fontSize=14)
     normal_style = styles['Normal']
 
-
-
     # Define possible options for HRFlowable
     hr_options = [
         {"width": "100%", "thickness": 1, "lineCap": 'round', "color": styles['Normal'].textColor},
@@ -36,7 +34,17 @@ def generate_fake_resume(output_path, name, email, phone_number, address, langua
         {"width": "80%", "thickness": 1, "lineCap": 'butt', "color": "#c0c0c0"},
         {"width": "75%", "thickness": 1.5, "lineCap": 'round', "color": "#778899", "dash": (2, 2)},
         {"width": "100%", "thickness": 1, "lineCap": 'butt', "dash": (5, 5), "color": "#333333"},
-        {"width": "100%", "thickness": 1.5, "lineCap": 'butt', "dash": (3, 2), "color": "#D6C6FB"}
+        {"width": "100%", "thickness": 1.5, "lineCap": 'butt', "dash": (3, 2), "color": "#D6C6FB"},
+        {"width": "100%", "thickness": 1, "lineCap": 'butt', "dash": (5, 5), "color": "#333333"},
+        {"width": "100%", "thickness": 2, "lineCap": 'round', "dash": (10, 2, 5, 2), "color": "#FF5733"},
+        {"width": "100%", "thickness": 0.5, "lineCap": 'square', "dash": (15, 5, 5, 5), "color": "#00FF00"},
+        {"width": "100%", "thickness": 1, "lineCap": 'butt', "dash": (5, 10), "color": "#FFD700"},
+        {"width": "100%", "thickness": 2, "lineCap": 'round', "dash": (20, 5), "color": "#9400D3"},
+        {"width": "100%", "thickness": 1, "lineCap": 'square', "dash": (5, 15, 10, 5), "color": "#00CED1"},
+        {"width": "100%", "thickness": 2, "lineCap": 'round', "color": "#0066CC"},
+        {"width": "100%", "thickness": 1, "lineCap": 'square', "color": "#008080"},
+        {"width": "100%", "thickness": 2, "lineCap": 'round', "color": "#993366"},
+        {"width": "100%", "thickness": 1, "lineCap": 'butt', "color": "#663300"},
     ]
 
     # Pick a random style for spacers and background color if specified
@@ -155,8 +163,14 @@ occupations = [
     "Mobile App Developer", "Video Producer", "Event Planner", "Digital Content Strategist",
     "User Experience Researcher", "Content Marketing Manager", "SEO Specialist",
     "Network Administrator", "Database Administrator", "Digital Advertising Specialist",
-    "Data Analyst", "Operations Manager", "Technical Writer", "Brand Strategist"
+    "Data Analyst", "Operations Manager", "Technical Writer", "Brand Strategist",
+    "Financial Advisor", "Investment Banker", "Economist", "Financial Planner",
+    "Actuary", "Auditor", "Compliance Officer", "Credit Analyst",
+    "Portfolio Manager", "Loan Officer", "Tax Consultant", "Insurance Underwriter",
+    "Treasury Analyst", "Financial Controller", "Wealth Manager", "Risk Manager",
+    "Market Research Analyst", "Financial Research Analyst", "Fundraiser", "Nonprofit Manager"
 ]
+
 
 
 experiences = [
@@ -193,6 +207,13 @@ experiences = [
     "Managed cross-platform advertising campaigns, including PPC and display ads, at YouTube for 3 years as an Advertising Campaign Manager.",
     "Conducted competitive analysis and market positioning studies to identify growth opportunities at McKinsey & Company for 2.5 years as a Market Analyst.",
     "Led diversity and inclusion initiatives, organizing events and training sessions, at Google for 2 years as a Diversity and Inclusion Coordinator."
+    "Performed financial analysis and forecasting at J.P. Morgan Chase for 3 years as a Financial Analyst, aiding in investment decisions.",
+    "Managed client portfolios and provided investment advice at Goldman Sachs for 4 years as a Financial Advisor, achieving a 20% return on investment for clients.",
+    "Conducted economic research and analysis at the Federal Reserve for 2 years as an Economist, contributing to monetary policy decisions.",
+    "Led compliance audits and ensured regulatory adherence at Barclays for 3 years as a Compliance Officer, reducing compliance risks by 30%.",
+    "Evaluated creditworthiness and assessed loan applications at Citibank for 2 years as a Credit Analyst, improving loan approval rates by 15%.",
+    "Designed and implemented tax strategies for high-net-worth clients at Ernst & Young for 4 years as a Tax Consultant, minimizing tax liabilities.",
+    "Developed insurance underwriting guidelines and assessed risks at AIG for 3 years as an Insurance Underwriter, maintaining profitability and minimizing losses."
 ]
 
 
@@ -218,7 +239,13 @@ educations = [
     "Bachelor's Degree in Sociology, University of Chicago, Graduated May 2016",
     "Master's Degree in Educational Psychology, University of Michigan, Graduated June 2021",
     "Associate Degree in Fashion Design, Parsons School of Design, Graduated August 2015",
-    "Bachelor's Degree in Linguistics, University of Cambridge, Graduated December 2019"
+    "Bachelor's Degree in Linguistics, University of Cambridge, Graduated December 2019",
+    "Bachelor's Degree in Marketing, Amsterdam University, Graduated May 2017",
+    "Master's Degree in Communication Studies, Westwood University, Graduated December 2019",
+    "Associate Degree in Graphic Design, Creative Institute, Graduated June 2015",
+    "Bachelor's Degree in Economics, University of Oxford, Graduated June 2018",
+    "Master's Degree in Finance, Sorbonne University, Graduated July 2020",
+    "Ph.D. in Psychology, University of Tokyo, Graduated September 2016"
 ]
 
 
@@ -234,7 +261,19 @@ certifications = [
     "Certified ScrumMaster (CSM) Certification, Scrum Alliance, 2020",
     "Cybersecurity Certification, CompTIA, 2018",
     "Financial Modeling Certification, Corporate Finance Institute, 2021",
-    "UX Design Certification, Interaction Design Foundation, 2022"
+    "UX Design Certification, Interaction Design Foundation, 2022",
+    "Social Media Marketing Certification, Arowwai Industries, 2018",
+    "Google Analytics Certification, Google, 2019",
+    "Content Marketing Certification, HubSpot Academy, 2020",
+    "Digital Marketing Certificate, Coursera, 2017",
+    "Financial Modeling and Valuation Analyst (FMVA) Certification, Corporate Finance Institute, 2019",
+    "Certified Public Accountant (CPA), American Institute of CPAs, 2020",
+    "Chartered Financial Analyst (CFA) Certification, CFA Institute, 2018",
+    "Certified Financial Planner (CFP) Certification, Certified Financial Planner Board of Standards, Inc., 2021",
+    "Certified Information Systems Auditor (CISA), Information Systems Audit and Control Association (ISACA), 2019",
+    "Project Management Professional (PMP) Certification, Project Management Institute (PMI), 2016",
+    "Certified Human Resources Professional (CHRP), Human Resources Professionals Association (HRPA), 2020",
+    "Certified Data Scientist, Data Science Council of America (DASCA), 2018"
 ]
 
 volunteer_experiences = [
