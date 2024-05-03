@@ -17,10 +17,11 @@ def generate_fake_resume(output_path, name, email, phone_number, address, langua
     # Create document template with adjusted margins
     doc = SimpleDocTemplate(output_path, pagesize=letter, leftMargin=72, rightMargin=72, topMargin=50, bottomMargin=72)
 
+
     # Define styles
     title_alignment = random.choice([TA_LEFT, TA_CENTER])
     styles = getSampleStyleSheet()
-    title_font = random.choice(["Times-BoldItalic", "Helvetica-Bold", "Courier-Bold"])
+    title_font = random.choice(["Times-BoldItalic", "Helvetica-Bold", "Courier-Bold", "Courier-BoldOblique", "Helvetica-BoldOblique"])
     heading_font = random.choice(["Helvetica", "Courier", "Times-Roman"])
     title_style = ParagraphStyle('Title', parent=styles['Title'], fontName=title_font, fontSize=22, alignment=title_alignment)
     heading_style = ParagraphStyle('Heading', parent=styles['Heading1'], fontName=heading_font, fontSize=14)
@@ -410,8 +411,8 @@ skills = [
     "NLTK: Experienced in NLTK (Natural Language Toolkit) library for natural language processing in Python, with a focus on text analysis, sentiment analysis, and language modeling"
     ]
 
-# Generate 50 fake resumes
-for i in range(1, 51):
+# Generate 400 fake resumes
+for i in range(1, 401):
     output_path = f'{output_folder}fake_resume_{i}.pdf'
     generate_fake_resume(output_path,
                          name=faker.name(),
