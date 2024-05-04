@@ -25,12 +25,12 @@ def on_run_button_click():
     else:
         # Both entries are filled in, clear the error message if it's already shown
         error_label.config(text="")  # Clear the error message
+        print("Loading Document...")
         text, language = get_final_text(file_path)
-        # print(text)
+        print("Extracting information...")
         information = extract_information(entity_info, text, language)
-        # print(information)
+        print(information)
         error_label.config(text=f"{information}", fg="black")
-        pass
 
 
 def on_entry_click(event):

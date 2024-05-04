@@ -56,7 +56,7 @@ def map_user_input_to_entity_type(user_input):
         'hoeveelheid': 'QUANTITY',
         'locatie': 'GPE',
         'nationaliteit': 'NORP',
-        'name': 'PERSON',
+        'naam': 'PERSON',
         'organisatie': 'ORG',
         'persoon': 'PERSON',
         'plaats': 'GPE',
