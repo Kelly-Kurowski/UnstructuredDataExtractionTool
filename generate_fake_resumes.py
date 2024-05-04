@@ -105,7 +105,7 @@ def generate_fake_resume(output_path, name, email, phone_number, address, langua
             for language in languages:
                 elements.append(Paragraph(f"- {language}", normal_style))
         elif section == "Skills":
-            section_name = random.choice(["Skills", "Competencies", "Talents", "Skillset", "Strengths", "Skills"])
+            section_name = random.choice(["Skills", "Competencies", "Talents", "Skillset", "Strengths"])
             elements.append(Paragraph(f"{section_name}:", heading_style))
             for skill in skills:
                 elements.append(Paragraph(f"- {skill}", normal_style))
@@ -169,7 +169,9 @@ occupations = [
     "Actuary", "Auditor", "Compliance Officer", "Credit Analyst",
     "Portfolio Manager", "Loan Officer", "Tax Consultant", "Insurance Underwriter",
     "Treasury Analyst", "Financial Controller", "Wealth Manager", "Risk Manager",
-    "Market Research Analyst", "Financial Research Analyst", "Fundraiser", "Nonprofit Manager"
+    "Market Research Analyst", "Financial Research Analyst", "Fundraiser", "Nonprofit Manager",
+    "Makeup Artist", "Interior Designer", "Tattoo Artist", "Cardiologist", "Pediatrician", "Gynecologist",
+    "Dermatologist", "Neurologist", "Medical Assistant"
 ]
 
 
@@ -214,7 +216,18 @@ experiences = [
     "Led compliance audits and ensured regulatory adherence at Barclays for 3 years as a Compliance Officer, reducing compliance risks by 30%.",
     "Evaluated creditworthiness and assessed loan applications at Citibank for 2 years as a Credit Analyst, improving loan approval rates by 15%.",
     "Designed and implemented tax strategies for high-net-worth clients at Ernst & Young for 4 years as a Tax Consultant, minimizing tax liabilities.",
-    "Developed insurance underwriting guidelines and assessed risks at AIG for 3 years as an Insurance Underwriter, maintaining profitability and minimizing losses."
+    "Developed insurance underwriting guidelines and assessed risks at AIG for 3 years as an Insurance Underwriter, maintaining profitability and minimizing losses.",
+    "Directed theatrical productions at Broadway's renowned theater for 4 years as a Stage Director, receiving critical acclaim and multiple awards for innovative productions.",
+    "Orchestrated logistics and coordinated international shipments at FedEx for 3 years as a Logistics Coordinator, optimizing delivery routes and reducing transit times by 20%.",
+    "Managed clinical trials and ensured compliance with regulatory standards at Pfizer for 2 years as a Clinical Research Coordinator, facilitating the successful launch of new pharmaceutical products.",
+    "Designed sustainable architectural solutions at an award-winning firm for 5 years as an Architect, integrating green building principles and earning LEED certification for multiple projects.",
+    "Led wildlife conservation efforts in remote regions at the World Wildlife Fund for 3 years as a Conservation Biologist, spearheading initiatives to protect endangered species and their habitats.",
+    "Developed curriculum and delivered engaging lessons at an international school for 4 years as an Educator, fostering academic excellence and cultural understanding among students.",
+    "Directed marketing campaigns and managed brand partnerships at a leading fashion house for 3 years as a Marketing Director, elevating brand image and driving sales growth.",
+    "Analyzed geological data and conducted field surveys at an oil and gas company for 4 years as a Geologist, identifying potential drilling sites and estimating resource reserves.",
+    "Coordinated disaster relief efforts and provided humanitarian aid in crisis zones at the Red Cross for 3 years as a Disaster Response Coordinator, mobilizing resources to assist affected communities.",
+    "Developed strategic communication plans and managed media relations at a global PR agency for 5 years as a Public Relations Manager, enhancing client visibility and reputation.",
+    "Designed and implemented IT infrastructure solutions at a technology consulting firm for 3 years as a Systems Engineer, optimizing network performance and ensuring data security."
 ]
 
 
@@ -246,7 +259,9 @@ educations = [
     "Associate Degree in Graphic Design, Creative Institute, Graduated June 2015",
     "Bachelor's Degree in Economics, University of Oxford, Graduated June 2018",
     "Master's Degree in Finance, Sorbonne University, Graduated July 2020",
-    "Ph.D. in Psychology, University of Tokyo, Graduated September 2016"
+    "Ph.D. in Psychology, University of Tokyo, Graduated September 2016",
+    "Ph.D. in Environmental Science, Wageningen University & Research, Defended March 2020",
+    "Ph.D. in Linguistics, University of Amsterdam, Completed December 2018"
 ]
 
 
@@ -420,7 +435,7 @@ for i in range(1, 401):
                          phone_number=''.join(random.choices(string.digits, k=10)),
                          address=faker.address().replace('\n', ', '),
                          languages=random.sample(languages, random.randint(2, 3)),
-                         skills=random.sample(skills, random.randint(5,7)),
+                         skills=random.sample(skills, random.randint(4,7)),
                          occupation=random.choice(occupations),
                          experience=random.sample(experiences, min(len(experiences), random.randint(1, 6))),
                          education=random.sample(educations, min(len(educations), random.randint(1, 3))),
@@ -430,3 +445,4 @@ for i in range(1, 401):
                          has_layout=random.choice([True, False])
                          )
     print(f'Fake resume {i} created successfully.')
+
