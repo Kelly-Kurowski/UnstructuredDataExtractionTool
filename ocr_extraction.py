@@ -62,7 +62,7 @@ def get_final_text(file_path):
     OCR_extracted_text = process_file(file_path, lang=language_code_tesseract)
     print("Correcting misspelled words...")
     text_with_corrected_words = correct_misspelled_words(extracted_words=OCR_extracted_text.split(), lang=language_code)
-    print("Enhancing text with OpenAI")
+    print("Enhancing text with OpenAI...")
     final_result = correct_text_with_OpenAI(" ".join(text_with_corrected_words))
 
     return final_result, language_code
