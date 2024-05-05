@@ -23,9 +23,11 @@ def generate_fake_resume(output_path, name, email, phone_number, address, langua
     styles = getSampleStyleSheet()
     title_font = random.choice(["Times-BoldItalic", "Helvetica-Bold", "Courier-Bold", "Courier-BoldOblique", "Helvetica-BoldOblique"])
     heading_font = random.choice(["Helvetica", "Courier", "Times-Roman"])
-    title_style = ParagraphStyle('Title', parent=styles['Title'], fontName=title_font, fontSize=22, alignment=title_alignment)
-    heading_style = ParagraphStyle('Heading', parent=styles['Heading1'], fontName=heading_font, fontSize=14)
+    title_style = ParagraphStyle('Title', parent=styles['Title'], fontName=title_font, fontSize=random.randint(20, 24), alignment=title_alignment)
+    heading_style = ParagraphStyle('Heading', parent=styles['Heading1'], fontName=heading_font, fontSize=random.randint(14, 16))
     normal_style = styles['Normal']
+    normal_style.fontSize = random.randint(8,12)
+
 
     # Define possible options for HRFlowable
     hr_options = [
