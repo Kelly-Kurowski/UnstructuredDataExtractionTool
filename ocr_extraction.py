@@ -58,11 +58,11 @@ def process_file(file_path, lang=DEFAULT_LANGUAGE_TESSERACT):
 def get_final_text(file_path):
     language_code, language_code_tesseract = detect_file_language(file_path)
     print(f"Found out language ({language_code}) of document...")
+    print("Extracting text with OCR Engine...")
     OCR_extracted_text = process_file(file_path, lang=language_code_tesseract)
-    print("Extracted text with OCR Engine...")
+    print("Correcting misspelled words...")
     text_with_corrected_words = correct_misspelled_words(extracted_words=OCR_extracted_text.split(), lang=language_code)
-    print("Corrected misspelled words...")
+    print("Enhancing text with OpenAI")
     final_result = correct_text_with_OpenAI(" ".join(text_with_corrected_words))
-    print("Enhancing text with OpenAI...")
 
     return final_result, language_code
