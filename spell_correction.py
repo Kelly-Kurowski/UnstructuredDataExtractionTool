@@ -26,7 +26,7 @@ def correct_misspelled_words(extracted_words: list, lang: str, batch_size: int =
     Returns:
         list: A list of corrected words.
     """
-    start_time = time.time()  # Start the timer
+    # start_time = time.time()  # Start the timer
 
     # Initialize spell checker once
     spell_checker = SpellChecker(language=lang)
@@ -47,8 +47,8 @@ def correct_misspelled_words(extracted_words: list, lang: str, batch_size: int =
     # Flatten the list of lists into a single list
     corrected_words = [word for batch in corrected_batches for word in batch]
 
-    end_time = time.time()  # End the timer
-    elapsed_time = end_time - start_time
-    print(f"Elapsed time: {elapsed_time} seconds")
+    # end_time = time.time()  # End the timer
+    # elapsed_time = end_time - start_time
+    # print(f"Elapsed time: {elapsed_time} seconds")
 
     return corrected_words

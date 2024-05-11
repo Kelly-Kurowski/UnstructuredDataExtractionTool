@@ -9,19 +9,23 @@ if api_key:
     openai.api_key = api_key
 else:
     print("OpenAI API key is not set. Please set it as an environment variable.")
+# Correct (spelling) mistakes in the following text if there are any: 0.92
+
+# Correct spelling mistakes in the following text if there are any: 0.93 + temperature 0.1!!
+# Al 17 getest, ga door met de rest
 
 
 def correct_text_with_OpenAI(text):
     prompt = f"""
-Correct spelling mistakes and format the following text below.
+Correct spelling mistakes in the following text if there are any:
 
-Text: "{text}"
+{text}
 """
     response = openai.chat.completions.create(
         model="gpt-3.5-turbo-1106",
         messages=[{'role': 'user', 'content': prompt}],
         max_tokens=4096,
-        temperature=0.6
+        temperature=0.1
     )
     return response.choices[0].message.content
 
