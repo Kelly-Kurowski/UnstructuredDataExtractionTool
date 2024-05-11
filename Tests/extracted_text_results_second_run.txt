@@ -1,0 +1,906 @@
+For the PDF file 'fake_resume_1.pdf' (File 1):
+  Jaccard similarity: 0.933
+  Words in the Text Extraction Component but not in the PDF extractor: {'French:', 'messaging', 'intermediate', 'novice', 'ads', 'Dutch:', 'formatting', 'German:'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'formatting,', '(Intermediate)', 'Dutch', 'ads,', 'French', '(Novice)', 'campaigns,', 'messaging.', 'German'}
+
+For the PDF file 'fake_resume_2.pdf' (File 2):
+  Jaccard similarity: 0.937
+  Words in the Text Extraction Component but not in the PDF extractor: {'headlong.', 'development', 'intermediate', 'Spanish:', '"I', 'novice', 'goals."', 'Japanese:', 'office'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'(Intermediate)', 'office,', 'Japanese', 'development,', '(Novice)', 'Spanish', 'collaboration,', 'goals.', 'head-on.'}
+
+For the PDF file 'fake_resume_3.pdf' (File 3):
+  Jaccard similarity: 0.934
+  Words in the Text Extraction Component but not in the PDF extractor: {'Portuguese:', 'success."', 'intermediate', '"I', 'novice', 'Dutch:', 'assets', 'German:', 'completion', 'coordination'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'(Intermediate)', 'Portuguese', 'Dutch', 'success.', 'completion,', 'assets,', '(Novice)', 'coordination,', 'German'}
+
+For the PDF file 'fake_resume_4.pdf' (File 4):
+  Jaccard similarity: 0.894
+  Words in the Text Extraction Component but not in the PDF extractor: {'native', 'agriculture.', 'organization.', 'center.', 'code.', 'learning', 'nonprofit', 'intermediate', 'development', 'Java.', 'novice', 'presence.', 'Serving', 'perception.', 'advocacy.', 'engagement.'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'presence', 'center', '(Intermediate)', 'organization', 'learning,', 'agricultureServing', 'perception', 'code', 'engagement', 'Java', '(Novice)', '(Native)', 'non-profit', 'advocacy'}
+
+For the PDF file 'fake_resume_5.pdf' (File 5):
+  Jaccard similarity: 0.915
+  Words in the Text Extraction Component but not in the PDF extractor: {'Portuguese:', 'traffic.', 'adaptability.', 'Japanese:', 'development', 'intermediate', 'Spanish:', 'safety.', 'novice', 'visibility.', 'perception.'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'(Intermediate)', 'Portuguese', 'adaptability', 'perception', 'Japanese', 'traffic', '(Novice)', 'development,', 'Spanish', 'safety'}
+
+For the PDF file 'fake_resume_6.pdf' (File 6):
+  Jaccard similarity: 0.944
+  Words in the Text Extraction Component but not in the PDF extractor: {'native', 'components', 'development', 'intermediate', 'novice', 'English:', 'Dutch:', 'German:'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'components,', '(Intermediate)', 'Dutch', '(Native)', 'development,', '(Novice)', 'English', 'German'}
+
+For the PDF file 'fake_resume_7.pdf' (File 7):
+  Jaccard similarity: 0.908
+  Words in the Text Extraction Component but not in the PDF extractor: {'solutions', 'development', 'Spanish:', 'intermediate', 'MacOS', 'novice', 'clients', 'Dutch:', 'students', 'German:', 'cleanups'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'clean-ups', '(Intermediate)', 'students.', 'macOS', 'Dutch', 'clients.', 'development,', '(Novice)', 'Spanish', 'solutions,', 'German'}
+
+For the PDF file 'fake_resume_8.pdf' (File 8):
+  Jaccard similarity: 0.926
+  Words in the Text Extraction Component but not in the PDF extractor: {'reviews', 'development', 'intermediate', 'Spanish:', 'novice', 'Peterson,', 'cleanups', 'Japanese:', 'technologies'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'clean-ups', '(Intermediate)', 'Peterson', 'Japanese', 'development,', '(Novice)', 'technologies,', 'Spanish', 'reviews,'}
+
+For the PDF file 'fake_resume_9.pdf' (File 9):
+  Jaccard similarity: 0.957
+  Words in the Text Extraction Component but not in the PDF extractor: {'communities', 'skills', '(novice)', 'traffic', 'deals'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'me:', 'communities.', 'traffic.', 'skills,', 'deals,', 'strategies,', '(Novice)'}
+
+For the PDF file 'fake_resume_10.pdf' (File 10):
+  Jaccard similarity: 0.946
+  Words in the Text Extraction Component but not in the PDF extractor: {'(intermediate)', '(novice)', '317-861-5571', 'development', 'cleanups'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'clean-ups', '(Intermediate)', 'macOS', 'development,', '(Novice)', '3178615571', 'iOS'}
+
+For the PDF file 'fake_resume_11.pdf' (File 11):
+  Jaccard similarity: 0.943
+  Words in the Text Extraction Component but not in the PDF extractor: {'spirit', 'inquiries', 'intermediate', 'tickets', 'novice', 'threats'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'(Intermediate)', 'inquiries,', 'spirit,', 'tickets,', 'threats.', 'feedback,', '(Novice)'}
+
+For the PDF file 'fake_resume_12.pdf' (File 12):
+  Jaccard similarity: 0.926
+  Words in the Text Extraction Component but not in the PDF extractor: {'headlong.', 'Coordinator', 'French:', '505-264-0687', 'intermediate', 'scripting', 'novice', 'Dutch:', 'Japanese:', 'office', 'collaboration'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'scripting,', '(Intermediate)', 'Dutch', 'office,', 'French', 'Japanese', '(Novice)', '5052640687', 'Coordinator.', 'collaboration,', 'head-on.'}
+
+For the PDF file 'fake_resume_13.pdf' (File 13):
+  Jaccard similarity: 0.937
+  Words in the Text Extraction Component but not in the PDF extractor: {'French:', 'reputation', 'intermediate', 'Spanish:', 'novice', 'students', 'German:', 'management'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'(Intermediate)', 'students.', 'reputation.', 'French', '(Novice)', 'German', 'Spanish', 'collaboration,', 'management,'}
+
+For the PDF file 'fake_resume_14.pdf' (File 14):
+  Jaccard similarity: 0.912
+  Words in the Text Extraction Component but not in the PDF extractor: {'headlong.', 'Portuguese:', 'management.', 'situations.', 'modeling.', 'nonprofit', 'data.', 'intermediate', 'presentations.', 'development', 'novice', 'German:', 'Serving', 'agriculture', 'office'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'presentations', '(Intermediate)', 'situations', 'Portuguese', 'office,', 'agricultureServing', 'development,', '(Novice)', 'non-profit', 'management', 'German', 'head-on.'}
+
+For the PDF file 'fake_resume_15.pdf' (File 15):
+  Jaccard similarity: 0.932
+  Words in the Text Extraction Component but not in the PDF extractor: {'French:', 'tracking', 'intermediate', 'Spanish:', 'Manager', 'novice', 'clients', 'German:', 'deals'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'(Intermediate)', 'Manager.', 'French', 'clients.', 'deals,', '(Novice)', 'tracking,', 'Spanish', 'German'}
+
+For the PDF file 'fake_resume_16.pdf' (File 16):
+  Jaccard similarity: 0.947
+  Words in the Text Extraction Component but not in the PDF extractor: {'Portuguese:', 'intermediate', 'Spanish:', 'clients', 'manipulation', 'commerce', 'coordination'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'(Intermediate)', 'Portuguese', 'e-commerce', 'clients.', 'manipulation,', 'coordination,', 'Spanish'}
+
+For the PDF file 'fake_resume_17.pdf' (File 17):
+  Jaccard similarity: 0.942
+  Words in the Text Extraction Component but not in the PDF extractor: {'native', '223-555-4942', 'communities', 'success', 'decisions', 'novice', 'completion', 'coordination'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'communities.', 'success.', 'decisions.', 'completion,', '(Native)', '(Novice)', 'coordination,', '2235554942'}
+
+
+For the PDF file 'fake_resume_18.pdf' (File 18):
+  Jaccard similarity: 0.934
+  Words in the Text Extraction Component but not in the PDF extractor: {'intermediate', 'office', 'Stride', 'Portuguese:', 'cleanups', 'novice', 'technologies', 'Japanese:', 'headlong.'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'Portuguese', 'office,', '(Intermediate)', 'head-on.', 'clean-ups', '(Novice)', 'stride', 'projects.', 'Japanese', 'technologies,'}
+
+For the PDF file 'fake_resume_19.pdf' (File 19):
+  Jaccard similarity: 0.923
+  Words in the Text Extraction Component but not in the PDF extractor: {'Spanish:', 'projects', 'German:', 'success."', 'intermediate', 'kaufman@example.com', '"I', 'novice', 'technologies', 'cleanups', '435-991-9366'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'(Intermediate)', 'Spanish', 'success.', 'lkaufman@example.com', 'clean-ups', '4359919366', 'German', '(Novice)', 'projects.', 'technologies,'}
+
+For the PDF file 'fake_resume_20.pdf' (File 20):
+  Jaccard similarity: 0.928
+  Words in the Text Extraction Component but not in the PDF extractor: {'intermediate', 'native', 'office', 'Stride', 'components', 'reserves', 'assets', 'campaigns', 'headlong.'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'reserves.', 'components,', 'office,', '(Intermediate)', 'I', 'head-on.', 'satisfaction,', '(Native)', 'campaigns,', 'stride', 'assets,'}
+
+For the PDF file 'fake_resume_21.pdf' (File 21):
+  Jaccard similarity: 0.813
+  Words in the Text Extraction Component but not in the PDF extractor: {'attention', 'Reflect', 'novice', 'Dutch:', 'intermediate', 'French:', 'Stride', '772-063-1298', 'Push', 'Immerse', 'determination', 'me', 'Navigate', 'excellence', 'goals', 'Portuguese:', 'reserves', 'satisfaction', 'management', 'office', 'headlong'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'hours', 'push', 'head-on.', 'With', 'Dutch', 'office,', 'reflect', 'immerse', 'learning,', 'accomplishment,', '(Intermediate)', 'I', 'navigate', 'satisfaction,', 'sets', 'excellence.', 'stride', 'another', 'management,', 'pass,', 'productive', '(Novice)', 'As', 'each', 'Portuguese', 'me.', 'reserves.', 'goals.', 'determination,', 'day,', 'French', 'attention.', '7720631298', 'sun'}
+
+For the PDF file 'fake_resume_22.pdf' (File 22):
+  Jaccard similarity: 0.889
+  Words in the Text Extraction Component but not in the PDF extractor: {'Spanish:', 'Dutch:', 'German:', 'coordination', 'intermediate', 'growth', 'clients', 'habitats', 'components', 'commerce', 'novice', 'assets', 'cleanups', 'purposes,', 'resources', '907-864-2869', 'Manager', 'threats'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'components,', '(Intermediate)', 'Spanish', 'Manager.', 'resources,', 'coordination,', '9078642869', 'clients.', 'clean-ups', 'Dutch', 'threats.', 'German', 'e-commerce', '(Novice)', 'habitats.', 'assets,'}
+
+For the PDF file 'fake_resume_23.pdf' (File 23):
+  Jaccard similarity: 0.913
+  Words in the Text Extraction Component but not in the PDF extractor: {'Dutch:', 'success."', 'intermediate', 'Serving', 'agriculture', 'Researcher', 'nonprofit', 'students', 'decision-making', 'novice', '"I', 'Circle,', 'Japanese:', 'threats'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'(Intermediate)', 'students.', 'success.', 'Circles,', 'Dutch', 'threats.', '(Novice)', 'non-profit', 'Japanese', 'agricultureServing', 'decision-making.'}
+
+For the PDF file 'fake_resume_24.pdf' (File 24):
+  Jaccard similarity: 0.925
+  Words in the Text Extraction Component but not in the PDF extractor: {'Spanish:', 'Dutch:', 'intermediate', '860-566-2000', 'Portuguese:', 'traffic', 'office', 'determination.', 'headlong', 'integration'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'Portuguese', '(Intermediate)', 'Spanish', 'head-on.', 'integration,', '8605662000', 'determination,', 'Dutch', 'traffic.', 'office,'}
+
+For the PDF file 'fake_resume_25.pdf' (File 25):
+  Jaccard similarity: 0.941
+  Words in the Text Extraction Component but not in the PDF extractor: {'Facilitator', 'intermediate', 'spirit', 'development', 'novice', 'traffic', 'reviews', 'Arrowai'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'spirit,', 'Arowwai', '(Intermediate)', 'Facilitator.', 'traffic.', 'Specialist.', '(Novice)', 'reviews,'}
+
+For the PDF file 'fake_resume_26.pdf' (File 26):
+  Jaccard similarity: 0.918
+  Words in the Text Extraction Component but not in the PDF extractor: {'Dutch:', 'success."', 'intermediate', 'bbowell@example.org', 'French:', 'losses', 'models', 'components', 'cleanups', 'novice', '"I', 'Japanese:'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'components,', 'models,', '(Intermediate)', 'success.', 'strategies.', 'growth.', 'clean-ups', 'Dutch', 'losses.', 'campaigns,', 'French', '(Novice)', 'Japanese', 'bpowell@example.org'}
+
+For the PDF file 'fake_resume_27.pdf' (File 27):
+  Jaccard similarity: 0.933
+  Words in the Text Extraction Component but not in the PDF extractor: {'German:', 'intermediate', 'development', 'Portuguese:', 'cleanups', 'novice', 'networks', 'Japanese:', 'communities'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'Portuguese', '(Intermediate)', 'clean-ups', 'German', 'networks,', '(Novice)', 'Japanese', 'communities.', 'development,', 'reputation.'}
+
+For the PDF file 'fake_resume_28.pdf' (File 28):
+  Jaccard similarity: 0.915
+  Words in the Text Extraction Component but not in the PDF extractor: {'tracking', 'German:', 'Facilitator', 'intermediate', 'growth', 'development', 'Portuguese:', '579-627-6659', 'ads', 'novice', 'Japanese:', 'Manager', 'reviews'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'Portuguese', 'reviews,', 'management,', '(Intermediate)', '5796276659', 'Facilitator.', 'Manager.', 'growth.', 'products.', 'German', '(Novice)', 'tracking,', 'ads,', 'Japanese'}
+
+For the PDF file 'fake_resume_29.pdf' (File 29):
+  Jaccard similarity: 0.943
+  Words in the Text Extraction Component but not in the PDF extractor: {'native', 'security', 'clients', 'students', 'reserves', 'novice', 'manipulation', 'Manager', 'threats'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'reserves.', 'students.', 'Manager.', 'clients.', 'threats.', '(Native)', '(Novice)', 'security.', 'manipulation,'}
+
+For the PDF file 'fake_resume_30.pdf' (File 30):
+  Jaccard similarity: 0.786
+  Words in the Text Extraction Component but not in the PDF extractor: {'Serving', 'tasks', 'flexibility', 'communication', 'interactions', 'Dutch:', 'services', 'intermediate', 'development', '"I', 'solutions', 'native', 'use', 'leads', 'scheduling', 'campaigns', 'efficiently', 'sharing', 'agriculture', 'nonprofit', 'English:', 'clean', 'components', 'Portuguese:', 'challenge', 'heights."', 'networks', 'applications', 'planning'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'Dutch', 'non-profit', 'learning,', '(Intermediate)', 'use,', 'flexibility,', 'planning,', 'sharing,', 'campaigns,', 'networks,', 'scheduling,', 'services,', 'management,', 'tasks,', 'agricultureServing', 'communication,', 'collaboration,', 'efficiently,', 'efficient,', 'applications,', 'analysis,', 'development,', 'Portuguese', 'solutions,', 'components,', 'heights.', 'English', '(Native)', 'leads,', 'clean,', 'challenge,', 'interactions,'}
+
+For the PDF file 'fake_resume_31.pdf' (File 31):
+  Jaccard similarity: 0.912
+  Words in the Text Extraction Component but not in the PDF extractor: {'Spanish:', 'Joined', 'Fuel', 'security', 'intermediate', 'French:', 'Portuguese:', 'Specialist', 'Contributed', 'novice', 'resources', 'integration'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'Joining', 'Portuguese', '(Intermediate)', 'Spanish', 'resources,', 'integration,', 'fuel', 'Contributing', 'Specialist.', '(Novice)', 'security.', 'French'}
+
+For the PDF file 'fake_resume_32.pdf' (File 32):
+  Jaccard similarity: 0.939
+  Words in the Text Extraction Component but not in the PDF extractor: {'Dutch:', 'security', 'intermediate', 'formatting', 'efforts', 'reputation', 'Portuguese:', '316-426-7499'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'Portuguese', '(Intermediate)', 'formatting,', 'Dutch', 'efforts,', '3164267499', 'security.', 'reputation.'}
+
+For the PDF file 'fake_resume_33.pdf' (File 33):
+  Jaccard similarity: 0.890
+  Words in the Text Extraction Component but not in the PDF extractor: {'German:', 'kennels.', 'Serving', 'novice', 'objectives.', 'purposes.', 'campaigns.', 'growth.', 'adults.', '"I', 'blogs.', 'spirit', 'deals', 'organization.', 'nonprofit', 'Portuguese:', 'agriculture.', 'success."', 'Intermediate'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'Portuguese', 'spirit,', 'objectives', '(Intermediate)', 'success.', 'growth', 'kennels', 'deals,', 'organization', 'blogs', '(Novice)', 'German', 'purposes', 'non-profit', 'adults', 'agricultureServing'}
+
+For the PDF file 'fake_resume_34.pdf' (File 34):
+  Jaccard similarity: 0.938
+  Words in the Text Extraction Component but not in the PDF extractor: {'collaboration', 'success."', 'learning', 'throughout', 'development', 'impact', 'day.', '"I', 'integration'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'impact.', 'collaboration,', 'success.', 'integration,', 'day,', 'Throughout', 'learning,'}
+
+For the PDF file 'fake_resume_35.pdf' (File 35):
+  Jaccard similarity: 0.918
+  Words in the Text Extraction Component but not in the PDF extractor: {'Fuel', 'native', 'learning', 'Serving', 'agriculture', 'Researcher', 'nonprofit', 'novice', 'traffic', 'cleanups', '207-613-5105', 'integration'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'agricultureServing', 'feedback,', 'integration,', 'fuel', 'clean-ups', 'traffic.', '(Native)', '(Novice)', 'non-profit', '2076135105', 'learning,'}
+
+For the PDF file 'fake_resume_36.pdf' (File 36):
+  Jaccard similarity: 0.910
+  Words in the Text Extraction Component but not in the PDF extractor: {'happiness.', 'native', 'effectiveness.', 'French:', '526-351-9870', 'English:', 'deliverables.', 'tasks.', 'novice', 'office', 'headlong.', 'audiences.'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'happiness', 'effectiveness', 'English', 'head-on.', '(Native)', 'deliverables', '(Novice)', 'French', '5263519870', 'office,', 'audiences'}
+
+For the PDF file 'fake_resume_37.pdf' (File 37):
+  Jaccard similarity: 0.921
+  Words in the Text Extraction Component but not in the PDF extractor: {'Dutch:', 'projects', 'German:', 'security', 'intermediate', 'reserves', 'novice', 'completion', 'cleanups', 'coordination', 'integration'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'reserves.', '(Intermediate)', 'coordination,', 'integration,', 'clean-ups', 'Dutch', 'German', '(Novice)', 'security.', 'completion,', 'projects.'}
+
+For the PDF file 'fake_resume_38.pdf' (File 38):
+  Jaccard similarity: 0.880
+  Words in the Text Extraction Component but not in the PDF extractor: {'intermediate', 'native', 'French:', 'Java.', 'agriculture', 'nonprofit', 'English:', 'principles.', 'development', 'Portuguese:', 'Serving', '704-852-9302', 'ads', 'formatting', 'campaigns.', 'novice', 'interfaces.'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'Portuguese', '7048529302', '(Intermediate)', 'non-profit', 'English', 'formatting,', '(Native)', 'macOS', 'interfaces', 'campaigns,', 'French', '(Novice)', 'Java', 'ads,', 'development,', 'agricultureServing'}
+
+For the PDF file 'fake_resume_39.pdf' (File 39):
+  Jaccard similarity: 0.922
+  Words in the Text Extraction Component but not in the PDF extractor: {'tracking', 'intermediate', 'program', 'growth.', 'models', 'McKay', 'Email', 'deals', 'traffic', 'campaigns', 'decisions', 'liabilities'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'decisions.', 'E-mail', 'models,', '(Intermediate)', 'liabilities.', 'Mckay', 'strategies,', 'traffic.', 'deals,', 'campaigns,', 'tracking,', 'projects.', 'program.'}
+
+For the PDF file 'fake_resume_40.pdf' (File 40):
+  Jaccard similarity: 0.940
+  Words in the Text Extraction Component but not in the PDF extractor: {'success."', 'native', 'intermediate', 'Serving', 'agriculture', 'nonprofit', 'Bay', 'habitats', '"I', 'networks'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'(Intermediate)', 'non-profit', 'success.', '(Native)', 'networks,', 'habitats.', 'eBay', 'agricultureServing'}
+
+For the PDF file 'fake_resume_41.pdf' (File 41):
+  Jaccard similarity: 0.927
+  Words in the Text Extraction Component but not in the PDF extractor: {'954-075-4587', 'native', 'learning', 'French:', 'formatting', 'English:', 'students', 'novice'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'9540754587', 'students.', 'collaboration,', 'English', 'formatting,', '(Native)', '(Novice)', 'French', 'learning,'}
+
+For the PDF file 'fake_resume_42.pdf' (File 42):
+  Jaccard similarity: 0.926
+  Words in the Text Extraction Component but not in the PDF extractor: {'Fuel', 'intermediate', 'native', 'French:', 'English:', 'Portuguese:', 'novice', 'coordination'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'Portuguese', '(Intermediate)', 'English', 'coordination,', 'fuel', '(Native)', '(Novice)', 'French'}
+
+For the PDF file 'fake_resume_43.pdf' (File 43):
+  Jaccard similarity: 0.929
+  Words in the Text Extraction Component but not in the PDF extractor: {'Fuel', 'Dutch:', 'solutions', 'intermediate', 'French:', 'habitats', 'deals', 'novice', 'traffic', 'Japanese:', 'coordination'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'solutions,', '(Intermediate)', 'coordination,', 'fuel', 'Dutch', 'deals,', 'traffic.', '(Novice)', 'French', 'habitats.', 'Japanese'}
+
+For the PDF file 'fake_resume_44.pdf' (File 44):
+  Jaccard similarity: 0.957
+  Words in the Text Extraction Component but not in the PDF extractor: {'intermediate', 'reputation', 'novice', '920-786-3201'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'(Intermediate)', 'I', '9207863201', '(Novice)', 'manipulation,', 'reputation.'}
+
+For the PDF file 'fake_resume_45.pdf' (File 45):
+  Jaccard similarity: 0.904
+  Words in the Text Extraction Component but not in the PDF extractor: {'documentation', 'German:', 'intermediate', '525-645-6154', 'native', 'English:', 'models', 'Portuguese:', 'novice', 'reports'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'Portuguese', 'models,', '(Intermediate)', 'I', 'English', 'me:', '(Native)', 'documentation,', 'German', '(Novice)', 'reports,', '5256456154', 'About'}
+
+For the PDF file 'fake_resume_46.pdf' (File 46):
+  Jaccard similarity: 0.923
+  Words in the Text Extraction Component but not in the PDF extractor: {'tracking', 'success."', 'intermediate', 'formatting', 'posting', 'feedback', 'novice', '"I', 'campaigns', 'initiatives'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'(Intermediate)', 'initiatives,', 'feedback,', 'success.', 'formatting,', 'campaigns,', '(Novice)', 'tracking,', 'posting,'}
+
+For the PDF file 'fake_resume_47.pdf' (File 47):
+  Jaccard similarity: 0.910
+  Words in the Text Extraction Component but not in the PDF extractor: {'Dutch:', 'intermediate', 'French:', 'office', 'posting', 'deals', 'initiatives', 'novice', 'satisfaction', 'manipulation', 'cleanups', 'headlong.'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'(Intermediate)', 'initiatives,', 'head-on.', 'satisfaction,', 'clean-ups', 'Dutch', 'deals,', '(Novice)', 'French', 'office,', 'posting,', 'strategies,', 'manipulation,', 'reputation.'}
+
+For the PDF file 'fake_resume_48.pdf' (File 48):
+  Jaccard similarity: 0.939
+  Words in the Text Extraction Component but not in the PDF extractor: {'Spanish:', 'Street,', 'intermediate', 'strategies', 'deals', 'novice', 'Japanese:', '211-793-4443'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'Streets', '(Intermediate)', 'Spanish', 'processes,', '2117934443', 'deals,', '(Novice)', 'Japanese', 'strategies,'}
+
+For the PDF file 'fake_resume_49.pdf' (File 49):
+  Jaccard similarity: 0.931
+  Words in the Text Extraction Component but not in the PDF extractor: {'Dutch:', 'intermediate', 'native', 'French:', 'formatting', 'English:', 'development', 'novice', 'integration'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'(Intermediate)', 'English', 'integration,', 'formatting,', 'Dutch', '(Native)', '(Novice)', 'French'}
+
+For the PDF file 'fake_resume_50.pdf' (File 50):
+  Jaccard similarity: 0.946
+  Words in the Text Extraction Component but not in the PDF extractor: {'tracking', 'native', 'intermediate', 'efforts', 'Email', 'campaigns', 'Arrowai'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'E-mail', 'Arowwai', '(Intermediate)', '(Native)', 'efforts,', 'campaigns,', 'tracking,'}
+
+For the PDF file 'fake_resume_51.pdf' (File 51):
+  Jaccard similarity: 0.933
+  Words in the Text Extraction Component but not in the PDF extractor: {'German:', 'processes', 'intermediate', 'French:', 'development', 'Portuguese:', 'commerce', 'novice', 'integration'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'Portuguese', '(Intermediate)', 'integration,', 'processes,', 'German', '(Novice)', 'French', 'e-commerce'}
+
+For the PDF file 'fake_resume_52.pdf' (File 52):
+  Jaccard similarity: 0.910
+  Words in the Text Extraction Component but not in the PDF extractor: {'Spanish:', 'German:', '713-715-7207', 'success."', 'intermediate', 'French:', 'University', 'program', 'posting', 'students', 'commerce', 'novice', '"I'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'(Intermediate)', 'students.', 'Spanish', 'success.', 'initiatives,', '7137157207', 'German', 'e-commerce', 'French', '(Novice)', 'posting,', 'program.'}
+
+For the PDF file 'fake_resume_53.pdf' (File 53):
+  Jaccard similarity: 0.938
+  Words in the Text Extraction Component but not in the PDF extractor: {'tracking', 'Strategist', 'native', 'intermediate', 'clients', 'Email', 'resources', 'Manager'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'E-mail', '(Intermediate)', 'Manager.', 'resources,', 'clients.', '(Native)', 'Strategist.', 'tracking,'}
+
+For the PDF file 'fake_resume_54.pdf' (File 54):
+  Jaccard similarity: 0.929
+  Words in the Text Extraction Component but not in the PDF extractor: {'projects', '(novice)', 'Strategist', '270-747-9203', 'skills', 'feedback', 'commerce', 'communities', 'decisions', '(intermediate)'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'decisions.', '(Intermediate)', 'feedback,', 'Manager.', 'skills,', 'Strategist.', '(Novice)', 'e-commerce', 'projects.', '2707479203', 'communities.'}
+
+For the PDF file 'fake_resume_55.pdf' (File 55):
+  Jaccard similarity: 0.921
+  Words in the Text Extraction Component but not in the PDF extractor: {'Dutch:', 'intermediate', 'development', 'McClain', 'MacOS', 'novice', 'Japanese:', '586-806-7777', 'reviews'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'(Intermediate)', 'Mcclain', '5868067777', 'Dutch', 'macOS', '(Novice)', 'reviews,', 'Japanese', 'development,'}
+
+For the PDF file 'fake_resume_56.pdf' (File 56):
+  Jaccard similarity: 0.906
+  Words in the Text Extraction Component but not in the PDF extractor: {'intermediate', 'native', 'French:', 'University', 'program', 'English:', 'clients', 'Portuguese:', 'influence', 'novice', 'messaging', 'office', 'headlong.', 'Manager', 'threats'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'Portuguese', '(Intermediate)', 'collaboration,', 'English', 'Manager.', 'head-on.', 'clients.', 'messaging.', 'threats.', '(Native)', '(Novice)', 'office,', 'influencer', 'program.'}
+
+For the PDF file 'fake_resume_57.pdf' (File 57):
+  Jaccard similarity: 0.918
+  Words in the Text Extraction Component but not in the PDF extractor: {'Spanish:', 'German:', 'intermediate', 'office', 'bay', 'posting', 'Portuguese:', 'novice', 'initiatives', 'headlong.', '219-329-7583'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'Portuguese', '(Intermediate)', 'initiatives,', 'Spanish', 'collaboration,', 'head-on.', 'German', '(Novice)', 'office,', 'posting,', 'eBay', '2193297583'}
+
+For the PDF file 'fake_resume_58.pdf' (File 58):
+  Jaccard similarity: 0.922
+  Words in the Text Extraction Component but not in the PDF extractor: {'German:', 'security', 'native', 'French:', 'English:', 'development', 'students', 'novice', 'sharpeliiah@example.com', 'integration'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'solutions,', 'students.', 'English', 'integration,', '(Native)', 'German', '(Novice)', 'French', 'security.', 'sharpelijah@example.com'}
+
+For the PDF file 'fake_resume_59.pdf' (File 59):
+  Jaccard similarity: 0.924
+  Words in the Text Extraction Component but not in the PDF extractor: {'Spanish:', 'success."', 'intermediate', 'French:', 'ads', 'novice', '"I', 'cleanups'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'(Intermediate)', 'Spanish', 'success.', 'clean-ups', 'campaigns,', '(Novice)', 'French', 'ads,'}
+
+For the PDF file 'fake_resume_60.pdf' (File 60):
+  Jaccard similarity: 0.918
+  Words in the Text Extraction Component but not in the PDF extractor: {'Spanish:', 'Dutch:', 'intermediate', 'families.', 'communication.', 'Portuguese:', 'effectively.', 'commerce', 'circumstances.', 'datasets.', 'modeling.', 'inventory.', 'interfaces.'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'Portuguese', '(Intermediate)', 'datasets', 'Spanish', 'resources,', 'effectively', 'Dutch', 'circumstances', 'interfaces', 'e-commerce', 'inventory', 'modeling', 'communities', 'families', 'communication'}
+
+For the PDF file 'fake_resume_61.pdf' (File 61):
+  Jaccard similarity: 0.935
+  Words in the Text Extraction Component but not in the PDF extractor: {'Fuel', 'native', 'intermediate', 'formatting', 'development', 'threats'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'(Intermediate)', 'collaboration,', 'fuel', 'formatting,', 'threats.', 'macOS', '(Native)', 'development,'}
+
+For the PDF file 'fake_resume_62.pdf' (File 62):
+  Jaccard similarity: 0.903
+  Words in the Text Extraction Component but not in the PDF extractor: {'Spanish:', 'collaboration', '703-662-8709', 'Dutch:', 'success."', 'solutions', 'intermediate', 'reputation', 'Trafficway,', 'scripting', 'novice', '"I', 'Japanese:'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'solutions,', '(Intermediate)', 'Spanish', 'success.', 'collaboration,', 'Dutch', '(Novice)', 'scripting,', 'Japanese', 'Trafficway', '7036628709', 'reputation.'}
+
+For the PDF file 'fake_resume_63.pdf' (File 63):
+  Jaccard similarity: 0.915
+  Words in the Text Extraction Component but not in the PDF extractor: {'collaboration', 'German:', 'intermediate', 'Serving', 'agriculture', 'nonprofit', 'Portuguese:', 'applications,', 'Matthew', 'novice', 'manipulation', 'communities'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'Portuguese', '(Intermediate)', 'collaboration,', 'Mathew', 'German', '(Novice)', 'applications', 'non-profit', 'communities.', 'manipulation,', 'agricultureServing'}
+
+For the PDF file 'fake_resume_64.pdf' (File 64):
+  Jaccard similarity: 0.934
+  Words in the Text Extraction Component but not in the PDF extractor: {'Spanish:', 'Dutch:', 'native', 'intermediate', 'English:', 'posting', '688-440-7616', 'coordination'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'(Intermediate)', 'Spanish', 'English', 'collaboration,', 'coordination,', '6884407616', 'Dutch', '(Native)', 'posting,'}
+
+For the PDF file 'fake_resume_65.pdf' (File 65):
+  Jaccard similarity: 0.972
+  Words in the Text Extraction Component but not in the PDF extractor: {'native', 'SUCCESS.', 'intermediate'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'success.', '(Native)', '(Intermediate)'}
+
+For the PDF file 'fake_resume_66.pdf' (File 66):
+  Jaccard similarity: 0.959
+  Words in the Text Extraction Component but not in the PDF extractor: {'solutions', 'native', 'development', 'novice', 'networks'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'solutions,', '(Native)', 'networks,', '(Novice)', 'development,'}
+
+For the PDF file 'fake_resume_67.pdf' (File 67):
+  Jaccard similarity: 0.788
+  Words in the Text Extraction Component but not in the PDF extractor: {'models', 'day', 'attention', 'flexibility', 'communication', 'accomplishment', 'intermediate', 'possible', 'bay', 'outlets', 'segmentation', 'poise', 'native', 'office', 'determination', 'me', 'use', 'campaigns', 'excellence', '|', 'sharing', 'processes', 'pass', 'goals', 'activities', 'networks', 'satisfaction', 'automation', 'headlong'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'automation,', 'head-on.', 'processes,', 'office,', 'accomplishment,', '(Intermediate)', 'I', 'use,', 'flexibility,', 'satisfaction,', 'me:', 'sharing,', 'campaigns,', 'networks,', 'activities,', 'excellence.', 'tracking,', 'segmentation,', 'pass,', 'communication,', 'collaboration,', 'events,', 'poise,', 'relationships,', 'possible,', 'me.', 'models,', 'projects,', 'goals.', 'determination,', '(Native)', 'leads,', 'day,', 'outlets,', 'attention.', 'eBay'}
+
+For the PDF file 'fake_resume_68.pdf' (File 68):
+  Jaccard similarity: 0.942
+  Words in the Text Extraction Component but not in the PDF extractor: {'Dutch:', 'German:', 'intermediate', 'French:', 'models', 'posting', 'initiatives', 'novice', 'cleanups'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'models,', '(Intermediate)', 'initiatives,', 'clean-ups', 'Dutch', 'German', '(Novice)', 'French', 'posting,', 'development,'}
+
+For the PDF file 'fake_resume_69.pdf' (File 69):
+  Jaccard similarity: 0.947
+  Words in the Text Extraction Component but not in the PDF extractor: {'Fuel', '(natural', 'habitats', 'challenge', 'ads', 'students', 'novice'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'students.', 'fuel', 'campaigns,', '(Novice)', 'habitats.', '(Natural', 'challenge,', 'ads,'}
+
+For the PDF file 'fake_resume_70.pdf' (File 70):
+  Jaccard similarity: 0.956
+  Words in the Text Extraction Component but not in the PDF extractor: {'processes', 'native', 'intermediate', '662-047-7919', 'reserves', 'technologies'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'reserves.', '(Intermediate)', 'processes,', '(Native)', '6620477919', 'technologies,'}
+
+For the PDF file 'fake_resume_71.pdf' (File 71):
+  Jaccard similarity: 0.840
+  Words in the Text Extraction Component but not in the PDF extractor: {'growth', 'metrics', 'novice', 'stores', 'intermediate', 'formatting', 'insights', 'clarity', 'development', 'clients', 'commerce', '"I', 'documentation', 'native', 'manner', 'cleanups', 'reports', 'computing', 'precision', 'challenge', 'heights."', 'transactions', 'analysis'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'insights,', 'transactions,', 'clients.', 'documentation,', 'reports,', 'clarity,', 'precision,', '(Intermediate)', 'growth.', 'stores,', 'manner,', 'formatting,', 'e-commerce', '(Novice)', 'analysis,', 'development,', 'heights.', 'clean-ups', '(Native)', 'challenge,', 'computing,', 'metrics,'}
+
+For the PDF file 'fake_resume_72.pdf' (File 72):
+  Jaccard similarity: 0.906
+  Words in the Text Extraction Component but not in the PDF extractor: {'initiatives.', 'native', 'planting.', 'customers.', 'presence.', 'ads', 'data.', '605-018-4537', 'novice', 'campaigns', 'cleanups', 'situations.'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'planting', '6050184537', 'situations', 'clean-ups', '(Native)', 'campaigns,', 'customers', 'initiatives', '(Novice)', 'ads,', 'presence', 'data'}
+
+For the PDF file 'fake_resume_73.pdf' (File 73):
+  Jaccard similarity: 0.855
+  Words in the Text Extraction Component but not in the PDF extractor: {'customers.', 'principles.', 'novice', 'applications.', 'Spanish:', 'Dutch:', 'intermediate', 'learning', 'development', 'Japanese:', 'documentation', 'spirit', 'products.', 'posting', 'reports', 'code.', 'effectively.', 'initiatives', 'reviews'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'reviews,', 'spirit,', '(Intermediate)', 'initiatives,', 'Spanish', 'effectively', 'products', 'Dutch', 'principles', 'customers', '(Novice)', 'documentation,', 'reports,', 'applications', 'posting,', 'Japanese', 'learning,', 'code'}
+
+For the PDF file 'fake_resume_74.pdf' (File 74):
+  Jaccard similarity: 0.952
+  Words in the Text Extraction Component but not in the PDF extractor: {'success', '(novice)', '652-452-0536', 'development', 'feedback', 'manipulation'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'6524520536', 'feedback,', 'success.', 'growth.', 'development,', 'manipulation,'}
+
+For the PDF file 'fake_resume_75.pdf' (File 75):
+  Jaccard similarity: 0.921
+  Words in the Text Extraction Component but not in the PDF extractor: {'Spanish:', 'Fuel', 'German:', 'security', 'intermediate', 'French:', 'bay', 'models', 'students', 'reserves', 'novice'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'reserves.', 'models,', '(Intermediate)', 'students.', 'Spanish', 'fuel', 'German', '(Novice)', 'security.', 'French', 'eBay'}
+
+For the PDF file 'fake_resume_76.pdf' (File 76):
+  Jaccard similarity: 0.889
+  Words in the Text Extraction Component but not in the PDF extractor: {'(novice)', 'goals."', 'programs.', 'plugins.', 'office', 'customers.', '546-580-3554', 'components', 'actions.', 'determination.', '"I', 'campaigns', 'circumstances.', 'center.', 'headlong', 'perception.'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'components,', 'plugins', 'perception', 'head-on.', 'goals.', 'actions', '5465803554', 'satisfaction,', 'center', 'determination,', 'programs', 'campaigns,', 'customers', '(Novice)', 'circumstances', 'office,'}
+
+For the PDF file 'fake_resume_77.pdf' (File 77):
+  Jaccard similarity: 0.930
+  Words in the Text Extraction Component but not in the PDF extractor: {'Spanish:', 'intermediate', 'development', '367-955-3698', 'cleanups', 'novice', 'Japanese:', 'integration'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'3679553698', '(Intermediate)', 'Spanish', 'integration,', 'clean-ups', '(Novice)', 'Japanese'}
+
+For the PDF file 'fake_resume_78.pdf' (File 78):
+  Jaccard similarity: 0.880
+  Words in the Text Extraction Component but not in the PDF extractor: {'Roberts,', 'Dutch:', 'tickets', 'intermediate', 'native', 'members', 'English:', 'products', 'feedback', 'inquiries', 'novice', 'technologies', 'Japanese:', 'communities'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'(Intermediate)', 'I', 'tickets,', 'feedback,', 'English', 'communities,', 'products.', 'inquiries,', 'Dutch', '(Native)', '(Novice)', 'members,', 'Roberts', 'Japanese', 'technologies,'}
+
+For the PDF file 'fake_resume_79.pdf' (File 79):
+  Jaccard similarity: 0.877
+  Words in the Text Extraction Component but not in the PDF extractor: {'Spanish:', '917-760-2259', 'Dutch:', 'Performed', 'processes', 'Fuel', 'functionality.', 'intermediate', 'native', 'Coordinator.', 'management.', 'customers.', 'English:', 'development', 'advocacy.', 'technologies', 'sessions', 'productivity.'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'functionality', '(Intermediate)', 'Spanish', 'English', 'Coordinator.Performed', 'productivity', 'fuel', 'technologies,', 'advocacy', 'processes,', 'Dutch', '(Native)', 'customers', 'sessions,', '9177602259', 'development,'}
+
+For the PDF file 'fake_resume_80.pdf' (File 80):
+  Jaccard similarity: 0.944
+  Words in the Text Extraction Component but not in the PDF extractor: {'tracking', 'intermediate', 'native', '532-197-3379', 'novice', 'management'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'5321973379', '(Intermediate)', '(Native)', 'campaigns,', '(Novice)', 'tracking,', 'management,'}
+
+For the PDF file 'fake_resume_81.pdf' (File 81):
+  Jaccard similarity: 0.891
+  Words in the Text Extraction Component but not in the PDF extractor: {'Spanish:', 'adaptability.', '385-341-5365', 'intermediate', 'success.', 'French:', 'campaigns.', 'development', 'scripting', 'Portuguese:', 'presence.', 'transformations.', 'novice', 'happiness.'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'Portuguese', 'success', '(Intermediate)', 'I', 'Spanish', 'transformations', 'adaptability', '(Novice)', 'French', 'scripting,', 'happiness', 'campaigns', 'presence', '3853415365'}
+
+For the PDF file 'fake_resume_82.pdf' (File 82):
+  Jaccard similarity: 0.955
+  Words in the Text Extraction Component but not in the PDF extractor: {'native', 'novice', 'assets'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'Title:', 'Analyst', 'Financial', 'Job', '(Native)', '(Novice)', 'assets,'}
+
+For the PDF file 'fake_resume_83.pdf' (File 83):
+  Jaccard similarity: 0.960
+  Words in the Text Extraction Component but not in the PDF extractor: {'Fuel', 'collaboration', 'coordination', 'experiences.'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'collaboration,', 'experiences', 'coordination,', 'fuel', 'reputation.'}
+
+For the PDF file 'fake_resume_84.pdf' (File 84):
+  Jaccard similarity: 0.929
+  Words in the Text Extraction Component but not in the PDF extractor: {'German:', 'intermediate', 'learning', 'French:', 'products', 'Portuguese:', 'novice', '20%'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'Portuguese', '(Intermediate)', 'products.', 'processes,', 'German', '(Novice)', 'French', 'learning,', '20%.'}
+
+For the PDF file 'fake_resume_85.pdf' (File 85):
+  Jaccard similarity: 0.949
+  Words in the Text Extraction Component but not in the PDF extractor: {'intermediate', 'threats', 'traffic', 'assets', 'completion', 'coordination', 'integration'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'(Intermediate)', 'coordination,', 'integration,', 'strategies.', 'traffic.', 'threats.', 'completion,', 'assets,'}
+
+For the PDF file 'fake_resume_86.pdf' (File 86):
+  Jaccard similarity: 0.950
+  Words in the Text Extraction Component but not in the PDF extractor: {'native', 'intermediate', 'program', 'development', 'reserves'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'reserves.', '(Intermediate)', 'collaboration,', 'iOS', '(Native)', 'macOS', 'program.', 'development,'}
+
+For the PDF file 'fake_resume_87.pdf' (File 87):
+  Jaccard similarity: 0.876
+  Words in the Text Extraction Component but not in the PDF extractor: {'collaboration', 'novice', 'assets', 'intermediate', 'French:', 'Bay', 'development', 'data.', 'software.', 'aesthetics.', 'native', 'headlong.', 'happiness.', 'centers.', 'initiatives.', 'workflows.', 'families.', 'English:', 'scripting', 'feedback', 'satisfaction.', 'Portuguese:', 'office'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'head-on.', 'happiness', '(Intermediate)', 'workflows', 'families', 'centers', 'collaboration,', 'feedback,', '(Novice)', 'scripting,', 'Portuguese', 'English', 'aesthetics', '(Native)', 'French', 'satisfaction', 'office,', 'initiatives', 'eBay', 'assets,'}
+
+For the PDF file 'fake_resume_88.pdf' (File 88):
+  Jaccard similarity: 0.791
+  Words in the Text Extraction Component but not in the PDF extractor: {'Novice', 'models', 'attention', 'Reflect', 'Spanish:', 'intermediate', 'French:', 'Stride', 'Push', 'Immerse', 'determination', 'me', 'Navigate', 'deals', 'excellence', 'goals', '519-946-3774', 'satisfaction', 'networks', 'office', 'headlong'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'hours', 'push', 'head-on.', 'With', 'office,', 'reflect', 'immerse', '5199463774', 'accomplishment,', '(Intermediate)', 'I', 'Spanish', 'navigate', 'satisfaction,', 'sets', 'deals,', 'networks,', 'excellence.', 'stride', 'another', 'pass,', 'productive', '(Novice)', 'As', 'each', 'me.', 'models,', 'goals.', 'determination,', 'day,', 'French', 'attention.', 'projects.', 'sun'}
+
+For the PDF file 'fake_resume_89.pdf' (File 89):
+  Jaccard similarity: 0.895
+  Words in the Text Extraction Component but not in the PDF extractor: {'Spanish:', 'code.', 'intermediate', 'learning', 'French:', 'office', 'collaboration.', 'safety.', 'ads', 'novice', 'circumstances.', 'campaigns', 'headlong.', 'applications.'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'(Intermediate)', 'Spanish', 'collaboration,', 'head-on.', 'campaigns,', '(Novice)', 'French', 'circumstances', 'office,', 'ads,', 'learning,', 'code', 'safety'}
+
+For the PDF file 'fake_resume_90.pdf' (File 90):
+  Jaccard similarity: 0.943
+  Words in the Text Extraction Component but not in the PDF extractor: {'German:', 'intermediate', '111-344-5711', 'habitats', 'Portuguese:', 'novice', 'traffic', 'Japanese:'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'1113445711', 'Portuguese', '(Intermediate)', 'feedback,', 'traffic.', 'German', '(Novice)', 'habitats.', 'Japanese'}
+
+For the PDF file 'fake_resume_91.pdf' (File 91):
+  Jaccard similarity: 0.954
+  Words in the Text Extraction Component but not in the PDF extractor: {'reputation', 'networks', 'office', 'headlong.', 'richard@example.net', '532-054-2672'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'5320542672', 'head-on.', 'urichard@example.net', 'networks,', 'office,', 'reputation.'}
+
+For the PDF file 'fake_resume_92.pdf' (File 92):
+  Jaccard similarity: 0.942
+  Words in the Text Extraction Component but not in the PDF extractor: {'tracking', 'intermediate', 'Terrace,', 'novice', 'management', 'campaigns', 'reviews'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'reviews,', 'E-mail', '(Intermediate)', 'I', 'campaigns,', 'Terrance,', '(Novice)', 'tracking,', 'management,', 'development,'}
+
+For the PDF file 'fake_resume_93.pdf' (File 93):
+  Jaccard similarity: 0.920
+  Words in the Text Extraction Component but not in the PDF extractor: {'solutions', 'intermediate', 'Serving', 'spirit', 'agriculture', 'nonprofit', 'products', 'novice', 'cleanups', 'coordination', '750-416-3263'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'spirit,', 'solutions,', '(Intermediate)', 'coordination,', 'products.', 'clean-ups', '7504163263', '(Novice)', 'non-profit', 'agricultureServing'}
+
+For the PDF file 'fake_resume_94.pdf' (File 94):
+  Jaccard similarity: 0.931
+  Words in the Text Extraction Component but not in the PDF extractor: {'success."', 'losses', 'reputation', 'models', 'products', 'habitats', 'development', 'novice', '"I', 'technologies', '311-984-4793', '30%'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'models,', 'success.', '30%.', 'growth.', 'products.', 'technologies,', '3119844793', 'losses.', '(Novice)', 'habitats.', 'development,', 'reputation.'}
+
+For the PDF file 'fake_resume_95.pdf' (File 95):
+  Jaccard similarity: 0.904
+  Words in the Text Extraction Component but not in the PDF extractor: {'intermediate', 'learning', 'native', 'English:', 'development', 'Portuguese:', 'students', 'heights."', 'reserves', 'novice', '"I', 'messaging', 'Japanese:', 'resources'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'Portuguese', 'reserves.', '(Intermediate)', 'students.', 'heights.', 'English', 'resources,', 'messaging.', '(Native)', '(Novice)', 'Japanese', 'learning,'}
+
+For the PDF file 'fake_resume_96.pdf' (File 96):
+  Jaccard similarity: 0.923
+  Words in the Text Extraction Component but not in the PDF extractor: {'Dutch:', 'German:', 'intermediate', 'development', 'products', '306-416-1115', 'novice', 'traffic', 'liabilities', 'threats'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'(Intermediate)', 'feedback,', 'liabilities.', 'products.', 'Dutch', 'traffic.', 'German', '(Novice)', 'threats.', '3064161115', 'development,'}
+
+For the PDF file 'fake_resume_97.pdf' (File 97):
+  Jaccard similarity: 0.900
+  Words in the Text Extraction Component but not in the PDF extractor: {'Dutch:', 'solutions', 'intermediate', 'native', 'growth', 'French:', 'bay', 'English:', 'development', 'challenge', 'novice'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'eBay', 'solutions,', '(Intermediate)', 'English', 'growth.', 'Dutch', 'macOS', '(Native)', '(Novice)', 'French', 'challenge,', 'development,'}
+
+For the PDF file 'fake_resume_98.pdf' (File 98):
+  Jaccard similarity: 0.873
+  Words in the Text Extraction Component but not in the PDF extractor: {'Serving', 'novice', 'performance.', 'intermediate', 'campaigns.', 'development', 'Johnston,', '"I', 'center.', 'Arrowai', 'visibility.', 'native', '584-864-6836', 'adaptability.', 'organization.', 'workflows.', 'nonprofit', 'agriculture.', 'success."', 'decision-making.'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'solutions,', 'Arowwai', '(Intermediate)', 'collaboration,', 'success.', '5848646836', 'visibility', 'center', 'workflows', 'adaptability', 'decision-making', 'organization', '(Novice)', 'Johnton,', '(Native)', 'campaigns', 'non-profit', 'agricultureServing'}
+
+For the PDF file 'fake_resume_99.pdf' (File 99):
+  Jaccard similarity: 0.922
+  Words in the Text Extraction Component but not in the PDF extractor: {'Dutch:', 'intermediate', 'reputation', 'communities', 'Portuguese:', 'Specialist', 'students', 'decision-making', 'novice', 'Japanese:', 'coordination', 'Manager'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'Portuguese', '(Intermediate)', 'students.', 'Manager.', 'coordination,', 'Dutch', 'Specialist.', '(Novice)', 'Japanese', 'communities.', 'decision-making.', 'reputation.'}
+
+For the PDF file 'fake_resume_100.pdf' (File 100):
+  Jaccard similarity: 0.922
+  Words in the Text Extraction Component but not in the PDF extractor: {'Spanish:', 'solutions', 'intermediate', 'dreams."', '"Achieving', 'Corners,', 'commerce', 'novice', 'Japanese:', '254-687-3073'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'solutions,', '2546873073', '(Intermediate)', 'Spanish', 'dreams.', 'e-commerce', '(Novice)', 'Achieving', 'Japanese', 'Corners'}
+
+For the PDF file 'fake_resume_101.pdf' (File 101):
+  Jaccard similarity: 0.932
+  Words in the Text Extraction Component but not in the PDF extractor: {'collaboration', 'Dutch:', 'intermediate', 'French:', 'Portuguese:', 'novice', 'analysis,'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'Portuguese', '(Intermediate)', 'collaboration,', 'activities', 'Dutch', '(Novice)', 'French', 'analysis'}
+
+For the PDF file 'fake_resume_102.pdf' (File 102):
+  Jaccard similarity: 0.887
+  Words in the Text Extraction Component but not in the PDF extractor: {'centers.', 'Spanish:', 'Dutch:', 'coordination', 'intermediate', 'families.', 'feedback', 'communication.', 'satisfaction.', '657-890-6587', 'circumstances.', 'resources', 'experiences.', 'applications.'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'6578906587', '(Intermediate)', 'Spanish', 'feedback,', 'experiences', 'centers', 'resources,', 'coordination,', 'Dutch', 'circumstances', 'applications', 'families', 'communication'}
+
+For the PDF file 'fake_resume_103.pdf' (File 103):
+  Jaccard similarity: 0.943
+  Words in the Text Extraction Component but not in the PDF extractor: {'(novice)', 'reputation', 'development', 'threats', 'innovation', 'office', 'headlong.', '832-679-3144'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'head-on.', 'threats.', '8326793144', '(Novice)', 'innovation,', 'office,', 'projects.', 'development,', 'reputation.'}
+
+For the PDF file 'fake_resume_104.pdf' (File 104):
+  Jaccard similarity: 0.876
+  Words in the Text Extraction Component but not in the PDF extractor: {'German:', 'databases.', 'Java.', 'operations.', 'novice', 'Dutch:', 'intermediate', 'learning', 'development', '"I', 'blogs.', 'platforms', 'posting', 'manipulation', 'code.', 'Portuguese:', 'satisfaction.', 'success."', 'initiatives'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'Portuguese', 'operations', '(Intermediate)', 'initiatives,', 'success.', 'platforms,', 'actions', 'learning,', 'Dutch', 'German', 'blogs', '(Novice)', 'Java', 'satisfaction', 'posting,', 'databases', 'manipulation,', 'code'}
+
+For the PDF file 'fake_resume_105.pdf' (File 105):
+  Jaccard similarity: 0.942
+  Words in the Text Extraction Component but not in the PDF extractor: {'security', 'Serving', 'intermediate', 'agriculture', 'nonprofit', 'program', 'losses', 'development', 'strategies', 'novice'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'(Intermediate)', 'strategies.', 'losses.', '(Novice)', 'security.', 'non-profit', 'program.', 'development,', 'agricultureServing'}
+
+For the PDF file 'fake_resume_106.pdf' (File 106):
+  Jaccard similarity: 0.879
+  Words in the Text Extraction Component but not in the PDF extractor: {'organization.', 'intermediate', 'liienny@example.net', 'native', 'Serving', 'planting.', 'environments.', 'nonprofit', 'transformations.', 'agriculture.', 'cleanups', 'coordination', 'experiences.', 'applications.', 'results.'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'environments', '(Intermediate)', 'experiences', 'planting', 'coordination,', 'transformations', 'lijenny@example.net', 'results', 'clean-ups', '(Native)', 'organization', 'applications', 'non-profit', 'agricultureServing'}
+
+For the PDF file 'fake_resume_107.pdf' (File 107):
+  Jaccard similarity: 0.950
+  Words in the Text Extraction Component but not in the PDF extractor: {'Serving', 'agriculture', 'nonprofit', 'heights."', 'novice', '"I', 'decisions'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'decisions.', 'heights.', '(Novice)', 'non-profit', 'agricultureServing'}
+
+For the PDF file 'fake_resume_108.pdf' (File 108):
+  Jaccard similarity: 0.923
+  Words in the Text Extraction Component but not in the PDF extractor: {'processes', 'intermediate', 'success.', 'christian7@example.com', 'challenge', 'advocacy.', 'actions.', 'novice', 'McLaughlin', 'productivity.'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'success', 'christina17@example.com', 'Mclaughlin', '(Intermediate)', 'productivity', 'actions', 'processes,', 'advocacy', 'challenge,', '(Novice)'}
+
+For the PDF file 'fake_resume_109.pdf' (File 109):
+  Jaccard similarity: 0.934
+  Words in the Text Extraction Component but not in the PDF extractor: {'collateral,', 'Dutch:', 'solutions', 'intermediate', 'French:', 'materials,', 'novice', 'resources'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'solutions,', '(Intermediate)', 'resources,', 'Dutch', '(Novice)', 'French', 'materials', 'applications', 'collateral'}
+
+For the PDF file 'fake_resume_110.pdf' (File 110):
+  Jaccard similarity: 0.912
+  Words in the Text Extraction Component but not in the PDF extractor: {'Spanish:', 'success."', 'intermediate', 'feedback', 'components', 'Portuguese:', 'novice', '"I', 'assets', 'Japanese:', 'reviews', 'campaigns'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'Portuguese', 'components,', '(Intermediate)', 'Spanish', 'feedback,', 'success.', 'productions.', 'campaigns,', '(Novice)', 'reviews,', 'Japanese', 'development,', 'assets,'}
+
+For the PDF file 'fake_resume_111.pdf' (File 111):
+  Jaccard similarity: 0.918
+  Words in the Text Extraction Component but not in the PDF extractor: {'objectives.', 'environments.', 'adults.', 'tasks.', '2020.', '2016.', 'advocacy.', 'effectively.', 'novice', '2019.', 'equality.'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'environments', 'objectives', '2019', '2016', 'tasks', 'effectively', '2020', '(Novice)', 'equality', 'adults'}
+
+For the PDF file 'fake_resume_112.pdf' (File 112):
+  Jaccard similarity: 0.922
+  Words in the Text Extraction Component but not in the PDF extractor: {'Spanish:', 'intermediate', 'efforts', 'development', 'scripting', 'Portuguese:', 'components', '"I', 'office', 'headlong.', 'goals."', 'reviews'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'Portuguese', 'office,', 'components,', '(Intermediate)', 'Spanish', 'head-on.', 'goals.', 'campaigns,', 'efforts,', 'scripting,', 'reviews,'}
+
+For the PDF file 'fake_resume_113.pdf' (File 113):
+  Jaccard similarity: 0.959
+  Words in the Text Extraction Component but not in the PDF extractor: {'French:', '"I', 'novice', 'success."', 'Japanese:'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'success.', 'Japanese', '(Novice)', 'French'}
+
+For the PDF file 'fake_resume_114.pdf' (File 114):
+  Jaccard similarity: 0.949
+  Words in the Text Extraction Component but not in the PDF extractor: {'intermediate', 'French:', 'losses', 'Portuguese:', 'novice', 'resources'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'Portuguese', '(Intermediate)', 'collaboration,', 'resources,', 'strategies.', 'losses.', '(Novice)', 'French'}
+
+For the PDF file 'fake_resume_115.pdf' (File 115):
+  Jaccard similarity: 0.862
+  Words in the Text Extraction Component but not in the PDF extractor: {'Performed', 'Strategist', 'solutions', 'native', 'French:', 'office', 'English:', 'models', 'satisfaction', 'novice', 'Designer', 'sessions', 'Japanese:', 'decisions', 'headlong.', 'Strive', 'Coordinator'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'head-on.', 'Neurologist', 'Strategist.', 'Japanese', 'learning,', 'Designer.', 'I', 'Coordinator.Performed', 'satisfaction,', 'stride', 'decisions.', 'Job', '(Novice)', 'communities.', 'Title:', 'Work', 'solutions,', 'models,', 'English', 'Vision:', '(Native)', 'sessions,', 'French', 'office,'}
+
+For the PDF file 'fake_resume_116.pdf' (File 116):
+  Jaccard similarity: 0.908
+  Words in the Text Extraction Component but not in the PDF extractor: {'Fuel', 'tickets', 'code.', 'native', 'models', 'development', 'McClain', 'johnson@example.com', 'inquiries', 'novice', 'technologies'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'models,', 'tickets,', 'Mcclain', 'feedback,', 'learning,', 'fuel', 'inquiries,', '(Native)', '(Novice)', 'tjohnson@example.com', 'technologies,', 'code'}
+
+For the PDF file 'fake_resume_117.pdf' (File 117):
+  Jaccard similarity: 0.954
+  Words in the Text Extraction Component but not in the PDF extractor: {'Dutch:', 'intermediate', 'activities,', 'novice', 'Japanese:', 'reviews', 'Arrowai'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'Arowwai', '(Intermediate)', 'activities', 'Dutch', '(Novice)', 'reviews,', 'Japanese'}
+
+For the PDF file 'fake_resume_118.pdf' (File 118):
+  Jaccard similarity: 0.864
+  Words in the Text Extraction Component but not in the PDF extractor: {'excellence', 'pass', 'intermediate', 'Immerse', 'French:', 'goals', 'office', 'Stride', 'determination', 'development', 'attention', 'Portuguese:', 'me', 'Navigate', 'novice', 'technologies', 'satisfaction', 'headlong'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'head-on.', 'processes,', 'office,', 'immerse', '(Intermediate)', 'I', 'navigate', 'satisfaction,', 'excellence.', 'stride', 'pass,', '(Novice)', 'communities.', 'development,', 'Portuguese', 'me.', 'goals.', 'determination,', 'French', 'attention.', 'technologies,'}
+
+For the PDF file 'fake_resume_119.pdf' (File 119):
+  Jaccard similarity: 0.860
+  Words in the Text Extraction Component but not in the PDF extractor: {'Serving', 'novice', 'collaboration.', 'efforts', 'influence', '2014.', '2017.', 'blogs.', 'innovation.', 'native', '2021.', '718-106-6045', 'Email', 'program.', 'results.', 'productivity.', 'centers.', 'conversions.', 'processes', 'organization.', 'nonprofit', 'agriculture.', 'networks'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'conversions', 'program', 'processes,', 'efforts,', 'blogs', 'innovation', 'non-profit', '2017', '7181066045', 'results', 'networks,', 'tracking,', '2021', 'centers', 'agricultureServing', 'collaboration,', 'productivity', 'organization', '(Novice)', 'E-mail', '2014', '(Native)', 'influencer'}
+
+For the PDF file 'fake_resume_120.pdf' (File 120):
+  Jaccard similarity: 0.981
+  Words in the Text Extraction Component but not in the PDF extractor: {'native', 'novice'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'(Native)', '(Novice)', 'collaboration,'}
+
+For the PDF file 'fake_resume_121.pdf' (File 121):
+  Jaccard similarity: 0.929
+  Words in the Text Extraction Component but not in the PDF extractor: {'German:', 'security', 'French:', 'development', 'products', 'novice', 'manipulation', 'office', 'headlong.', 'threats'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'collaboration,', 'head-on.', 'products.', 'threats.', 'German', '(Novice)', 'French', 'security.', 'office,', 'development,', 'manipulation,'}
+
+For the PDF file 'fake_resume_122.pdf' (File 122):
+  Jaccard similarity: 0.950
+  Words in the Text Extraction Component but not in the PDF extractor: {'intermediate', 'office', 'habitats', '"I', 'satisfaction', 'headlong.', 'goals."'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'(Intermediate)', 'head-on.', 'goals.', 'satisfaction,', 'office,', 'habitats.'}
+
+For the PDF file 'fake_resume_123.pdf' (File 123):
+  Jaccard similarity: 0.927
+  Words in the Text Extraction Component but not in the PDF extractor: {'engagement.', 'initiatives.', 'processes.', 'kennels.', 'intermediate', 'customers.', 'campaigns.', 'novice', 'Street'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'Stravenue', 'processes', '(Intermediate)', 'kennels', 'customers', '(Novice)', 'engagement', 'campaigns', 'initiatives'}
+
+For the PDF file 'fake_resume_124.pdf' (File 124):
+  Jaccard similarity: 0.916
+  Words in the Text Extraction Component but not in the PDF extractor: {'Spanish:', 'Dutch:', 'coordination', 'intermediate', 'native', 'skills', 'English:', 'development', 'scripting', 'office', 'headlong.'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'automation,', '(Intermediate)', 'Spanish', 'English', 'head-on.', 'coordination,', 'skills,', 'Dutch', '(Native)', 'scripting,', 'office,', 'development,'}
+
+For the PDF file 'fake_resume_125.pdf' (File 125):
+  Jaccard similarity: 0.915
+  Words in the Text Extraction Component but not in the PDF extractor: {'Spanish:', 'intermediate', 'French:', 'dreams', 'development', 'scripting', '570-420-5970', 'novice', 'Japanese:', 'coordination'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'5704205970', '(Intermediate)', 'Spanish', 'coordination,', 'dreams.', '(Novice)', 'French', 'scripting,', 'Japanese'}
+
+For the PDF file 'fake_resume_126.pdf' (File 126):
+  Jaccard similarity: 0.888
+  Words in the Text Extraction Component but not in the PDF extractor: {'Spanish:', 'Dutch:', '15%', 'intermediate', 'dreams', 'formatting', 'development', 'habitats', 'components', 'Coordinator', 'reserves', 'commerce', 'novice', 'networks', 'campaigns', 'Japanese:', 'Manager', 'threats'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'reserves.', 'components,', '(Intermediate)', 'Spanish', 'Manager.', 'Coordinator.', 'dreams.', 'formatting,', 'Dutch', '15%.', 'campaigns,', 'networks,', '(Novice)', 'e-commerce', 'threats.', 'habitats.', 'Japanese', 'development,'}
+
+For the PDF file 'fake_resume_127.pdf' (File 127):
+  Jaccard similarity: 0.901
+  Words in the Text Extraction Component but not in the PDF extractor: {'Spanish:', 'tracking', 'code.', 'intermediate', 'French:', 'conversions.', 'families.', 'deliverables.', 'presence.', 'novice', 'modeling.', 'blogs.', 'center.', 'Japanese:'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'modeling', 'success', '(Intermediate)', 'Spanish', 'center', 'deliverables', 'presence', 'blogs', 'French', '(Novice)', 'tracking,', 'families', 'Japanese', 'code'}
+
+For the PDF file 'fake_resume_128.pdf' (File 128):
+  Jaccard similarity: 0.918
+  Words in the Text Extraction Component but not in the PDF extractor: {'Spanish:', 'Dutch:', 'German:', '15%', 'Street,', 'intermediate', '870-284-0181', '50%', 'reserves', 'Coleman,', 'novice'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'reserves.', '(Intermediate)', 'Spanish', '50%.', 'growth.', 'Coleman', 'Dutch', '8702840181', '15%.', '(Novice)', 'German', 'Street'}
+
+For the PDF file 'fake_resume_129.pdf' (File 129):
+  Jaccard similarity: 0.931
+  Words in the Text Extraction Component but not in the PDF extractor: {'Spanish:', 'Fuel', 'intermediate', 'reputation', 'deals', 'novice', 'Japanese:', 'integration'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'(Intermediate)', 'Spanish', 'integration,', 'fuel', 'deals,', '(Novice)', 'Japanese', 'strategies,', 'reputation.'}
+
+For the PDF file 'fake_resume_130.pdf' (File 130):
+  Jaccard similarity: 0.919
+  Words in the Text Extraction Component but not in the PDF extractor: {'(novice)', 'Strategist', 'reputation', 'Bay', 'Specialist', '234-219-2941', 'heights."', '(native)', '"I', 'Designer', 'communities'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'2342192941', 'Designer.', 'heights.', 'Analyst.', 'Specialist.', 'Strategist.', '(Native)', '(Novice)', 'communities.', 'eBay', 'reputation.'}
+
+For the PDF file 'fake_resume_131.pdf' (File 131):
+  Jaccard similarity: 0.937
+  Words in the Text Extraction Component but not in the PDF extractor: {'reputation', 'development', 'students', 'ads', '520-377-7833', 'cleanups', 'reviews', 'campaigns'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'students.', 'clean-ups', '5203777833', 'campaigns,', 'reviews,', 'ads,', 'development,', 'reputation.'}
+
+For the PDF file 'fake_resume_132.pdf' (File 132):
+  Jaccard similarity: 0.912
+  Words in the Text Extraction Component but not in the PDF extractor: {'visibility.', 'processes', 'organization.', 'intermediate', 'Serving', 'skills', 'nonprofit', 'families.', 'agriculture.', 'data.', 'situations.', 'communities.', 'applications.', 'productivity.', 'audiences.'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'agricultureServing', '(Intermediate)', 'productivity', 'visibility', 'situations', 'processes,', 'skills,', 'organization', 'applications', 'non-profit', 'families', 'communities', 'audiences'}
+
+For the PDF file 'fake_resume_133.pdf' (File 133):
+  Jaccard similarity: 0.916
+  Words in the Text Extraction Component but not in the PDF extractor: {'success."', 'intermediate', 'spirit', 'development', 'habitats', 'components', 'students', 'novice', '"I', 'campaigns', 'cleanups', 'liabilities'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'spirit,', 'solutions,', 'components,', '(Intermediate)', 'students.', 'success.', 'liabilities.', 'clean-ups', 'campaigns,', '(Novice)', 'habitats.', 'development,'}
+
+For the PDF file 'fake_resume_134.pdf' (File 134):
+  Jaccard similarity: 0.891
+  Words in the Text Extraction Component but not in the PDF extractor: {'Spanish:', 'tracking', 'Dutch:', 'German:', 'intermediate', 'University', 'program', '334-097-8017', 'Email', '"I', 'novice', 'networks', 'office', 'headlong.', 'goals."'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'3340978017', 'E-mail', 'office,', '(Intermediate)', 'Spanish', 'head-on.', 'goals.', 'Dutch', 'German', 'networks,', '(Novice)', 'tracking,', 'program.'}
+
+For the PDF file 'fake_resume_135.pdf' (File 135):
+  Jaccard similarity: 0.886
+  Words in the Text Extraction Component but not in the PDF extractor: {'Spanish:', 'Dutch:', 'German:', 'Performed', 'success."', 'intermediate', 'development', 'clients', 'novice', '"I', 'sessions', 'initiatives', 'decisions', 'reviews', 'Coordinator'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'decisions.', '(Intermediate)', 'initiatives,', 'Spanish', 'success.', 'Coordinator.Performed', 'clients.', 'Dutch', 'German', '(Novice)', 'sessions,', 'reviews,', 'development,'}
+
+For the PDF file 'fake_resume_136.pdf' (File 136):
+  Jaccard similarity: 0.931
+  Words in the Text Extraction Component but not in the PDF extractor: {'native', 'intermediate', 'sessions', 'posting', 'products', 'Coordinator', 'reserves', 'Performed', 'office', 'decisions', 'headlong.', 'Manager', 'threats'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'decisions.', 'reserves.', '(Intermediate)', 'Coordinator.Performed', 'head-on.', 'products.', 'threats.', '(Native)', 'sessions,', 'office,', 'posting,'}
+
+For the PDF file 'fake_resume_137.pdf' (File 137):
+  Jaccard similarity: 0.973
+  Words in the Text Extraction Component but not in the PDF extractor: {'Fuel', 'skills', '517-579-9243'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'5175799243', 'fuel', 'skills,'}
+
+For the PDF file 'fake_resume_138.pdf' (File 138):
+  Jaccard similarity: 0.798
+  Words in the Text Extraction Component but not in the PDF extractor: {'generation', 'growth', 'mind', 'schedule', 'editing', 'work', 'tickets', 'logistics', 'intermediate', 'graphics', 'dreams', 'resilience', 'development', 'oneself', 'management', 'outlets', 'videos', 'platforms', 'inquiries', 'integration', '|', 'reality', 'selection', 'activities', 'feedback', 'dedication', 'completion', 'decisions', 'coordination'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'generation,', 'tickets,', 'integration,', 'selection,', 'videos,', 'create,', 'logistics,', 'graphics,', '(Intermediate)', 'I', 'resilience,', 'platforms,', 'growth.', 'planning,', 'activities,', 'management,', 'editing,', 'decisions.', 'feedback,', 'inquiries,', 'dedication,', 'schedule,', 'development,', 'coordination,', 'dreams.', 'oneself.', 'work,', 'outlets,', 'reality,', 'completion,', 'mind,'}
+
+For the PDF file 'fake_resume_139.pdf' (File 139):
+  Jaccard similarity: 0.900
+  Words in the Text Extraction Component but not in the PDF extractor: {'visibility.', 'objectives.', 'intermediate', 'native', '218-189-2357', 'environments.', 'campaigns.', 'adults.', 'feedback', 'satisfaction.', 'ads', 'residents.', 'completion', 'coordination', 'experiences.'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'environments', 'objectives', '(Intermediate)', 'feedback,', 'experiences', 'residents', 'coordination,', 'visibility', '(Native)', 'campaigns,', '2181892357', 'satisfaction', 'ads,', 'adults'}
+
+For the PDF file 'fake_resume_140.pdf' (File 140):
+  Jaccard similarity: 0.947
+  Words in the Text Extraction Component but not in the PDF extractor: {'security', 'intermediate', 'office', 'products', 'novice', 'cleanups', 'headlong.', 'liabilities'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'(Intermediate)', 'Manager.', 'head-on.', 'liabilities.', 'products.', 'clean-ups', '(Novice)', 'security.', 'office,'}
+
+For the PDF file 'fake_resume_141.pdf' (File 141):
+  Jaccard similarity: 0.936
+  Words in the Text Extraction Component but not in the PDF extractor: {'Manchester,', 'processes', 'intermediate', 'native', 'English:', 'development', 'scripting', 'Portuguese:'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'Portuguese', 'automation,', '(Intermediate)', 'English', 'Manuelchester,', 'processes,', '(Native)', 'scripting,', 'development,'}
+
+For the PDF file 'fake_resume_142.pdf' (File 142):
+  Jaccard similarity: 0.901
+  Words in the Text Extraction Component but not in the PDF extractor: {'centers.', 'engagement.', 'Dutch:', 'processes', 'solutions', 'functionality.', 'intermediate', 'outcomes.', 'English:', 'Portuguese:', 'performance.', 'technologies', 'applications.', 'productivity.', 'conversions.'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'Portuguese', 'solutions,', '(Intermediate)', 'English', 'productivity', 'tracking,', 'processes,', 'Dutch', 'engagement', 'applications', 'outcomes', 'centers', 'technologies,'}
+
+For the PDF file 'fake_resume_143.pdf' (File 143):
+  Jaccard similarity: 0.915
+  Words in the Text Extraction Component but not in the PDF extractor: {'solutions', 'intermediate', 'native', 'office', 'English:', 'development', '609-463-7012', 'habitats', 'Portuguese:', 'cleanups', 'headlong.'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'Portuguese', '6094637012', 'solutions,', 'office,', '(Intermediate)', 'English', 'head-on.', 'clean-ups', '(Native)', 'applications', 'habitats.', 'development,'}
+
+For the PDF file 'fake_resume_144.pdf' (File 144):
+  Jaccard similarity: 0.956
+  Words in the Text Extraction Component but not in the PDF extractor: {'collaboration', 'Coordinator.', 'sessions', '"I', 'novice', 'success."', 'Performed', 'initiatives'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'initiatives,', 'collaboration,', 'success.', 'Coordinator.Performed', '(Novice)', 'sessions,'}
+
+For the PDF file 'fake_resume_145.pdf' (File 145):
+  Jaccard similarity: 0.929
+  Words in the Text Extraction Component but not in the PDF extractor: {'Strategist', 'intermediate', 'Serving', 'agriculture', 'nonprofit', 'reputation', 'deals', 'traffic', '611-179-1755', 'Manager', 'liabilities'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'(Intermediate)', '6111791755', 'Manager.', 'liabilities.', 'traffic.', 'Strategist.', 'deals,', 'non-profit', 'agricultureServing', 'reputation.'}
+
+For the PDF file 'fake_resume_146.pdf' (File 146):
+  Jaccard similarity: 0.918
+  Words in the Text Extraction Component but not in the PDF extractor: {'projects', 'German:', 'intermediate', 'growth', 'French:', 'clients', 'Portuguese:', 'Specialist', 'novice', 'manipulation', 'messaging', '30%'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'Portuguese', '(Intermediate)', '30%.', 'growth.', 'clients.', 'messaging.', 'Specialist.', 'German', '(Novice)', 'French', 'projects.', 'manipulation,'}
+
+For the PDF file 'fake_resume_147.pdf' (File 147):
+  Jaccard similarity: 0.910
+  Words in the Text Extraction Component but not in the PDF extractor: {'documentation', 'regression', 'intermediate', 'graphics', 'formatting', 'clarity', 'precision', 'challenge', 'novice', 'reports', 'classification', 'threats'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'precision,', 'classification,', 'regression,', '(Intermediate)', 'formatting,', 'threats.', 'documentation,', 'videos,', '(Novice)', 'reports,', 'challenge,', 'clarity,', 'graphics,'}
+
+For the PDF file 'fake_resume_148.pdf' (File 148):
+  Jaccard similarity: 0.940
+  Words in the Text Extraction Component but not in the PDF extractor: {'native', '561-266-4656', 'English:', 'development', 'reserves', 'novice', 'traffic', 'Japanese:'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'reserves.', 'English', 'traffic.', '(Native)', '(Novice)', '5612664656', 'Japanese', 'development,'}
+
+For the PDF file 'fake_resume_149.pdf' (File 149):
+  Jaccard similarity: 0.964
+  Words in the Text Extraction Component but not in the PDF extractor: {'Spanish:', '616-854-8629', 'intermediate', 'Portuguese:', 'reserves'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'Portuguese', 'reserves.', '(Intermediate)', 'Spanish', '6168548629'}
+
+For the PDF file 'fake_resume_150.pdf' (File 150):
+  Jaccard similarity: 0.933
+  Words in the Text Extraction Component but not in the PDF extractor: {'German:', 'success."', 'intermediate', 'products', 'Portuguese:', 'novice', '"I', 'Japanese:', 'resources'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'Portuguese', '(Intermediate)', 'success.', 'resources,', 'products.', 'German', '(Novice)', 'Japanese'}
+
+For the PDF file 'fake_resume_151.pdf' (File 151):
+  Jaccard similarity: 0.932
+  Words in the Text Extraction Component but not in the PDF extractor: {'Spanish:', '877-421-4303', 'German:', 'intermediate', 'scripting', 'novice', 'coordination'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'(Intermediate)', 'Spanish', 'coordination,', '8774214303', 'German', '(Novice)', 'scripting,'}
+
+For the PDF file 'fake_resume_152.pdf' (File 152):
+  Jaccard similarity: 0.917
+  Words in the Text Extraction Component but not in the PDF extractor: {'Spanish:', 'intermediate', 'Serving', '532-291-0061', 'agriculture', 'nonprofit', 'McClain', 'habitats', 'novice', 'networks', 'Japanese:'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'5322910061', '(Intermediate)', 'Mcclain', 'Spanish', 'non-profit', 'networks,', 'habitats.', '(Novice)', 'projects.', 'Japanese', 'agricultureServing'}
+
+For the PDF file 'fake_resume_153.pdf' (File 153):
+  Jaccard similarity: 0.923
+  Words in the Text Extraction Component but not in the PDF extractor: {'German:', 'native', 'learning', 'office', 'Stride', 'English:', 'development', 'novice', 'manipulation', 'Japanese:', 'headlong.'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'office,', 'English', 'head-on.', '(Native)', 'German', '(Novice)', 'stride', 'Japanese', 'learning,', 'manipulation,'}
+
+For the PDF file 'fake_resume_154.pdf' (File 154):
+  Jaccard similarity: 0.959
+  Words in the Text Extraction Component but not in the PDF extractor: {'intermediate', 'French:', 'Portuguese:', 'habitats', 'novice'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'Portuguese', '(Intermediate)', '(Novice)', 'French', 'habitats.', 'management,'}
+
+For the PDF file 'fake_resume_155.pdf' (File 155):
+  Jaccard similarity: 0.918
+  Words in the Text Extraction Component but not in the PDF extractor: {'intermediate', 'native', 'growth', 'spirit', 'French:', 'English:', 'reputation', 'Portuguese:', 'ads', 'novice', 'manipulation'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'Portuguese', 'spirit,', '(Intermediate)', 'English', 'growth.', '(Native)', 'campaigns,', '(Novice)', 'French', 'ads,', 'manipulation,', 'reputation.'}
+
+For the PDF file 'fake_resume_156.pdf' (File 156):
+  Jaccard similarity: 0.931
+  Words in the Text Extraction Component but not in the PDF extractor: {'Spanish:', 'Dutch:', '230-229-9075', 'intermediate', 'native', 'English:', 'development', 'cleanups'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'(Intermediate)', '2302299075', 'Spanish', 'English', 'clean-ups', 'Dutch', '(Native)', 'efforts,', 'development,'}
+
+For the PDF file 'fake_resume_157.pdf' (File 157):
+  Jaccard similarity: 0.919
+  Words in the Text Extraction Component but not in the PDF extractor: {'Dutch:', 'intermediate', 'strategies', 'clients', 'Portuguese:', 'challenge', 'deals', 'novice', 'manipulation', 'Japanese:'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'Portuguese', '(Intermediate)', 'collaboration,', 'productions.', 'clients.', 'Dutch', 'deals,', 'challenge,', '(Novice)', 'Japanese', 'strategies,', 'manipulation,'}
+
+For the PDF file 'fake_resume_158.pdf' (File 158):
+  Jaccard similarity: 0.922
+  Words in the Text Extraction Component but not in the PDF extractor: {'intermediate', 'native', 'growth', 'English:', 'reputation', 'products', 'Portuguese:', 'ads', 'Manager', 'Arrowai'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'Portuguese', 'Arowwai', '(Intermediate)', 'English', 'Manager.', 'growth.', 'products.', 'skills,', '(Native)', 'campaigns,', 'ads,', 'reputation.'}
+
+For the PDF file 'fake_resume_159.pdf' (File 159):
+  Jaccard similarity: 0.940
+  Words in the Text Extraction Component but not in the PDF extractor: {'native', 'learning', 'spirit', 'English:', 'reputation', 'novice', 'Japanese:', 'threats'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'spirit,', 'English', 'threats.', '(Native)', '(Novice)', 'Japanese', 'learning,', 'reputation.'}
+
+For the PDF file 'fake_resume_160.pdf' (File 160):
+  Jaccard similarity: 0.913
+  Words in the Text Extraction Component but not in the PDF extractor: {'832-640-1911', 'tracking', '(novice)', 'success.', 'plugins.', 'development', 'simulation.', '(native)', 'data.', 'cultures.', 'conversions.'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'success', '8326401911', 'cultures', 'plugins', 'conversions', '(Native)', '(Novice)', 'tracking,', 'development,', 'simulation'}
+
+For the PDF file 'fake_resume_161.pdf' (File 161):
+  Jaccard similarity: 0.947
+  Words in the Text Extraction Component but not in the PDF extractor: {'Spanish:', 'intermediate', 'commerce', 'novice', 'manipulation', 'Japanese:', '330-860-6512'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'(Intermediate)', 'Spanish', 'traffic.', 'efforts,', 'e-commerce', '(Novice)', 'Japanese', 'manipulation,', '3308606512'}
+
+For the PDF file 'fake_resume_162.pdf' (File 162):
+  Jaccard similarity: 0.927
+  Words in the Text Extraction Component but not in the PDF extractor: {'German:', 'intermediate', 'obstacle,', 'clients', 'Portuguese:', 'challenge', 'novice', 'Japanese:', 'Arrowai'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'Portuguese', 'Arowwai', '(Intermediate)', 'clients.', 'traffic.', 'German', '(Novice)', 'challenge,', 'Japanese', 'obstacle'}
+
+For the PDF file 'fake_resume_163.pdf' (File 163):
+  Jaccard similarity: 0.902
+  Words in the Text Extraction Component but not in the PDF extractor: {'decisions.', '636-489-6038', 'intermediate', 'French:', 'development', 'scripting', 'Portuguese:', 'deliverables.', 'novice', 'presentations.', 'automation', 'happiness.', 'aesthetics.', 'decision-making.'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'happiness', 'automation,', 'Portuguese', '(Intermediate)', 'aesthetics', 'deliverables', 'presentations', '(Novice)', 'French', 'scripting,', '6364896038', 'decision-making', 'decisions', 'development,'}
+
+For the PDF file 'fake_resume_164.pdf' (File 164):
+  Jaccard similarity: 0.923
+  Words in the Text Extraction Component but not in the PDF extractor: {'Dutch:', 'success."', 'intermediate', 'French:', '661-458-2917', 'efforts', 'reputation', 'commerce', 'novice', '"I', 'Japanese:'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'(Intermediate)', 'success.', 'Dutch', 'efforts,', 'e-commerce', 'French', '(Novice)', '6614582917', 'Japanese', 'reputation.'}
+
+For the PDF file 'fake_resume_165.pdf' (File 165):
+  Jaccard similarity: 0.969
+  Words in the Text Extraction Component but not in the PDF extractor: {'(native)', '979-551-3114', '(novice)', 'networks'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'(Native)', '9795513114', 'networks,', '(Novice)'}
+
+For the PDF file 'fake_resume_166.pdf' (File 166):
+  Jaccard similarity: 0.960
+  Words in the Text Extraction Component but not in the PDF extractor: {'native', 'Fuel', 'novice', 'technologies'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'fuel', '(Native)', '(Novice)', 'technologies,', 'reputation.'}
+
+For the PDF file 'fake_resume_167.pdf' (File 167):
+  Jaccard similarity: 0.929
+  Words in the Text Extraction Component but not in the PDF extractor: {'Spanish:', 'collaboration', 'intermediate', 'skills', 'development', '271-610-1437', 'novice', 'Japanese:'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'(Intermediate)', 'Spanish', 'collaboration,', 'skills,', '(Novice)', '2716101437', 'Japanese', 'development,'}
+
+For the PDF file 'fake_resume_168.pdf' (File 168):
+  Jaccard similarity: 0.923
+  Words in the Text Extraction Component but not in the PDF extractor: {'Fuel', '702-128-1416', 'times.', 'strategies', 'development', 'clients', 'challenge', 'deals', 'novice', 'reviews'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'7021281416', 'times', 'fuel', 'clients.', 'deals,', 'challenge,', '(Novice)', 'reviews,', 'strategies,', 'development,', '20%.'}
+
+For the PDF file 'fake_resume_169.pdf' (File 169):
+  Jaccard similarity: 0.909
+  Words in the Text Extraction Component but not in the PDF extractor: {'centers.', 'adaptability.', 'objectives.', 'outcomes.', 'scalability.', 'Bay', 'development', 'Lay', 'components', 'deliverables.', 'novice', '"I', 'datasets.', 'equality.', 'results.', 'integration'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'components,', 'datasets', 'scalability', 'integration,', 'results', 'adaptability', 'deliverables', '(Novice)', 'equality', 'outcomes', 'Ivy', 'centers', 'eBay'}
+
+For the PDF file 'fake_resume_170.pdf' (File 170):
+  Jaccard similarity: 0.915
+  Words in the Text Extraction Component but not in the PDF extractor: {'collaboration', 'tracking', 'native', 'intermediate', 'Coordinator.', 'sessions', 'development', 'challenge', 'heights."', '"I', 'novice', 'campaigns', 'Performed', 'cleanups', 'initiatives', 'integration'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'decisions.', '(Intermediate)', 'heights.', 'initiatives,', 'Coordinator.Performed', 'integration,', 'clean-ups', '(Native)', 'challenge,', '(Novice)', 'sessions,', 'campaigns,'}
+
+For the PDF file 'fake_resume_171.pdf' (File 171):
+  Jaccard similarity: 0.971
+  Words in the Text Extraction Component but not in the PDF extractor: {'Dutch:', 'intermediate', 'Portuguese:'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'Portuguese', 'Dutch', '(Intermediate)'}
+
+For the PDF file 'fake_resume_172.pdf' (File 172):
+  Jaccard similarity: 0.903
+  Words in the Text Extraction Component but not in the PDF extractor: {'Spanish:', 'Dutch:', '952-409-1668', 'intermediate', 'customers.', 'tasks.', 'challenge', 'heights."', '"I', 'coordination', 'experiences.', 'applications.', 'completion'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'completion,', 'models,', '(Intermediate)', 'heights.', 'Spanish', 'experiences', 'coordination,', 'tasks', 'Dutch', 'customers', 'challenge,', 'applications', '9524091668'}
+
+For the PDF file 'fake_resume_173.pdf' (File 173):
+  Jaccard similarity: 0.951
+  Words in the Text Extraction Component but not in the PDF extractor: {'Spanish:', 'German:', 'intermediate', 'native', 'English:', 'novice'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'(Intermediate)', 'Spanish', 'English', '(Native)', 'German', '(Novice)'}
+
+For the PDF file 'fake_resume_174.pdf' (File 174):
+  Jaccard similarity: 0.903
+  Words in the Text Extraction Component but not in the PDF extractor: {'Spanish:', 'intermediate', 'Serving', 'French:', 'agriculture', 'nonprofit', 'formatting', 'development', 'habitats', 'traffic', 'novice', 'completion', 'Japanese:', 'coordination', 'threats'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'(Intermediate)', 'non-profit', 'Spanish', 'coordination,', 'formatting,', 'traffic.', 'macOS', 'threats.', '(Novice)', 'French', 'completion,', 'habitats.', 'Japanese', 'development,', 'agricultureServing'}
+
+For the PDF file 'fake_resume_175.pdf' (File 175):
+  Jaccard similarity: 0.911
+  Words in the Text Extraction Component but not in the PDF extractor: {'documentation', 'Dutch:', 'intermediate', 'French:', 'efforts', 'components', 'Portuguese:', 'novice', 'messaging', 'campaigns', 'reports'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'Portuguese', 'components,', '(Intermediate)', 'I', 'messaging.', 'Dutch', 'documentation,', 'campaigns,', '(Novice)', 'French', 'efforts,', 'reports,'}
+
+For the PDF file 'fake_resume_176.pdf' (File 176):
+  Jaccard similarity: 0.907
+  Words in the Text Extraction Component but not in the PDF extractor: {'Performed', 'processes', 'intermediate', 'French:', 'Coordinator.', 'Portuguese:', 'innovation', 'novice', 'completion', 'sessions', 'reviews', 'coordination', 'yncmahon@example.net', '627-109-4048'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'Portuguese', 'decisions.', 'reviews,', '(Intermediate)', 'Coordinator.Performed', 'coordination,', '6271094048', 'innovation,', 'sessions,', 'French', '(Novice)', 'completion,', 'development,', 'ymcmahon@example.net'}
+
+For the PDF file 'fake_resume_177.pdf' (File 177):
+  Jaccard similarity: 0.895
+  Words in the Text Extraction Component but not in the PDF extractor: {'centers.', 'tracking', '757-347-9746', 'processes.', 'intermediate', 'spirit', 'bay', 'results.', 'Email', 'equality.', 'automation', 'segmentation', 'conversions.'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'automation,', 'spirit,', 'E-mail', 'processes', '(Intermediate)', '7573479746', 'goals', 'conversions', 'campaigns,', 'equality', 'tracking,', 'centers', 'eBay', 'segmentation,'}
+
+For the PDF file 'fake_resume_178.pdf' (File 178):
+  Jaccard similarity: 0.889
+  Words in the Text Extraction Component but not in the PDF extractor: {'processes.', 'software,', 'native', 'effectiveness.', 'design.', 'collaboration.', 'goals.', 'Salesforce,', 'applications,', 'community.', 'advocacy.', 'novice', 'datasets.', 'tools,', 'program.', 'BI,'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'processes', 'Salesforce', 'datasets', 'effectiveness', 'program', 'BI', 'advocacy', 'tools', '(Native)', '(Novice)', 'design', 'community', 'applications'}
+
+For the PDF file 'fake_resume_179.pdf' (File 179):
+  Jaccard similarity: 0.904
+  Words in the Text Extraction Component but not in the PDF extractor: {'Spanish:', 'German:', 'Performed', 'intermediate', 'growth', 'spirit', 'skills', 'development', 'clients', 'novice', 'sessions', 'decisions', 'Coordinator'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'decisions.', 'spirit,', '(Intermediate)', 'Spanish', 'Coordinator.Performed', 'growth.', 'clients.', 'skills,', 'German', '(Novice)', 'sessions,', 'development,'}
+
+For the PDF file 'fake_resume_180.pdf' (File 180):
+  Jaccard similarity: 0.915
+  Words in the Text Extraction Component but not in the PDF extractor: {'Serving', 'spirit', 'agriculture', 'roaker@example.org', 'nonprofit', 'models', 'products', 'reputation', 'reserves', 'commerce', 'novice', 'manipulation', 'integration'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'spirit,', 'reserves.', 'models,', 'integration,', 'products.', '(Novice)', 'e-commerce', 'rbaker@example.org', 'non-profit', 'manipulation,', 'agricultureServing', 'reputation.'}
+
+For the PDF file 'fake_resume_181.pdf' (File 181):
+  Jaccard similarity: 0.906
+  Words in the Text Extraction Component but not in the PDF extractor: {'centers.', '856-762-9796', 'German:', 'processes.', 'solutions', 'intermediate', 'outcomes.', 'Portuguese:', 'satisfaction.', 'community.', 'novice', 'performance.', 'blogs.', 'design.'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'Portuguese', 'solutions,', 'processes', '(Intermediate)', 'performance', 'blogs', '(Novice)', 'German', 'design', 'satisfaction', 'outcomes', 'centers', '8567629796'}
+
