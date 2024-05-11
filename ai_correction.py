@@ -9,10 +9,6 @@ if api_key:
     openai.api_key = api_key
 else:
     print("OpenAI API key is not set. Please set it as an environment variable.")
-# Correct (spelling) mistakes in the following text if there are any: 0.92
-
-# Correct spelling mistakes in the following text if there are any: 0.93 + temperature 0.1!!
-# Al 17 getest, ga door met de rest
 
 
 def correct_text_with_OpenAI(text):
