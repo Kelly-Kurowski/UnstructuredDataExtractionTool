@@ -13,7 +13,7 @@ else:
 
 def correct_text_with_OpenAI(text):
     prompt = f"""
-Correct spelling mistakes in the following text if there are any:
+Correct spelling mistakes in the following text if there are any, do NOT format the text:
 
 {text}
 """

@@ -31,9 +31,9 @@ def compare_text_extraction(pdf_file):
 # Iterate through all PDF files in the directory
 pdf_files = [file for file in os.listdir(pdf_directory) if file.endswith('.pdf')]
 pdf_files.sort(key=lambda x: int(x.split('_')[-1].split('.')[0]))
-pdf_files = pdf_files[17:]
+pdf_files = pdf_files[198:201]
 
-with open('extracted_text_results_second_run.txt', 'w') as file:
+with open('extracted_text_results_third_run_part3.txt', 'w') as file:
     for pdf_file in pdf_files:
 
         # Construct full path to PDF file
