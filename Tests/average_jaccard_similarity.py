@@ -1,4 +1,4 @@
-with open('Data Resume/extracted_text_results_third_run.txt', 'r') as file:
+with open('extracted_text_results_fourth_run.txt', 'r', encoding="utf-8") as file:
     # Initialize variables to store the sum of Jaccard similarities
     total_similarity = 0
 
@@ -12,5 +12,5 @@ with open('Data Resume/extracted_text_results_third_run.txt', 'r') as file:
             total_similarity += similarity
 
 # Calculate the average jaccard similarity
-average_similarity = total_similarity / 200
-print(f"The average jaccard similarity over 200 documents is: {average_similarity:.3f}")
+average_similarity = total_similarity / 127
+print(f"The average jaccard similarity over 127 documents is: {average_similarity:.3f}")

@@ -6,6 +6,36 @@ from pdfminer.high_level import extract_text
 pdf_directory = r'C:\Users\kelly\OneDrive\Bureaublad\Generated Fake Resumes'
 
 
+def mutate_words(word_list):
+    word_set = set(word_list)  # Convert the list to a set to ensure uniqueness
+    mutated_set = set()
+
+    for word in word_set:
+        # Rule 1: Convert to lower case
+        word = word.lower()
+
+        # Rule 2: Remove one characters
+        if len(word) == 1:
+            continue
+
+        # Rule 3: Remove specific characters from the start or end of the word
+        if word.startswith('€'):
+            word = word[1:]
+        if word.endswith(':') or word.endswith('.') or word.endswith('%') or word.endswith(';') or word.endswith(',') or word.endswith('!') or word.endswith('€'):
+            word = word[:-1]
+
+        # Rule 4: Remove '(' and ')' from the start or end of the word
+        if word.startswith('('):
+            word = word[1:]
+        if word.endswith(')'):
+            word = word[:-1]
+
+        word = word.replace('-', '').replace('—', '')
+
+        mutated_set.add(word)
+
+    return mutated_set
+
 # Function to read text from a PDF file using your function and pdfminer
 def compare_text_extraction(pdf_file):
     # Extract text using your function
@@ -15,8 +45,8 @@ def compare_text_extraction(pdf_file):
     text_pdfminer = extract_text(pdf_file)
 
     # Split text into words
-    words_custom = set(text_custom.split())
-    words_pdfminer = set(text_pdfminer.split())
+    words_custom = mutate_words(text_custom.split())
+    words_pdfminer = mutate_words(text_pdfminer.split())
 
     # Calculate Jaccard similarity
     intersection = len(words_custom.intersection(words_pdfminer))
@@ -31,9 +61,8 @@ def compare_text_extraction(pdf_file):
 # Iterate through all PDF files in the directory
 pdf_files = [file for file in os.listdir(pdf_directory) if file.endswith('.pdf')]
 pdf_files.sort(key=lambda x: int(x.split('_')[-1].split('.')[0]))
-pdf_files = pdf_files[198:201]
 
-with open('extracted_text_results_third_run_part3.txt', 'w') as file:
+with open('extracted_text_results_fourth_run.txt', 'a') as file:
     for pdf_file in pdf_files:
 
         # Construct full path to PDF file
