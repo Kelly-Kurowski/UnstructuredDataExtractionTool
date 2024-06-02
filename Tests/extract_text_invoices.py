@@ -72,7 +72,7 @@ for filename_pdf, filename_txt in zip(files1, files2):
     result = len(intersection) / len(union)
 
     # Append results to the result file
-    with open("extracted_text_invoices_comparison_results_part3.txt", "a", encoding='utf-8') as file:
+    with open("Data Invoice/extracted_text_invoices_second_run.txt", "a", encoding='utf-8') as file:
         file.write(f"For the PDF file '{filename_pdf}':\n")
         file.write(f"  Jaccard similarity: {result:.3f}\n")
         file.write(f"  Words in the Text Extraction Component but not in the actual .txt file: {diff1}\n")

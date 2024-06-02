@@ -48,13 +48,14 @@ def extract_information(user_input, text, language):
                  r"\d+\s\w+\s\w+\s\w+\.\s\d+\,\s\w+\s\w+\,\s\w+\s\d+",
         'leeftijd': r'\b\d{2}\b',
         'telefoon nummer': r'\d(?:[\s-]?\d{1,}){6,}',
-        'factuurdatum': r"\b(?:\d{1,2}-\d{2}-\d{4}|\d{1,2}-[A-Z]{3}-\d{4}|\d{1,2}\s+\w+\s+\d{4}|\d{1,2}/\d{1,2}/\d{4})\b",
+        # 'factuurdatum': r"\b(?:\d{1,2}-\d{2}-\d{4}|\d{1,2}-[A-Z]{3}-\d{4}|\d{1,2}\s+[A-Za-z]{2,}\s+\d{4}|\d{1,2}/\d{1,2}/\d{4})\b",
+        'factuurdatum': r"(?i)(?:\bFactuurdatum:?\s*|\bDatum:?\s*|\bOrderdatum:?\s*|\bFactuur—/afleverdatum\s*)?(\d{1,2}[-—.]\d{2}[-—.]\d{4}|\d{1,2}[-—][A-Z]{3}[-—]\d{4}|\d{1,2}\s+[A-Za-z]{2,}\s+\d{4}|\d{1,2}/\d{1,2}/\d{4})\b",
         'iban': r"\b[A-Z]{2}\s*\d{2}\s*[A-Z]{4,}\s*\d{7,}\b|\b[A-Z]{2}\s*\d{2}\s*[A-Z]{4,}\s*\d{4}\s*\d{4}\s*\d{2}\b",
         'rekeningnummer': r"\b[A-Z]{2}\s*\d{2}\s*[A-Z]{4,}\s*\d{7,}\b|\b[A-Z]{2}\s*\d{2}\s*[A-Z]{4,}\s*\d{4}\s*\d{4}\s*\d{2}\b",
         'kvk': r"\bKVK\s+(\d+)\b|\bKvK\s+(\d+)\b",
         'btw': r"\bBTW\s+([A-Za-z0-9]+)\b",
-        'totaal': r"(?i)\b(?:totaal|total|totaal\s?bedrag|total\s?amount)\b[:\s]*.*?([€,$]?\s*[\d.,]+)",
-        'totaal bedrag': r"(?i)\b(?:totaal|total|totaal\s?bedrag|total\s?amount)\b[:\s]*.*?([€,$]?\s*[\d.,]+)",
+        'totaal': r"(?i)\b(?:totaal|total|totaal\s?bedrag|total\s?amount|totaal\s+incl\.?\s+btw)\b[:\s]*.*?([€,$]?\s*[\d.,]+)",
+        'totaal bedrag': r"(?i)\b(?:totaal|total|totaal\s?bedrag|total\s?amount|totaal\s+incl\.?\s+btw)\b[:\s]*.*?([€,$]?\s*[\d.,]+)",
     }
 
     # Convert user_input to lowercase to ensure case-insensitive matching
