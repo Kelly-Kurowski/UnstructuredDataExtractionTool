@@ -59,7 +59,7 @@ def on_focus_out_entity(event):
 
 
 root = tk.Tk()
-root.title("Extract Unstructured Data Resume")
+root.title("Extract Unstructured Data")
 
 # Set the window icon
 root.iconphoto(False, tk.PhotoImage(file="Images/file-and-folder.png"))
