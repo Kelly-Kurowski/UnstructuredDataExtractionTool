@@ -32,7 +32,7 @@ def extract_information(user_input, text, language):
         'phone number': r'\d(?:[\s\-.]?\d{1,}){6,}',  # Match phone numbers with optional spaces, dashes, or dots
         'age': r'\b\d{2}\b',  # Match 2 digits for age
         'invoice date': r"\b(?:\d{1,2}-\d{2}-\d{4}|\d{1,2}-[A-Z]{3}-\d{4}|\d{1,2}\s+\w+\s+\d{4}|\d{1,2}/\d{1,2}/\d{4})\b",
-        'bank account number': r"\b[A-Z]{2}\s*\d{2}\s*[A-Z]{4,}\s*\d{7,}\b|\b[A-Z]{2}\s*\d{2}\s*[A-Z]{4,}\s*\d{4}\s*\d{4}\s*\d{2}\b",
+        'bank account number': r"\b[A-Z]{2}\s*\d{2}\s*[A-Z]{4,}\s*\d{7,}\b|\b[A-Z]{2}\s*\d{2}\s*[A-Z]{4,}\s*\d{4}\s*\d{4}\s*\d{2}\b|\b[A-Z]{2}\s*\d{2}\s*[A-Z]{4,}\s*\d{5}\s*\d{2}\s*\d{3}\b|\b[A-Z]{2}\d{2}[A-z]{2,}\d{8,}\b",
         'website': r'\b(?:https?:\\/\\/)?(?:www\.)?(?<!@)[a-zA-Z0-9-]+(?:\.[a-zA-Z]{2,})+(?:\/[a-zA-Z0-9-]*)*\b',
         'total': r"(?i)\b(?:totaal|total|totaal\s?bedrag|total\s?amount)\b[:\s]*.*?([€,$]?\s*[\d.,]+)",
 
@@ -54,7 +54,7 @@ def extract_information(user_input, text, language):
         'kvk': r"\bKVK\s+(\d+)\b|\bKvK\s+(\d+)\b",
         'btw': r"\bBTW\s+([A-Za-z0-9]+)\b",
         'totaal': r"(?i)\b(?:totaal|total|totaal\s?bedrag|total\s?amount|totaal\s+incl\.?\s+btw)\b[:\s]*.*?([€,$]?\s*[\d.,]+)",
-        'totaal bedrag': r"(?i)\b(?:totaal|total|totaal\s?bedrag|total\s?amount|totaal\s+incl\.?\s+btw)\b[:\s]*.*?([€,$]?\s*[\d.,]+)",
+        'totaal bedrag': r"(?i)\b(?:totaal|total|totaal\s?bedrag|total\s?amount|totaal\s+incl\.?\s+btw|totaal\s+verschuldigd)\b[:\s]*[€,$]?\s*(?:EUR\s*)?([\d.,]+)(?:\s*EUR)?[\s€,$]*",
     }
 
     # Convert user_input to lowercase to ensure case-insensitive matching
