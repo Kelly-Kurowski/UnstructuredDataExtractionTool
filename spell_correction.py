@@ -1,7 +1,6 @@
 from spellchecker import SpellChecker
 from joblib import Parallel, delayed
 import math
-import time
 
 
 def correct_words_batch(spell_checker, words):
@@ -16,17 +15,6 @@ def correct_words_batch(spell_checker, words):
 
 
 def correct_misspelled_words(extracted_words: list, lang: str, batch_size: int = 75) -> list:
-    """Correct misspelled words in a list.
-
-    Args:
-        extracted_words (list): List of words to correct.
-        lang (str): Language code for spell checking.
-        batch_size (int): Number of words to process in each batch.
-
-    Returns:
-        list: A list of corrected words.
-    """
-    # start_time = time.time()  # Start the timer
 
     # Initialize spell checker once
     spell_checker = SpellChecker(language=lang)
@@ -46,9 +34,5 @@ def correct_misspelled_words(extracted_words: list, lang: str, batch_size: int =
 
     # Flatten the list of lists into a single list
     corrected_words = [word for batch in corrected_batches for word in batch]
-
-    # end_time = time.time()  # End the timer
-    # elapsed_time = end_time - start_time
-    # print(f"Elapsed time: {elapsed_time} seconds")
 
     return corrected_words

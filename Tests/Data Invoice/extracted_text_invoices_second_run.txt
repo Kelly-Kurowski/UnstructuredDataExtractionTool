@@ -1,0 +1,500 @@
+For the PDF file 'File_1.pdf':
+  Jaccard similarity: 0.902
+  Words in the Text Extraction Component but not in the actual .txt file: {'035 6915209', 'verrekening', '035 6911859', 't/m'}
+  Words in the .txt file but not in the Text Extraction Component: {'6911859', '27', '1934', '035', 'sinds', ' a', 'naverrekening', '6915209', 'nl'}
+
+For the PDF file 'File_2.pdf':
+  Jaccard similarity: 0.808
+  Words in the Text Extraction Component but not in the actual .txt file: {'nax', '155', '0052945520', 'uu:mm:iss', '31612xxxx', 'oh', 'b01', '235', 'nl26zz2514464640000', '400', '31657xxxxx', 'nl820426', '585', 'rabq', 'labs', 'o1m', 'om', '136', '9,91', 'o&m', 'venlox'}
+  Words in the .txt file but not in the Text Extraction Component: {'12s', ' 09,91', 'labsc', 'nr', '13g', '16m', 'nl26zzz514464640000', 'flexibel', '0h', '08m', ' 05,87', '26m', '15s', '23s', '0152945520', '58s', '31612xxxxxx', 'venlo', 'rabo', '03m', 'voip ', '\\4', '0,36', '56m', 'nox', 'nl8500.20.426.b.01', '6h', '11s', '31657xxxxxx', '600', '01m', '7h'}
+
+For the PDF file 'File_3.pdf':
+  Jaccard similarity: 0.762
+  Words in the Text Extraction Component but not in the actual .txt file: {'24.75', '0182', 'm', 'rekeningnr.', 'bornhack.nl/profiser', '154', 'lever', 'netto', 'verhuur ', 'fillaat', '10', 'transport ', 'bouw', 'atelier', 'id nl', 'totaalbedrag', '01', '18.60', '2300lg', '152301100169178', 'montage', '#8.093.13', '8075', 'ir', '55507', 'manieren', 'vide', 'benaming', '3430', '6003889902238981', 'nederlands'}
+  Words in the .txt file but not in the Text Extraction Component: {'0162', 'ld nr', 'benam', 'net', 'm0ntage', '.de', 'afhaler', 'lever en', '34130', '6003889902238981154', 'transport verhuur', 'bornbach.nl/profiservice', 'bouw?', 'totaalbed', 'nederland', 'filiaal', 'iih', 'monteren', 'bach', 'rekeningsnr.', '55507152301100169178', '8075.08.093.ll.01', 'horn', 'w//m', '24,75', '230dlg', '18,60'}
+
+For the PDF file 'File_4.pdf':
+  Jaccard similarity: 0.259
+  Words in the Text Extraction Component but not in the actual .txt file: {'23.93', 'by', 'to', 'discount', 'third', 'abroad', 'calls', 'total', '277.26', 'please', 'mobile', 'device', 'insurance', 'visit', 'chamber', 'summary', '0.00', 'must', 'number', '41.30', 'account', 'before', 'basic', 'also', 'runs', '253.33', 'overview', '36.60', 'february', 'user', 'detailed', 'connection', 'francin]', 'if', 'as', 'date', ' 11.00', 'us', 'be', 'payment', 'page', 'group', 'business', 'because', '1', 'details', 'exempt', 'your', 'amount', '335.92', 'are', 'commerce', 'exclusive', '52.66', 'parties', 'rh', 'discounts', 'invoice', 'see', '329.92', 'description', 'paid', 'years', '291.28', 'can', 'guarantee', '80.22', 'received', 'costs', '35.00', 'this', '22.92', 'location', 'january', '303.42', 'subscriptions', '68.76', 'customer', '74.88', 'outside', 'phone', 'double', '6.00', '13.50', ' 8.22', '57.30', '3337', 'services', 'main', 'vat', 'specification', 'or', 'the', '31611584986', '13.00', 'office', 'from', 'subscription', 'speech', 'reference', 'limited', '35.95', 'other', 'cost', 'you', 'purchases', '56.29', 'use', '59.52', 'tam', 'long', 'period', '26.50', '45.84', 'want', 'transfer', 'subtotal', 'under', '250.76', 'including'}
+  Words in the .txt file but not in the Text Extraction Component: {'bellen', '22,92', 'inclusief', 'ook', '253,33', 'zijn', 'bij', 'spraak', 'wilt', 'kenmerk', 'op', 'naar', 'omschrijving', 'abonnementen', '74,88', 'ons', '13,00', 'zakelijk', '45,84', '33,37', '35,95', 'kortingen', 'nr.', '35,00', 'dit', 'beperkt', 'dubbele', 'pagina', 'basis', 'dient', 'nr', 'kosten', 'gebruiker', 'betalen', 'vermelding', 'totaal', 'uw', '250,76', 'nummer', 'klant', '11,00', 'overzicht', 'kostengroep', 'hoofdaansluiting', 'samenvatting', '303,42', 'kvk', 'btw bedrag', 'aantal', 'exclusief', 'rekeningnummer', 'buiten', 'met', '68,76', 'je', 'datum', 'betaling', 'diensten', 'derden', 'jaar', 'mobiel', '23,93', '329,92', '57,30', '0,00', 'ander', 'buitenland', 'zien', 'bedrag', 'een', '36,60', 't/m', 'toestelbetaling', '59,52', 'subtotaal', 'onder', 'het', 'francini', 'kantoor', 'overige', 'februari', 'overmaken', 'te', 'dan', '26,50', 'rekening', 'locatie', 'opnemen', 'periode', 'vrij', 'garant', '8,22', '52,66', '31611384986', 'loopt', 'tegoed', '80,22', 'assurant', '41,30', 'januari', 'kunt', '277,26', '13,50', '291,28', 'specificatie', 'klantnummer', 'voor', 'kijk', 'korting', 'telefoon', 'btw', 'abonnement', 'rekeningdetails', 'omdat', 'bezit', '335,92', 'aankopen', 'bent', '6,00', 'uitgebreid', 'zolang', 'gebruik', '56,29'}
+
+For the PDF file 'File_5.pdf':
+  Jaccard similarity: 0.901
+  Words in the Text Extraction Component but not in the actual .txt file: {'3065636699', '6010141871141', ' 21,10', 'snoof'}
+  Words in the .txt file but not in the Text Extraction Component: {'nr.', 'en/of', '21,10', '601014187141'}
+
+For the PDF file 'File_6.pdf':
+  Jaccard similarity: 0.892
+  Words in the Text Extraction Component but not in the actual .txt file: {'nl04502863b01', 'nl49abnaq8o4405158', 'is', 'bankrekeningnummer', '1185xepîr;:âîlsvgeâg', '1keil’(ì)t8n7l.&l_)mmer', '6157709389', 'iii|iiiii|i|iiiii"iiiiiiiiiiii"ii"iii', '706'}
+  Words in the .txt file but not in the Text Extraction Component: {'1500875', 'xe', 'nl004502863b01', '900', '70c', '615770939', '1185', 'postbus', 'nl49abna0804405158', 'iban rekeningnummer', 'klantnummer'}
+
+For the PDF file 'File_7.pdf':
+  Jaccard similarity: 0.833
+  Words in the Text Extraction Component but not in the actual .txt file: {'een', 'is', 'kan', 'blpey', 'as', '0.98', '4.66', 'nl49abnaq08o4405158', 'lrrlal', '5.64', 'p7', '6.66', '1p', 'ra'}
+  Words in the .txt file but not in the Text Extraction Component: {'1500875', '900', 'labsc', '4,66', 'postbus', 'nl49abna0804405158', '6,66', '0,98', '5,64', 'advies'}
+
+For the PDF file 'File_8.pdf':
+  Jaccard similarity: 0.848
+  Words in the Text Extraction Component but not in the actual .txt file: {'3412', 'nl26knabo502469234', '3371', 'korting', 'bm', 'km'}
+  Words in the .txt file but not in the Text Extraction Component: {'3412km', 'kor\ue000ng', '3371bm', ' 11,50', 'nl26knab0502469234', ' 23,00'}
+
+For the PDF file 'File_9.pdf':
+  Jaccard similarity: 0.878
+  Words in the Text Extraction Component but not in the actual .txt file: {'etc', 'caramelite', 'registreren', 'uitbetaling', '03000242010', 'insolventie', 'certificaten', '9a', 'email', 'labs', 'belastingen', '13.5', 'gebrui', '"nespresso"', "risico's", 'formulering'}
+  Words in the .txt file but not in the Text Extraction Component: {'', 'manier', 'risico’s', 'omstandigheden', '18.4', 'uit?', '2015', '18.2', 'clubleden', ' belastingen', 'stakingen', 'explorations koffie', 'zodra', 'afhankelijk', 'number', 'formulerings ', 'verhinderen', '16.2', 'natuurrampen', 'labsc', 'certificate', 'oorlogen', 'gebeurtenissen', 'pinbetaling', '18.1', '18', 'explorations', 'kopen', 'klanten', 'beperkte', 'aanmerking', 'afgelopen', '18.3', 'première"', 'avant', 'buiten', 'biedt', 'registeren', '“nespresso”', '39a', 'kwijten', 'première', 'één', 'contactnl@nespresso.com', 'onder', 'februari', 'regels', '16', 'mogelijkheid', 'verplichtingen', 'inlichtingen', 'maanden', 'tel', 'periode', 'aankoop', '2.4', 'caramelito', '08000242010', 'edition', 'gelden', 'nespresso kanalen', 'vat', 'plaatsvinden', 'beschikbaarheid', 'e mail', 'limited', 'meerdere', 'productie', '"avant', 'billijke', 'transport', '13.3', 'vastgesteld', 'overmacht', 'kopen(zolang', 'iedereen', '16.1', 'koffies', 'vertraging', 'beschikbare', 'verdelen', 'insolvabiliteit', 'nummer)'}
+
+For the PDF file 'File_10.pdf':
+  Jaccard similarity: 0.874
+  Words in the Text Extraction Component but not in the actual .txt file: {'she', 'correcte', 'btwnr', '12', 'we', 'cl', 'my', 'resteert', 'door', 'email', 'bankrekeningnummer', 'it', 'nl056.37.727b01', 'behoort', 'incl', 'no', 'el', 'kvknr', 'of'}
+  Words in the .txt file but not in the Text Extraction Component: {'behorend', 'e mail', '1/2', 'nr', 'inc', 'nummer', '3412km39', 'voldoen', 'nl0056.37.727b01', 'hebben', 'bestaat', 'bankrekening', 'vordering', 'kvk'}
+
+For the PDF file 'File_11.pdf':
+  Jaccard similarity: 0.797
+  Words in the Text Extraction Component but not in the actual .txt file: {'main', 'am', 'g/km)court', 'anchor', 'feeeeeefeeeeeefeeefeeefeeteeefee', '900/b800/0010000000/dr00fc9b00/dcsofc9800/420300///75c', 'ose', 'fefefelefee', 'plants', 'ex', 'rents', 'tntenieetenteiententetenten', 'kentekon', 'fee', '$x00059362892', 'anti', 'my', 'boog', 'administration', 'tossed', 'rest', '23 5698656', 'al', 'band', 'word', 'et', 'o9bda/80', 'door', 'aware', '***********994', 'subtot.         ', 'teeefeeeeeefeeefee', 'ai', 'immediately', '0018221939', 'hhhhhhhaaehhool', 'overdraft', '      ', 'nt', '    ', "didn't", 'booking', '+31(0)59 2390846sixt', 'eee', 'cop', ' km/out', 'inclusion', 'tee', 'rekening', '680612880', 'factor', '$sxx00059362892', 'coste', 'damn', 'sub total', '391.97 ', '+31(0', '2013 01 13t15:18', 'kiss', 'biw'}
+  Words in the .txt file but not in the Text Extraction Component: {'download', 'wordt', 'and/or', 'a1', '************001', 'inclusief', 'app', 'km/out', 'uw', 'km', '############001', 'voor', 'sx00059362892', '391,97 ', 'op', 'immediately.***', 'administratie', 'kenteken', '+31(0)23 5698656', 'tussen', 'kms', 'factuur', 'subtot', 'km/in', 'costc', '0000048000/e800/0010000000/de00fc9800/dc50fc9800/420300///75c', 'now', 'bande', 'court', 'boeking', 'sub totaal', '2023 01 13t15:18', '09bda/80', 'g/km', 'waarde', '+31(0)59 2390846', 'geen', 'dagen', 'rents?', 'dienst', 'plaats'}
+
+For the PDF file 'File_12.pdf':
+  Jaccard similarity: 0.875
+  Words in the Text Extraction Component but not in the actual .txt file: {'39 a', 'nl29abna0417580732', 'verteerbaar', 'je', 's$031088', 'next.nl'}
+  Words in the .txt file but not in the Text Extraction Component: {'sorteerbaar', 's031088', 'btw nr', 'nl79abna0599483679', 'nl27rabo0331069008', ' a'}
+
+For the PDF file 'File_13.pdf':
+  Jaccard similarity: 0.823
+  Words in the Text Extraction Component but not in the actual .txt file: {'ban', 'kok', '2002300119', 'acajou', 'raábonl2u'}
+  Words in the .txt file but not in the Text Extraction Component: {'202300119', '39a', 'nl31', 'acato', 'rabonl2u', '0160605016', 'met', 'rabo', 'iban', 'onderwerp', 'q1', 'kvk'}
+
+For the PDF file 'File_14.pdf':
+  Jaccard similarity: 0.430
+  Words in the Text Extraction Component but not in the actual .txt file: {'rot', 'invoice', 'description', 'reservation', 'nnnnnnnnnnnnnnn', '6a', 'xx', 'someone', 'al', 'arrival', 'order', 'net', 'ing', 'total', 'opnicatie', 'kun', 'intosgroningenleonordo hotels', 'reference', 'hdooooooxxxxx1001', 'ngbnl2aî0', 'you', 'reimbursable', 'name', 'no.', 'room', 'page', 'balance', 'departure', 'persons', 'nil', 'te', 'debit', 'guest', 'nl8sbb0093b01', 'xx/', 'mr', '78', 'number', 'swietyaic', '62591680', 'of'}
+  Words in the .txt file but not in the Text Extraction Component: {'services', 'kamer', 'dhr', 'balans', 'all', 'bv', 'ga', 'gast', 'to', 'totaal', '62594680', '+31', 'nummer', 'reserveringsnr', 'netto', 'xx/xx', 'referentie', 'debet', 'ingb', 'e', 'aankomst', 'btw', 'omschrijving', '4778', 'personen', 'vertrek', 'ehm', 'our', 'stadsbelasting', 'xxxxxxxxxxxx1001', 'nl46', 'iban', 'kvk', 'applicable', 'aantal', 'info.groningen@leonardo hotels.nl', 'factuurnr', 'swift/bic', 'are', 'naam', 'pagina', 'datum', 'verrekenbaar', 'nl854880033b01', 'ingbnl2axxx'}
+
+For the PDF file 'File_15.pdf':
+  Jaccard similarity: 0.750
+  Words in the Text Extraction Component but not in the actual .txt file: {'nl69rabo0198915880', 'nl&0984252b01', 'k', 'info@labs.com', 'labs', 'management', 'lsch fuq00102', 'sco1', 'lsch fuq00102 mfo22023 labs 2023.xlsx', '80898454250', 'btw/vat'}
+  Words in the .txt file but not in the Text Extraction Component: {'managment', 'k.v.k', 'advisering', 'nl60984252b01', 'labsc', '39a', '14.949,55', 'info@labsc.com', 'lsch fu000102 mf022023 labsc 2023.xlsx', 'nl39rabo0188915680', 'lsch fu000102', '2.594,55', 'sc01', '808984342b01'}
+
+For the PDF file 'File_16.pdf':
+  Jaccard similarity: 0.750
+  Words in the Text Extraction Component but not in the actual .txt file: {'nl69rabo0198915880', 'nl&0984252b01', 'lsch fuq00106 mfo62023 labs 2023.xlsx', 'lsch fuq00106', 'k', 'info@labs.com', 'labs', 'management', 'sco1', '80898454250', 'btw/vat'}
+  Words in the .txt file but not in the Text Extraction Component: {'managment', 'lsch fu000106 mf062023 labsc 2023.xlsx', 'k.v.k', 'advisering', 'nl60984252b01', 'labsc', '39a', '14.949,55', 'info@labsc.com', 'nl39rabo0188915680', 'lsch fu000106', '2.594,55', 'sc01', '808984342b01'}
+
+For the PDF file 'File_17.pdf':
+  Jaccard similarity: 0.750
+  Words in the Text Extraction Component but not in the actual .txt file: {'nl69rabo0198915880', 'k', 'lsch fuq00107', 'info@labs.com', 'labs', 'management', 'sco1', '80898454250', 'btw/vat', '0984252b01', 'lsch fuq00107 mfo72023 labs 2023.xlsx'}
+  Words in the .txt file but not in the Text Extraction Component: {'managment', 'k.v.k', 'advisering', 'nl60984252b01', 'labsc', '39a', 'lsch fu000107', 'lsch fu000107 mf072023 labsc 2023.xlsx', '14.949,55', 'info@labsc.com', 'nl39rabo0188915680', '2.594,55', 'sc01', '808984342b01'}
+
+For the PDF file 'File_18.pdf':
+  Jaccard similarity: 0.894
+  Words in the Text Extraction Component but not in the actual .txt file: {'\\g/i_', 'zondig', 'ster', 'on', ' 350,00', 'ay', 'snoof', "alinea's", '1130029449410', 'betalingen', 'tul', 'email', 'leesdienst', ' 35,00', '.ï', 'tujtnue‘dqer[;j(‘í', 't\\?oh‘ìyìerlaan', 'tu', 'labs', 'deal', 'qà‚', 'tam', ';ê”', '.à_', 'laat', 'aanw', 'nl804637295501', ' 207,00', 'je', ' 175,00', 'boekte', '27148888ĳ'}
+  Words in the .txt file but not in the Text Extraction Component: {'−350,00', 'en/of', 'alinea’s', 'fly', 'reis ', 'ideal', '−35,00', 'betaling(en', 'e mail', 't/m', 'afw', '−207,00', 'nl804637295b01', 'reisdienst', 'dienstverlener(s', '−175,00', 'zonodig', 'boekings ', 'iabsc'}
+
+For the PDF file 'File_19.pdf':
+  Jaccard similarity: 0.789
+  Words in the Text Extraction Component but not in the actual .txt file: {'rábóo', 'juli', '5379', 'ski', '0570 561555', 'auto', 'inlezen', 'vol', 'fan', '6139202676', 'peugeot', '679,54'}
+  Words in the .txt file but not in the Text Extraction Component: {'jul', '02', '676', '!nieren', '01392', 'tbv', '21,00', ':peugeot', 'olst', 'ev', 'rabo', '53,79', 'btwcode', '8121', '0570 561456', 'aauto'}
+
+For the PDF file 'File_20.pdf':
+  Jaccard similarity: 0.872
+  Words in the Text Extraction Component but not in the actual .txt file: {'parqui', 'vod', 'bv', '12', 'nlo07078031b01', 'louwman.nl', 'louwman', 'je', 'nlo2ingboy00240268', 'info@louwman.nl'}
+  Words in the .txt file but not in the Text Extraction Component: {'labsc', 'nl02ingb0700240268', 'l2', 'nl007078031b01', 'v/d', 'holding', 'info@nefkens.nl', 'nefkens.nl'}
+
+For the PDF file 'File_21.pdf':
+  Jaccard similarity: 0.692
+  Words in the Text Extraction Component but not in the actual .txt file: {'7103', 'btw(21%', 'factuuradvies', '3412', 'is', '2023 1303', 'ds', '09 02 2023', 'sensationmedia', 'km'}
+  Words in the .txt file but not in the Text Extraction Component: {'2023', 'id', 'labsc', '3412km', '7103ds', '21%', 'factuur', '1303', 'advies', '09/02/2023'}
+
+For the PDF file 'File_22.pdf':
+  Jaccard similarity: 0.816
+  Words in the Text Extraction Component but not in the actual .txt file: {'advise', 'pos', 'fehlen', 'stromungstechnik', 'bylademierh', 'preis/einheit', 'and', 'van', 'bozcergeure', 'robert', 'uns', 'adresse', 'seters', 'ihre'}
+  Words in the .txt file but not in the Text Extraction Component: {'unsere', 'byladem1erh', 'u', 'geändert', 'sich', 'preis/pos', 'anschrift', 'hat', 'advies'}
+
+For the PDF file 'File_23.pdf':
+  Jaccard similarity: 0.893
+  Words in the Text Extraction Component but not in the actual .txt file: {'[ban', 'nloo1375316b11', 'nederland', 'militaire', 'malta', 'nog', 'inma.wensink@thermografie nl.com', 'labs', 'reproductie', 'lab', 'ga', 'toepassingen', 'je'}
+  Words in the .txt file but not in the Text Extraction Component: {'aantal', 'labsc', '39a', 'deproductie', 'malta,nederland', 'nl001375316b11', 'no', 'iban', 'lab1', 'toepassingen”', '"militaire'}
+
+For the PDF file 'File_24.pdf':
+  Jaccard similarity: 0.643
+  Words in the Text Extraction Component but not in the actual .txt file: {'juli', 'is', 'labs', 'betreft', 'van', '23'}
+  Words in the .txt file but not in the Text Extraction Component: {'216401', 'labsc', '21.00', 'product', '18,73', 'informatie', 'by', 'powered', 'grondslag', 'bedrag', '3,26', 'subtotaal', 'code', 'factuuradres', '12,21', '23a', 'productcode', '6,11', '0.00', 'aantal', 'prijs', 'debiteurennr.', '9.00', '15,47'}
+
+For the PDF file 'File_25.pdf':
+  Jaccard similarity: 0.871
+  Words in the Text Extraction Component but not in the actual .txt file: {'auk', '3452913schneider>', 'microns', 'advise', 'labs', 'auch', 'and', 'gemäß', 'schneider>', 'l230308', '$d karte', ' _t', 'ust id nr.:de112611624', 'programmer'}
+  Words in the .txt file but not in the Text Extraction Component: {'l170077', 'ust id nr.', 'labsc', '39a', 'gem', 'programmiert', 'de112611624', '1b', 'sd karte', 'micro sd', 'advies', 'und'}
+
+For the PDF file 'File_26.pdf':
+  Jaccard similarity: 0.772
+  Words in the Text Extraction Component but not in the actual .txt file: {'ban', 'kok', 'acajou', 'nl31rabo0160605016', '01 02 2023', 'raábonl2u', '2002300341', 'en'}
+  Words in the .txt file but not in the Text Extraction Component: {'nl31rabo160605016', '39a', 'nl31', 'acato', 'rabonl2u', '0160605016', 'rabo', '202300341', 'voor', 'iban', 'kvk', '01 februari 2023', '.nl'}
+
+For the PDF file 'File_27.pdf':
+  Jaccard similarity: 0.912
+  Words in the Text Extraction Component but not in the actual .txt file: {'erom', 'at', '3412', 'bq1', '9747', 'www.dhlparcelnl', 'verzending', 'km'}
+  Words in the .txt file but not in the Text Extraction Component: {'b01', 'from', '3412km', 'the', 'verzendig', 'b.v', '9747at', 'www.dhlparcel.nl'}
+
+For the PDF file 'File_28.pdf':
+  Jaccard similarity: 0.881
+  Words in the Text Extraction Component but not in the actual .txt file: {'etc', 'caramelite', 'registreren', 'uitbetaling', '03000242010', 'insolventie', 'certificaten', '9a', 'email', 'labs', 'belastingen', '13.5', '"nespresso"', "risico's", 'formulering'}
+  Words in the .txt file but not in the Text Extraction Component: {'', 'manier', 'risico’s', 'omstandigheden', '18.4', 'uit?', '2015', '18.2', 'clubleden', ' belastingen', 'stakingen', 'explorations koffie', 'zodra', 'afhankelijk', 'number', 'formulerings ', 'verhinderen', '16.2', 'natuurrampen', 'labsc', 'certificate', 'oorlogen', 'gebeurtenissen', 'pinbetaling', '18.1', '18', 'explorations', 'kopen', 'klanten', 'beperkte', 'aanmerking', 'afgelopen', '18.3', 'première"', 'avant', 'buiten', 'biedt', 'registeren', '“nespresso”', '39a', 'kwijten', 'première', 'één', 'contactnl@nespresso.com', 'onder', 'februari', 'regels', 'mogelijkheid', 'verplichtingen', 'inlichtingen', 'maanden', 'tel', 'periode', 'aankoop', '2.4', 'caramelito', '08000242010', 'edition', 'gelden', 'nespresso kanalen', 'vat', 'plaatsvinden', 'beschikbaarheid', 'e mail', 'limited', 'meerdere', 'productie', '"avant', 'billijke', 'transport', '13.3', 'vastgesteld', 'kopen(zolang', 'iedereen', 'koffies', 'vertraging', 'beschikbare', 'verdelen', 'insolvabiliteit', 'nummer)'}
+
+For the PDF file 'File_29.pdf':
+  Jaccard similarity: 0.865
+  Words in the Text Extraction Component but not in the actual .txt file: {'1', '9a', 'labs', 'mm'}
+  Words in the .txt file but not in the Text Extraction Component: {'mrt', 'labsc', '39a', 'afbeelding', '3mm', 'internet', 'deze', 'privacy', 'ter', 'bescherming', 'niet', 'automatisch', 't', 'gedownload'}
+
+For the PDF file 'File_30.pdf':
+  Jaccard similarity: 0.893
+  Words in the Text Extraction Component but not in the actual .txt file: {'nl96abnao401863042', 'vvrs4t', 'nlo04010462b01', '02', 'nl96abnao401863042travelcard', 'd1151778980001', 'no3163262', 'travee', 'ga', 'red', 'm/s', 'je', 'eerstvolgende'}
+  Words in the .txt file but not in the Text Extraction Component: {'eerst', 'volgende', 'n03163262', 'co2', 'd115178980001', 'nl96abna0401863042', 'subtotaal', 'vvr54t', '199,89', 'nl004010462b01'}
+
+For the PDF file 'File_31.pdf':
+  Jaccard similarity: 0.870
+  Words in the Text Extraction Component but not in the actual .txt file: {'kuütobegrijf', 'nl8orabo0307370178', 'barcode', 'wolddgei6gc519947', 'wi16w', 'rekeningnr.:nl8soraboo0307370178', 'carteaf'}
+  Words in the .txt file but not in the Text Extraction Component: {'bovag', 'w0ldd6e76gc519947', 'rekeningnr.:nl80rabo0307370178', 'w16w', 'nl80rabo0307370178', 'ibancode', 'carteam'}
+
+For the PDF file 'File_32.pdf':
+  Jaccard similarity: 0.841
+  Words in the Text Extraction Component but not in the actual .txt file: {'als', '59,90”', 'czc2458fat', '”ideal”', 'sfoebea', 'referenties'}
+  Words in the .txt file but not in the Text Extraction Component: {'dat', "''ideal''", 'czc2458f4t', 'betaal', 'labsc', 'referentie', 'zelf', 'z1', 'wel', 'ik', 'cool', '5f0e8ea', '1', '59,901', 'blue'}
+
+For the PDF file 'File_33.pdf':
+  Jaccard similarity: 0.920
+  Words in the Text Extraction Component but not in the actual .txt file: {'als', 'referenties', '"ideal"', 'delivery'}
+  Words in the .txt file but not in the Text Extraction Component: {"''ideal''", 'cool', 'deliv..', 'referentie', 'blue'}
+
+For the PDF file 'File_34.pdf':
+  Jaccard similarity: 0.837
+  Words in the Text Extraction Component but not in the actual .txt file: {'betaling', 'nl5oingbo683251309', 'referenties', 'als', '6625951804', '1s82tdoosamhpf43t]7k', '82tdo0s9amh', '”shoptegoed', '”ideal”', '161ax7'}
+  Words in the .txt file but not in the Text Extraction Component: {"''ideal''", 'referentie', "''shoptegoed", '16iax7', "betaling''", 'cool', '359,901', 'nl50ingb0683251309', '82td009amh', '1', '1s82td009amhpf43tj7k', '625951804', 'blue'}
+
+For the PDF file 'File_35.pdf':
+  Jaccard similarity: 0.919
+  Words in the Text Extraction Component but not in the actual .txt file: {'a.camera', 'automaat|', 'b.d', 'i.m', 'nl39abna0870355112', 'doorgeven', 'bepaald', 'ad', 'automaat', 'https://www.ford.nl/belangrijke informatie/voorwaarden en privacyverklaringen/privacyverklaring verstrekt dealer reparateur', 'control', 'navi', 'wfosxxwpgskk26792', 'extra‘s', 'zakelijke'}
+  Words in the .txt file but not in the Text Extraction Component: {':nl79abna0870355112', 'contr.|', 'navi.|', 'en/of', 'wf0sxxwpgskk26792', 'bepaald.“', 'zakelijk', 'i.v.m', 'voorwaarden en privacyverklaringen/privacyverklaring verstrekt dealer reparateur', '“de', 'doorbelasten', 'a/d', "extra's", '|automaat|', 'https://www.ford.nl/belangrijkeinformatie/', 'a.camera|', 'één'}
+
+For the PDF file 'File_36.pdf':
+  Jaccard similarity: 0.965
+  Words in the Text Extraction Component but not in the actual .txt file: {'3412', 'km'}
+  Words in the .txt file but not in the Text Extraction Component: {'39a', '3412km'}
+
+For the PDF file 'File_37.pdf':
+  Jaccard similarity: 0.664
+  Words in the Text Extraction Component but not in the actual .txt file: {'lid', '9007.0001c113652', 'ga', '[23/03/2023', "'be", 'totaal', 'en', 'een', 'email', '[nl', 'ï23000397', '39', '2140', 'tel', 'bereikt', '[23010305', 'apersepac', 'kapel', '[00007098'}
+  Words in the .txt file but not in the Text Extraction Component: {'39a', 'sn', '0,00', '39,00', 'e mail', 'id', 'n.v', 'tel.', '23/03/2023', 'transport', 'diwd89', 's.a', '9007.0001ac113652', 'bruto', 'bereik', 'doc.nr', '0,0', 'b 2140', 'joe', '00007098', 'datum', 'v8.1', 'nl'}
+
+For the PDF file 'File_38.pdf':
+  Jaccard similarity: 0.823
+  Words in the Text Extraction Component but not in the actual .txt file: {'rioolheffing', 'deal', 'rb', '3401', '796', 'datum', '2203901', 'km'}
+  Words in the .txt file but not in the Text Extraction Component: {'heffing', '0100036801', '3412km', 'vóór', 'termijn', '2203901796', 'dagtekening', 'm3', 'riool', 'kenmerk', 'aanslagnummer', 'ideal'}
+
+For the PDF file 'File_39.pdf':
+  Jaccard similarity: 0.913
+  Words in the Text Extraction Component but not in the actual .txt file: {'nloo8y00680.b0o1', 'm/s', 'f8kwh', 'nl85.s0ge.0270.2062.05'}
+  Words in the .txt file but not in the Text Extraction Component: {'nl85.soge.0270.2062.05', '1/1', '78kwh', 'nl008700680.b01'}
+
+For the PDF file 'File_40.pdf':
+  Jaccard similarity: 0.912
+  Words in the Text Extraction Component but not in the actual .txt file: {'3412', 'bq1', '1314', 'www.dhlparcelnl', '177', 'of', 'bh', 'verzending', 'km'}
+  Words in the .txt file but not in the Text Extraction Component: {'b01', 'from', '3412km', 'the', 'verzendig', 'www.dhlparcel.nl', '1314bh'}
+
+For the PDF file 'File_41.pdf':
+  Jaccard similarity: 0.829
+  Words in the Text Extraction Component but not in the actual .txt file: {'debiteur', 'ongeveer', 't37', 'overig', 'a.m', 'labs', 'gebruiker', 'leg/z', 'concert', 'groep'}
+  Words in the .txt file but not in the Text Extraction Component: {'labsc', 'tcpdf', '39a', '19a', '[gebruiker', 'onderdeel', 'debiteur ', 'powered', 'by', 'www.tcpdf.org', 'ict', 'overig]'}
+
+For the PDF file 'File_42.pdf':
+  Jaccard similarity: 0.952
+  Words in the Text Extraction Component but not in the actual .txt file: {'maand(en'}
+  Words in the .txt file but not in the Text Extraction Component: {'dé', '27', 'maand(en)', ' a', 'nl'}
+
+For the PDF file 'File_43.pdf':
+  Jaccard similarity: 0.946
+  Words in the Text Extraction Component but not in the actual .txt file: {'1,005', 'nl27ingbo754831612', '2arboned', 'ga', 'nl27raboo331069008'}
+  Words in the .txt file but not in the Text Extraction Component: {'nl27ingb0754831612', 'nl27rabo0331069008', '1,00s'}
+
+For the PDF file 'File_44.pdf':
+  Jaccard similarity: 0.909
+  Words in the Text Extraction Component but not in the actual .txt file: {'zwolle', 'labs', 'zuurkasten', 'b.v'}
+  Words in the .txt file but not in the Text Extraction Component: {'labsc', 'yourhosting', 'zwolle•', 'b.v.•', '39a', 'zuurkast.eu', 'factuur?', 'eu'}
+
+For the PDF file 'File_45.pdf':
+  Jaccard similarity: 0.924
+  Words in the Text Extraction Component but not in the actual .txt file: {'tel', 'stuks', '3084', 'onra0', 'één'}
+  Words in the .txt file but not in the Text Extraction Component: {'stuk(s', '30a4', 'tel.', 'kamervankoophandel', '+/ ', '1/'}
+
+For the PDF file 'File_46.pdf':
+  Jaccard similarity: 0.906
+  Words in the Text Extraction Component but not in the actual .txt file: {'labs', 'nl02rabo', '0129284432', 'vwyourhosting', '19'}
+  Words in the .txt file but not in the Text Extraction Component: {'yourhosting', 'labsc', '39', 'nl02rabo0129284432', 'factuur?'}
+
+For the PDF file 'File_47.pdf':
+  Jaccard similarity: 0.848
+  Words in the Text Extraction Component but not in the actual .txt file: {'stelletjes', 'factuurnr', '24', 'goederenontvangst', '7.11.30', 'ordernr', 'klantnr', 'artikelomschrijving'}
+  Words in the .txt file but not in the Text Extraction Component: {'39a', 'g 2', 'ontvangst', 'lid', 'één', 'metaalunie', '7', 'order', 'klant', 'goederen', 'verzend ', 'omschrijving', 'artikel', '03', '9951', 'factuur', 'no', '1.30', 'verpakkingskosten', 'stelvoetjes', 'inkoop@labsc.com', '2a'}
+
+For the PDF file 'File_48.pdf':
+  Jaccard similarity: 0.652
+  Words in the Text Extraction Component but not in the actual .txt file: {'1009156655', '2703', '800795714.b001', '2023', '5934', '31029322', 'scheen', 'h.o.awmüélﬂﬂz', 'bic/swift', 'ideale', '033 298', 'factuur', 'nl34rabo14411816', 'kvk'}
+  Words in the .txt file but not in the Text Extraction Component: {'swift', '11441', 'factuur#', 'nl34rabo0', 'ideal', 'demeente', 'schoen', 'o\U00100007\U00100008b\U00100009tfu!jm', 'nl34rabo0114411816', "                                   '", 'kvk:31029322', '800795714.b01', '________', 'bic', 'workweat', "'.!0'.!3", '033 2985934', '    ', 'om', '1000156655', 'z:23', '1816', 't:0653132102', 'mail', 'houthandelvrielink@gm_a_il.c', 'h'}
+
+For the PDF file 'File_49.pdf':
+  Jaccard similarity: 0.249
+  Words in the Text Extraction Component but not in the actual .txt file: {'11.00', 'by', '09428', 'to', 'discount', 'third', '38.53', '311.27', 'calls', 'total', 'please', '78.95', 'mobile', 'with', 'netherlands', '23.45', 'device', '2.07', 'insurance', 'may', 'visit', 'chamber', 'summary', '0.00', 'must', '0000', '284.23', 'number', '41.30', 'cat‚', 'account', 'before', 'basic', 'also', 'overview', 'user', '370.96', 'detailed', 'is', 'connection', 'if', 'as', 'date', 'us', '27.04', 'be', 'payment', 'page', '19.43', 'group', '376.96', 'business', 'because', '1', '00.00', 'o1 apr 23', 'details', 'your', 'amount', 'are', 'commerce', 'exclusive', 'rh', 'discounts', 'invoice', 'see', 'description', 'paid', 'years', '291.28', 'can', 'guarantee', 'received', 'costs', '343.92', '35.00', 'this', '00', 'active', '22.92', 'location', 'subscriptions', '68.76', 'customer', 'outside', 'phone', '0.54', 'double', '6.00', 'traffic', 'within', '13.50', '59.69', 'for', '36.61', '22.91', '3337', 'services', 'main', 'march', 'vat', 'specification', 'numbers', 'or', '272.74', 'the', '13.00', 'office', '8.21', '71.36', 'free', 'subscription', 'speech', 'reference', 'limited', '35.95', 'other', 'cost', 'you', '000', 'purchases', '56.29', 'party', 'use', '74.91', 'tam', '45.83', 'long', 'period', 'want', 'transfer', 'subtotal', '37.99', 'including'}
+  Words in the .txt file but not in the Text Extraction Component: {'bellen', '22,92', 'inclusief', '36,61', 'ook', 'zijn', 'bij', 'spraak', '59,69', 'wilt', 'kenmerk', 'op', 'naar', 'omschrijving', 'abonnementen', 'ons', '13,00', 'zakelijk', '33,37', 'derden¤', '35,95', 'kortingen', 'nr.', '35,00', 'dit', 'beperkt', 'dubbele', 'pagina', 'basis', 'dient', 'nr', 'kosten', 'gebruiker', 'betalen', 'vermelding', '27,04', 'totaal', 'uw', '272,74', 'nummer', 'klant', '11,00', '370,96', 'overzicht', 'kostengroep', 'hoofdaansluiting', '78,95', 'samenvatting', 'kvk', '71,36', 'btw bedrag', 'aantal', 'exclusief', 'rekeningnummer', '38,53', '311,27', '45,83', 'buiten', 'met', '68,76', 'je', 'datum', 'betaling', '37,99', 'diensten', 'jaar', 'mobiel', '19,43', '0,00', 'ander', '8,21', 'zien', '343,92', 'bedrag', 'een', 't/m', '23,45', 'toestelbetaling', 'subtotaal', 'onder', 'het', 'kantoor', 'overige', 'overmaken', 'te', 'dan', 'maart', '74,91', 'rekening', 'locatie', 'opnemen', 'periode', '0,54', 'vrij', 'garant', 'servicenummers', 'loopt', 'tegoed', 'assurant', '41,30', '284,23', 'rhj', 'kunt', '2,07', '13,50', 'dataverkeer', '291,28', 'specificatie', 'klantnummer', 'voor', 'kijk', 'korting', 'telefoon', 'btw', 'nederland', '94,28', 'abonnement', 'rekeningdetails', 'omdat', 'bezit', '376,96', 'aankopen', 'mei', 'bent', '6,00', '22,91', 'uitgebreid', 'binnen', 'zolang', 'gebruik', '56,29'}
+
+For the PDF file 'File_50.pdf':
+  Jaccard similarity: 0.838
+  Words in the Text Extraction Component but not in the actual .txt file: {'nl96abnao401863042', 'vvrs4t', 'tingq', 'nlo04010462b01', '5232', 'at', '02', 'd1151778980001', '1387', 'travee', 'ga', 'red', 'm/s', 'je', 'dell', 'eerstvolgende', 'no3265388'}
+  Words in the .txt file but not in the Text Extraction Component: {'1,387', "'t", 'eerst', '606,62', 'volgende', 'd115178980001', 'deil', 'nl96abna0401863042', '52,32', 'vvr54t', 'subtotaal', '501,49', 'nl004010462b01', 'n03265388', 'tinq'}
+
+For the PDF file 'File_51.pdf':
+  Jaccard similarity: 0.923
+  Words in the Text Extraction Component but not in the actual .txt file: {'nl85.s0ge.0270.2062.05', 'sogenl2aklant', 'gast', 'we', 'm/s', 'je', 'nloo8y00680.b0o1'}
+  Words in the .txt file but not in the Text Extraction Component: {'1e', 'nl008700680.b01', 'gas', '1/1', 'kwh', 'klant', 'sogenl2a', 'nl85.soge.0270.2062.05', 'april'}
+
+For the PDF file 'File_52.pdf':
+  Jaccard similarity: 0.721
+  Words in the Text Extraction Component but not in the actual .txt file: {'seller‘s', 'op', 'transagáo', 'pensum', '1e6364992h', 'impostoor', 'numero', 'te', 'aeo0772400002cnl', 'restorno', 'cobranga', 'tot', 'cobra', 'oma', 'isengäo', 'identificagäo'}
+  Words in the .txt file but not in the Text Extraction Component: {'39a', 'bel.tar', 'ou', 'to', 'bedrag(eur', 'transação', 'cobrança', 'ie6364992h', "seller's", 'nenhum', 'isso', 'imposto', 'identificação', 'uma', 'factuurtotaal', 'da', 'estorno', 'isenção', 'número', 'ae00772400002cnl', 'totaal(eur', 'for', 'cobrado'}
+
+For the PDF file 'File_53.pdf':
+  Jaccard similarity: 0.869
+  Words in the Text Extraction Component but not in the actual .txt file: {'btw(21%', '3412', 'km', '2153', 'gb'}
+  Words in the .txt file but not in the Text Extraction Component: {'21%', '2153gb', '3412km'}
+
+For the PDF file 'File_54.pdf':
+  Jaccard similarity: 0.903
+  Words in the Text Extraction Component but not in the actual .txt file: {'debiteurennummer', 'nl00198622b01', 'dossier', 'nl91rabo0159290902', 'euro', '1592290902'}
+  Words in the .txt file but not in the Text Extraction Component: {'nl61rabo0159290902', 'nr', '5', '159290902', 'en/of', 'nl005098622b01', 'kvk'}
+
+For the PDF file 'File_55.pdf':
+  Jaccard similarity: 0.833
+  Words in the Text Extraction Component but not in the actual .txt file: {'debiteur', 'na', 'nlo06468378b01', 'omschrijving', 'nl854149582bq1', 'nl25deuto319821064', 'labs', 'bhalmere', 'testò', 'pakbonnummer', 'om', 'bezorgadres', 'stuk'}
+  Words in the .txt file but not in the Text Extraction Component: {'labsc', 'vom', '________o_m__s_c_h_r_ij_v_in_g__________________________________________________________e_u__r_________e_u__r__', 'sure', 'bh', 'p/stuk', 'nummer', 'afleveradres', '__________', 'be', 'nl006468378b01', '______0_,0_0__', 'telefoonummer', '_____________________________________________________________________________________________', 'debiteur ', 'factuur', 'pakbonnr', 'nr.', '_____16_4_,0_0_', '=========', 'nl25deut0319821064'}
+
+For the PDF file 'File_56.pdf':
+  Jaccard similarity: 0.910
+  Words in the Text Extraction Component but not in the actual .txt file: {'3412', 'bq1', 'km', 'cs', 'www.dhlparcelnl', 'enom', 'verzending', '3584'}
+  Words in the .txt file but not in the Text Extraction Component: {'b01', 'from', '3412km', 'the', 'verzendig', 'b.v', 'www.dhlparcel.nl', '3584cs'}
+
+For the PDF file 'File_57.pdf':
+  Jaccard similarity: 0.000
+  Words in the Text Extraction Component but not in the actual .txt file: {'mistakes', 'there', 'text', 'spelling', 'are', 'in', 'the', 'no', 'provided'}
+  Words in the .txt file but not in the Text Extraction Component: {'28/04/2023', 'lidl', 'kaart', 'hof', '8,99', 'meer', 'de', 'bergen', '1,56', '28.04.23', 'ziens', 'totaal', 'bespaar', 'en', '10:32', '7,43', 'xxl', 'terminal', 'betaling', 'wel', 'merchant', '00', 'bedr.incl', 'toiletpapier', '02458175', 'contactloze', 'code', 'c156gp', 'bergambacht', 'kaarthouder', '21', 'btw', '2861\\ffl', 'dank', 'ref.', 'omschrijving', 'elr', 'eur', '0479', 'plus app', '673337xxxxxxxxx4097', '090a65', '!\U00100095r', 'kaartnr', 'bankpas', '057690/03', 'akkoord', 'kopie', '3118', 'auth', 'aantal', '1770001', 'periode', 'graag', 'transactie', 'tot', 'lart', 'met', 'bedr.excl', 'maestro', '20', 'a0000000043060', 'nl047903057690118231'}
+
+For the PDF file 'File_58.pdf':
+  Jaccard similarity: 0.887
+  Words in the Text Extraction Component but not in the actual .txt file: {'3412', 'verzending', 'g546bb', 'bq1', 'km', 'cs', '3526', 'te09rm', 'pimzqs', 'www.dhlparcelnl', 'kv', '3584'}
+  Words in the .txt file but not in the Text Extraction Component: {'3526kv', 'b01', 'from', '3412km', 'pimzos', '7609rm', '6546bb', 'the', 'verzendig', 'b.v', 'www.dhlparcel.nl', '3584cs'}
+
+For the PDF file 'File_59.pdf':
+  Jaccard similarity: 0.833
+  Words in the Text Extraction Component but not in the actual .txt file: {'nl95ingbo006805479', 'arbòo', '21%', '39', 'labs', 'per', 'in', 'arbò', 'vil vceu'}
+  Words in the .txt file but not in the Text Extraction Component: {'vil vcu', '39a', 'labsc', '96044', '9', 'arbo', 'nl95ingb0006805479', 'voldoen'}
+
+For the PDF file 'File_60.pdf':
+  Jaccard similarity: 0.463
+  Words in the Text Extraction Component but not in the actual .txt file: {'oh', 'je', 'om', 'simpe', '9176786995960', '400', 'künnen', '136', 'uu:mm:iss', '31651xxxx', 'kòrtingen', 'o4m'}
+  Words in the .txt file but not in the Text Extraction Component: {'12,39', '25s', 'machtigingskenmerk', 'flexibel', '23,34', 'verbruik', '18,37', 'automatische', 'telefonie', '04:47:25', 'excl', '105,83', 'op', '9,55', 'omschrijving', 'abonnementen', '01/05/2023', 'voip ', 'bic', 'noxtelecom.nl/zakelijk mobiel youfone', 'ons', 'zakelijk', 'kortingen', '13,37', '7,27', '24s', 'advies', 'labsc', 'nr', 'nl26zzz514464640000', '44m', 'betalen', 'xelion', '0h', 'id', '49,56', 'centrale', '04m', 'hosted', 'voordelige', '23,35', 'afgeschreven', 'overzicht', 'bruto', 'nl27rabo0331069008', 'nl8500.20.426.b.01', 'lopikerkapel', 'kvk', 'omstreeks', '36m', 'kunnen', '0,0', '600', '46,69', '7h', ' 09,91', '39a', 'wordt', 'verkeer', '0,00', ' 05,87', '5,41', '2h', '51446464', '26,74', 'het', 'destinatie', '21', 'gespreksopname', 'factuurdatum', 'betrouwbare', 'te', '07:36:24', 'van', 'fax2email', '08s', '51s', 'nl95', 'rekening', '31 05 2023', '11 05 2023', 'rabonl2u', 'kpn', '4h', '20', '31651xxxxxx', 'youfone', '13g', 'simpel', 'infra', '5,97', 'voip', '0152945520', 'venlo', 'identificatie', '3412km', 'kapelsepad', 'incassant', '8,94', '5,87', '01 05 2023', 'data(mb', 'rabo', 'spraakkanalen', 'korting', '87,46', 'vaste', 'btw', '64,11', 'uur', 'incasso', '14,54', 'interlokaal', 'iban', '302422501', '100', 'internationaal', '\\5', 'netwerk', '02:44:51', 'per', 'tot', 'postcodenr', '47m', '31/05/2023', '109', '917678695960'}
+
+For the PDF file 'File_61.pdf':
+  Jaccard similarity: 0.855
+  Words in the Text Extraction Component but not in the actual .txt file: {'labs', 'gram', 'of', '8541495828001', 'levering '}
+  Words in the .txt file but not in the Text Extraction Component: {'labsc', '390001', 'en/of', 'leverings ', 'powered', 'by', '854149582b01', '67.00', '8.75', '21', 'tcpdf', 'grams', 'vza', 'fsc(r', '79.70', 'prijs', '33.50', 'www.tcpdf.org', '3.95'}
+
+For the PDF file 'File_62.pdf':
+  Jaccard similarity: 0.840
+  Words in the Text Extraction Component but not in the actual .txt file: {'1376', 'vvrs4t', 'nlo04010462b01', 'enz', 'nl96abnao401863042', '02', 'd1151778980001', '4873', 'm/s', 'je', 'eerstvolgende', 'no3301853', 'sik'}
+  Words in the .txt file but not in the Text Extraction Component: {'48,73', 'n03301853', 'eerst', '567,94', '1324', 'volgende', 'co2', 'postbus', 'inz', 'stk', 'd115178980001', 'nl96abna0401863042', 'subtotaal', 'vvr54t', '98,57', '1,376', 'nl004010462b01'}
+
+For the PDF file 'File_63.pdf':
+  Jaccard similarity: 0.913
+  Words in the Text Extraction Component but not in the actual .txt file: {'3412', 'bq1', '13.01', 'www.dhlparcelnl', '21058', '16.93', 'verzending', 'km'}
+  Words in the .txt file but not in the Text Extraction Component: {'b01', 'from', '3412km', '91058', 'the', 'verzendig', 'b.v', 'www.dhlparcel.nl'}
+
+For the PDF file 'File_64.pdf':
+  Jaccard similarity: 0.611
+  Words in the Text Extraction Component but not in the actual .txt file: {'nl32abnao0249742780', '1964', 'bv', '0285', 'belastingkantoor', 'maken?', '02052321320014025', 'noordelijk'}
+  Words in the .txt file but not in the Text Extraction Component: {'vrijwaringsbewijs', 'invullen', 'kosten', 'betalen', 'postadres', 'belastingkantvvr', 'huurovereenkomst', 'kunt', 'parkeren?', 'b.v', 'achterkant', 'moment', 'ideal', '102052321320014025', 'uw', 'bezoekadres', 'heeft', 'maximaal', 'door', 'noordelijkbelastingkantoor.nl', '           ', 'meesturen', '                  ', '          ', 'uv', 'naheffingsaanslag', 'verhuurd', '21:31', 'drie', '""', 'gegevens', 'eens', 'te', '000', '79', 'aanslagnummer', 'kopie', 'maanden', '02851964', 'maken', '78', 'mei', '088', 'bent', '000574.01', '2102851964', 'n""rdelijk', 'niet'}
+
+For the PDF file 'File_65.pdf':
+  Jaccard similarity: 0.812
+  Words in the Text Extraction Component but not in the actual .txt file: {'180,12"', 'rabonlzu', 't/m', 'artikelnummer_omschrijving', 'voorwaarden', 'complete®', '"fleet', 'nl2yraboo331069008', 'pagina', 'klantadvies', 'dagen', 'nlop sq048471'}
+  Words in the .txt file but not in the Text Extraction Component: {'pagina2', 'omschrijving', '1 2 ', 'labsc', '39a', 'days', '2023', 'klant', '180,12', 'fleetcomplete', 'nl27rabo0331069008', 'ea', 'artikelnummer', 'voorwaarde', 'advies', 'nlop so048471', 'pagina1'}
+
+For the PDF file 'File_66.pdf':
+  Jaccard similarity: 0.788
+  Words in the Text Extraction Component but not in the actual .txt file: {'sub totaal', 'rabonlzu', 't/m', 'artikelnummer_omschrijving', 'voorwaarden', 'complete®', '"fleet', 'nlop sq049701', 'pagina', 'nl2yraboo331069008', 'klantadvies', 'dagen', 'totaal', 'nl91rabo0128998911"'}
+  Words in the .txt file but not in the Text Extraction Component: {'labsc', '39a', 'days', 'artikelnummer', 'nl91rabo0128998911', '2023', 'klant', '1 3 ', 'total', 'fleetcomplete', 'voorwaarde', 'omschrijving', 'nl27rabo0331069008', 'ea', 'pagina2', 'nlop so049701', 'sub total', 'advies', 'pagina1'}
+
+For the PDF file 'File_67.pdf':
+  Jaccard similarity: 0.719
+  Words in the Text Extraction Component but not in the actual .txt file: {'wort', '13412', 'var', 'btw®', 'wen', 'v.', 'nv ', 'tegoedbedrag', 'vro2024', 'is', 'nassauplein', '2', 'leitweg |d', 'r1190633', 'a.s', 'btw%®', 'naar', 'uefa', '41.90', 'labs', 'nlso', 'logistic', 'zo', 'je', 'ec‘s gravenhage'}
+  Words in the .txt file but not in the Text Extraction Component: {'e.s', 'labsc', 'b.v.·', 'b.v.', 'leitweg ld', '412', 'ueafa', '190633', 'nl3 ', 'nv·', 'rl', "ec's gravenhage", 'euro2024', '1', 'nls0', 'germany', 'logistlc', 'workwear', 'nassaupleln', 'tegoed'}
+
+For the PDF file 'File_68.pdf':
+  Jaccard similarity: 0.893
+  Words in the Text Extraction Component but not in the actual .txt file: {'of', 'levering', 'labs', '8541495828001'}
+  Words in the .txt file but not in the Text Extraction Component: {'854149582b01', 'labsc', 'tcpdf', 'en/of', 'leverings ', 'prijs', 'powered', 'by', 'www.tcpdf.org', 'vza', '21'}
+
+For the PDF file 'File_69.pdf':
+  Jaccard similarity: 0.930
+  Words in the Text Extraction Component but not in the actual .txt file: {'3412', '34', 'postbus', 'heeft', 'km'}
+  Words in the .txt file but not in the Text Extraction Component: {'hebt', '39a', '3412km', 'for', '>postbus'}
+
+For the PDF file 'File_70.pdf':
+  Jaccard similarity: 0.962
+  Words in the Text Extraction Component but not in the actual .txt file: {'99990120230516', 'les', 'email', '1116', 'bb2'}
+  Words in the .txt file but not in the Text Extraction Component: {'e mail', '999901202305161116'}
+
+For the PDF file 'File_71.pdf':
+  Jaccard similarity: 0.815
+  Words in the Text Extraction Component but not in the actual .txt file: {'0402422066', 'bankrekeningnummer', 'labís', 'swalpje', 'kyocerä', '…b', 'korting/bedrag', 'nl001480883b23', 'www.labfs.nl', 'btw nummer'}
+  Words in the .txt file but not in the Text Extraction Component: {'1400 005', 'labfs', 'nl.001.480.883.b23', '50219mw002', 'projectnaam', 'order', 'nummer', '8001637', 'swalp', '040.24.22.066', '7', 'kyocera', 'www.labsf.nl', 'rek.nr.', 'korting', 'p.st', 'bank', 'bedrag'}
+
+For the PDF file 'File_72.pdf':
+  Jaccard similarity: 0.830
+  Words in the Text Extraction Component but not in the actual .txt file: {'17 5 2025', 'bpm vrijstelling', '1100305003230', 'mm', '16 5 2023', 'vvn 17 j', 'bijkomende', 'srkenq', '2 4', 'wfoyxxttgypdoo481', 'bar', 'br', 'eindredactie', 'bruine', '030 600 6464', 'info.fordazeeuwenzeeuw.nl', 'info.ford nieuwegein@zeeuwenzeeuw', 'bpm bedrag', 'm/s', 'je', 'imm', 'nloo7091606bo1'}
+  Words in the .txt file but not in the Text Extraction Component: {'wf0yxxttgypd00481', '24', 'eindreductie', 'bpmbedrag', '100305003230', '&zeeuw', '9mm', '1e', 'bruin', 'vvn17j', 'zeeuwenzeeuw.nl', 'info.ford@zeeuwenzeeuw.nl', '4mm', 'nl007091606b01', '030', '10.6.016', '6464', 'bpmvrijstelling', '0', '1752025', '1652023', '600', 'info.fordnieuwegein@', 'nl0904mveb1*'}
+
+For the PDF file 'File_73.pdf':
+  Jaccard similarity: 0.624
+  Words in the Text Extraction Component but not in the actual .txt file: {'nl00598622b01', 'e mail', 'nummer', 'nl91rabo0159290902', 'euro', 'btw nummer'}
+  Words in the .txt file but not in the Text Extraction Component: {'verwerking', '9998', 'apr', 'nr', 'kosten', 'en/of', '0,00', 'mw', '17 04 2023', 'loonadm', 'april', '2023 04', 't', 'nieuwe', 'asp', '159,45', 'nl61rabo0159290902', '5', '30', 'specificatie', 'volgens', '2984', 'stroken', '82,50', 'nl005098622b01', '48,00', 'overige', 'periodieke', '01', 'omschrijving', 'invoer', 'schöne', 's', '3499', '12,00', 'aantal/uren', '13,00', 'producten', '25 04 2023', 'aanvullende', '1,00', 'salarisadministratie', 'kvk', 'salaris', 'maandelijkse', '0,75', '0,25', 'personeel', '0,50', 'periode', 'medewerkers', '124,20', '18 04 2023', 'bijgaande', 'mutaties', '35,25', '27,50', '55,00'}
+
+For the PDF file 'File_74.pdf':
+  Jaccard similarity: 0.917
+  Words in the Text Extraction Component but not in the actual .txt file: {'pad', 'nl820471616bo1', '39', '0,00', 'nl27ingbq0q0026500'}
+  Words in the .txt file but not in the Text Extraction Component: {'nl27ingb0000026500', '39a', 'nl820471616b01', 'ipad'}
+
+For the PDF file 'File_75.pdf':
+  Jaccard similarity: 0.897
+  Words in the Text Extraction Component but not in the actual .txt file: {'pad', 'b.d', 'nl820471616bo1', 'labs', '39', 'nl27ingbqo00026500'}
+  Words in the .txt file but not in the Text Extraction Component: {'39a', 'labsc', 'ipad', 'nl27ingb0000026500', 'nl820471616b01'}
+
+For the PDF file 'File_76.pdf':
+  Jaccard similarity: 0.825
+  Words in the Text Extraction Component but not in the actual .txt file: {'17 5 2025', 'bpm vrijstelling', '1100305003230', 'mm', '16 5 2023', 'vvn 17 j', 'eeuw', 'bijkomende', 'srkenq', '2 4', 'www.zeeuwenzeeuw.nl.zeeuw@', 'wfoyxxttgypdoo481', 'br', 'eindredactie', 'bruine', '030 600 6464', 'info.fordazeeuwenzeeuw.nl', 'info.ford nieuwegein@zeeuwenzeeuw', 'bpm bedrag', 'm/s', 'je', 'imm', 'nloo7091606bo1'}
+  Words in the .txt file but not in the Text Extraction Component: {'wf0yxxttgypd00481', '24', 'eindreductie', 'bpmbedrag', '100305003230', '&zeeuw', '9mm', '1e', 'bruin', 'vvn17j', 'zeeuwenzeeuw.nl', 'info.ford@zeeuwenzeeuw.nl', '4mm', 'nl007091606b01', '030', '10.6.016', '6464', 'bpmvrijstelling', '0', '1752025', '1652023', '600', 'info.fordnieuwegein@', 'nl0904mveb1*'}
+
+For the PDF file 'File_77.pdf':
+  Jaccard similarity: 0.859
+  Words in the Text Extraction Component but not in the actual .txt file: {'8000943207', 'omschrijving', '072 574', 'polisvoorwaarden', 'nl6sraboo304648477', '072 572', 's.v.p', 'nv', 'mailadres'}
+  Words in the .txt file but not in the Text Extraction Component: {'tnv', 'svp', 'polisvrw', '800943207', '574', 'nl68rabo0304648477', '072', 'omschrijvings/', ' 572', 'email adres'}
+
+For the PDF file 'File_78.pdf':
+  Jaccard similarity: 0.881
+  Words in the Text Extraction Component but not in the actual .txt file: {'snoof', 'word', 'totaall', 'er', 'nloq14.42.508.b01', 'swift/blccode', 'labs', 'verhoogde', 'deutnl2amaking', 'je', 'it', 'elk', '0660', 'your'}
+  Words in the .txt file but not in the Text Extraction Component: {'elt', 'verhoogd', 'labsc', 'nr', 'world', 'en/of', 'our', 'nl0014.42.508.b01', 'swift/biccode', 'totaal', 'deutnl2a', 'lt'}
+
+For the PDF file 'File_79.pdf':
+  Jaccard similarity: 0.946
+  Words in the Text Extraction Component but not in the actual .txt file: {'stelopdracht', 'm/s', 'lab9sc'}
+  Words in the .txt file but not in the Text Extraction Component: {'1/4', '        ', 'bestelopdracht', 'labsc'}
+
+For the PDF file 'File_80.pdf':
+  Jaccard similarity: 0.682
+  Words in the Text Extraction Component but not in the actual .txt file: {'uw.hornbach.nu', 'datum', '98', 'rekeningsdatum', 'montà', 'nlb075.08.093.b.01', '74', '5550721230601', '15,19', '00461', 'ex', '01.06', '1441490', '45', '10', 'powerbond', '[3'}
+  Words in the .txt file but not in the Text Extraction Component: {'reken1ngsdatum', '4,45', '55507212306010046174', 'ct441490', 'iets', '38x', 'is', '.06', '          ', '3,98', '19', '01', 'haestro', 'honta', 'doen', 'te', 'powerbono', 'er', '<<', '15', 'nl8075.08.093.b.01', '[3]', '>>datum', 'altijd'}
+
+For the PDF file 'File_81.pdf':
+  Jaccard similarity: 0.683
+  Words in the Text Extraction Component but not in the actual .txt file: {'46', 'ordernr.', 'omschrijving', '235,40', '1,65', '1 6 2023', 'tussenrekening', '60', 'www.bijteus.nl', 'macchiato', 'wijnarrangement', 'en'}
+  Words in the .txt file but not in the Text Extraction Component: {'4g', 'macchlato', 'ipv', 'www,bijteus.nl', 'wijnarra', '235.40', '7,65', '1 6 23', 'x', 'tussenreken1ng', '3,60', '0msr.hrllv1ng', '0rdernr.', '19'}
+
+For the PDF file 'File_82.pdf':
+  Jaccard similarity: 0.579
+  Words in the Text Extraction Component but not in the actual .txt file: {'fogacbsf8ofsb8cd', 'diesel', '36', 'handelaarsid', '1862110901', '055£654', 'bt', '97:18:14', 'sparen', '0000000643050', '1.559/', 'nederland', 'btv', '92', 'om', '55.24', 'pdg', '[33]', 'aástt++*:4++4444448091', 'sfosletealalelalfelefaislefaelelatelafalelelelelalalelslelalelelaloelajoljee'}
+  Words in the .txt file but not in the Text Extraction Component: {'1862110001', 'a0000000043050', '*diesel', 'id', 't/m', '           ', '5', '***************8051', 'voer', '€', '59.24', 'handelaars', 'baronienweg', 'f06acbbf80f5b8cd', '07:18:14', '€€', '055c64', '92,36', '1.559/e', '€sparen'}
+
+For the PDF file 'File_83.pdf':
+  Jaccard similarity: 0.523
+  Words in the Text Extraction Component but not in the actual .txt file: {'on', 'm', 'pesthuis', 'o_l«uf.', 'b.v', '[t', '098', '1547562', '1% 022006', 'koophandel®', '172', '16 022006', '101032401', 'waad', '28 02 2023  ', 'op', '/_7>ö', 'u>û', 'nlb23807071801', '  aane', '.jaarabonnement  ', '0000008870128', 'er', 'btw nummer', '00053069', 'vide', 'crm_', 'kvknr', 'lw', 'je', 'of', 'nl31deuto319810577', '3569'}
+  Words in the .txt file but not in the Text Extraction Component: {'kvk nr', '0101032401', '1/2', '16 02 2006', 'nl823807071b01', '0005 3069', 'jaarabonnement', '088', 'bv', 'btw nr', 'postbus', '3500', 'factuur', 'crm_1547562', 'koophandel', '28 02 2023', '000008870128', 'nl31deut0319810577'}
+
+For the PDF file 'File_84.pdf':
+  Jaccard similarity: 0.895
+  Words in the Text Extraction Component but not in the actual .txt file: {'debiteurennummer', 'dossier', 'nl91rabo0159290902', 'euro', '1592290902', 'nl0098622b01'}
+  Words in the .txt file but not in the Text Extraction Component: {'nl61rabo0159290902', 'nr', '5', '159290902', 'en/of', 'nl005098622b01', 'kvk'}
+
+For the PDF file 'File_85.pdf':
+  Jaccard similarity: 0.564
+  Words in the Text Extraction Component but not in the actual .txt file: {'no.', 'cru', 'nlssingbo6s1512258', 'ref.', '100', 'identificatie', 'nloo2552413b01', 'rabonl2uxx', 'ingenl2a00', 'labs', 'orderno.', 'ga', 'industrie', '1,021.24', 'nl&4raboo147688221'}
+  Words in the .txt file but not in the Text Extraction Component: {'labsc', 'nr', 'via:factuur', '39a', 'rabonl2uxxx', 'totdat', 'regel', '1 00', 'de', 'eigendom', 'heeft', 'rol', 'door', 'order', 'levering', 'ref', 'goederen', 'eenh', 'nl55ingb0661512258', 'besteld', 'het', 'voor', 'totaalbedrag', 'plaatsgevonden', 'gelieve', 'orderno', '775,00', 'te', 'aan', 'van', 'voorwaarden', 'factuur', 'art', 'no', 'over', 'verzonden', '1,00', 'details', 'maken', '1.021,24', 'nl002552413b01', 'aantal', '5,00', 'genoemde', '155,00', 'blijven', 'nl84rabo0147688221', 'volledige', 'betaling', 'ingbnl2axxx'}
+
+For the PDF file 'File_86.pdf':
+  Jaccard similarity: 0.939
+  Words in the Text Extraction Component but not in the actual .txt file: {'tel', 'onra0', '3084'}
+  Words in the .txt file but not in the Text Extraction Component: {'1/', '30a4', 'tel.', 'kamervankoophandel'}
+
+For the PDF file 'File_87.pdf':
+  Jaccard similarity: 0.943
+  Words in the Text Extraction Component but not in the actual .txt file: {'postbus', 'km', '3412', '34'}
+  Words in the .txt file but not in the Text Extraction Component: {'>postbus', '3412km', '39a', 'for'}
+
+For the PDF file 'File_88.pdf':
+  Jaccard similarity: 0.937
+  Words in the Text Extraction Component but not in the actual .txt file: {'ingenl2a', '202,25', 'referenties'}
+  Words in the .txt file but not in the Text Extraction Component: {'::::::::', 'ingbnl2a', '39a', 'referentie', 't:+31'}
+
+For the PDF file 'File_89.pdf':
+  Jaccard similarity: 0.894
+  Words in the Text Extraction Component but not in the actual .txt file: {'maand(en', '035 6911859'}
+  Words in the .txt file but not in the Text Extraction Component: {'59', 'dé', '27', '691', '18', '1934', '035', 'sinds', ' a', 'assurantiën', 'nl', 'maand(en)'}
+
+For the PDF file 'File_90.pdf':
+  Jaccard similarity: 0.919
+  Words in the Text Extraction Component but not in the actual .txt file: {'tel', 'stuks', 'nz', '3084', 'onra0'}
+  Words in the .txt file but not in the Text Extraction Component: {'stuk(s', '30a4', 'tel.', 'kamervankoophandel', '1/'}
+
+For the PDF file 'File_91.pdf':
+  Jaccard similarity: 0.901
+  Words in the Text Extraction Component but not in the actual .txt file: {'3412', 't/m', 'bq1', 'gn', 'www.dhlparcelnl', 'of', '4824', 'verzending', 'km'}
+  Words in the .txt file but not in the Text Extraction Component: {'b01', 'from', '3412km', 'brecda', 'the', 'www.dhlparcel.nl', 'verzendig', 'b.v', '4824gn'}
+
+For the PDF file 'File_92.pdf':
+  Jaccard similarity: 0.736
+  Words in the Text Extraction Component but not in the actual .txt file: {'ta', 'mond', "ü{ï\\{::1fîï;:t'ï", 'mk', 'bty', '08098', '[7', '38', 'regels', '01', '"\'(', 'toepassing', 'in', 'nl8075.08.093', 'nieuwegein', 'per', 'je', 'dagen', 'zua', '£1633901'}
+  Words in the .txt file but not in the Text Extraction Component: {'btw', 'ct633901', '[7]', ',1,50', 're9els', 'hdut/speedbodr', 'nl8075.08.093.b.01', 'toepassin9', '          ', 'dasen', '080c98', 'zwa', '6', '10', '9,38', 'hh', 'nieuwe9ein'}
+
+For the PDF file 'File_93.pdf':
+  Jaccard similarity: 0.732
+  Words in the Text Extraction Component but not in the actual .txt file: {'81871139', 'orders', 'kvk nummer', 'vrede', 'voor'}
+  Words in the .txt file but not in the Text Extraction Component: {'ingbnl2a', 'kvk nummer:81871139', '4083', 'nl76', 'bic', '0007', 'vreede', 'iban', 'ingb', '85'}
+
+For the PDF file 'File_94.pdf':
+  Jaccard similarity: 0.727
+  Words in the Text Extraction Component but not in the actual .txt file: {'kenteken/referentienummer', 'vvrs4t', 'nlo04010462b01', 'no3377993', 'paskosten', 'd1151778980001', 'kvk /ondernemingsnr', '03 08 2023', 'lsco38', 'nl96abnaq0401863042', 'm/s', 'eerstvolgende', 'lsco15'}
+  Words in the .txt file but not in the Text Extraction Component: {'kosten', 'nl96abna0401863042', 'vvr54t', 'kvk /', 'lsc038', 'subtotaal', '56,57', 'pas', '9,82', 'volgende', '21,00', 'n03377993', 'over', 'nl004010462b01', 'ondernemingsnr', 'lsc015', 'eerst', 'd115178980001', 'kenteken/referentie', '03 06 2023'}
+
+For the PDF file 'File_95.pdf':
+  Jaccard similarity: 0.876
+  Words in the Text Extraction Component but not in the actual .txt file: {'nl96abnao401863042', 'vvrs4t', 'nlo04010462b01', 'at', '02', 'd1151778980001', 'kvk /ondernemingsnr', '4271', 'm/s', 'je', 'no3417517'}
+  Words in the .txt file but not in the Text Extraction Component: {"'t", 'n03417517', '744,79', '42,71', '615,53', 'co2', 'd115178980001', '129,26', 'nl96abna0401863042', 'subtotaal', 'vvr54t', 'nl004010462b01', 'ondernemingsnr', 'kvk /'}
+
+For the PDF file 'File_96.pdf':
+  Jaccard similarity: 0.848
+  Words in the Text Extraction Component but not in the actual .txt file: {'advise', 'labs', 'year', 'not', 'do02', 'store', '1e3515583eh'}
+  Words in the .txt file but not in the Text Extraction Component: {'123', 'item', 'labsc', '1 year', 'qty', 'no.:ie3515583eh', 'e store', 'advies', 'd02'}
+
+For the PDF file 'File_97.pdf':
+  Jaccard similarity: 0.882
+  Words in the Text Extraction Component but not in the actual .txt file: {'etc', 'caramelite', 'registreren', 'uitbetaling', '03000242010', 'insolventie', 'certificaten', '9a', 'email', 'labs', 'belastingen', '13.5', '"nespresso"', "risico's", 'formulering'}
+  Words in the .txt file but not in the Text Extraction Component: {'', 'manier', 'risico’s', 'omstandigheden', '18.4', 'uit?', '2015', '18.2', 'clubleden', ' belastingen', 'stakingen', 'explorations koffie', 'zodra', 'afhankelijk', 'number', 'formulerings ', 'verhinderen', '16.2', 'natuurrampen', 'labsc', 'certificate', 'oorlogen', 'gebeurtenissen', 'pinbetaling', '18.1', '18', 'explorations', 'kopen', 'klanten', 'beperkte', 'aanmerking', 'afgelopen', '18.3', 'première"', 'avant', 'buiten', 'biedt', 'registeren', '“nespresso”', '39a', 'kwijten', 'première', 'één', 'contactnl@nespresso.com', 'onder', 'februari', 'regels', 'mogelijkheid', 'inlichtingen', 'maanden', 'tel', 'periode', 'aankoop', '2.4', 'caramelito', '08000242010', 'edition', 'gelden', 'nespresso kanalen', 'vat', 'plaatsvinden', 'beschikbaarheid', 'e mail', 'limited', 'meerdere', 'productie', '"avant', 'billijke', 'transport', '13.3', 'vastgesteld', 'kopen(zolang', 'iedereen', 'koffies', 'vertraging', 'beschikbare', 'verdelen', 'insolvabiliteit', 'nummer)'}
+
+For the PDF file 'File_98.pdf':
+  Jaccard similarity: 0.857
+  Words in the Text Extraction Component but not in the actual .txt file: {'omschrijving', '072 574', 'polisvoorwaarden', 'nl6sraboo304648477', '072 572', 's.v.p', 'nv', '8000944994', 'mailadres'}
+  Words in the .txt file but not in the Text Extraction Component: {'tnv', 'svp', 'polisvrw', '574', 'nl68rabo0304648477', '072', 'omschrijvings/', '800944994', ' 572', 'email adres'}
+
+For the PDF file 'File_99.pdf':
+  Jaccard similarity: 0.761
+  Words in the Text Extraction Component but not in the actual .txt file: {'3412', 'product', 't.a.v.', '56260c', 'btw nummer', 'labs', 'm/s', 'factuurnummer', 'ballast', 'referenties', 'km'}
+  Words in the .txt file but not in the Text Extraction Component: {'0,28', 'labsc', 'nr', 'ballasts', 'nr.', '39a', '1/1', '3412km', 'products', '5626dc', '162285', '4,91', 'referentie', 'attn.', 'artikelnr'}
+
+For the PDF file 'File_100.pdf':
+  Jaccard similarity: 0.895
+  Words in the Text Extraction Component but not in the actual .txt file: {'debiteurennummer', 'nlg1rabo0159290902', 'dossier', 'euro', '1592290902', 'nl0098622b01'}
+  Words in the .txt file but not in the Text Extraction Component: {'nl61rabo0159290902', 'nr', '5', '159290902', 'en/of', 'nl005098622b01', 'kvk'}
+

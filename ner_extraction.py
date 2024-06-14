@@ -85,7 +85,6 @@ def map_user_input_to_entity_type(user_input):
     return entity_types
 
 
-
 def extract_entities(user_input, text, language):
     # Modified extract_entities function with enhanced custom pattern matching
     nlp = load_package(language)
@@ -103,6 +102,7 @@ def extract_entities(user_input, text, language):
         if ": No Matches Found" in entity_type:
             # Extract the word from the message
             word = entity_type.split(":")[0]
+            print("1")
             # Append the word with the message to entities
             # entities.append(f"{word}: No Matches Found")
             # Use OpenAI key to find information in text
@@ -125,6 +125,9 @@ def extract_entities(user_input, text, language):
                 if span is not None and span.text not in matched_spans:
                     entities.append(span.text)
                     matched_spans.add(span.text)
+
+        if entity_type == 'LANGUAGE':
+            entities.extend([ent.text for ent in doc.ents if ent.label_ == entity_type or ent.label_ == 'NORP'])
 
         else:
             entities.extend([ent.text for ent in doc.ents if ent.label_ == entity_type])

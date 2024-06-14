@@ -1,0 +1,2000 @@
+For the PDF file 'fake_resume_1.pdf' (File 1):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_2.pdf' (File 2):
+  Jaccard similarity: 0.980
+  Words in the Text Extraction Component but not in the PDF extractor: {'"i', 'headlong', 'goals."'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'goals', 'headon'}
+
+For the PDF file 'fake_resume_3.pdf' (File 3):
+  Jaccard similarity: 0.988
+  Words in the Text Extraction Component but not in the PDF extractor: {'success."', '"i'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'success'}
+
+For the PDF file 'fake_resume_4.pdf' (File 4):
+  Jaccard similarity: 0.988
+  Words in the Text Extraction Component but not in the PDF extractor: {'serving', 'agriculture'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'agricultureserving'}
+
+For the PDF file 'fake_resume_5.pdf' (File 5):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_6.pdf' (File 6):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_7.pdf' (File 7):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_8.pdf' (File 8):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_9.pdf' (File 9):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_10.pdf' (File 10):
+  Jaccard similarity: 0.990
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: {'macos', 'ios'}
+
+For the PDF file 'fake_resume_11.pdf' (File 11):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_12.pdf' (File 12):
+  Jaccard similarity: 0.992
+  Words in the Text Extraction Component but not in the PDF extractor: {'headlong'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'headon'}
+
+For the PDF file 'fake_resume_13.pdf' (File 13):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_14.pdf' (File 14):
+  Jaccard similarity: 0.981
+  Words in the Text Extraction Component but not in the PDF extractor: {'serving', 'agriculture', 'headlong'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'agricultureserving', 'headon'}
+
+For the PDF file 'fake_resume_15.pdf' (File 15):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_16.pdf' (File 16):
+  Jaccard similarity: 0.996
+  Words in the Text Extraction Component but not in the PDF extractor: {'commerce'}
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_17.pdf' (File 17):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_18.pdf' (File 18):
+  Jaccard similarity: 0.992
+  Words in the Text Extraction Component but not in the PDF extractor: {'headlong'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'headon'}
+
+For the PDF file 'fake_resume_19.pdf' (File 19):
+  Jaccard similarity: 0.979
+  Words in the Text Extraction Component but not in the PDF extractor: {'success."', '"i', 'kaufman@example.com'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'lkaufman@example.com', 'success'}
+
+For the PDF file 'fake_resume_20.pdf' (File 20):
+  Jaccard similarity: 0.992
+  Words in the Text Extraction Component but not in the PDF extractor: {'headlong'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'headon'}
+
+For the PDF file 'fake_resume_21.pdf' (File 21):
+  Jaccard similarity: 0.956
+  Words in the Text Extraction Component but not in the PDF extractor: {'headlong'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'productive', 'day', 'headon', 'another', 'sun', 'accomplishment', 'sets', 'each', 'hours', 'pass'}
+
+For the PDF file 'fake_resume_22.pdf' (File 22):
+  Jaccard similarity: 0.996
+  Words in the Text Extraction Component but not in the PDF extractor: {'commerce'}
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_23.pdf' (File 23):
+  Jaccard similarity: 0.972
+  Words in the Text Extraction Component but not in the PDF extractor: {'circle', '"i', 'serving', 'agriculture', 'success."'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'agricultureserving', 'circles'}
+
+For the PDF file 'fake_resume_24.pdf' (File 24):
+  Jaccard similarity: 0.991
+  Words in the Text Extraction Component but not in the PDF extractor: {'headlong'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'headon'}
+
+For the PDF file 'fake_resume_25.pdf' (File 25):
+  Jaccard similarity: 0.992
+  Words in the Text Extraction Component but not in the PDF extractor: {'arrowai'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'arowwai'}
+
+For the PDF file 'fake_resume_26.pdf' (File 26):
+  Jaccard similarity: 0.982
+  Words in the Text Extraction Component but not in the PDF extractor: {'bbowell@example.org', 'success."', '"i'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'success', 'bpowell@example.org'}
+
+For the PDF file 'fake_resume_27.pdf' (File 27):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_28.pdf' (File 28):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_29.pdf' (File 29):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_30.pdf' (File 30):
+  Jaccard similarity: 0.974
+  Words in the Text Extraction Component but not in the PDF extractor: {'serving', 'agriculture', '"i', 'heights."'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'agricultureserving', 'heights'}
+
+For the PDF file 'fake_resume_31.pdf' (File 31):
+  Jaccard similarity: 0.983
+  Words in the Text Extraction Component but not in the PDF extractor: {'joined', 'contributed'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'contributing', 'joining'}
+
+For the PDF file 'fake_resume_32.pdf' (File 32):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_33.pdf' (File 33):
+  Jaccard similarity: 0.977
+  Words in the Text Extraction Component but not in the PDF extractor: {'serving', 'agriculture', 'success."', '"i'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'agricultureserving', 'success'}
+
+For the PDF file 'fake_resume_34.pdf' (File 34):
+  Jaccard similarity: 0.987
+  Words in the Text Extraction Component but not in the PDF extractor: {'success."', '"i'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'success'}
+
+For the PDF file 'fake_resume_35.pdf' (File 35):
+  Jaccard similarity: 0.988
+  Words in the Text Extraction Component but not in the PDF extractor: {'serving', 'agriculture'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'agricultureserving'}
+
+For the PDF file 'fake_resume_36.pdf' (File 36):
+  Jaccard similarity: 0.991
+  Words in the Text Extraction Component but not in the PDF extractor: {'headlong'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'headon'}
+
+For the PDF file 'fake_resume_37.pdf' (File 37):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_38.pdf' (File 38):
+  Jaccard similarity: 0.982
+  Words in the Text Extraction Component but not in the PDF extractor: {'serving', 'agriculture'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'agricultureserving', 'macos'}
+
+For the PDF file 'fake_resume_39.pdf' (File 39):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_40.pdf' (File 40):
+  Jaccard similarity: 0.970
+  Words in the Text Extraction Component but not in the PDF extractor: {'bay', '"i', 'serving', 'agriculture', 'success."'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'agricultureserving', 'ebay', 'success'}
+
+For the PDF file 'fake_resume_41.pdf' (File 41):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_42.pdf' (File 42):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_43.pdf' (File 43):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_44.pdf' (File 44):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_45.pdf' (File 45):
+  Jaccard similarity: 0.995
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: {'about'}
+
+For the PDF file 'fake_resume_46.pdf' (File 46):
+  Jaccard similarity: 0.986
+  Words in the Text Extraction Component but not in the PDF extractor: {'success."', '"i'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'success'}
+
+For the PDF file 'fake_resume_47.pdf' (File 47):
+  Jaccard similarity: 0.992
+  Words in the Text Extraction Component but not in the PDF extractor: {'headlong'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'headon'}
+
+For the PDF file 'fake_resume_48.pdf' (File 48):
+  Jaccard similarity: 0.992
+  Words in the Text Extraction Component but not in the PDF extractor: {'street'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'streets'}
+
+For the PDF file 'fake_resume_49.pdf' (File 49):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_50.pdf' (File 50):
+  Jaccard similarity: 0.991
+  Words in the Text Extraction Component but not in the PDF extractor: {'arrowai'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'arowwai'}
+
+For the PDF file 'fake_resume_51.pdf' (File 51):
+  Jaccard similarity: 0.995
+  Words in the Text Extraction Component but not in the PDF extractor: {'commerce'}
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_52.pdf' (File 52):
+  Jaccard similarity: 0.984
+  Words in the Text Extraction Component but not in the PDF extractor: {'success."', '"i', 'commerce'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'success'}
+
+For the PDF file 'fake_resume_53.pdf' (File 53):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_54.pdf' (File 54):
+  Jaccard similarity: 0.996
+  Words in the Text Extraction Component but not in the PDF extractor: {'commerce'}
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_55.pdf' (File 55):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_56.pdf' (File 56):
+  Jaccard similarity: 0.989
+  Words in the Text Extraction Component but not in the PDF extractor: {'headlong', 'influence'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'headon'}
+
+For the PDF file 'fake_resume_57.pdf' (File 57):
+  Jaccard similarity: 0.984
+  Words in the Text Extraction Component but not in the PDF extractor: {'headlong', 'bay'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'ebay', 'headon'}
+
+For the PDF file 'fake_resume_58.pdf' (File 58):
+  Jaccard similarity: 0.991
+  Words in the Text Extraction Component but not in the PDF extractor: {'sharpeliiah@example.com'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'sharpelijah@example.com'}
+
+For the PDF file 'fake_resume_59.pdf' (File 59):
+  Jaccard similarity: 0.984
+  Words in the Text Extraction Component but not in the PDF extractor: {'success."', '"i'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'success'}
+
+For the PDF file 'fake_resume_60.pdf' (File 60):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_61.pdf' (File 61):
+  Jaccard similarity: 0.995
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: {'macos'}
+
+For the PDF file 'fake_resume_62.pdf' (File 62):
+  Jaccard similarity: 0.987
+  Words in the Text Extraction Component but not in the PDF extractor: {'success."', '"i'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'success'}
+
+For the PDF file 'fake_resume_63.pdf' (File 63):
+  Jaccard similarity: 0.979
+  Words in the Text Extraction Component but not in the PDF extractor: {'serving', 'agriculture', 'matthew'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'agricultureserving', 'mathew'}
+
+For the PDF file 'fake_resume_64.pdf' (File 64):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_65.pdf' (File 65):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_66.pdf' (File 66):
+  Jaccard similarity: 0.995
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: {'macos'}
+
+For the PDF file 'fake_resume_67.pdf' (File 67):
+  Jaccard similarity: 0.984
+  Words in the Text Extraction Component but not in the PDF extractor: {'headlong', 'bay'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'ebay', 'headon'}
+
+For the PDF file 'fake_resume_68.pdf' (File 68):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_69.pdf' (File 69):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_70.pdf' (File 70):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_71.pdf' (File 71):
+  Jaccard similarity: 0.983
+  Words in the Text Extraction Component but not in the PDF extractor: {'"i', 'heights."', 'commerce'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'heights'}
+
+For the PDF file 'fake_resume_72.pdf' (File 72):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_73.pdf' (File 73):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_74.pdf' (File 74):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_75.pdf' (File 75):
+  Jaccard similarity: 0.992
+  Words in the Text Extraction Component but not in the PDF extractor: {'bay'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'ebay'}
+
+For the PDF file 'fake_resume_76.pdf' (File 76):
+  Jaccard similarity: 0.980
+  Words in the Text Extraction Component but not in the PDF extractor: {'"i', 'headlong', 'goals."'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'goals', 'headon'}
+
+For the PDF file 'fake_resume_77.pdf' (File 77):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_78.pdf' (File 78):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_79.pdf' (File 79):
+  Jaccard similarity: 0.992
+  Words in the Text Extraction Component but not in the PDF extractor: {'performed'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'coordinator.performed'}
+
+For the PDF file 'fake_resume_80.pdf' (File 80):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_81.pdf' (File 81):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_82.pdf' (File 82):
+  Jaccard similarity: 0.980
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: {'analyst', 'financial', 'job', 'title'}
+
+For the PDF file 'fake_resume_83.pdf' (File 83):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_84.pdf' (File 84):
+  Jaccard similarity: 0.991
+  Words in the Text Extraction Component but not in the PDF extractor: {'arrowai'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'arowwai'}
+
+For the PDF file 'fake_resume_85.pdf' (File 85):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_86.pdf' (File 86):
+  Jaccard similarity: 0.992
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: {'macos', 'ios'}
+
+For the PDF file 'fake_resume_87.pdf' (File 87):
+  Jaccard similarity: 0.986
+  Words in the Text Extraction Component but not in the PDF extractor: {'headlong', 'bay'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'ebay', 'headon'}
+
+For the PDF file 'fake_resume_88.pdf' (File 88):
+  Jaccard similarity: 0.951
+  Words in the Text Extraction Component but not in the PDF extractor: {'headlong'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'productive', 'day', 'headon', 'another', 'sun', 'accomplishment', 'sets', 'each', 'hours', 'pass'}
+
+For the PDF file 'fake_resume_89.pdf' (File 89):
+  Jaccard similarity: 0.991
+  Words in the Text Extraction Component but not in the PDF extractor: {'headlong'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'headon'}
+
+For the PDF file 'fake_resume_90.pdf' (File 90):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_91.pdf' (File 91):
+  Jaccard similarity: 0.991
+  Words in the Text Extraction Component but not in the PDF extractor: {'headlong'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'headon'}
+
+For the PDF file 'fake_resume_92.pdf' (File 92):
+  Jaccard similarity: 0.992
+  Words in the Text Extraction Component but not in the PDF extractor: {'terrace'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'terrance'}
+
+For the PDF file 'fake_resume_93.pdf' (File 93):
+  Jaccard similarity: 0.987
+  Words in the Text Extraction Component but not in the PDF extractor: {'serving', 'agriculture'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'agricultureserving'}
+
+For the PDF file 'fake_resume_94.pdf' (File 94):
+  Jaccard similarity: 0.983
+  Words in the Text Extraction Component but not in the PDF extractor: {'success."', '"i', '30'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'success', '30%'}
+
+For the PDF file 'fake_resume_95.pdf' (File 95):
+  Jaccard similarity: 0.988
+  Words in the Text Extraction Component but not in the PDF extractor: {'"i', 'heights."'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'heights'}
+
+For the PDF file 'fake_resume_96.pdf' (File 96):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_97.pdf' (File 97):
+  Jaccard similarity: 0.985
+  Words in the Text Extraction Component but not in the PDF extractor: {'bay'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'macos', 'ebay'}
+
+For the PDF file 'fake_resume_98.pdf' (File 98):
+  Jaccard similarity: 0.961
+  Words in the Text Extraction Component but not in the PDF extractor: {'johnston', '"i', 'arrowai', 'serving', 'agriculture', 'success."'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'agricultureserving', 'arowwai', 'success', 'johnton'}
+
+For the PDF file 'fake_resume_99.pdf' (File 99):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_100.pdf' (File 100):
+  Jaccard similarity: 0.996
+  Words in the Text Extraction Component but not in the PDF extractor: {'commerce'}
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_101.pdf' (File 101):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_102.pdf' (File 102):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_103.pdf' (File 103):
+  Jaccard similarity: 0.993
+  Words in the Text Extraction Component but not in the PDF extractor: {'headlong'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'headon'}
+
+For the PDF file 'fake_resume_104.pdf' (File 104):
+  Jaccard similarity: 0.988
+  Words in the Text Extraction Component but not in the PDF extractor: {'success."', '"i'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'success'}
+
+For the PDF file 'fake_resume_105.pdf' (File 105):
+  Jaccard similarity: 0.989
+  Words in the Text Extraction Component but not in the PDF extractor: {'serving', 'agriculture'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'agricultureserving'}
+
+For the PDF file 'fake_resume_106.pdf' (File 106):
+  Jaccard similarity: 0.976
+  Words in the Text Extraction Component but not in the PDF extractor: {'serving', 'agriculture', 'liienny@example.net'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'lijenny@example.net', 'agricultureserving'}
+
+For the PDF file 'fake_resume_107.pdf' (File 107):
+  Jaccard similarity: 0.972
+  Words in the Text Extraction Component but not in the PDF extractor: {'serving', 'agriculture', '"i', 'heights."'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'agricultureserving', 'heights'}
+
+For the PDF file 'fake_resume_108.pdf' (File 108):
+  Jaccard similarity: 0.991
+  Words in the Text Extraction Component but not in the PDF extractor: {'christian7@example.com'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'christina17@example.com'}
+
+For the PDF file 'fake_resume_109.pdf' (File 109):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_110.pdf' (File 110):
+  Jaccard similarity: 0.988
+  Words in the Text Extraction Component but not in the PDF extractor: {'success."', '"i'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'success'}
+
+For the PDF file 'fake_resume_111.pdf' (File 111):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_112.pdf' (File 112):
+  Jaccard similarity: 0.981
+  Words in the Text Extraction Component but not in the PDF extractor: {'"i', 'headlong', 'goals."'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'goals', 'headon'}
+
+For the PDF file 'fake_resume_113.pdf' (File 113):
+  Jaccard similarity: 0.985
+  Words in the Text Extraction Component but not in the PDF extractor: {'success."', '"i'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'success'}
+
+For the PDF file 'fake_resume_114.pdf' (File 114):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_115.pdf' (File 115):
+  Jaccard similarity: 0.961
+  Words in the Text Extraction Component but not in the PDF extractor: {'performed', 'headlong', 'strive'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'job', 'headon', 'work', 'neurologist', 'stride', 'title', 'coordinator.performed'}
+
+For the PDF file 'fake_resume_116.pdf' (File 116):
+  Jaccard similarity: 0.991
+  Words in the Text Extraction Component but not in the PDF extractor: {'johnson@example.com'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'tjohnson@example.com'}
+
+For the PDF file 'fake_resume_117.pdf' (File 117):
+  Jaccard similarity: 0.992
+  Words in the Text Extraction Component but not in the PDF extractor: {'arrowai'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'arowwai'}
+
+For the PDF file 'fake_resume_118.pdf' (File 118):
+  Jaccard similarity: 0.984
+  Words in the Text Extraction Component but not in the PDF extractor: {'headlong'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'accomplishment', 'each', 'headon'}
+
+For the PDF file 'fake_resume_119.pdf' (File 119):
+  Jaccard similarity: 0.989
+  Words in the Text Extraction Component but not in the PDF extractor: {'serving', 'agriculture'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'agricultureserving'}
+
+For the PDF file 'fake_resume_120.pdf' (File 120):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_121.pdf' (File 121):
+  Jaccard similarity: 0.992
+  Words in the Text Extraction Component but not in the PDF extractor: {'headlong'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'headon'}
+
+For the PDF file 'fake_resume_122.pdf' (File 122):
+  Jaccard similarity: 0.983
+  Words in the Text Extraction Component but not in the PDF extractor: {'"i', 'headlong', 'goals."'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'headon'}
+
+For the PDF file 'fake_resume_123.pdf' (File 123):
+  Jaccard similarity: 0.991
+  Words in the Text Extraction Component but not in the PDF extractor: {'street'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'stravenue'}
+
+For the PDF file 'fake_resume_124.pdf' (File 124):
+  Jaccard similarity: 0.992
+  Words in the Text Extraction Component but not in the PDF extractor: {'headlong'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'headon'}
+
+For the PDF file 'fake_resume_125.pdf' (File 125):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_126.pdf' (File 126):
+  Jaccard similarity: 0.989
+  Words in the Text Extraction Component but not in the PDF extractor: {'commerce', '15'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'15%'}
+
+For the PDF file 'fake_resume_127.pdf' (File 127):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_128.pdf' (File 128):
+  Jaccard similarity: 0.983
+  Words in the Text Extraction Component but not in the PDF extractor: {'50', '15'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'15%', '50%'}
+
+For the PDF file 'fake_resume_129.pdf' (File 129):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_130.pdf' (File 130):
+  Jaccard similarity: 0.979
+  Words in the Text Extraction Component but not in the PDF extractor: {'"i', 'heights."', 'bay'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'ebay', 'heights'}
+
+For the PDF file 'fake_resume_131.pdf' (File 131):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_132.pdf' (File 132):
+  Jaccard similarity: 0.989
+  Words in the Text Extraction Component but not in the PDF extractor: {'serving', 'agriculture'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'agricultureserving'}
+
+For the PDF file 'fake_resume_133.pdf' (File 133):
+  Jaccard similarity: 0.988
+  Words in the Text Extraction Component but not in the PDF extractor: {'success."', '"i'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'success'}
+
+For the PDF file 'fake_resume_134.pdf' (File 134):
+  Jaccard similarity: 0.983
+  Words in the Text Extraction Component but not in the PDF extractor: {'"i', 'headlong', 'goals."'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'headon'}
+
+For the PDF file 'fake_resume_135.pdf' (File 135):
+  Jaccard similarity: 0.977
+  Words in the Text Extraction Component but not in the PDF extractor: {'performed', 'success."', '"i', 'coordinator'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'coordinator.performed'}
+
+For the PDF file 'fake_resume_136.pdf' (File 136):
+  Jaccard similarity: 0.987
+  Words in the Text Extraction Component but not in the PDF extractor: {'performed', 'headlong'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'headon', 'coordinator.performed'}
+
+For the PDF file 'fake_resume_137.pdf' (File 137):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_138.pdf' (File 138):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_139.pdf' (File 139):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_140.pdf' (File 140):
+  Jaccard similarity: 0.993
+  Words in the Text Extraction Component but not in the PDF extractor: {'headlong'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'headon'}
+
+For the PDF file 'fake_resume_141.pdf' (File 141):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_142.pdf' (File 142):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_143.pdf' (File 143):
+  Jaccard similarity: 0.992
+  Words in the Text Extraction Component but not in the PDF extractor: {'headlong'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'headon'}
+
+For the PDF file 'fake_resume_144.pdf' (File 144):
+  Jaccard similarity: 0.982
+  Words in the Text Extraction Component but not in the PDF extractor: {'performed', 'success."', '"i'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'success', 'coordinator.performed'}
+
+For the PDF file 'fake_resume_145.pdf' (File 145):
+  Jaccard similarity: 0.988
+  Words in the Text Extraction Component but not in the PDF extractor: {'serving', 'agriculture'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'agricultureserving'}
+
+For the PDF file 'fake_resume_146.pdf' (File 146):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_147.pdf' (File 147):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_148.pdf' (File 148):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_149.pdf' (File 149):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_150.pdf' (File 150):
+  Jaccard similarity: 0.987
+  Words in the Text Extraction Component but not in the PDF extractor: {'success."', '"i'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'success'}
+
+For the PDF file 'fake_resume_151.pdf' (File 151):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_152.pdf' (File 152):
+  Jaccard similarity: 0.987
+  Words in the Text Extraction Component but not in the PDF extractor: {'serving', 'agriculture'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'agricultureserving'}
+
+For the PDF file 'fake_resume_153.pdf' (File 153):
+  Jaccard similarity: 0.992
+  Words in the Text Extraction Component but not in the PDF extractor: {'headlong'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'headon'}
+
+For the PDF file 'fake_resume_154.pdf' (File 154):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_155.pdf' (File 155):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_156.pdf' (File 156):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_157.pdf' (File 157):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_158.pdf' (File 158):
+  Jaccard similarity: 0.992
+  Words in the Text Extraction Component but not in the PDF extractor: {'arrowai'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'arowwai'}
+
+For the PDF file 'fake_resume_159.pdf' (File 159):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_160.pdf' (File 160):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_161.pdf' (File 161):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_162.pdf' (File 162):
+  Jaccard similarity: 0.991
+  Words in the Text Extraction Component but not in the PDF extractor: {'arrowai'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'arowwai'}
+
+For the PDF file 'fake_resume_163.pdf' (File 163):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_164.pdf' (File 164):
+  Jaccard similarity: 0.987
+  Words in the Text Extraction Component but not in the PDF extractor: {'success."', '"i', 'commerce'}
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_165.pdf' (File 165):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_166.pdf' (File 166):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_167.pdf' (File 167):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_168.pdf' (File 168):
+  Jaccard similarity: 0.996
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: {'20%'}
+
+For the PDF file 'fake_resume_169.pdf' (File 169):
+  Jaccard similarity: 0.975
+  Words in the Text Extraction Component but not in the PDF extractor: {'bay', 'success."', '"i', 'lay'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'ebay', 'ivy', 'success'}
+
+For the PDF file 'fake_resume_170.pdf' (File 170):
+  Jaccard similarity: 0.983
+  Words in the Text Extraction Component but not in the PDF extractor: {'performed', 'heights."', '"i'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'heights', 'coordinator.performed'}
+
+For the PDF file 'fake_resume_171.pdf' (File 171):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_172.pdf' (File 172):
+  Jaccard similarity: 0.987
+  Words in the Text Extraction Component but not in the PDF extractor: {'"i', 'heights."'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'heights'}
+
+For the PDF file 'fake_resume_173.pdf' (File 173):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_174.pdf' (File 174):
+  Jaccard similarity: 0.993
+  Words in the Text Extraction Component but not in the PDF extractor: {'agriculture'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'agricultureserving'}
+
+For the PDF file 'fake_resume_175.pdf' (File 175):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_176.pdf' (File 176):
+  Jaccard similarity: 0.980
+  Words in the Text Extraction Component but not in the PDF extractor: {'yncmahon@example.net', 'performed', 'coordinator'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'coordinator.performed', 'ymcmahon@example.net'}
+
+For the PDF file 'fake_resume_177.pdf' (File 177):
+  Jaccard similarity: 0.991
+  Words in the Text Extraction Component but not in the PDF extractor: {'bay'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'ebay'}
+
+For the PDF file 'fake_resume_178.pdf' (File 178):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_179.pdf' (File 179):
+  Jaccard similarity: 0.986
+  Words in the Text Extraction Component but not in the PDF extractor: {'performed', 'coordinator'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'coordinator.performed'}
+
+For the PDF file 'fake_resume_180.pdf' (File 180):
+  Jaccard similarity: 0.977
+  Words in the Text Extraction Component but not in the PDF extractor: {'serving', 'roaker@example.org', 'commerce', 'agriculture'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'rbaker@example.org', 'agricultureserving'}
+
+For the PDF file 'fake_resume_181.pdf' (File 181):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_182.pdf' (File 182):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_183.pdf' (File 183):
+  Jaccard similarity: 0.968
+  Words in the Text Extraction Component but not in the PDF extractor: {'"i', 'heights."', 'arrowai'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'macos', 'arowwai', 'ios', 'heights'}
+
+For the PDF file 'fake_resume_184.pdf' (File 184):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_185.pdf' (File 185):
+  Jaccard similarity: 0.995
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: {'about'}
+
+For the PDF file 'fake_resume_186.pdf' (File 186):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_187.pdf' (File 187):
+  Jaccard similarity: 0.984
+  Words in the Text Extraction Component but not in the PDF extractor: {'performed', 'road'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'coordinator.performed', 'roads'}
+
+For the PDF file 'fake_resume_188.pdf' (File 188):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_189.pdf' (File 189):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_190.pdf' (File 190):
+  Jaccard similarity: 0.976
+  Words in the Text Extraction Component but not in the PDF extractor: {'goals."', '"i', 'headlong', 'bay'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'goals', 'ebay', 'headon'}
+
+For the PDF file 'fake_resume_191.pdf' (File 191):
+  Jaccard similarity: 0.986
+  Words in the Text Extraction Component but not in the PDF extractor: {'serving', 'agriculture'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'agricultureserving'}
+
+For the PDF file 'fake_resume_192.pdf' (File 192):
+  Jaccard similarity: 0.992
+  Words in the Text Extraction Component but not in the PDF extractor: {'beth500@example.org'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'beth50@example.org'}
+
+For the PDF file 'fake_resume_193.pdf' (File 193):
+  Jaccard similarity: 0.995
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: {'volunteer'}
+
+For the PDF file 'fake_resume_194.pdf' (File 194):
+  Jaccard similarity: 0.970
+  Words in the Text Extraction Component but not in the PDF extractor: {'"i', '50', '15', 'heights."'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'heights', '50%', '15%'}
+
+For the PDF file 'fake_resume_195.pdf' (File 195):
+  Jaccard similarity: 0.992
+  Words in the Text Extraction Component but not in the PDF extractor: {"o'connor"}
+  Words in the PDF extractor but not in the Text Extraction Component: {'oconnor'}
+
+For the PDF file 'fake_resume_196.pdf' (File 196):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_197.pdf' (File 197):
+  Jaccard similarity: 0.988
+  Words in the Text Extraction Component but not in the PDF extractor: {'"i', 'success."'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'success'}
+
+For the PDF file 'fake_resume_198.pdf' (File 198):
+  Jaccard similarity: 0.988
+  Words in the Text Extraction Component but not in the PDF extractor: {'"i', 'success."'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'success'}
+
+For the PDF file 'fake_resume_199.pdf' (File 199):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_200.pdf' (File 200):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_201.pdf' (File 201):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_202.pdf' (File 202):
+  Jaccard similarity: 0.987
+  Words in the Text Extraction Component but not in the PDF extractor: {'serving', 'agriculture'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'agricultureserving'}
+
+For the PDF file 'fake_resume_203.pdf' (File 203):
+  Jaccard similarity: 0.986
+  Words in the Text Extraction Component but not in the PDF extractor: {'headlong', 'jonn47@example.net'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'headon', 'john47@example.net'}
+
+For the PDF file 'fake_resume_204.pdf' (File 204):
+  Jaccard similarity: 0.984
+  Words in the Text Extraction Component but not in the PDF extractor: {'performed', 'arrowai'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'arowwai', 'coordinator.performed'}
+
+For the PDF file 'fake_resume_205.pdf' (File 205):
+  Jaccard similarity: 0.988
+  Words in the Text Extraction Component but not in the PDF extractor: {'performed', 'coordinator'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'coordinator.performed'}
+
+For the PDF file 'fake_resume_206.pdf' (File 206):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_207.pdf' (File 207):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_208.pdf' (File 208):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_209.pdf' (File 209):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_210.pdf' (File 210):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_211.pdf' (File 211):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_212.pdf' (File 212):
+  Jaccard similarity: 0.985
+  Words in the Text Extraction Component but not in the PDF extractor: {'lane'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'land', '2013'}
+
+For the PDF file 'fake_resume_213.pdf' (File 213):
+  Jaccard similarity: 0.979
+  Words in the Text Extraction Component but not in the PDF extractor: {'goals."', '"i', 'headlong'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'goals', 'headon'}
+
+For the PDF file 'fake_resume_214.pdf' (File 214):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_215.pdf' (File 215):
+  Jaccard similarity: 0.985
+  Words in the Text Extraction Component but not in the PDF extractor: {'williamsburg', 'agriculture'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'williamsberg', 'agricultureserving'}
+
+For the PDF file 'fake_resume_216.pdf' (File 216):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_217.pdf' (File 217):
+  Jaccard similarity: 0.975
+  Words in the Text Extraction Component but not in the PDF extractor: {'"i', 'commerce', 'success."'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'dermatologist', 'success'}
+
+For the PDF file 'fake_resume_218.pdf' (File 218):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_219.pdf' (File 219):
+  Jaccard similarity: 0.967
+  Words in the Text Extraction Component but not in the PDF extractor: {'serving', 'rranstewart@example.org', 'agriculture'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'officer', 'ryanstewart@example.org', 'agricultureserving', 'job', 'title'}
+
+For the PDF file 'fake_resume_220.pdf' (File 220):
+  Jaccard similarity: 0.972
+  Words in the Text Extraction Component but not in the PDF extractor: {'goals."', 'commerce', 'headlong', '"i', 'court'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'goals', 'course', 'headon'}
+
+For the PDF file 'fake_resume_221.pdf' (File 221):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_222.pdf' (File 222):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_223.pdf' (File 223):
+  Jaccard similarity: 0.985
+  Words in the Text Extraction Component but not in the PDF extractor: {'headlong', 'bay'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'ebay', 'headon'}
+
+For the PDF file 'fake_resume_224.pdf' (File 224):
+  Jaccard similarity: 0.992
+  Words in the Text Extraction Component but not in the PDF extractor: {'"i', 'success."'}
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_225.pdf' (File 225):
+  Jaccard similarity: 0.983
+  Words in the Text Extraction Component but not in the PDF extractor: {'headlong', '50'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'50%', 'headon'}
+
+For the PDF file 'fake_resume_226.pdf' (File 226):
+  Jaccard similarity: 0.983
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: {'title', 'representative', 'sales', 'job'}
+
+For the PDF file 'fake_resume_227.pdf' (File 227):
+  Jaccard similarity: 0.987
+  Words in the Text Extraction Component but not in the PDF extractor: {'"i', 'success."'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'success'}
+
+For the PDF file 'fake_resume_228.pdf' (File 228):
+  Jaccard similarity: 0.984
+  Words in the Text Extraction Component but not in the PDF extractor: {'alg', 'headlong'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'headon', 'aig'}
+
+For the PDF file 'fake_resume_229.pdf' (File 229):
+  Jaccard similarity: 0.988
+  Words in the Text Extraction Component but not in the PDF extractor: {'performed', 'coordinator'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'coordinator.performed'}
+
+For the PDF file 'fake_resume_230.pdf' (File 230):
+  Jaccard similarity: 0.987
+  Words in the Text Extraction Component but not in the PDF extractor: {'"i', 'success."'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'success'}
+
+For the PDF file 'fake_resume_231.pdf' (File 231):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_232.pdf' (File 232):
+  Jaccard similarity: 0.993
+  Words in the Text Extraction Component but not in the PDF extractor: {'50'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'50%'}
+
+For the PDF file 'fake_resume_233.pdf' (File 233):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_234.pdf' (File 234):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_235.pdf' (File 235):
+  Jaccard similarity: 0.975
+  Words in the Text Extraction Component but not in the PDF extractor: {'live'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'background', 'compliance', 'officer', '20%', 'occupation', 'academic'}
+
+For the PDF file 'fake_resume_236.pdf' (File 236):
+  Jaccard similarity: 0.987
+  Words in the Text Extraction Component but not in the PDF extractor: {'performed', 'coordinator'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'coordinator.performed'}
+
+For the PDF file 'fake_resume_237.pdf' (File 237):
+  Jaccard similarity: 0.975
+  Words in the Text Extraction Component but not in the PDF extractor: {'fmillepe@example.com', 'performed', 'coordinator'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'fmiller@example.com', 'coordinator.performed', 'skills'}
+
+For the PDF file 'fake_resume_238.pdf' (File 238):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_239.pdf' (File 239):
+  Jaccard similarity: 0.974
+  Words in the Text Extraction Component but not in the PDF extractor: {'headlong'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'headon', 'each', 'pass', 'hours', 'accomplishment'}
+
+For the PDF file 'fake_resume_240.pdf' (File 240):
+  Jaccard similarity: 0.980
+  Words in the Text Extraction Component but not in the PDF extractor: {'bay', 'performed', 'coordinator'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'ebay', 'coordinator.performed'}
+
+For the PDF file 'fake_resume_241.pdf' (File 241):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_242.pdf' (File 242):
+  Jaccard similarity: 0.980
+  Words in the Text Extraction Component but not in the PDF extractor: {'serving', 'headlong', 'agriculture'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'agricultureserving', 'headon'}
+
+For the PDF file 'fake_resume_243.pdf' (File 243):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_244.pdf' (File 244):
+  Jaccard similarity: 0.989
+  Words in the Text Extraction Component but not in the PDF extractor: {"o'brien"}
+  Words in the PDF extractor but not in the Text Extraction Component: {'obrien'}
+
+For the PDF file 'fake_resume_245.pdf' (File 245):
+  Jaccard similarity: 0.992
+  Words in the Text Extraction Component but not in the PDF extractor: {'headlong'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'headon'}
+
+For the PDF file 'fake_resume_246.pdf' (File 246):
+  Jaccard similarity: 0.970
+  Words in the Text Extraction Component but not in the PDF extractor: {"bachelor's"}
+  Words in the PDF extractor but not in the Text Extraction Component: {'position', '2013', 'dreams', 'medical', 'assistant', 'associate'}
+
+For the PDF file 'fake_resume_247.pdf' (File 247):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_248.pdf' (File 248):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_249.pdf' (File 249):
+  Jaccard similarity: 0.987
+  Words in the Text Extraction Component but not in the PDF extractor: {'serving', 'agriculture'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'agricultureserving'}
+
+For the PDF file 'fake_resume_250.pdf' (File 250):
+  Jaccard similarity: 0.996
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: {'macos'}
+
+For the PDF file 'fake_resume_251.pdf' (File 251):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_252.pdf' (File 252):
+  Jaccard similarity: 0.988
+  Words in the Text Extraction Component but not in the PDF extractor: {'serving', 'agriculture'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'agricultureserving'}
+
+For the PDF file 'fake_resume_253.pdf' (File 253):
+  Jaccard similarity: 0.995
+  Words in the Text Extraction Component but not in the PDF extractor: {'commerce'}
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_254.pdf' (File 254):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_255.pdf' (File 255):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_256.pdf' (File 256):
+  Jaccard similarity: 0.979
+  Words in the Text Extraction Component but not in the PDF extractor: {'serving', 'bay', 'agriculture'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'ebay', 'agricultureserving'}
+
+For the PDF file 'fake_resume_257.pdf' (File 257):
+  Jaccard similarity: 0.992
+  Words in the Text Extraction Component but not in the PDF extractor: {'performed'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'coordinator.performed'}
+
+For the PDF file 'fake_resume_258.pdf' (File 258):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_259.pdf' (File 259):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_260.pdf' (File 260):
+  Jaccard similarity: 0.985
+  Words in the Text Extraction Component but not in the PDF extractor: {"o'brien", 'avenue'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'stravenue', 'obrien'}
+
+For the PDF file 'fake_resume_261.pdf' (File 261):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_262.pdf' (File 262):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_263.pdf' (File 263):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_264.pdf' (File 264):
+  Jaccard similarity: 0.996
+  Words in the Text Extraction Component but not in the PDF extractor: {'drive'}
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_265.pdf' (File 265):
+  Jaccard similarity: 0.979
+  Words in the Text Extraction Component but not in the PDF extractor: {'serving', 'headlong', 'agriculture'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'agricultureserving', 'headon'}
+
+For the PDF file 'fake_resume_266.pdf' (File 266):
+  Jaccard similarity: 0.979
+  Words in the Text Extraction Component but not in the PDF extractor: {'headlong', 'coordinator', 'bay'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'ebay', 'coordinator.performed', 'headon'}
+
+For the PDF file 'fake_resume_267.pdf' (File 267):
+  Jaccard similarity: 0.996
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: {'drives'}
+
+For the PDF file 'fake_resume_268.pdf' (File 268):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_269.pdf' (File 269):
+  Jaccard similarity: 0.978
+  Words in the Text Extraction Component but not in the PDF extractor: {'performed', '30', 'coordinator'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'coordinator.performed', '30%'}
+
+For the PDF file 'fake_resume_270.pdf' (File 270):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_271.pdf' (File 271):
+  Jaccard similarity: 0.988
+  Words in the Text Extraction Component but not in the PDF extractor: {'performed', 'coordinator'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'coordinator.performed'}
+
+For the PDF file 'fake_resume_272.pdf' (File 272):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_273.pdf' (File 273):
+  Jaccard similarity: 0.978
+  Words in the Text Extraction Component but not in the PDF extractor: {'goals."', '"i', 'headlong'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'goals', 'headon'}
+
+For the PDF file 'fake_resume_274.pdf' (File 274):
+  Jaccard similarity: 0.989
+  Words in the Text Extraction Component but not in the PDF extractor: {'headlong'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'macos', 'headon'}
+
+For the PDF file 'fake_resume_275.pdf' (File 275):
+  Jaccard similarity: 0.991
+  Words in the Text Extraction Component but not in the PDF extractor: {'headlong'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'headon'}
+
+For the PDF file 'fake_resume_276.pdf' (File 276):
+  Jaccard similarity: 0.983
+  Words in the Text Extraction Component but not in the PDF extractor: {'headlong'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'accomplishment', 'headon', 'each'}
+
+For the PDF file 'fake_resume_277.pdf' (File 277):
+  Jaccard similarity: 0.987
+  Words in the Text Extraction Component but not in the PDF extractor: {'"i', 'heights."'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'heights'}
+
+For the PDF file 'fake_resume_278.pdf' (File 278):
+  Jaccard similarity: 0.986
+  Words in the Text Extraction Component but not in the PDF extractor: {'"i', 'heights."'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'heights'}
+
+For the PDF file 'fake_resume_279.pdf' (File 279):
+  Jaccard similarity: 0.961
+  Words in the Text Extraction Component but not in the PDF extractor: {'bay', 'square', 'jonn17@example.net', 'agriculture'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'john17@example.net', 'agricultureserving', 'ebay', 'squares'}
+
+For the PDF file 'fake_resume_280.pdf' (File 280):
+  Jaccard similarity: 0.988
+  Words in the Text Extraction Component but not in the PDF extractor: {'serving', 'agriculture'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'agricultureserving'}
+
+For the PDF file 'fake_resume_281.pdf' (File 281):
+  Jaccard similarity: 0.992
+  Words in the Text Extraction Component but not in the PDF extractor: {'bay'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'ebay'}
+
+For the PDF file 'fake_resume_282.pdf' (File 282):
+  Jaccard similarity: 0.992
+  Words in the Text Extraction Component but not in the PDF extractor: {'50'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'50%'}
+
+For the PDF file 'fake_resume_283.pdf' (File 283):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_284.pdf' (File 284):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_285.pdf' (File 285):
+  Jaccard similarity: 0.976
+  Words in the Text Extraction Component but not in the PDF extractor: {'goals."', '"i', 'headlong', 'bay'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'ebay', 'headon'}
+
+For the PDF file 'fake_resume_286.pdf' (File 286):
+  Jaccard similarity: 0.988
+  Words in the Text Extraction Component but not in the PDF extractor: {'"i', 'success."'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'success'}
+
+For the PDF file 'fake_resume_287.pdf' (File 287):
+  Jaccard similarity: 0.979
+  Words in the Text Extraction Component but not in the PDF extractor: {'serving', 'agriculture', 'arrowai'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'arowwai', 'agricultureserving'}
+
+For the PDF file 'fake_resume_288.pdf' (File 288):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_289.pdf' (File 289):
+  Jaccard similarity: 0.978
+  Words in the Text Extraction Component but not in the PDF extractor: {'headlong', '"i', 'bay', 'goals."'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'goals', 'ebay', 'headon'}
+
+For the PDF file 'fake_resume_290.pdf' (File 290):
+  Jaccard similarity: 0.976
+  Words in the Text Extraction Component but not in the PDF extractor: {'goals."', '"i', 'headlong'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'goals', 'headon'}
+
+For the PDF file 'fake_resume_291.pdf' (File 291):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_292.pdf' (File 292):
+  Jaccard similarity: 0.989
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: {'background', 'academic'}
+
+For the PDF file 'fake_resume_293.pdf' (File 293):
+  Jaccard similarity: 0.992
+  Words in the Text Extraction Component but not in the PDF extractor: {'bay'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'ebay'}
+
+For the PDF file 'fake_resume_294.pdf' (File 294):
+  Jaccard similarity: 0.990
+  Words in the Text Extraction Component but not in the PDF extractor: {'any95@example.com'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'amy95@example.com'}
+
+For the PDF file 'fake_resume_295.pdf' (File 295):
+  Jaccard similarity: 0.986
+  Words in the Text Extraction Component but not in the PDF extractor: {'"i', 'success."'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'success'}
+
+For the PDF file 'fake_resume_296.pdf' (File 296):
+  Jaccard similarity: 0.964
+  Words in the Text Extraction Component but not in the PDF extractor: {'performed', 'assisted', 'joined', 'provided', 'coordinator'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'providing', 'joining', 'coordinator.performed'}
+
+For the PDF file 'fake_resume_297.pdf' (File 297):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_298.pdf' (File 298):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_299.pdf' (File 299):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_300.pdf' (File 300):
+  Jaccard similarity: 0.996
+  Words in the Text Extraction Component but not in the PDF extractor: {'influence'}
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_301.pdf' (File 301):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_302.pdf' (File 302):
+  Jaccard similarity: 0.990
+  Words in the Text Extraction Component but not in the PDF extractor: {'headlong'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'headon'}
+
+For the PDF file 'fake_resume_303.pdf' (File 303):
+  Jaccard similarity: 0.969
+  Words in the Text Extraction Component but not in the PDF extractor: {'performed', 'agriculture', 'serving', 'success."', '"i'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'coordinator.performed', 'success', 'agricultureserving'}
+
+For the PDF file 'fake_resume_304.pdf' (File 304):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_305.pdf' (File 305):
+  Jaccard similarity: 0.987
+  Words in the Text Extraction Component but not in the PDF extractor: {'serving', 'agriculture'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'agricultureserving'}
+
+For the PDF file 'fake_resume_306.pdf' (File 306):
+  Jaccard similarity: 0.988
+  Words in the Text Extraction Component but not in the PDF extractor: {'"i', 'heights."'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'heights'}
+
+For the PDF file 'fake_resume_307.pdf' (File 307):
+  Jaccard similarity: 0.980
+  Words in the Text Extraction Component but not in the PDF extractor: {'bay', '"i', 'heights."'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'heights', 'ebay'}
+
+For the PDF file 'fake_resume_308.pdf' (File 308):
+  Jaccard similarity: 0.982
+  Words in the Text Extraction Component but not in the PDF extractor: {'headlong', 'cove'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'coves', 'headon'}
+
+For the PDF file 'fake_resume_309.pdf' (File 309):
+  Jaccard similarity: 0.984
+  Words in the Text Extraction Component but not in the PDF extractor: {'serving', 'agriculture'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'agricultureserving'}
+
+For the PDF file 'fake_resume_310.pdf' (File 310):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_311.pdf' (File 311):
+  Jaccard similarity: 0.984
+  Words in the Text Extraction Component but not in the PDF extractor: {'dreams."', '"achieving'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'dreams', 'achieving'}
+
+For the PDF file 'fake_resume_312.pdf' (File 312):
+  Jaccard similarity: 0.987
+  Words in the Text Extraction Component but not in the PDF extractor: {'bay'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'ebay', 'encounter'}
+
+For the PDF file 'fake_resume_313.pdf' (File 313):
+  Jaccard similarity: 0.991
+  Words in the Text Extraction Component but not in the PDF extractor: {'imoss@example.com'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'lmoss@example.com'}
+
+For the PDF file 'fake_resume_314.pdf' (File 314):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_315.pdf' (File 315):
+  Jaccard similarity: 0.992
+  Words in the Text Extraction Component but not in the PDF extractor: {'headlong'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'headon'}
+
+For the PDF file 'fake_resume_316.pdf' (File 316):
+  Jaccard similarity: 0.992
+  Words in the Text Extraction Component but not in the PDF extractor: {'headlong'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'headon'}
+
+For the PDF file 'fake_resume_317.pdf' (File 317):
+  Jaccard similarity: 0.990
+  Words in the Text Extraction Component but not in the PDF extractor: {'arrowai'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'arowwai'}
+
+For the PDF file 'fake_resume_318.pdf' (File 318):
+  Jaccard similarity: 0.978
+  Words in the Text Extraction Component but not in the PDF extractor: {'"i', 'jennifer6o@example.net', 'success."'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'success', 'jennifer60@example.net'}
+
+For the PDF file 'fake_resume_319.pdf' (File 319):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_320.pdf' (File 320):
+  Jaccard similarity: 0.964
+  Words in the Text Extraction Component but not in the PDF extractor: {'"i', '20', 'heights."', 'arrowai'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'arowwai', 'analyst', '20%', 'profession', 'heights', 'credit'}
+
+For the PDF file 'fake_resume_321.pdf' (File 321):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_322.pdf' (File 322):
+  Jaccard similarity: 0.986
+  Words in the Text Extraction Component but not in the PDF extractor: {'performed', 'coordinator'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'coordinator.performed'}
+
+For the PDF file 'fake_resume_323.pdf' (File 323):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_324.pdf' (File 324):
+  Jaccard similarity: 0.986
+  Words in the Text Extraction Component but not in the PDF extractor: {'"i', 'heights."'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'heights'}
+
+For the PDF file 'fake_resume_325.pdf' (File 325):
+  Jaccard similarity: 0.985
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: {'title', 'analyst', 'market', 'job'}
+
+For the PDF file 'fake_resume_326.pdf' (File 326):
+  Jaccard similarity: 0.991
+  Words in the Text Extraction Component but not in the PDF extractor: {'arrowai'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'arowwai'}
+
+For the PDF file 'fake_resume_327.pdf' (File 327):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_328.pdf' (File 328):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_329.pdf' (File 329):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_330.pdf' (File 330):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_331.pdf' (File 331):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_332.pdf' (File 332):
+  Jaccard similarity: 0.985
+  Words in the Text Extraction Component but not in the PDF extractor: {'serving', 'agriculture'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'agricultureserving'}
+
+For the PDF file 'fake_resume_333.pdf' (File 333):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_334.pdf' (File 334):
+  Jaccard similarity: 0.980
+  Words in the Text Extraction Component but not in the PDF extractor: {'serving', 'agriculture'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'macos', 'agricultureserving'}
+
+For the PDF file 'fake_resume_335.pdf' (File 335):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_336.pdf' (File 336):
+  Jaccard similarity: 0.991
+  Words in the Text Extraction Component but not in the PDF extractor: {'bay'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'ebay'}
+
+For the PDF file 'fake_resume_337.pdf' (File 337):
+  Jaccard similarity: 0.988
+  Words in the Text Extraction Component but not in the PDF extractor: {'performed', 'coordinator'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'coordinator.performed'}
+
+For the PDF file 'fake_resume_338.pdf' (File 338):
+  Jaccard similarity: 0.992
+  Words in the Text Extraction Component but not in the PDF extractor: {'headlong'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'headon'}
+
+For the PDF file 'fake_resume_339.pdf' (File 339):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_340.pdf' (File 340):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_341.pdf' (File 341):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_342.pdf' (File 342):
+  Jaccard similarity: 0.992
+  Words in the Text Extraction Component but not in the PDF extractor: {'headlong'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'headon'}
+
+For the PDF file 'fake_resume_343.pdf' (File 343):
+  Jaccard similarity: 0.988
+  Words in the Text Extraction Component but not in the PDF extractor: {'san', 'antonio'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'antoniochester'}
+
+For the PDF file 'fake_resume_344.pdf' (File 344):
+  Jaccard similarity: 0.979
+  Words in the Text Extraction Component but not in the PDF extractor: {'serving', 'agriculture', '"i', 'heights."'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'heights', 'agricultureserving'}
+
+For the PDF file 'fake_resume_345.pdf' (File 345):
+  Jaccard similarity: 0.968
+  Words in the Text Extraction Component but not in the PDF extractor: {'ynay@example.net', 'grove', 'agriculture'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'volunteer', 'groves', 'ymay@example.net', 'agricultureserving'}
+
+For the PDF file 'fake_resume_346.pdf' (File 346):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_347.pdf' (File 347):
+  Jaccard similarity: 0.996
+  Words in the Text Extraction Component but not in the PDF extractor: {'commerce'}
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_348.pdf' (File 348):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_349.pdf' (File 349):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_350.pdf' (File 350):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_351.pdf' (File 351):
+  Jaccard similarity: 0.979
+  Words in the Text Extraction Component but not in the PDF extractor: {'agriculture', 'serving'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'background', 'agricultureserving', 'academic'}
+
+For the PDF file 'fake_resume_352.pdf' (File 352):
+  Jaccard similarity: 0.972
+  Words in the Text Extraction Component but not in the PDF extractor: {'coordinator', 'success."', 'performed', '"i'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'success', 'investment', 'aiding', 'coordinator.performed'}
+
+For the PDF file 'fake_resume_353.pdf' (File 353):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_354.pdf' (File 354):
+  Jaccard similarity: 0.993
+  Words in the Text Extraction Component but not in the PDF extractor: {'headlong'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'headon'}
+
+For the PDF file 'fake_resume_355.pdf' (File 355):
+  Jaccard similarity: 0.986
+  Words in the Text Extraction Component but not in the PDF extractor: {'commerce', 'headlong'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'headon'}
+
+For the PDF file 'fake_resume_356.pdf' (File 356):
+  Jaccard similarity: 0.985
+  Words in the Text Extraction Component but not in the PDF extractor: {'"i', 'heights."'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'heights'}
+
+For the PDF file 'fake_resume_357.pdf' (File 357):
+  Jaccard similarity: 0.982
+  Words in the Text Extraction Component but not in the PDF extractor: {'agriculture', 'headlong', 'serving'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'headon', 'agricultureserving'}
+
+For the PDF file 'fake_resume_358.pdf' (File 358):
+  Jaccard similarity: 0.996
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: {'20%'}
+
+For the PDF file 'fake_resume_359.pdf' (File 359):
+  Jaccard similarity: 0.991
+  Words in the Text Extraction Component but not in the PDF extractor: {"o'brien"}
+  Words in the PDF extractor but not in the Text Extraction Component: {'obrien'}
+
+For the PDF file 'fake_resume_360.pdf' (File 360):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_361.pdf' (File 361):
+  Jaccard similarity: 0.991
+  Words in the Text Extraction Component but not in the PDF extractor: {'headlong'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'headon'}
+
+For the PDF file 'fake_resume_362.pdf' (File 362):
+  Jaccard similarity: 0.981
+  Words in the Text Extraction Component but not in the PDF extractor: {'commerce', 'headlong', 'street'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'streets', 'headon'}
+
+For the PDF file 'fake_resume_363.pdf' (File 363):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_364.pdf' (File 364):
+  Jaccard similarity: 0.986
+  Words in the Text Extraction Component but not in the PDF extractor: {'"i', 'heights."'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'heights'}
+
+For the PDF file 'fake_resume_365.pdf' (File 365):
+  Jaccard similarity: 0.991
+  Words in the Text Extraction Component but not in the PDF extractor: {'30'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'30%'}
+
+For the PDF file 'fake_resume_366.pdf' (File 366):
+  Jaccard similarity: 0.975
+  Words in the Text Extraction Component but not in the PDF extractor: {'coordinator', 'agriculture', 'performed', 'serving'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'coordinator.performed', 'agricultureserving'}
+
+For the PDF file 'fake_resume_367.pdf' (File 367):
+  Jaccard similarity: 0.985
+  Words in the Text Extraction Component but not in the PDF extractor: {'"i', 'heights."'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'heights'}
+
+For the PDF file 'fake_resume_368.pdf' (File 368):
+  Jaccard similarity: 0.992
+  Words in the Text Extraction Component but not in the PDF extractor: {'headlong'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'headon'}
+
+For the PDF file 'fake_resume_369.pdf' (File 369):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_370.pdf' (File 370):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_371.pdf' (File 371):
+  Jaccard similarity: 0.943
+  Words in the Text Extraction Component but not in the PDF extractor: {'coordinator', 'headlong', 'performed'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'coordinator.performed', 'each', 'hours', 'another', 'sun', 'pass', 'headon', 'sets', 'accomplishment', 'day', 'productive'}
+
+For the PDF file 'fake_resume_372.pdf' (File 372):
+  Jaccard similarity: 0.996
+  Words in the Text Extraction Component but not in the PDF extractor: {'"i'}
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_373.pdf' (File 373):
+  Jaccard similarity: 0.989
+  Words in the Text Extraction Component but not in the PDF extractor: {'"i', 'heights."'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'heights'}
+
+For the PDF file 'fake_resume_374.pdf' (File 374):
+  Jaccard similarity: 0.978
+  Words in the Text Extraction Component but not in the PDF extractor: {'goals."', 'headlong', '"i'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'headon', 'goals'}
+
+For the PDF file 'fake_resume_375.pdf' (File 375):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_376.pdf' (File 376):
+  Jaccard similarity: 0.968
+  Words in the Text Extraction Component but not in the PDF extractor: {'20', '"i', 'heights."', 'arrowai'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'20%', 'macos', 'heights', 'arowwai'}
+
+For the PDF file 'fake_resume_377.pdf' (File 377):
+  Jaccard similarity: 0.978
+  Words in the Text Extraction Component but not in the PDF extractor: {'goals."', 'headlong', '"i'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'headon', 'goals'}
+
+For the PDF file 'fake_resume_378.pdf' (File 378):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_379.pdf' (File 379):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_380.pdf' (File 380):
+  Jaccard similarity: 0.991
+  Words in the Text Extraction Component but not in the PDF extractor: {'tan'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'ian'}
+
+For the PDF file 'fake_resume_381.pdf' (File 381):
+  Jaccard similarity: 0.992
+  Words in the Text Extraction Component but not in the PDF extractor: {'parkerburg'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'parkerberg'}
+
+For the PDF file 'fake_resume_382.pdf' (File 382):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_383.pdf' (File 383):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_384.pdf' (File 384):
+  Jaccard similarity: 0.981
+  Words in the Text Extraction Component but not in the PDF extractor: {'coordinator', 'headlong', 'performed'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'headon', 'coordinator.performed'}
+
+For the PDF file 'fake_resume_385.pdf' (File 385):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_386.pdf' (File 386):
+  Jaccard similarity: 0.975
+  Words in the Text Extraction Component but not in the PDF extractor: {'agriculture', 'serving', 'visa'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'vision', 'agricultureserving'}
+
+For the PDF file 'fake_resume_387.pdf' (File 387):
+  Jaccard similarity: 0.978
+  Words in the Text Extraction Component but not in the PDF extractor: {'goals."', 'headlong', '"i'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'headon', 'goals'}
+
+For the PDF file 'fake_resume_388.pdf' (File 388):
+  Jaccard similarity: 0.979
+  Words in the Text Extraction Component but not in the PDF extractor: {'goals."', 'headlong', '"i'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'headon', 'goals'}
+
+For the PDF file 'fake_resume_389.pdf' (File 389):
+  Jaccard similarity: 0.992
+  Words in the Text Extraction Component but not in the PDF extractor: {'bay'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'ebay'}
+
+For the PDF file 'fake_resume_390.pdf' (File 390):
+  Jaccard similarity: 0.989
+  Words in the Text Extraction Component but not in the PDF extractor: {'alexisso@example.net'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'alexis50@example.net', 'volunteer'}
+
+For the PDF file 'fake_resume_391.pdf' (File 391):
+  Jaccard similarity: 0.974
+  Words in the Text Extraction Component but not in the PDF extractor: {'success."', 'coordinator', 'arrowwai', 'performed', '"i'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'arowwai', 'coordinator.performed'}
+
+For the PDF file 'fake_resume_392.pdf' (File 392):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_393.pdf' (File 393):
+  Jaccard similarity: 0.985
+  Words in the Text Extraction Component but not in the PDF extractor: {'success."', '"i'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'success'}
+
+For the PDF file 'fake_resume_394.pdf' (File 394):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_395.pdf' (File 395):
+  Jaccard similarity: 0.974
+  Words in the Text Extraction Component but not in the PDF extractor: {'commerce', 'success."', 'performed', '"i'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'success', 'coordinator.performed'}
+
+For the PDF file 'fake_resume_396.pdf' (File 396):
+  Jaccard similarity: 1.000
+  Words in the Text Extraction Component but not in the PDF extractor: set()
+  Words in the PDF extractor but not in the Text Extraction Component: set()
+
+For the PDF file 'fake_resume_397.pdf' (File 397):
+  Jaccard similarity: 0.978
+  Words in the Text Extraction Component but not in the PDF extractor: {'agriculture', 'serving', 'towards'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'toward', 'agricultureserving'}
+
+For the PDF file 'fake_resume_398.pdf' (File 398):
+  Jaccard similarity: 0.968
+  Words in the Text Extraction Component but not in the PDF extractor: {'success."', 'square', 'serving', 'agriculture', '"i'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'squares', 'success', 'agricultureserving'}
+
+For the PDF file 'fake_resume_399.pdf' (File 399):
+  Jaccard similarity: 0.992
+  Words in the Text Extraction Component but not in the PDF extractor: {'bay'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'ebay'}
+
+For the PDF file 'fake_resume_400.pdf' (File 400):
+  Jaccard similarity: 0.991
+  Words in the Text Extraction Component but not in the PDF extractor: {'bay'}
+  Words in the PDF extractor but not in the Text Extraction Component: {'ebay'}
+

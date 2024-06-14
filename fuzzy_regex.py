@@ -30,31 +30,72 @@ def extract_information(user_input, text, language):
         # English
         'e-mail': r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b',  # Match email addresses
         'phone number': r'\d(?:[\s\-.]?\d{1,}){6,}',  # Match phone numbers with optional spaces, dashes, or dots
-        'age': r'\b\d{2}\b',  # Match 2 digits for age
-        'invoice date': r"\b(?:\d{1,2}-\d{2}-\d{4}|\d{1,2}-[A-Z]{3}-\d{4}|\d{1,2}\s+\w+\s+\d{4}|\d{1,2}/\d{1,2}/\d{4})\b",
-        'bank account number': r"\b[A-Z]{2}\s*\d{2}\s*[A-Z]{4,}\s*\d{7,}\b|\b[A-Z]{2}\s*\d{2}\s*[A-Z]{4,}\s*\d{4}\s*\d{4}\s*\d{2}\b|\b[A-Z]{2}\s*\d{2}\s*[A-Z]{4,}\s*\d{5}\s*\d{2}\s*\d{3}\b|\b[A-Z]{2}\d{2}[A-z]{2,}\d{8,}\b",
-        'website': r'\b(?:https?:\\/\\/)?(?:www\.)?(?<!@)[a-zA-Z0-9-]+(?:\.[a-zA-Z]{2,})+(?:\/[a-zA-Z0-9-]*)*\b',
-        'total': r"(?i)\b(?:totaal|total|totaal\s?bedrag|total\s?amount)\b[:\s]*.*?([€,$]?\s*[\d.,]+)",
+        'invoice date': (
+            r"(?i)(?:\bFactuurdatum:?\s*|\bDatum:?\s*|\bOrderdatum:?\s*|\bFactuur—/afleverdatum\s*|"
+            r"\bfactuur-/afleverdatum\s*)(\d{1,2}[-—.]\d{2}[-—.]\d{4}|\d{1,2}[-—][A-Z]{3}[-—]\d{4}|"
+            r"\d{1,2}\s+[A-Za-z]{2,}\s+\d{4}|\d{1,2}/\d{1,2}/\d{4})\b"
+        ),
+        'bank account number': (
+            r"\b[A-Z]{2}\s*\d{2}\s*[A-Z]{4,}\s*\d{7,}\b|"
+            r"\b[A-Z]{2}\s*\d{2}\s*[A-Z]{4,}\s*\d{4}\s*\d{4}\s*\d{2}\b|"
+            r"\b[A-Z]{2}\s*\d{2}\s*[A-Z]{4,}\s*\d{5}\s*\d{2}\s*\d{3}\b|"
+            r"\b[A-Z]{2}\d{2}[A-z]{2,}\d{8,}\b"
+        ),
+        'website': r'\b(?:https?:\/\/)?(?:www\.)?(?<!@)[a-zA-Z0-9-]+(?:\.[a-zA-Z]{2,})+(?:\/[a-zA-Z0-9-]*)*\b',
+        'total': (
+            r"(?i)\b(?:totaal|total|totaal\s.|totaal\s?bedrag|total\s?amount|totaal\s+incl\.?\s+btw|"
+            r"factuur\s+bedrag\s+\(EUR\)\s?|totaal\s+verschuldigd|totaalbedrag\s+in\s+euro|"
+            r"prijs\s+incl\.\s+btw|totaal\s+bedrag\s+incl\.\sbtw|te\s+betalen|factuurbedrag|"
+            r"factuur\s+bedrag|totaalbedrag\s+in\s+euro's|totaal\s+\(incl\.\s+BTW\)\s+€)\b[:\s]*"
+            r"([€,$]?\s*(?:EUR\s*)?[\d.,]+[\s€,$]*(?:EUR)?)"
+        ),
 
         # Dutch
-        'adres': r"\b[A-Z]\w*\s+\d{1,3}(?:\s*[-\s]?[A-Z]|\s*[A-Z]?)?(?:,\s*|\s+)\d{4}\s+[A-Z]{2}\s+[A-Z]\w*\b|"
-                 r"\d+\s\w+\s\w+\s\w+\s\d+\,\s\w+\s\w+\,\s\w+\s\d+|"
-                 r"\w+\s\d+\s\w+\s\d+\,\s\w+\s\w+\s\d+|"
-                 r"\d+\s\w+\s\w+\,\s\w+\,\s\w+\s\d+|"
-                 r"\w+\s\w+\,\s\w+\s\w+\s\d+|"
-                 r"\d+\s\w+\s\w+\,\s\w+\s\w+\,\s\w+\s\d+|"
-                 r"\d+\s\w+\s\w+\s\w+\s\d+\,\s\w+\,\s\w+\s\d+|"
-                 r"\d+\s\w+\s\w+\s\w+\.\s\d+\,\s\w+\,\s\w+\s\d+|"
-                 r"\d+\s\w+\s\w+\s\w+\.\s\d+\,\s\w+\s\w+\,\s\w+\s\d+",
-        'leeftijd': r'\b\d{2}\b',
+        'adres': (
+            r"\b[A-Z]\w*\s+\d{1,3}(?:\s*[-\s]?[A-Z]|\s*[A-Z]?)?(?:,\s*|\s+)\d{4}\s+[A-Z]{2}\s+[A-Z]\w*\b|"
+            r"\d+\s\w+\s\w+\s\w+\s\d+\,\s\w+\s\w+\,\s\w+\s\d+|"
+            r"\w+\s\d+\s\w+\s\d+\,\s\w+\s\w+\,\s\w+\s\d+|"
+            r"\d+\s\w+\s\w+\,\s\w+\,\s\w+\s\d+|"
+            r"\w+\s\w+\,\s\w+\s\w+\s\d+|"
+            r"\d+\s\w+\s\w+\,\s\w+\s\w+\,\s\w+\s\d+|"
+            r"\d+\s\w+\s\w+\s\w+\s\d+\,\s\w+\,\s\w+\s\d+|"
+            r"\d+\s\w+\s\w+\s\w+\.\s\d+\,\s\w+\,\s\w+\s\d+|"
+            r"\d+\s\w+\s\w+\s\w+\.\s\d+\,\s\w+\s\w+\,\s\w+\s\d+"
+        ),
         'telefoon nummer': r'\d(?:[\s-]?\d{1,}){6,}',
-        'factuurdatum': r"(?i)(?:\bFactuurdatum:?\s*|\bDatum:?\s*|\bOrderdatum:?\s*|\bFactuur—/afleverdatum\s*)(\d{1,2}[-—.]\d{2}[-—.]\d{4}|\d{1,2}[-—][A-Z]{3}[-—]\d{4}|\d{1,2}\s+[A-Za-z]{2,}\s+\d{4}|\d{1,2}/\d{1,2}/\d{4})\b",
-        'iban': r"\b[A-Z]{2}\s*\d{2}\s*[A-Z]{4,}\s*\d{7,}\b|\b[A-Z]{2}\s*\d{2}\s*[A-Z]{4,}\s*\d{4}\s*\d{4}\s*\d{2}\b|\b[A-Z]{2}\s*\d{2}\s*[A-Z]{4,}\s*\d{5}\s*\d{2}\s*\d{3}\b|\b[A-Z]{2}\d{2}[A-z]{2,}\d{8,}\b",
-        'rekeningnummer': r"\b[A-Z]{2}\s*\d{2}\s*[A-Z]{4,}\s*\d{7,}\b|\b[A-Z]{2}\s*\d{2}\s*[A-Z]{4,}\s*\d{4}\s*\d{4}\s*\d{2}\b",
+        'factuurdatum': (
+            r"(?i)(?:\bFactuurdatum:?\s*|\bDatum:?\s*|\bOrderdatum:?\s*|\bFactuur—/afleverdatum\s*|"
+            r"\bfactuur-/afleverdatum\s*)(\d{1,2}[-—.]\d{2}[-—.]\d{4}|\d{1,2}[-—][A-Z]{3}[-—]\d{4}|"
+            r"\d{1,2}\s+[A-Za-z]{2,}\s+\d{4}|\d{1,2}/\d{1,2}/\d{4})\b"
+        ),
+        'iban': (
+            r"\b[A-Z]{2}\s*\d{2}\s*[A-Z]{4,}\s*\d{7,}\b|"
+            r"\b[A-Z]{2}\s*\d{2}\s*[A-Z]{4,}\s*\d{4}\s*\d{4}\s*\d{2}\b|"
+            r"\b[A-Z]{2}\s*\d{2}\s*[A-Z]{4,}\s*\d{5}\s*\d{2}\s*\d{3}\b|"
+            r"\b[A-Z]{2}\d{2}[A-z]{2,}\d{8,}\b"
+        ),
+        'rekeningnummer': (
+            r"\b[A-Z]{2}\s*\d{2}\s*[A-Z]{4,}\s*\d{7,}\b|"
+            r"\b[A-Z]{2}\s*\d{2}\s*[A-Z]{4,}\s*\d{4}\s*\d{4}\s*\d{2}\b|"
+            r"\b[A-Z]{2}\s*\d{2}\s*[A-Z]{4,}\s*\d{5}\s*\d{2}\s*\d{3}\b|"
+            r"\b[A-Z]{2}\d{2}[A-z]{2,}\d{8,}\b"
+        ),
         'kvk': r"\bKVK\s+(\d+)\b|\bKvK\s+(\d+)\b",
-        'btw': r"\bBTW\s+([A-Za-z0-9]+)\b",
-        'totaal': r"(?i)\b(?:totaal|total|totaal\s?bedrag|total\s?amount|totaal\s+incl\.?\s+btw)\b[:\s]*.*?([€,$]?\s*[\d.,]+)",
-        'totaal bedrag': r"(?i)\b(?:totaal|total|totaal\s?bedrag|total\s?amount|totaal\s+incl\.?\s+btw|totaal\s+verschuldigd)\b[:\s]*[€,$]?\s*(?:EUR\s*)?([\d.,]+)(?:\s*EUR)?[\s€,$]*",
+        'btw': r"(?i)\bBTW\s+([A-Za-z0-9]+)\b",
+        'totaal': (
+            r"(?i)\b(?:totaal|total|totaal\s.|totaal\s?bedrag|total\s?amount|totaal\s+incl\.?\s+btw|"
+            r"factuur\s+bedrag\s+\(EUR\)\s?|totaal\s+verschuldigd|totaalbedrag\s+in\s+euro|"
+            r"prijs\s+incl\.\s+btw|totaal\s+bedrag\s+incl\.\sbtw|te\s+betalen|factuurbedrag|"
+            r"factuur\s+bedrag|totaalbedrag\s+in\s+euro's|totaal\s+\(incl\.\s+BTW\)\s+€)\b[:\s]*"
+            r"([€,$]?\s*(?:EUR\s*)?[\d.,]+[\s€,$]*(?:EUR)?)"
+        ),
+        'totaal bedrag': (
+            r"(?i)\b(?:totaal|total|totaal\s.|totaal\s?bedrag|total\s?amount|totaal\s+incl\.?\s+btw|"
+            r"factuur\s+bedrag\s+\(EUR\)\s?|totaal\s+verschuldigd|totaalbedrag\s+in\s+euro|"
+            r"prijs\s+incl\.\s+btw|totaal\s+bedrag\s+incl\.\sbtw|te\s+betalen|factuurbedrag|"
+            r"factuur\s+bedrag|totaalbedrag\s+in\s+euro's|totaal\s+\(incl\.\s+BTW\)\s+€)\b[:\s]*"
+            r"([€,$]?\s*(?:EUR\s*)?[\d.,]+[\s€,$]*(?:EUR)?)"
+        ),
     }
 
     # Convert user_input to lowercase to ensure case-insensitive matching
@@ -97,4 +138,5 @@ def extract_information(user_input, text, language):
         results = [result.replace('\n', ' ') for result in results]
 
     return results
+
 

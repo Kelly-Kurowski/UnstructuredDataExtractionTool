@@ -1,0 +1,501 @@
+
+For the PDF file 'File_1.pdf':
+  Jaccard similarity: 0.828
+  Words in the Text Extraction Component but not in the actual .txt file: {'035-6915209', 'A', 'periode', 'verrekening', 'erop', '035-6911859', 't/m', 'betaaltermijn', 'maanden'}
+  Words in the .txt file but not in the Text Extraction Component: {'-A', '18', '-', '035', 'sinds', 'betaaltermijn:', 'NL', '59', 'erop,', 'maand(en)', 'periode:', '691', '09', '1934', 'naverrekening', ':', '27'}
+
+For the PDF file 'File_2.pdf':
+  Jaccard similarity: 0.791
+  Words in the Text Extraction Component but not in the actual .txt file: {'235', 'Venlox', '136', '31612XXXX', 'O1m', '0052945520', 'Nax', '31657XXXXX', 'uu:mm:iss', 'O&m', 'labs', 'afgeschreven', 'is', 'oh', 'NL820426', '400', '585', 'u', 'netwerk', 'RABQ', 'NL26ZZ2514464640000', '9,91', 'Oh', 'om', '155', 'B01'}
+  Words in the .txt file but not in the Text Extraction Component: {'7h', '58s', '11s', 'netwerk.', '0h', 'Flexibel.', 'nr:', 'NL26ZZZ514464640000', '23s', 'mobiel!', '12s', '01m', 'NL8500.20.426.B.01', '600', '16m', 'is:', '13G', '-05,87', '\\4', '-', '0152945520', '31612XXXXXX', '56m', '15s', '6h', '31657XXXXXX', 'VoIP-', '03m', 'afgeschreven.', 'Venlo:', 'RABO', '-09,91', '0,36', 'Nox', '26m', 'labSC', '08m'}
+
+For the PDF file 'File_3.pdf':
+  Jaccard similarity: 0.618
+  Words in the Text Extraction Component but not in the actual .txt file: {'betrouwbaar', 'Transport—', 'gebruiken', 'vide', 'm.', 'IR', '|', 'BTW—nummer:', 'Netto', '154', 'Atelier:', '01', 'steken', 'Profi', '2300LG', 'manieren', 'i', 'Verhuur—', 'MONTAGE', 'BTW—document', '90—00', 'Rekeningnr.:', 'bewaren', '3430', '152301100169178', '24.75', 'huis', 'Nederlands', 'Artikel—nummer', 'voordelig', '#8.093.13', 'Lever', 'u', 'Aantal/Eenheid', 'bornhack.nl/profiser', 'Id—NL', 'KAART—NR', '18.60', 'NL—3439', '6003889902238981', '55507', 'prijzen', 'bouw', 'NETTO', '0182', 'Fillaat', 'belastingdienst', '8075', 'TOTAALBEDRAG', 'www.hornbachprofi.nl', '10', 'Benaming', 'IBAN', 'hebt', ':'}
+  Words in the .txt file but not in the Text Extraction Component: {'34130', 'NET', 'IIH', '24,75', '90-00', 'TOTAALBED', 'M0NTAGE', 'Benam.', 'Transport-verhuur', 'bornbach.nl/profiservice', 'prijzen.', 'IBAN:', 'HORN', '•', '0162', 'B.V', 'KAART-NR:', 'betrouwbaar.', 'Lever-en', 'BTW-nummer:', 'Net', 'PROFI', '0', 'Rekeningsnr.:', 'Artikel-nummer', 'Profi!', 'voordelen,', 'monteren', '6003889902238981154', 'W//M', 'Filiaal', '.DE', 'BACH', 'steken.', '-', 'Aantal/eenheid', 'bewaren.', 'bouw?', 'huis.', 'www.Hornbachprofi.nl', 'gebruiken.', 'NL-3439', '18,60', '(Nederland)', 'belastingdienst.', 'SERVICE', 'voordelig!', 'BTW-document', 'ld-nr.', '8075.08.093.ll.01', 'bouwmarkt', '230DLG', '55507152301100169178', 'hebt.', 'Afhaler:'}
+
+For the PDF file 'File_4.pdf':
+  Jaccard similarity: 0.253
+  Words in the Text Extraction Component but not in the actual .txt file: {'52.66', 'from', 'Main', 'Discounts', 'credit', 'must', '36.60', 'Your', 'costs', 'Double', '23.93', 'Use', '_', 'received', 'Summary', 'parties€', 'Basic', 'abroad', 'please', 'Customer', 'can', 'Device', 'discount', 'user', 'OFFICE', 'Commerce', 'Cost', 'Chamber', 'Under', '22.92', 'reference', 'Invoice', 'outside', 'business', 'VAT', '35.95', '303.42', 'Phone:', 'overview', 'services', 'as', 'parties', 'If', 'amount', '35.00', 'Speech', 'visit', 'VAT%', 'because', 'February', 'details', 'Limited', 'are', 'the', '6.00', '13.50', '1,', 'number:', '01—jan—23', 'free', '13.00', '57.30', 'exclusive', 'your', 'RH)', 'Discount', 'Subscriptions', '68.76', 'January', '250.76', 'to', '15,', 'In', '329.92', 'this', 'you', 'or', '80.22', '—11.00', 'for', 'Period', '31—jan—23', 'Page', 'before', '—8.22', 'Guarantee', '277.26', 'Insurance', '0.00', 'active', '31611584986', 'a', 'Description', 'subscription', '253.33', 'customer', 'want', '13,', 'account', '291.28', '59.52', 'be', 'Amount', '56.29', 'payment', 'number', 'Total', 'third', '74.88', 'User', 'group:', '41.30', 'Mobile', 'Date', 'Account', 'years', 'long', 'specification', 'is', 'transfer', '26.50', 'location', 'FRANCIN]', 'You', 'us', 'us,', 'December', 'see', '3337', 'also', 'Other', 'detailed', 'tam', '45.84', 'Number', 'paid', '€335.92', 'including', 'connection', '31,', 'Purchases', 'calls', 'Subtotal', 'by'}
+  Words in the .txt file but not in the Text Extraction Component: {'36,60', 'specificatie', 'Korting', 'tegoed)', '11,00', 'Bedrag', 'Omschrijving', 'Garant', '80,22', 'nr.:', 'Beperkt', 'Basis', 'een', 'ook', 'U', 'het', '57,30', '291,28', 'diensten', 'Kortingen', 'bezit', 'zakelijk', 'uitgebreid', '%', '8,22', 'Dubbele', 'dient', 'Rekening', 'je', 'Mobiel', '303,42', 'nummer', 'ons', '13,50', '(zolang', 'Totaal', '52,66', 'dit', '26,50', 'bedrag', '€', 'Telefoon:', 'kijk', 'klant', '253,33', 'opnemen,', 'Periode', '277,26', '-', '01-jan-23', 'Onder', 'Januari', 'Datum', '23,93', 'met', 'Subtotaal', '45,84', 'Rekeningdetails', '59,52', 'locatie', '35,95', '33,37', 'gebruiker', 'februari', 't/m', 'Btw', 'Kostengroep:', 'Gebruik', 'FRANCINI', 'kosten', 'abonnement', '31', 'btw-bedrag', 'Abonnementen', 'exclusief', '250,76', '41,30', 'loopt)', 'dan', 'naar', '56,29', 'voor', 'te', '335,92', 'nr.', '68,76', '31-jan-23', 'buitenland', 'december', 'bellen', '13', 'uw', 'bent)', '6,00', 'Toestelbetaling', 'KvK', 'bij', 'Samenvatting', 'Uw', 'Aantal', ':', 'Wilt', 'kunt', 'Hoofdaansluiting', 'derden€', '74,88', 'Overige', 'Aankopen', '(omdat', 'inclusief', '329,92', '15', 'Gebruiker', '35,00', 'rekening', 'overzicht', 'Rekeningnummer:', '0,00', 'KANTOOR', '(buiten', 'vermelding', 'zien', 'januari', '13,00', 'btw', 'Spraak', 'betalen', 'Assurant', 'overmaken', 'kenmerk', 'Pagina', '22,92', 'jaar', '31611384986', 'vrij', 'betaling', 'zijn', 'Ander', 'Klantnummer', 'korting', 'op', 'Rekeningnummer'}
+
+For the PDF file 'File_5.pdf':
+  Jaccard similarity: 0.891
+  Words in the Text Extraction Component but not in the actual .txt file: {'6010141871141', 'snoof', '3065636699', '—21,10'}
+  Words in the .txt file but not in the Text Extraction Component: {'-', 'nr.:', '21,10', 'en/of', '601014187141', '€'}
+
+For the PDF file 'File_6.pdf':
+  Jaccard similarity: 0.851
+  Words in the Text Extraction Component but not in the actual .txt file: {'KVK', 'a', '706', 'NL49ABNAQ8O4405158.', 'factuur', '1187', 'Company.', 'bankrekeningnummer', 'is', 'III|IIIII|I|IIIII"IIIIIIIIIIII"II"III', '6157709389', 'ZS'}
+  Words in the .txt file but not in the Text Extraction Component: {'afgeschreven.', '1500875', 'NL49ABNA0804405158.', '900', 'XE', '1180', 'factuur,', 'Advies', 'Postbus', 'KvK', '70C', 'Klantnummer', '1185', 'Company', 'IBAN-rekeningnummer', '615770939', 'AX', 'LabSC'}
+
+For the PDF file 'File_7.pdf':
+  Jaccard similarity: 0.796
+  Words in the Text Extraction Component but not in the actual .txt file: {'5.64', 'KVK', 'RA', 'BLPEY', 'AS', '0.98', 'P7', '0', 'een', 'is', 'M', '6.66', 'I', 'a', 'R', 'kan', '4.66', 'LRRLAL', '1P', 'Company.', 'NL49ABNAQ08O4405158.'}
+  Words in the .txt file but not in the Text Extraction Component: {'0,98', '1500875', 'NL49ABNA0804405158.', '900', '5,64', 'Advies', '4,66', 'Postbus', 'KvK', 'Company', '6,66', 'LabSC'}
+
+For the PDF file 'File_8.pdf':
+  Jaccard similarity: 0.736
+  Words in the Text Extraction Component but not in the actual .txt file: {'NL26KNABO502469234', '€23,00', 'BM', 'Korting', '€209,09', '3371', '€43,91', 'KM', '3412', '€276,00', '€11,50', '€253,00'}
+  Words in the .txt file but not in the Text Extraction Component: {'3371BM', '209,09', '-23,00', '253,00', '11,50', 'Kor\ue000ng', '3412KM', 'NL26KNAB0502469234', '43,91', '-11,50', '276,00', '€'}
+
+For the PDF file 'File_9.pdf':
+  Jaccard similarity: 0.758
+  Words in the Text Extraction Component but not in the actual .txt file: {'13.5', 'strekt', 'retourneren', 'app,', 'gebracht', 'uitbetaling', 'leven,', 'antwoordnummer', 'verstreken', 'insolventie', 'betalingswijzen', '|', 'koopt', 'koop', 'nutsvoorzieningen', 'vergoed', 'registreren.', 'email,', 'uit,', 'controleren', '03000242010)', 'standaardlevering),', 'app:', 'labs', 'etc.', 'formulering,', 'gratis', 'wijze,', '20,', 'geopend', 'Wanneer', 'consumptiegoederen', 'telefoonnummer', '.', 'nummer)', '12.1', 'etuis', 'meegedeeld', 'versleuteld', 'belastingen', '12.2', 'anderszins,', 'incasso', 'inningskosten', 'valt', 'fraude,', 'publiceren', 'NESPRESSO', 'voorwaarden', 'recycling', 'aftersales-service,', 'eilanden', 'Boutiques', 'transacties', "risico's", 'toegestaan', 'teruggekregen', 'opeisbaar', '("Nespresso")', 'schadevergoeding,', '14,', 'Caramelite).', '9a', 'certificaten', 'bv.', 'Ideal', 'verklaren,', 'verklaring,'}
+  Words in the .txt file but not in the Text Extraction Component: {'incasso.', 'afhankelijk', 'EXPLORATIONS,', '18.4', 'strekt.', 'Boutiques.', 'versleuteld.', 'één', 'leven', 'pinbetaling', 'GOEDEREN', 'verplichtingen', '08000242010)', 'bestellingen.', 'derde,', 'iedereen', 'klanten', '(tel:', '16.1', 'onder', 'koop,', 'koopt,', 'première"', '12.2.', 'kopen(zolang', 'omstandigheden', 'bestelling.', 'retourneren:', 'EXPLORATIONS-koffie', 'Vastgesteld', 'Première', 'beperkte', 'voorwaarden,', '9', 'VAT', 'inningskosten.', '%', '(bv.', 'verstreken.', '"avant', 'zodra', 'e-mail)', 'eilanden.', 'E-mail:', 'zijn.', '18.1', 'EXPLORATIONS', 'voorwaarden.', 'advies.', 'gelden', 'aanmerking', 'koffies', 'krijgt.', 'uit?', 'verplichtingen,', 'kwijten', 'stellen.', 'telefoon,', '€', 'manier', 'Overmacht', 'Clubleden', '18.3', 'transacties.', 'Limited', 'opeisbaar.', 'plaatsvinden', 'DE', 'nummer:', 'B.V', 'Explorations', 'oorlogen,', 'number:', 'Alleen', 'creditcard.', 'mogelijkheid', 'nummer))', 'AMSTELVEEN', '18', '-', '-belastingen', 'Na', 'Edition', 'Nespresso-kanalen.', 'website.', 'beschikbare', '–', 'Ideal.', 'Tel:', '16.2', 'inlichtingen.', 'geregistreerd,', 'verklaring', 'VERKOOP', 'Kvk', 'regels.', 'herroeping.', '39a', 'verhinderen.', 'klant.', 'februari', 'natuurrampen', 'Avant', 'billijke', 'telefoonnummer:', 'formulerings-,', 'verdelen.', 'contactnl@Nespresso.com', 'beschikbaarheid.', '(“Nespresso”)', 'kwaliteitsproblemen', 'registeren.', 'APP.', 'WEBSITE/MOBIELE', '2015', 'vergoed.', 'geopend.', 'betalingswijzen:', 'periode', 'stakingen,', 'kopen', 'teruggekregen,', 'productie,', 'gekocht,', '18.2', 'biedt', 'controleren.', 'risico’s', '(voor', 'gebracht.', 'afgelopen', 'valt.', 'insolvabiliteit', 'recycling.', 'labSC', 'wil,', 'hebt.', '2.4.', ':', '()', '16.', '18.', 'apps:', 'gegevens.', 'fraude.', 'wanneer', 'neemt.', 'factuur.', '(gratis', 'Dan', 'product.', 'Première.', '(Antwoordnummer', 'maanden', 'vermeld.', 'meerdere', 'voortvloeit', 'schadevergoeding', 'vertraging', 'transport', 'aankoop', 'publiceren,', '13.3', 'gebeurtenissen', 'periode,', 'apps,', 'nutsvoorzieningen.', 'telefoon.', 'toegestaan)', 'certificate:', 'buiten', 'betaald.', 'consumptiegoederen.', 'nieuwe,', '12.1.', 'verklaren', '20)', 'Caramelito).', 'etuis,', 'standaardlevering)', 'haar', 'strekt).'}
+
+For the PDF file 'File_10.pdf':
+  Jaccard similarity: 0.856
+  Words in the Text Extraction Component but not in the actual .txt file: {'CL,', '12.', 'behoort', '@', 'BTWnr', 'she', 'el', '~', 'ontvangst', 'incl.', 'Bankrekeningnummer', 'i', 'we', 'of', 'betalen', 'KVKnr', 'e', 'no', 'resteert', 'my', 'it', 'email', 'NL056.37.727B01', '|', 'door'}
+  Words in the .txt file but not in the Text Extraction Component: {'recht', 'hebben', 'NL0056.37.727B01', '1/2', 'voldoen', 'inc.', 'nummer', 'bestaat', 'vordering', 'voor', 'wij', 'behorend', '3412KM39', 'Bankrekening', 'KVK', 'e-mail', 'nr', 'l'}
+
+For the PDF file 'File_11.pdf':
+  Jaccard similarity: 0.736
+  Words in the Text Extraction Component but not in the actual .txt file: {'Nt', 'anchor', 'rents', '680612880', 'date', '+31(0)59-2390846Sixt', 'HHHHHHHAAEHHOOL', 'kiss', 'cop', 'method', 'accident', 'branch', 'ET', 'factor', '(g/km)Court', 'O9BDA/80', 'Al', 'my', 'points', 'tossed', 'word', 'At', 'REKENING', 'address', 'on', 'price', 'out', 'BIW', 'FEFEFELEFEE', 'Kentekon:', 'Sub-total', 'main', 'vans', 'Ai', 'inclusion', '23-5698656', 'Netherlands', 'rest', 'overdraft', 'agency', "didn't", 'handover', '$X00059362892', 'door', '0018221939', 'TEEEFEEEEEEFEEEFEE', 'booking', 'TEE', 'FEEEEEEFEEEEEEFEEEFEEEFEETEEEFEE', '$SxX00059362892', 'see', 'FEE', 'invoice', '—km/out', 'aware', 'band', 'Ose', '6', 'suspected', 'fire', 'anti', 'animal', '2013-01-13T15:18', 'immediately', '+31(0)', 'plants', 'Coste.', 'i', '391.97-', 'administration', 'tntenieetenteiententetenten', 'Boog', '***********994', 'journey', 'am', 'theft', '900/B800/0010000000/DR00FC9B00/DCSOFC9800/420300///75C', 'ex', 'EEE', 'damn', 'portal'}
+  Words in the .txt file but not in the Text Extraction Component: {'factuur', 'agency.', 'accident,', '2023-01-13T15:18', '+31(0)59-2390846', 'uw', 'wordt', 'price.', 'address:', 'in:', '+31(0)23-5698656', 'A1', 'waarde', 'Kenteken:', 'theft,', 'suspected.', 'op', 'geen', 'damage,', 'Sub-totaal', '2:', 'apply.', 'rents?', 'SIXT', '(g/km)', 'boeking.', 'SX00059362892', 'overdracht', 'date,', 'km:', 'and/or', 'R', 'tussen', '------------------------------------------------------------------------------', '09BDA/80', 'administratie.', 'G', 'app', '************001', 'km/in', 'journey!', 'Netherlands,', 'km', 'vans,', 'voor', 'out:', '############001', 'K', 'vehicle.', '391,97-', 'dienst', 'plaats', '++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++', 'immediately.***', '------------------------------', 'invoice.', 'points.', 'bande', 'E', '1:', 'Court', 'Download', 'km/out', '0000048000/E800/0010000000/DE00FC9800/DC50FC9800/420300///75C', 'kms:', 'animal,', 'dagen', 'fire,', 'portal.', 'on:', 'x', 'inclusief', 'D', 'handover,', 'Costc.', 'rental.', 'branch.', 'method:', 'now.'}
+
+For the PDF file 'File_12.pdf':
+  Jaccard similarity: 0.795
+  Words in the Text Extraction Component but not in the actual .txt file: {'NL29ABNA041983679', 'je', '39-A,', 'excl.', 'BTW:', 'verteerbaar', 'next.nl', 'NL29ABNA041983679.', 'incl.', 'S$031088', 'BTW-nummer:', 'u'}
+  Words in the .txt file but not in the Text Extraction Component: {'(excl.', 'S031088', '(incl.', 'NL79ABNA0599483679', 'BTW-nr:', 'NL27RABO0331069008.', 'sorteerbaar', '€', '-A,', 'BTW):', '-A'}
+
+For the PDF file 'File_13.pdf':
+  Jaccard similarity: 0.568
+  Words in the Text Extraction Component but not in the actual .txt file: {'factuur', 'Acajou', 'ban', 'vast.', 'Haag.', '€48,00', '€45,00', '2002300119', '€123,00', 'vervaldatum:', 'q', 'u', 'referentie:', '€25,83', 'RAÁBONL2U', '€30,00', 'kok', '€148,83', 'rekeningnummer:', 'factuurdatum:', 'factuurnummer:'}
+  Words in the .txt file but not in the Text Extraction Component: {'39a', 'vast!', 'RABO', 'bel', 'referentie', 'iban', '0160605016', '45,00', '25,83', 'kvk', 'vervaldatum', '-', '€', 'onderwerp', '123,00', 'NL31', '202300119', 'q1', 'factuurnummer', '30,00', 'Haag', '202300119.', 'RABONL2U', 'Factuur', 'factuurdatum', 'ACATO', 'met', '48,00', '148,83', 'rekeningnummer'}
+
+For the PDF file 'File_14.pdf':
+  Jaccard similarity: 0.404
+  Words in the Text Extraction Component but not in the actual .txt file: {'name:', 'B', 'NGBNL2Aî0', 'intosgroningenleonordo-hotels', '€78', 'Arrival:', 'kun', 'Debit', 'Invoice', 'al', 'te', 'tax', '(CCI:', 'rot', 'XX', 'VAT', 'you', 'Page:', 'Mr.', 'Reference:', 'Reservation', 'someone', 'NL8SBB0093B01', 'of', 'u', 'Guest', 'HDOOOOOOXXXXX1001', 'NiL', 'high', 'number', 'XX/', 'Total', '+', 'Room:', 'Departure:', 'Net', '6A', 'ING', '|', 'Balance', 'opnicatie', 'nnnnnnnnnnnnnnn', '62591680', 'Reimbursable', '_', 'Description', 'order', 'no.:', 'persons', 'Swietyaic.', 'Number'}
+  Words in the .txt file but not in the Text Extraction Component: {'4778', 'XXXXXXXXXXXX1001', 'personen', '+31', 'are', 'INGBNL2AXXX', 'INGB', 'Balans', 'EHM', 'to', 'BV', 'GA', 'XX/XX', 'nummer', 'Reserveringsnr.', '€', 'Debet', 'gast', 'info.groningen@leonardo-hotels.nl', 'de', 'Verrekenbaar', 'Stadsbelasting', 'Totaal', '(CCI):', 'applicable', 'all', 'Vertrek', 'our', 'Naam', 'Aankomst', ':', 'Groningen', 'Pagina', 'services', '(High)', 'Aantal', 'SWIFT/BIC:', 'NL46', 'E:', 'NL854880033B01', 'IBAN:', 'Omschrijving', 'Netto', 'Kamer', 'BTW', '62594680', 'Datum', 'Referentie', 'Factuurnr.', 'Dhr.', 'Kvk'}
+
+For the PDF file 'File_15.pdf':
+  Jaccard similarity: 0.496
+  Words in the Text Extraction Component but not in the actual .txt file: {'Subtotaal:', '808984342.', 'Labs', 'inkoop:', '€12.355,00', 'LSCH-FUQ00102-MFO22023-labs-2023.xlsx', 'M', 'uitvoering:', 'NL69RABO0198915880', 'nummer', 'Contact', '80898454250', 'info@labs.com', 'Project:', 'netto', 'Management', 'Holding', 'K.', '€2.594,55', 'Advies', 'LSCH-FUQ00102', 'RABONL2U', 'Totaal:', 'factuurdatum', 'NL&0984252B01', '21,0%:', 'SCO1', 'BTW/VAT', 'voor', '€14.949,55', 'ADVIESERING'}
+  Words in the .txt file but not in the Text Extraction Component: {'39a', 'labSC', 'LSCH-FU000102-MF022023-labSC-2023.xlsx', 'Subtotaal', 'holding', '12.355,00€', '808984342,', 'nummer:', 'voor:', 'Project;', 'opdracht:', 'NL60984252B01', 'contact', 'Totaal', 'NL39RABO0188915680,', '/', 'K.V.K.', 'info@labSC.com', '21,0%', 'advies', 'LSCH-FU000102', '808984342B01', 'SC01', 'uitvoering;', '14.949,55€', 'Managment', 'inkoop;', 'ADVISERING', '_', 'factuurdatum,', '2.594,55€', 'RABONL2U,', 'netto,'}
+
+For the PDF file 'File_16.pdf':
+  Jaccard similarity: 0.537
+  Words in the Text Extraction Component but not in the actual .txt file: {'808984342.', 'Labs', 'inkoop:', '12.355,00', 'M', 'uitvoering:', 'NL69RABO0198915880', 'nummer', 'Contact', 'LSCH-FUQ00106-MFO62023-labs-2023.xlsx', '80898454250', 'info@labs.com', 'Project:', '€', 'netto', 'Management', 'Holding', 'K.', 'LSCH-FUQ00106', 'Advies', 'RABONL2U', 'factuurdatum', 'NL&0984252B01', 'ADVIES', 'SCO1', 'BTW/VAT', 'voor'}
+  Words in the .txt file but not in the Text Extraction Component: {'39a', 'holding', '12.355,00€', '808984342,', 'nummer:', 'voor:', 'Project;', 'opdracht:', 'NL60984252B01', 'contact', 'NL39RABO0188915680,', '/', 'K.V.K.', 'info@labSC.com', 'advies', '808984342B01', 'LSCH-FU000106', 'SC01', 'uitvoering;', '14.949,55€', 'Managment', 'inkoop;', 'LSCH-FU000106-MF062023-labSC-2023.xlsx', 'ADVISERING', '_', 'factuurdatum,', '2.594,55€', 'labSC', 'netto,', 'RABONL2U,'}
+
+For the PDF file 'File_17.pdf':
+  Jaccard similarity: 0.504
+  Words in the Text Extraction Component but not in the actual .txt file: {'Subtotaal:', '808984342.', 'Labs', 'inkoop:', '0984252B01', '€12.355,00', 'LSCH-FUQ00107', 'M', 'uitvoering:', 'NL69RABO0198915880', 'nummer', 'Contact', '80898454250', 'info@labs.com', 'Project:', 'netto', 'Management', 'LSCH-FUQ00107-MFO72023-labs-2023.xlsx', 'Holding', 'K.', 'Advies', 'RABONL2U', 'Totaal:', 'factuurdatum', 'ADVIES', 'SCO1', 'BTW/VAT', 'voor', '€14.949,55'}
+  Words in the .txt file but not in the Text Extraction Component: {'LSCH-FU000107-MF072023-labSC-2023.xlsx', '39a', 'Subtotaal', 'holding', 'LSCH-FU000107', '12.355,00€', '808984342,', 'nummer:', 'voor:', 'Project;', 'VAT', 'opdracht:', 'NL60984252B01', 'contact', 'Totaal', 'NL39RABO0188915680,', '/', 'K.V.K.', 'info@labSC.com', 'advies', '808984342B01', 'SC01', 'uitvoering;', '14.949,55€', 'Managment', 'inkoop;', 'ADVISERING', '_', 'factuurdatum,', '2.594,55€', 'labSC', 'netto,', 'RABONL2U,'}
+
+For the PDF file 'File_18.pdf':
+  Jaccard similarity: 0.740
+  Words in the Text Extraction Component but not in the actual .txt file: {'zondig', 'terugreis', 'V', 'bv.', '1130029449410', 'n', 'TUJTNUe‘dQer[;J(‘í', 'gebeurtenis', 'Labs', 'opmerkingen', 'bereikt', "alinea's", 'A', 'betalingen', 'toegezonden', 'tam', 'verzekeraar', '\\g/I_', 'www.tui.nl/mijntui/,', '.Ï', 'TU', 't\\?oh‘ìyìerlaan', 'telefoonnummer', 'aanw.', '27148888Ĳ.', 'zoals', ';ê”;', 'eventuele', 'boekte', 'ontvangen', '.à_', '-350,00', 'snoof', 'SGR—garantie', 'inclusief', 'E—mailberichten', 'Korting', 'On', 'NL804637295501', 'krijgen', 'Arrangement:', 'nakomen', 'gewijzigd', 'KvK—nummer', 'gebracht', 'N', 'TUl', 'autohuur', 'Advies', 'Tul', 'opdrachtgever', 'S', '-175,00', 'email', 'N.V..', 'AY', 'vakantie', 'Aanbiedingskorting', 'omschrijving', 'je', 'BTW—nummer', '$', 'leesdienst', 'laat', 'gesteld', '-207,00', '-35,00', 'dienstverleners', '_', 'ster', 'deal', 'Qà‚.', 'transfers', 'httos://www.tui.nl/overons/privacybeleid/', 'assurantiebelasting'}
+  Words in the .txt file but not in the Text Extraction Component: {'opdrachtgever:', 'dienstverleners.', 'gesteld.', 'bereikt,', 'gewijzigd.', 'telefoonnummer:', 'nakomen.', 'iDEAL', '€', 'verzekeringsovereenkomst.', 'KvK-nummer', 'garantieregeling,', '(zonodig', 'alinea’s', 'boekings-', 'genomen.', 'betaling(en)', 'www.tui.nl/mijntui/.', 'krijgen,', 'voorwaarden.', 'organisator,', 'terugreis.', 'dat,', 'vakantie.', 'afgesloten.', 'en/of', '(inclusief', '(zoals', '(met', 'SGR-garantie', 'Aanbiedingskorting.', '(bv.', 'zijn.', 'verwerkt.', '−35,00', 'van)', '−175,00', 'organisator.', 'IabSC', 'advies', 'e-mail', '(afw.', 'ontvangen,', 'toegezonden.', '−350,00', 'https://www.tui.nl/overons/privacybeleid/', 'verzekeraar,', 'boekt,', 'voorwaarden).', 'pakketreis,', 'Korting.', 'BTW-nummer', 'gebracht.', '-', 'pakketreis.', '(bestemming:', ':', 'autohuur),', 'omschrijving:', 'assurantiebelasting)', 'persoonsgegevens.', '(een', 'Arrangement', 'E-mailberichten', 'transfers,', 'is,', 'reis-', 'factuur,', '1130029494.', 'fly', '(eventuele)', 'gebeurtenis,', '−207,00', 'NL804637295B01', 'worden.', 'opmerkingen,', 'reisdienst', '3,', 't/m', 'dienstverlener(s)', 'toepassing.', 'autohuur)'}
+
+For the PDF file 'File_19.pdf':
+  Jaccard similarity: 0.688
+  Words in the Text Extraction Component but not in the actual .txt file: {'V—246—FV', 'A', 'AUTO', '€1392', 'RÁBÓO', 'koppeling/vliegwiel,', 'tot', 'toepassing', 'u', 'vol', "'", 'NL8202.06.076.501', '06—02—2023', 'fan', 'ski', 'PEUGEOT', 'bv', '5379', '679,54', 'inlezen', 'BOVAG—standaardbepalingen', '_', 'juli', 'door', '0570—561a55'}
+  Words in the .txt file but not in the Text Extraction Component: {'AAUTO', 'koppeling/vlliegwiel,', '01392', 'RABO', 'EV', '!nieren', '%', '8121', 'Nl8202.06.076.501', 'tbv', '0570-561456', 'Btwcode', 'door:', '€', '06-02-2023', 'jul', ':PEUGEOT', '21,00', 'tot:', 'Olst', '53,79', 'toepassing.', 'BOVAG-standaardbepalingen', 'V-246-FV'}
+
+For the PDF file 'File_20.pdf':
+  Jaccard similarity: 0.762
+  Words in the Text Extraction Component but not in the actual .txt file: {'.', 'BV.', 'NLO07078031B01', 'LOUWMAN', 'vod', '@', 'LOUWMAN.NL', 'info@louwman.nl', 'NLO2INGBOY00240268', 'KM—stand', 'u', 'toepassing', 'Sub—totaal', 'Louwman', 'PARQUI', 'je', 'Parqui', 'V—245—FV', 'formulier', '12', '&', 'BOVAG—standaardbepalingen', '_', '>'}
+  Words in the .txt file but not in the Text Extraction Component: {'NEFKENS.NL', 'Holding', 'formulier.', 'NL02INGB0700240268', 'L2', 'NL007078031B01', 'v/d', 'BOVAG-standaardbepalingen', 'KM-stand', 'Sub-totaal', '€', 'toepassing,', 'LabSC', 'V-245-FV', 'info@nefkens.nl'}
+
+For the PDF file 'File_21.pdf':
+  Jaccard similarity: 0.564
+  Words in the Text Extraction Component but not in the actual .txt file: {'39A', '€79,80', '7103', 'DS', 'SensationMedia', '09-02-2023', 'nr.', 'Factuuradvies', '€65,95', '2023-1303', '€32,98', '€13,85', '3412', 'is', 'KM'}
+  Words in the .txt file but not in the Text Extraction Component: {'id', 'A', '39', '32,98', '1303', '2', '09/02/2023', '2023', '-', '€', '13,85', '79,80', 'advies', 'Factuur', 'nr:', '3412KM', '7103DS', 'labSC', '65,95'}
+
+For the PDF file 'File_22.pdf':
+  Jaccard similarity: 0.821
+  Words in the Text Extraction Component but not in the actual .txt file: {'Ihre', 'van', 'fehlt.', 'Bozcergeure', 'Seters', 'Pos.', 'Adresse', 'BYLADEMIERH', '-', 'uns', 'advise', 'and', 'Preis/Einheit', 'Robert', 'stromungstechnik'}
+  Words in the .txt file but not in the Text Extraction Component: {'u.', 'sich', 'BYLADEM1ERH', 'advies', 'unsere', '€', 'geändert', 'hat!', 'Preis/Pos.'}
+
+For the PDF file 'File_23.pdf':
+  Jaccard similarity: 0.656
+  Words in the Text Extraction Component but not in the actual .txt file: {'IRC—20123070', 'kustwacht', 'her—geëxporteerd', 'Noord—Korea,', 'Letland,', 'nucleaire', 'irma.wensink@thermografie—nl.com', '14—02—23', 'Thermografie—NL', '(0)578—620578', 'verkocht', 'labs', 'infrarood—camera.eu,', 'Nederland,', 'Zuid—Afrika,', 'reproductie', 'Nieuw—Zeeland,', 'leger', 'overheid', 'nummer', 'Infrarood—camera.eu', 'ondersteunen', 'ongeremd', 'lab', 'toepassingen', 'inma.wensink@thermografie—nl.com', 'ga', 'ontwerp', 'politie', 'E—mail:', '[BAN:', 'BTW—nr:', 'factuurnummer', 'je', '16—2—2023', 'Zuid—Korea,', 'nog', 'NLOO1375316B11', 'Malta,', 'raketten', 'marine', '_', 'eindgebruik', 'ontwikkeling', 'militaire'}
+  Words in the .txt file but not in the Text Extraction Component: {'"militaire', '39a', 'Malta,Nederland,', 'ontwerp,', '(2', 'politie,', 'no:', '---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------', 'her-geëxporteerd', 'Nieuw-Zeeland,', 'lab1', '♦', 'nummer:', 'ongeremd)', 'infrarood-camera.eu,', 'nucleaire,', 'eindgebruik.', 'raketten.', '-', '€', 'factuurnummer.', 'IRC-20123070', 'Noord-Korea,', '14-02-23', 'NL001375316B11', 'verkocht,', 'Infrarood-camera.eu', 'Thermografie-NL', 'ondersteunen.', 'irma.wensink@thermografie-nl.com', ',', 'ontwikkeling,', 'Letland', 'toepassingen”', 'Aantal', 'marine,', '16-2-2023', '(leger,', 'overheid.', 'E-mail:', 'Zuid-Korea,', 'IBAN:', 'BTW-nr:', 'kustwacht),', 'Zuid-Afrika,', '(0)578-620578', 'labSC', 'deproductie'}
+
+For the PDF file 'File_24.pdf':
+  Jaccard similarity: 0.577
+  Words in the Text Extraction Component but not in the actual .txt file: {'van', 'afleverdatum', 'FACTUUR', '23,', 'juli', 'is', 'Betreft:', 'labs'}
+  Words in the .txt file but not in the Text Extraction Component: {'Factuuradres:', 'by', 'Powered', '216401', 'Productcode', 'Debiteurennr.:', 'Subtotaal', '3,26', '21.00%', 'Bedrag', 'code', '2', 'Informatie', '0', '-', '18,73', '12,21', '€', 'afleverdatum:', 'BTW.', '9.00%', 'Code', '6,11', '1', 'Factuur', 'Aantal', 'Grondslag', '15,47', 'Prijs', '0.00%', 'Product', '23A,', 'labSC'}
+
+For the PDF file 'File_25.pdf':
+  Jaccard similarity: 0.842
+  Words in the Text Extraction Component but not in the actual .txt file: {'microns', '|', 'L230308', '—_T', 'gemäß', 'a', 'Lieferadresse:', 'advise', 'and', '_', 'USt-ID-Nr.:DE112611624', '3452913SCHNEIDER>', 'SCHNEIDER>', 'programmer', '$D-Karte', 'auk', 'labs', 'b'}
+  Words in the .txt file but not in the Text Extraction Component: {'DE112611624', 'Lieferadresse', '39a', 'und', 'SD-Karte', '1b', 'micro-SD', 'L170077', 'advies', 'programmiert', 'gem.', 'T', ':', 'labSC', 'USt-ID-Nr.:', 'l', '§'}
+
+For the PDF file 'File_26.pdf':
+  Jaccard similarity: 0.743
+  Words in the Text Extraction Component but not in the actual .txt file: {'vast', 'en', 'RAÁBONL2U', 'Acajou', 'kok', 'ban', '2002300341', 'factuurnummer.', 'u', 'NL31RABO0160605016'}
+  Words in the .txt file but not in the Text Extraction Component: {'acato', '202300341.', '202300341', '39a', 'vast!', 'NL31', '.nl', 'kvk', '-', 'RABO', 'voor', '0160605016', '€', 'RABONL2U', 'iban', 'NL31RABO160605016'}
+
+For the PDF file 'File_27.pdf':
+  Jaccard similarity: 0.831
+  Words in the Text Extraction Component but not in the actual .txt file: {'factuur', '|', '9747', '.', 'excl.', 'Verzending', 'AT', 'WWW.DHLPARCELNL', 'BQ1,', 'incl.', '10.98', '_', 'richtlijnen', 'code', '3412', 'toepassing', 'erom', 'KM'}
+  Words in the .txt file but not in the Text Extraction Component: {'B.V.', 'WWW.DHLPARCEL.NL', '(Excl.', '(Incl.', 'richtlijnen.', 'nummer:', 'code:', '9747AT', '-', 'B01,', 'from', 'BTW)', 'Factuur', '(The', 'Verzendig', '3412KM', 'factuur:', 'toepassing.', 'toegezonden.'}
+
+For the PDF file 'File_28.pdf':
+  Jaccard similarity: 0.757
+  Words in the Text Extraction Component but not in the actual .txt file: {'etuis', 'certificaten', 'app:', '.', 'bv.', 'recycling', 'Labs', '13.5', "risico's", 'controleren', 'opeisbaar', 'betalingswijzen', 'toegestaan', 'Wanneer', 'email,', 'belastingen', 'uit,', 'Boutiques', 'koop', 'telefoonnummer', '12.2', 'voorwaarden', 'wijze,', '20,', 'anderszins,', 'standaardlevering),', 'schadevergoeding,', 'valt', 'registreren.', 'formulering,', 'leven,', 'verklaring,', 'retourneren', 'hygiëne,', 'app,', 'nummer)', 'eilanden', 'NESPRESSO', 'gebracht', 'publiceren', 'Ideal', 'etc.', 'verstreken', 'meegedeeld', 'Advies', 'koopt', 'betaling,', 'gratis', 'nutsvoorzieningen', 'antwoordnummer', '12.1', 'fraude,', 'uitbetaling', 'strekt', '|', 'geopend', 'Caramelite).', 'incasso', 'inningskosten', 'verklaren,', 'aftersales-service,', '9a', '03000242010)', 'vergoed', 'versleuteld', 'consumptiegoederen', 'transacties', '14,', 'teruggekregen', '("Nespresso")', 'insolventie'}
+  Words in the .txt file but not in the Text Extraction Component: {'vergoed.', 'valt.', 'eilanden.', 'biedt', 'verstreken.', 'verhinderen.', 'inningskosten.', 'telefoon,', 'stellen.', 'inlichtingen.', 'teruggekregen,', 'klant.', '18', 'vermeld.', 'telefoonnummer:', 'nummer:', '(tel:', 'B.V', 'februari', 'VAT', 'manier', 'plaatsvinden', '€', '18.3', 'formulerings-,', 'verdelen.', 'Ideal.', 'advies.', '(voor', 'periode,', 'Dan', '12.1.', '18.2', 'afhankelijk', 'Nespresso-kanalen.', '–', 'wil,', 'registeren.', 'apps:', 'maanden', 'etuis,', 'aanmerking', 'gelden', 'risico’s', 'transacties.', 'Avant', '(“Nespresso”)', 'stakingen,', 'Na', '-belastingen', 'voorwaarden.', 'standaardlevering)', 'aankoop', 'Kvk', 'Vastgesteld', 'regels.', '9', 'gegevens.', 'productie,', 'telefoon.', 'één', '16.2', 'Boutiques.', 'strekt).', '13.3', 'koop,', 'onder', 'voortvloeit', 'uit?', '0', 'hygiëne', '(bv.', 'krijgt.', 'periode', 'gebeurtenissen', 'zijn.', '12.2.', '()', 'e-mail)', 'kopen', 'kopen(zolang', 'iedereen', 'creditcard.', 'vertraging', 'buiten', '08000242010)', 'billijke', '2015', 'controleren.', 'opeisbaar.', 'nummer))', 'klanten', '(Antwoordnummer', 'hebt.', 'mogelijkheid', 'neemt.', 'factuur.', 'koffies', '2.4.', 'koopt,', 'consumptiegoederen.', 'meerdere', 'EXPLORATIONS,', 'gebracht.', 'toegestaan)', 'product.', 'apps,', 'bestelling.', '"avant', 'publiceren,', '-', 'zodra', 'recycling.', 'beschikbaarheid.', 'transport', 'afgelopen', 'haar', '18.4', 'website.', '18.', 'contactnl@Nespresso.com', 'retourneren:', 'AMSTELVEEN', 'Tel:', ':', 'Limited', 'verklaring', 'nieuwe,', 'versleuteld.', 'wanneer', 'première"', 'Edition', 'schadevergoeding', 'bestellingen.', 'oorlogen,', 'EXPLORATIONS-koffie', 'EXPLORATIONS', 'Première.', '39a', 'geopend.', 'Clubleden', 'incasso.', 'verklaren', 'verplichtingen', '%', 'is,', 'betalingswijzen:', 'omstandigheden', 'derde,', 'geregistreerd,', 'number:', 'gekocht,', 'voorwaarden,', '18.1', 'insolvabiliteit', 'verplichtingen,', '(gratis', 'fraude.', 'pinbetaling', 'nutsvoorzieningen.', 'strekt.', 'Alleen', 'beperkte', 'herroeping.', 'kwaliteitsproblemen', 'leven', 'certificate:', '20)', 'kwijten', 'Caramelito).', 'beschikbare', 'Explorations', 'natuurrampen', 'E-mail:', 'betaald.', 'labSC', 'Première'}
+
+For the PDF file 'File_29.pdf':
+  Jaccard similarity: 0.795
+  Words in the Text Extraction Component but not in the actual .txt file: {'€10,40', '1.', '€59,90', 'mm', '€0,00', '9a', '€49,50', 'verzenden', 'levertijd', 'labs'}
+  Words in the .txt file but not in the Text Extraction Component: {'levertijd:', '39a', '10,40', '59,90', 'afbeelding', 'T:', '0,00', '-', 'internet', '€', 'gedownload.', '49,50', 'Ter', 'bescherming', 'privacy', 'verzenden,', '3mm', 'automatisch', 'niet', 'labSC', 'deze'}
+
+For the PDF file 'File_30.pdf':
+  Jaccard similarity: 0.743
+  Words in the Text Extraction Component but not in the actual .txt file: {'02—03—23', '.', '24—02—23', 'contract', 'is', 'NL96ABNAO401863042', '21—02—23', 'B.V', '17—02—23', 'nr.', 'VVRS4T', 'klant', 'D1151778980001', '11—03—2023', 'valt', 'u', 'ga', 'NO3163262', 'NL96ABNAO401863042Travelcard', '€02', 'kenteken', 'NLO04010462B01', 'KVK—/', 'travee', 'm/s', '27—02—23', '26—02—23', '|', 'je', '23—02—23', '01—03—23', '_', '22—02—23', '03—03—2023', 'red'}
+  Words in the .txt file but not in the Text Extraction Component: {'03-03-2023', 'contract:', 'travelcard', 'kenteken:', 'CO2', 'Subtotaal', '11-03-2023', 'NL004010462B01', 'is.', 'KVK-/', '199,89', 'nummer:', '21-02-23', 'NL96ABNA0401863042', '-', '02-03-23', 'nr', '24-02-23', 'valt,', '01-03-23', '27-02-23', '17-02-23', '1', 'N03163262', '22-02-23', 'afgeschreven.', 'VVR54T', 'TOTAAL', '26-02-23', 'D115178980001', 'klant:', '23-02-23', 'I'}
+
+For the PDF file 'File_31.pdf':
+  Jaccard similarity: 0.784
+  Words in the Text Extraction Component but not in the actual .txt file: {'NL8ORABO0307370178', 'b.v.', 'E-mail:', 'WI16W', 'Rekeningnr.:NL8SORABOO0307370178', 'Telefoon:', 'Website:', 'WOLDDGEÏ6GC519947', 'KUÜTOBEGRIJF', 'aan', 'Swiftcode:', 'barcode:', 'CARTEAF'}
+  Words in the .txt file but not in the Text Extraction Component: {'aan:', 'BOVAG', 'W0LDD6E76GC519947', 'CARTEAM', 'Ibancode', 'Swiftcode', 'E-mail', 'W16W', 'Rekeningnr.:NL80RABO0307370178', 'Telefoon', 'NL80RABO0307370178', 'Website', 'b.V.', 'AUTOBEDRIJF'}
+
+For the PDF file 'File_32.pdf':
+  Jaccard similarity: 0.760
+  Words in the Text Extraction Component but not in the actual .txt file: {'nodig', 'CZC2458FAT', 'glimlach', '€2,70', '€59,90', '21', 'FACTUUR', 'SFOEBEA', 'geïnd', 'als', '59,90”', 'referenties', 'u', '”iDEAL”', 'l'}
+  Words in the .txt file but not in the Text Extraction Component: {'ik', 'Labsc', 'betaal', 'CZC2458F4T', 'blue', 'nodig.', 'cool', '-', 'glimlach.', '€', 'Z1', 'FACTUUR.', 'referentie:', '59,901)', 'Vrij', "''iDEAL''", '1)', '5F0E8EA', 'zelf', 'wel.', 'Dat', 'geïnd;'}
+
+For the PDF file 'File_33.pdf':
+  Jaccard similarity: 0.849
+  Words in the Text Extraction Component but not in the actual .txt file: {'referenties', 'nodig', 'glimlach', '"IDEAL"', 'Delivery', 'nummer', 'als', 'wel', 'u'}
+  Words in the .txt file but not in the Text Extraction Component: {'nummer:', 'Deliv...', 'wel.', 'blue', 'glimlach.', 'nodig.', 'cool', '€', "''iDEAL''", 'referentie:'}
+
+For the PDF file 'File_34.pdf':
+  Jaccard similarity: 0.765
+  Words in the Text Extraction Component but not in the actual .txt file: {'referenties', 'nodig', 'glimlach', '"IDEAL"', '2023—2024', 'NL5OINGBO683251309', '6625951804', '1S82TDOOSAMHPF43T]7K', 'betaling', '"Shoptegoed', 'geïnd', 'als', '82TDO0S9AMH', 'wel', '39—a', '161AX7', 'u'}
+  Words in the .txt file but not in the Text Extraction Component: {'625951804', '1S82TD009AMHPF43TJ7K', '39-a', 'blue', 'nodig.', 'cool', "''Shoptegoed", '359,901)', '2023-2024', 'glimlach.', '€', 'referentie:', 'Vrij', "''iDEAL''", 'NL50INGB0683251309', '1)', '16IAX7', '82TD009AMH', 'wel.', "betaling''", 'geïnd;'}
+
+For the PDF file 'File_35.pdf':
+  Jaccard similarity: 0.846
+  Words in the Text Extraction Component but not in the actual .txt file: {'leveringen', 'onderdelen', 'stijgen', 'bepaald.', 'A.camera', 'ad', 'occasion', 'berichten.', 'i.m.', 'control', 'nummer:', 'website', 'persoonsgegevens', 'datum', 'laten', 'Automaat|', 'doorgeven', 'https://www.ford.nl/belangrijke-informatie/voorwaarden-en-privacyverklaringen/privacyverklaring-verstrekt-dealer-reparateur.', 'versturen', 'WFOSXXWPGSKK26792', 'automaat', 'privacyverklaring', 'zakelijk', '|', 'modellen!', 'https://www.zeeuwenzeeuw.nl/privacy-statement/.', 'Extra‘s:', 'b.d.', 'Navi.', 'NL39ABNA0870355112'}
+  Words in the .txt file but not in the Text Extraction Component: {'b.v.', 'persoonsgegevens.', '“De', 'occasion:', 'factuurbedrag:', '(of', '|Automaat|', 'https://www.zeeuwenzeeuw.nl/privacy-statement/', 'één', 'verwerken,', 'overheid:', 'dealer.', 'en/of', 'bepaald.“', '!', '.......................................', '(laten)', 'leveringen,', 'voldoen:', '-', 'Navi.|', 'https://www.ford.nl/belangrijkeinformatie/', 'doorbelasten', 'zakelijk,', 'auto,', 'stijgen,', '...................................', 'onderdelen,', 'contr.|', 'WF0SXXWPGSKK26792', '.........................', ':NL79ABNA0870355112', 'berichten).', 'a/d', 'A.camera|', 'versturen,', 'modellen', "Extra's:", 'website:', 'i.v.m.', '.................................................', 'zijn,', 'voorwaarden-en-privacyverklaringen/privacyverklaring-verstrekt-dealer-reparateur', 'privacyverklaring:'}
+
+For the PDF file 'File_36.pdf':
+  Jaccard similarity: 0.667
+  Words in the Text Extraction Component but not in the actual .txt file: {'vragen.', 'exact', 'Bedrag:', 'Klantnummer:', 'grondslag:', 'www.exact.com.', 'door:', 'bedrag:', 'BTW:', '€99,12', '3412', 'Vervaldatum:', 'BIC:', 'KM', 'REFERENTIE:', '€571,12', '34', '21%', 'Datum:', 'postbus', 'Omschrijving:', 'IBAN:', 'Totaalbedrag:', 'Delft,', 'Factuurnummer:', '€472,00', 'ID:'}
+  Words in the .txt file but not in the Text Extraction Component: {'39a', '472,00', '21', 'Bedrag', '%', 'ID', 'Factuurnummer', 'www.exact.com', 'IBAN', '€', '99,12', '571,12', 'vragen', 'Klantnummer', 'REFERENTIE', 'Totaalbedrag', '3412KM', 'BIC', 'Omschrijving', 'grondslag', 'Vervaldatum', 'door', '>Postbus'}
+
+For the PDF file 'File_37.pdf':
+  Jaccard similarity: 0.454
+  Words in the Text Extraction Component but not in the actual .txt file: {'een', 'en', 'vermelden', '39', 'bij', 'bereikt', '[23/03/2023', 'Engineering', '36.009—LABSC)', 'd', 'Electronic', 'administratie@labsc.nl', 'Nederland', 'Te', 'Website:', 'Email:', 'klant', 'Dimed', 'Kapel', 'lid', 'u', 'BIC:', 'Lopikerkapel,', 'ga', 'e', 'w', '645—1001765—81', 'Tel:', 'apersepac', 'betaling,', 'Ï23000397', 'Factuur', 'Telefax:', "'BE!", '|', '(VERVALDAG', '9007.0001C113652', 'TOTAAL', '[NL', '36.011—LABSC)', '[23010305', '[00007098', '2140', 'Transport'}
+  Words in the .txt file but not in the Text Extraction Component: {'dimed', 'DIWD89', 'e-mail:', '39a', '645-1001765-81', 'A', 'VERMELDEN', 'v8.1', 'BIJ', 'electronic', 'NEDERLAND', 'LOPIKERKAPEL', '36.009-LABSC)', 'NL', 'administratie@labSC.nl', 'O', 'bereik,', 'L', '00007098', '-', 'BETALING,', 'n.v.', 'T', 'BRUTO', 'TRANSPORT', 'B-2140', 'sn:', 'TE', 'engineering', 'Doc.nr.', 's.a.', 'tel.:', '(id', 'website:', 'BIC', 'ADVIES', 'telefax:', '23/03/2023', '9007.0001AC113652', 'VERVALDAG', 'FACTUUR', '36.011-LABSC)', 'Datum', 'klant:', 'joe'}
+
+For the PDF file 'File_38.pdf':
+  Jaccard similarity: 0.633
+  Words in the Text Extraction Component but not in the actual .txt file: {'tarief,', 'K', 'omschrijving,', 'Subtotaal', 'heffingsmaatstaf,', 'is', '796', 'belastingobject,', 'al', '2203901', 'aanslag:', '3402', 'PP', '3412', '230', 'KM', 'bedrag.', '€161,48', '€10003840', 'periode,', '|', 'belasting,', 'RB', 'betalingskenmerk', 'klantnummer', 'Rioolheffing', '€161,48.', 'deal', 'Datum'}
+  Words in the .txt file but not in the Text Extraction Component: {'belasting', 'vóór', 'heffingsmaatstaf', 'is€', 'tarief', 'heffing', 'Riool', 'm3:', 'aanslag.', '-', 'belastingobject', 'periode', 'iDEAL', '€', '161,48', 'SubTotaal', 'termijn', 'e', '161,48.', 'Klantnummer', 'Dagtekening', 'omschrijving', '3412KM', 'betalingskenmerk:', 'Kenmerk', '0100036801'}
+
+For the PDF file 'File_39.pdf':
+  Jaccard similarity: 0.807
+  Words in the Text Extraction Component but not in the actual .txt file: {'0800—022—5849', 'incassant—ID', '.', 'F8kWh', 'geïncasseerd', 'P—596—FB', '_', 'NLOO8Y00680.B0O1', 'm/s', 'NL85.S0GE.0270.2062.05', 'u'}
+  Words in the .txt file but not in the Text Extraction Component: {'·', '—', 'NL008700680.B01', '78kWh', 'P-596-FB', '1/1', '0800-022-5849', 'incassant-ID', 'geïncasseerd.', 'NL85.SOGE.0270.2062.05'}
+
+For the PDF file 'File_40.pdf':
+  Jaccard similarity: 0.829
+  Words in the Text Extraction Component but not in the actual .txt file: {'factuur', 'excl.', 'Verzending', '1314', 'Netherlands', 'WWW.DHLPARCELNL', 'BQ1,', 'incl.', '177', '8001626—TESTO', 'richtlijnen', 'code', '3412', 'BH', 'toepassing', 'erom', 'KM'}
+  Words in the .txt file but not in the Text Extraction Component: {'WWW.DHLPARCEL.NL', '(Excl.', '(Incl.', 'richtlijnen.', 'nummer:', '1314BH', 'code:', '-', 'B01,', 'Netherlands)', 'from', 'BTW)', 'Factuur', '(The', 'Verzendig', '3412KM', '8001626-TESTO', 'factuur:', 'toepassing.', 'toegezonden.'}
+
+For the PDF file 'File_41.pdf':
+  Jaccard similarity: 0.725
+  Words in the Text Extraction Component but not in the actual .txt file: {'is', 'concert', 'Labs', 'Het', 'ongeveer', '€145,00', 'a.m.', 'Advies', 'uw', 'Overig)', '€175,45', 'LEG/Z', 'gebruiker', 'debiteur', '€30,45', 'GROEP', 'T37', 'Concept'}
+  Words in the .txt file but not in the Text Extraction Component: {'by', '39a', 'Powered', 'ict', 'ICT', '(Uw', '19a', '(www.tcpdf.org)', 'Overig]', 'IS', '-', '175,45', '€', 'concept', 'advies', 'debiteur-', '30,45', 'ONDERDEEL', 'TCPDF', 'VAN', '145,00', 'CONCEPT', '[Gebruiker', 'labSC'}
+
+For the PDF file 'File_42.pdf':
+  Jaccard similarity: 0.750
+  Words in the Text Extraction Component but not in the actual .txt file: {'01-07-2023', '035-6911859', '€100,44', 'bedrag:', 'A', 'erop', 'groet', 'maand(en)', 'Premievervaldatum:', '€17,44', 'periode', 'betaaltermijn', 'verschuldigd:', 'voldaan', 'verzekerde'}
+  Words in the .txt file but not in the Text Extraction Component: {'voldaan.', 'Dé', 'verschuldigd', '59', 'verzekering:', 'NL', '18', '691', 'erop,', '035', 'Premievervaldatum', '17,44', '€', '27', '(betaaltermijn:', '01-07-2023)', ':', 'groet,', '(verzekerde', '-A', 'maand(en))', 'periode:', '100,44'}
+
+For the PDF file 'File_43.pdf':
+  Jaccard similarity: 0.837
+  Words in the Text Extraction Component but not in the actual .txt file: {'28—10—2022', 'vanaf', 'ga', '39—A', 'SR—5058106', 'machtiging', '1,005', 'NL27RABOO331069008', '2ArboNed', 'lid', 'Incassant—ID', 'toepassing', 'u'}
+  Words in the .txt file but not in the Text Extraction Component: {'SR-5058106', '1,00S', 'vanaf:', '=', 'Incassant-ID', '28-10-2022', 'NL27RABO0331069008', 'lid,', '39-A', 'g,', 'toepassing.', 'toepassing,', '€', 'voorwaarden.', 'machtiging:'}
+
+For the PDF file 'File_44.pdf':
+  Jaccard similarity: 0.815
+  Words in the Text Extraction Component but not in the actual .txt file: {'B.V.', 'Labs', '9', '-€7,65', 'zuurkasten', 'Advies', '45264', 'Zwolle', 'pakket', 'btw', 'afgeschreven', '511441'}
+  Words in the .txt file but not in the Text Extraction Component: {'btw:', '(pakket', '45264)', 'factuur?', '39a', 'B.V.•', '511441)', 'advies', 'YOURHOSTING', 'zuurkast.eu', 'Zwolle•', 'eu', '•', 'labSC', '-7,65', 'afgeschreven.'}
+
+For the PDF file 'File_45.pdf':
+  Jaccard similarity: 0.743
+  Words in the Text Extraction Component but not in the actual .txt file: {'toegezonden', 'één', 'BTW—nr.', 'BTW—code', 'tel', '€53,66', 'plaats', 'stuks', 'voorwaarden', '€64,93', 'u', '(Onra0', 'Luxtest—Master', '€23,96', '€11,27', '89—C', 'VC—8314265', '3084', 'nageleverd', '€5,74', 'BTW—ID', '€47,92'}
+  Words in the .txt file but not in the Text Extraction Component: {'BTW-nr.', '1/', '5,74', 'stuk(s', 'BTW-code', 'voorwaarden,', 'plaats.', '23,96', 'BTW-ID', '30A4', 'Luxtest-Master', '·', 'VC-8314265', '11,27', '89-C', 'tel.:', '64,93', 'nageleverd:', 'KamervanKoophandel', '+/-', '47,92', 'toegezonden.'}
+
+For the PDF file 'File_46.pdf':
+  Jaccard similarity: 0.778
+  Words in the Text Extraction Component but not in the actual .txt file: {'€6,17', '0129284432,', 'VWYOURHOSTING', '225,', 'pakket', '*', '555250', 'Zwolle,', 'www.yourhosting.nl,', 'NL02RABO', 'KvK', '19a', 'labs', 'factuur:'}
+  Words in the .txt file but not in the Text Extraction Component: {'(pakket', '555250)', 'factuur?', '6,17', 'a', '39', '225', 'Zwolle', 'www.yourhosting.nl', '€', 'YOURHOSTING', 'NL02RABO0129284432', 'labSC', 'Kvk'}
+
+For the PDF file 'File_47.pdf':
+  Jaccard similarity: 0.747
+  Words in the Text Extraction Component but not in the actual .txt file: {'(2022);', 'toegepast', '7.11.30', 'levering', 'mschrijving', 'code', '2', '21,00%', 'Artikelo', 'reden', 'offertes', 'factuurnummer', 'bankrekeningnummers', 'altijd', 'Goederenontvangst', '24', 'stelletjes', 'Metaalunievoorwaarden', 'Klantnr.', 'Ordernr.', 'Factuurnr.'}
+  Words in the .txt file but not in the Text Extraction Component: {'39a', 'één', 'inkoop@labsc.com', 'Artikel', '%', 'Order', '(2022):', 'ontvangst', 'code:', 'METAALUNIEVOORWAARDEN', '7.', 'levering.', 'Goederen', '€', 'factuurnummer.', 'lid', 'metaalunie', '1.30', 'Klant', 'reden:', 'G-2', 'no.', '21,00', 'Factuur', '•', 'offertes,', 'omschrijving', '9951', 'asecos', '03', 'stelvoetjes', 'toegepast,', '2A', '(Altijd', 'betaling)', 'bankrekeningnummers,'}
+
+For the PDF file 'File_48.pdf':
+  Jaccard similarity: 0.500
+  Words in the Text Extraction Component but not in the actual .txt file: {'excl.', 'behandeling', '23,70', 'jan', '1009156655', 'naar', '2703', '2023', 'H.o.awmüélﬂﬂz', 'incl.', '033-298', '31029322', '5934', '800795714', 'u', 'totale', 'KvK:', 'p', 'B001', 'geen', 'scheen', '2,44', 'Factuur', 'NL34RABO14411816', 'ideale', 'BIC/Swift:'}
+  Words in the .txt file but not in the Text Extraction Component: {'(geen', '2,44)', 'T:0653132102', '1816', 'shoes', '(Excl.', '(Incl.', 'houthandelvrielink@gm_a_il.c', 'Swift:', 'naar:', 'deMeente', 'O', 'aan:', '\U001000be', 'behandeling:', '-', 'r', 'iDeal)', 'schoen', 'Factuur#', '€', ']', '----', 'l', '€23,70', 'JAN.', '(Totale', '/', 'om', 'jan.', 'Mail:', "-----------------------------------'", 'BTW):', '033-2985934', '11441', 'z:23', "'.!0'.!3", 'BIC', '800795714.B01', 'o\U00100007\U00100008b\U00100009tfu!Jm:', '________', 'KvK:31029322', 'NL34RABO0114411816', '1000156655', '€2,44', 'Workweat', 'H.', 'NL34RABO0'}
+
+For the PDF file 'File_49.pdf':
+  Jaccard similarity: 0.246
+  Words in the Text Extraction Component but not in the actual .txt file: {'13.50', '68.76', 'received', 'Subtotal', 'Commerce', '8.21', 'specification', 'Other', 'payment', 'us', 'VAT', 'user', 'incl.', 'detailed', 'must', '€', 'Amount', '370.96', 'numbers', 'active', '3337', 'number', 'Period', 'OFFICE', 'Cost', '27.04', 'exclusive', 'the', 'services', '|', '19.43', '22.92', 'transfer', 'connection', '13.00', '_', 'long', '35.95', 'calls', 'can', 'subscription', 'amount', 'Account', '30,', '272.74', 'Usage', 'Guarantee', 'Chamber', 'paid', 'us,', 'as', 'for', 'is', 'Discount', '284.23', 'Basic', 'You', 'outside', 'you', 'Mobile', 'business', 'details', 'Page', '11.00', 'Main', 'Voice', '0.00', '59.69', 'account', 'visit', 'including', 'In', '0.54', 'Customer', 'Insurance', 'March', 'Description', 'traffic', '311.27', 'reference', 'within', '36.61', 'Invoice', 'Summary', 'With', 'Double', 'costs', 'Date', 'credit', 'see', 'Netherlands)', 'also', 'because', '41.30', 'please', '74.91', 'Your', 'service', '1,', 'Quantity', '30-Apr-23', '78.95', 'Limited', '16,', '94.28', '35.00', 'discount', 'free', 'a', 'Subscriptions', 'your', 'group:', 'Purchases', 'or', 'this', 'years', '€376.96', 'by', 'are', '22.91', 'May', '6.00', 'want', 'to', '71.36', 'Device', 'User', 'RH)', 'number:', '37.99', '23.45', 'before', '343.92', 'If', 'be', '31,', 'Total', '56.29', '291.28', 'overview', 'VAT%', 'third', '01-Apr-23', 'location', '38.53', 'Discounts', '45.83', 'Phone:', 'customer', 'party', '2.07', '15,'}
+  Words in the .txt file but not in the Text Extraction Component: {'een', 'Aankopen', '23,45', 'kosten', 'Subtotaal', 'uw', '22,91', '272,74', 'april', '8,21', 'naar', '56,29', 'Kostengroep:', 'U', 'servicenummers', '74,91', 'KvK', '343,92', 'betalen', 'loopt)', 'bent)', 'bedrag', '15', 'op', 'Garant', 'Pagina', 'binnen', '16', '33,37', 'specificatie', 'btw-bedrag', 'derden¤', 'bezit', 'BTW', 'Beperkt', '45,83', 'Gebruik', '38,53', '30', 'ook', 'Toestelbetaling', 'Rekeningnummer:', '37,99', '71,36', 'te', 'nr.', 'het', 'maart', '0,00', 'Mobiel', 'betaling', 'jaar', 'Rekeningdetails', 'Uw', 'Btw', '27,04', 'Basis', 'Totaal', 'zien', '6,00', 'Rekening', '35,95', '36,61', 'Kortingen', '¤', 'Dubbele', '(zolang', '291,28', 'exclusief', 'voor', 'met', 'diensten', 'locatie', 'kunt', 'overmaken', 'KANTOOR', 'bij', 'zijn', '19,43', '68,76', 'Hoofdaansluiting', 'korting', '284,23', 'Overige', 'nummer', 'klant', '-', '(buiten', '22,92', 'mei', '370,96', 'Korting', '(omdat', 'Onder', 'vermelding', 'Abonnementen', '94,28', 'dient', 'Gebruiker', ':', 'gebruiker', 'Aantal', '0,54', 'uitgebreid', 'je', 'bellen', '30-apr-23', 'Telefoon:', 'dit', 'Spraak', '376,96', '13,50', 'Datum', 'btw', 'RHJ', 'Wilt', 'kijk', '41,30', '2,07', 'vrij', '59,69', 'Bedrag', '%', '78,95', 'nr.:', 'Assurant', 'opnemen,', 'inclusief', 'abonnement', '01-apr-23', '35,00', 'Ander', 'Nederland)', 'zakelijk', 'Klantnummer', 'Rekeningnummer', 'dan', '11,00', 'ons', 't/m', 'Samenvatting', 'Dataverkeer', '311,27', 'Periode', 'Omschrijving', 'tegoed)', 'kenmerk', 'overzicht', '31', '(incl.', 'rekening', '13,00'}
+
+For the PDF file 'File_50.pdf':
+  Jaccard similarity: 0.692
+  Words in the Text Extraction Component but not in the actual .txt file: {'.', '03—04—23', 'contract', '02—04—23', 'at', 'is', 'NL96ABNAO401863042', 'eerstvolgende', 'B.V', '10—04—23', 'nr.', 'VVRS4T', 'klant', '1387', 'D1151778980001', 'Tingq', 'valt', '15—03—23', 'u', '14—04—2023', 'ga', '05—04—23', '€02', 'kenteken', 'NO3265388', 'HARDINXVELD—GIESSENDAM', 'NLO04010462B01', 'KVK—/', 'travee', 'm/s', 'DElL', '|', 'je', '12—04—23', '22—04—2023', '_', '5232', 'red'}
+  Words in the .txt file but not in the Text Extraction Component: {'contract:', 'travelcard', 'kenteken:', 'Subtotaal', '02-04-23', 'NL004010462B01', 'HARDINXVELD-GIESSENDAM', '1,387', 'eerst', '03-04-23', 'is.', '14-04-2023', 'KVK-/', 'nummer:', '05-04-23', 'NL96ABNA0401863042', 'N03265388', '-', 'nr', "'t", 'valt,', '501,49', 'Tinq', 'DEIL', '12-04-23', '1', 'volgende', 'afgeschreven.', '606,62', '10-04-23', 'VVR54T', '52,32', 'TOTAAL', 'D115178980001', '22-04-2023', '15-03-23', 'klant:', 'I'}
+
+For the PDF file 'File_51.pdf':
+  Jaccard similarity: 0.728
+  Words in the Text Extraction Component but not in the actual .txt file: {'.', 'geïncasseerd', 'POLESTAR', '09—02—2023', 'brandstof', '17—01—2023', '01—02—2023', '25—01—2023', 'ingegeven', 'NLOO8Y00680.B0O1', '24—01—2023', 'kosten:', 'we', 'NL85.S0GE.0270.2062.05', 'u', 'gast', '0800—022—5849', 'voorschotten:', 'incassant—ID', 'elektriciteit', '10—01—2023', 'diesel', 'kenteken', 'E—Flux,', 'm/s', 'Totaal:', '|', 'je', 'P—596—FB', 'AUTO—TYPE', '_', 'SOGENL2AKlant:', 'Factuurnummer:', 'diversen'}
+  Words in the .txt file but not in the Text Extraction Component: {'benzine:', 'gas,', '9', 'NL008700680.B01', 'kenteken:', 'kosten', 'april', 'incassant-ID', 'diesel.', '09-02-2023', '0', 'P-596-FB', '25-01-2023', '-', 'gas:', '24-01-2023', 'elektriciteit:', 'ingegeven.', 'NL85.SOGE.0270.2062.05', 'l', '1e', 'Klant:', '01-02-2023', '—', 'brandstof:', '1/1', 'diversen:', ':', 'diesel:', '17-01-2023', 'E-Flux,', '·', 'kWh', 'SOGENL2A', 'voorschotten', '0800-022-5849', '10-01-2023', 'geïncasseerd.', 'AUTO-TYPE'}
+
+For the PDF file 'File_52.pdf':
+  Jaccard similarity: 0.716
+  Words in the Text Extraction Component but not in the actual .txt file: {'Seller‘s', 'BELTAR.', 'te', 'transagáo', 'tot', 'pensum', 'oma', 'bestelling', 'u', 'cobra', 'op', 'impostoor', 'cobranga', 'isengäo', 'AEO0772400002CNL', '1E6364992H', 'numero', 'restorno', 'identificagäo'}
+  Words in the .txt file but not in the Text Extraction Component: {'nenhum', '39a', 'uma', 'cobrança', 'for', 'é', 'to', 'da', 'cobrado', 'imposto', 'identificação', '-', 'FACTUURTOTAAL', "Seller's", 'IE6364992H', 'isso', 'isenção', 'transação', 'BEL.TAR.', 'bestelling!', 'número', 'AE00772400002CNL', 'ou', 'estorno', 'klant:'}
+
+For the PDF file 'File_53.pdf':
+  Jaccard similarity: 0.694
+  Words in the Text Extraction Component but not in the actual .txt file: {'2153', 'B.V.', 'nr.', '3412', 'BTHÉ67773', '€4,92', '€9,83', 'BTW(21%)', '€2,07', 'GB', 'u', 'KM'}
+  Words in the .txt file but not in the Text Extraction Component: {'nr:', '2,07', '(21%)', '3412KM', '2153GB', '-', '€', 'B.v.', 'BTH67773', '4,92'}
+
+For the PDF file 'File_54.pdf':
+  Jaccard similarity: 0.763
+  Words in the Text Extraction Component but not in the actual .txt file: {'Lopikerkapel', '|', 'NL00198622B01', 'dienstverlening', 'Beconnummer:', '1592290902', 'bedrijf', 'Telefoon:', 'debiteurennummer', '(dossier', 'NL91RABO0159290902', 'Bij', "euro's", 'raadplegen,', 'klantbegeleiding', 'toepassing', 'Voorbereidende'}
+  Words in the .txt file but not in the Text Extraction Component: {'NL61RABO0159290902', 'begeleiding', 'Telefoon', '5,', 'LOPIKERKAPEL', 'toepassing,', 'en/of', '(KvK', '(voorbereidende)', '159290902', 'bedrijf:', 'klant', '€', 'nr', 'debiteurnummer', 'NL005098622B01', 'Beconnummer', '·', 'raadplegen', 'dienstverlening:'}
+
+For the PDF file 'File_55.pdf':
+  Jaccard similarity: 0.690
+  Words in the Text Extraction Component but not in the actual .txt file: {'Verpakking-', 'Debiteurnummer:', 'NLO06468378B01', 'Orderdatum:', 'Labs', 'TESTÒ', 'NL854149582BQ1', 'kenmerk:', 'Betaling:', 'NL25DEUTO319821064', 'BTW-nummer:', 'referentie:', 'stuk', 'om', 'Advies', 'na', 'Levering:', 'BHALMERE', 'Telefoonnummer:', 'Verzending:', 'Y', 'Ordernummer:', 'verzendkosten', 'Datum:', 'J', 'E-mail:', 'Pakbonnummer:', 'Naam:', 'Omschrijving', 'debiteur', 'Factuurnummer:', 'Bezorgadres'}
+  Words in the .txt file but not in the Text Extraction Component: {'testo', 'vom', '________O_m__s_c_h_r_ij_v_in_g__________________________________________________________E_U__R_________E_U__R__', 'labSC', 'Telefoonnummer', 'Telefoonummer', '%', 'referentie', 'ALMERE', 'BH', 'Verpakking-verzendkosten', 'nr.:', 'Betaling', 'BTW-nummer', 'Levering', 'nummer', 'E-mail', '-', '__________', 'Orderdatum', 'Be', 'Verzending', 'advies', 'NL25DEUT0319821064', 'Naam', 'Ordernummer', ':', 'debiteur-', '=========', 'Factuur', 'Ø', 'TESTO', 'Afleveradres', 'Debiteurnummer', 'Pakbonnr.', '_____16_4_,0_0_', 'Datum', 'sure.', '______0_,0_0__', 'kenmerk', '_', 'NL006468378B01', 'p/stuk', '_____________________________________________________________________________________________'}
+
+For the PDF file 'File_56.pdf':
+  Jaccard similarity: 0.836
+  Words in the Text Extraction Component but not in the actual .txt file: {'factuur', '3584', 'excl.', 'Verzending', 'enom', 'Netherlands', 'WWW.DHLPARCELNL', 'BQ1,', 'incl.', 'CS', 'richtlijnen', 'code', '3412', 'toepassing', 'KM'}
+  Words in the .txt file but not in the Text Extraction Component: {'B.V.', 'WWW.DHLPARCEL.NL', '(Excl.', '(Incl.', 'richtlijnen.', 'nummer:', 'code:', '-', 'B01,', 'Netherlands)', 'from', 'BTW)', 'Factuur', '(The', 'Verzendig', '3584CS', '3412KM', 'factuur:', 'toepassing.', 'toegezonden.'}
+
+For the PDF file 'File_57.pdf':
+  Jaccard similarity: 0.000
+  Words in the Text Extraction Component but not in the actual .txt file: {'mistakes', 'given', 'are', 'in', 'no', 'There', 'spelling', 'text.', 'the'}
+  Words in the .txt file but not in the Text Extraction Component: {'673337xxxxxxxxx4097', '21', 'Hof,', '28/04/2023', '28.04.23', 'U', 'OMSCHRIJVING', 'code:', '!\U00100095r', 'Bergen', 'Bankpas', '1770001', '3118', 'contactloze', 'de', 'Merchant:', 'Periode:', 'meer', 'Transactie:', 'WEL', 'Toiletpapier', '090A65', 'Ref.:', 'AKKOORD', 'Aantal', 'Lidl', 'Kaarthouder', '02458175', 'XXL', 'C', '(A0000000043060)', 'Bedr.Incl', 'DANK', 'Kopie', 'BETALING', 'LIDL', 'BTW', '2861\\ffl', 'TOT', '00', 'Kaart:', '057690/03', 'GRAAG', 'Terminal:', '%', '1,56', '8,99', 'MAESTRO', 'Merchant', 'EN', 'NL047903057690118231', 'ZIENS', '10:32', 'Bedr.Excl', 'eur', 'betaling', '20', 'C156GP', 'Totaal', 'Kaartnr:', '/', 'Maestro', 'Bespaar', '0479', 'Bergambacht', 'Plus-app!', 'met', 'Auth.', 'lart.', 'ElR', '7,43', 'TotAAL.'}
+
+For the PDF file 'File_58.pdf':
+  Jaccard similarity: 0.825
+  Words in the Text Extraction Component but not in the actual .txt file: {'factuur', '.', 'excl.', 'richtlijnen', 'code', 'TE09RM', '3584', 'incl.', '3412', 'toepassing', 'erom', 'KM', 'Verzending', 'KV', 'CS', 'BQ1,', 'm.', '3526', 'WWW.DHLPARCELNL', '_', 'G546BB', 'PIMZQS'}
+  Words in the .txt file but not in the Text Extraction Component: {'B.V.', 'WWW.DHLPARCEL.NL', '(Excl.', '(Incl.', 'richtlijnen.', 'nummer:', 'code:', '-', 'B01,', '6546BB', 'from', 'BTW)', 'Factuur', '(The', '7609RM', 'Verzendig', '3584CS', '3412KM', '3526KV', 'factuur:', 'toepassing.', 'PIMZOS', 'toegezonden.'}
+
+For the PDF file 'File_59.pdf':
+  Jaccard similarity: 0.686
+  Words in the Text Extraction Component but not in the actual .txt file: {'39', 'Factuurdatum:', 'hoog:', '%', 'NL95INGBO006805479', '@', 'labs', 'btw:', 'per', 'ARBÒO', 'Vervaldatum:', 'VEILIG', 'VIL-VCEU', 'COMPLEET', '21%:', 'voldaan:', 'ARBÒ', 'in', 'Factuurnummer:'}
+  Words in the .txt file but not in the Text Extraction Component: {'39A', 'Factuurnummer', '96044', '€', 'voldaan', 'ARBO', '9%', 'btw', 'compleet', 'VIL-VCU', 'Factuur', 'BTW%', 'voldoen', 'hoog', 'Vervaldatum', 'Factuurdatum', 'NL95INGB0006805479', 'labSC', 'veilig'}
+
+For the PDF file 'File_60.pdf':
+  Jaccard similarity: 0.477
+  Words in the Text Extraction Component but not in the actual .txt file: {'O4m', 'oh', 'je', '052945520', '9176786995960', 'Labs', 'om', 'NL820426B01', 'KÒRTINGEN.', 'Advies', '31651XXXX', 'KÜNNEN', 'Oh', '400', '136', 'is', 'RABQ', 'Simpe'}
+  Words in the .txt file but not in the Text Extraction Component: {'18,37', 'uw', '13G', 'wordt', 'centrale', 'Flexibel.', 'per', '02:44:51', 'incassant', '51s', '13,37', 'KORTINGEN.', 'VoIP', 'Infra', 'KPN', 'betalen', 'van', '01-05-2023', '9,55', '\\5', 'op', '87,46', 'interlokaal', 'afgeschreven.', 'nr:', 'Fax2email', '23,34', '31/05/2023', 'Vaste', 'mobiel!', '14,54', 'Van', 'ID:', 'betrouwbare', 'Verbruik', 'Factuurdatum:', '4h', 'RABO', 'Identificatie', 'noxtelecom.nl/zakelijk-mobiel-youfone', '@', 'spraakkanalen', '39A', '2h', 'te', 'machtigingskenmerk', 'het', '0,00', 'Automatische', 'abonnementen', 'Hosted', 'Uw', '20%', 'netwerk.', '04:47:25', '7h', 'Internationaal', 'advies', 'Simpel.', 'Venlo:', '8,94', '49,56', 'uur', 'Youfone', '12,39', '5,87', '23,35', '21%', 'incasso', 'Data(MB)', 'telefonie', 'Bruto', '26,74', '0,0', '105,83', '100%', '31-05-2023', 'LOPIKERKAPEL', 'TELECOM', 'Destinatie', '5,41', '64,11', '36m', '-', '24s', 'Tot', 'Korting', 'Abonnementen', '25s', 'Kapelsepad', '-09,91', 'NOX', '7,27', '07:36:24', '302422501', 'KUNNEN', 'rekening', 'VoIP-', 'excl.', '109', '600', '47m', '0h', '44m', '08s', 'Telefonie', 'PostcodeNr', 'gespreksopname', 'Ons', 'Overzicht', 'is:', 'Omstreeks', '01/05/2023', '700502.', '917678695960', 'NL27RABO0331069008', 'zakelijk', 'NL8500.20.426.B.01', '11-05-2023', 'NL26ZZZ514464640000', 'Voordelige', '5,97', '0152945520', 'Xelion', 'Verkeer', '04m', '3412KM', '31651XXXXXX', 'Omschrijving', '-05,87', 'labSC', '46,69'}
+
+For the PDF file 'File_61.pdf':
+  Jaccard similarity: 0.776
+  Words in the Text Extraction Component but not in the actual .txt file: {'|', '8541495828001', 'Labs', 'levering', 'ontvangst', 'à', 'Advies', 'toegezonden', 'betalingsvoorwaarden', '_', 'gram', 'accepteren', 'of'}
+  Words in the .txt file but not in the Text Extraction Component: {'by', 'grams', 'Powered', '79.70', '3.95', '8.75', 'en/of', '2', '(www.tcpdf.org)', 'betalingsvoorwaarden.', '-', 'ontvangst.', 'VZA', '67.00', '€', '390001', 'op:', 'advies', '854149582B01', 'accepteren.', 'leverings-', '21%', '33.50', 'FSC(R)', 'TCPDF', 'Prijs', 'labSC', 'toegezonden.'}
+
+For the PDF file 'File_62.pdf':
+  Jaccard similarity: 0.777
+  Words in the Text Extraction Component but not in the actual .txt file: {'.', 'contract', '1376', 'is', '4873', 'NL96ABNAO401863042', ')', 'nr.', 'VVRS4T', 'klant', 'D1151778980001', 'valt', 'u', 'Sik', '€02', 'kenteken', 'NLO04010462B01', 'KVK—/', 'm/s', 'enz.', '|', 'je', 'NO3301853', '_'}
+  Words in the .txt file but not in the Text Extraction Component: {'contract:', 'kenteken:', 'CO2', 'Subtotaal', 'NL004010462B01', 'is.', '48,73', 'KVK-/', 'N03301853', 'nummer:', 'NL96ABNA0401863042', '-', '98,57', 'nr', 'valt,', 'inz.', 'Stk', '1,376', '1', 'afgeschreven.', 'VVR54T', 'TOTAAL', 'D115178980001', '567,94', 'klant:', 'I'}
+
+For the PDF file 'File_63.pdf':
+  Jaccard similarity: 0.830
+  Words in the Text Extraction Component but not in the actual .txt file: {'factuur', '.', 'excl.', '13.01', 'richtlijnen', 'code', '16.93', 'incl.', '3412', 'toepassing', 'erom', 'KM', 'Verzending', 'BQ1,', 'm.', '|', 'WWW.DHLPARCELNL', '_', '21058'}
+  Words in the .txt file but not in the Text Extraction Component: {'B.V.', 'WWW.DHLPARCEL.NL', '(Excl.', '(Incl.', 'richtlijnen.', 'nummer:', 'code:', '-', 'B01,', 'from', 'BTW)', 'Factuur', '(The', '91058', 'Verzendig', '3412KM', 'factuur:', 'toepassing.', 'toegezonden.'}
+
+For the PDF file 'File_64.pdf':
+  Jaccard similarity: 0.601
+  Words in the Text Extraction Component but not in the actual .txt file: {'parkeren.', 'NL32ABNAO0249742780', 'Belastingkantoor', 'Parkeerbelasting:', 'maken:', 'BV', 'Noordelijk', 'aanslag:', 'aanslag?', 'Locatie:', '€4,10', '€77,00', '02052321320014025', '1964.', 'Kenteken/merk:', 'Datum/tijd:', '€72,90', 'feit:', '0285', 'noordelijkbelastingkantoor.nl/bezwaar.', 'Bonnummer:'}
+  Words in the .txt file but not in the Text Extraction Component: {'B.V.', 'Locatie', '77,00', 'Heeft', 'Aanslagnummer', 'Bonnummer', '-----------', '02851964.', '4,10', '------------------', 'te', 'noordelijkbelastingkantoor.nl/bezwaar', 'maximaal', '102052321320014025', 'iDeal', 'Contact', 'uv', 'naheffingsaanslag', '€', 'Door', 'Postadres', '2102851964', '78', 'mei', 'betalen', 'Datum/tijd', 'maken', '000', '----------', 'Bezoekadres', '72,90', '""', 'noordelijkbelastingkantoor.nl.', 'Kosten', '(088)', '000574.01', 'Rekeningnummer', 'Dagtekening', 'Kenteken/merk', 'feit', 'parkeren?', 'N""rdelijk', '21:31', 'voertuig', 'noordelijkbelastingkantoor.nl', 'Aanslag', 'Belastingkantvvr', '79'}
+
+For the PDF file 'File_65.pdf':
+  Jaccard similarity: 0.628
+  Words in the Text Extraction Component but not in the actual .txt file: {'ICT—Office', 'NLOP—SQ048471', 'E—mail', 'dagen', 'NLOP—041456', 'Incassant—ID', '19—2—2023', 'Voorwaarden', 'Klantadvies', '"Fleet', 'NL91RABO0128998911"', '28—2—2023', 'SWIFT—code', 'Artikelnummer_Omschrijving', 'NL—H', 'btw', 'Totaal', 'Complete®', '1', 'Btw—bedrag', 'Pagina', 'Machtigings—id', 't/m', 'Btw—code', 'NL2YRABOO331069008', '088—2030100', 'NLOP—000032211', '1—2—2023', 'Sub—Totaal', '_', 'kortingspercentage', 'Midden—Nederland', 'RABONLZU'}
+  Words in the .txt file but not in the Text Extraction Component: {'ea', '19-2-2023', '39a', '088-2030100', 'Machtigings-id', 'ICT-Office', '1-2-2023', '2023', 'E-mail', '-', 'Midden-Nederland', 'Pagina2', 'NLOP-041456', 'Pagina1', 'Btw', 'Btw-bedrag', '28-2-2023', 'Incassant-ID', 'Klant', 'Total', 'NLOP-000032211', 'NL27RABO0331069008', 'Voorwaarde', 'advies', 'SWIFT-code', 'NL-H', 'Artikelnummer', 'NLOP-SO048471', 'days', '1-2-', 'Omschrijving', 'FleetComplete', 'Kortingspercentage', 'labSC', 'Btw-code', 'Sub-Total', 'NL91RABO0128998911'}
+
+For the PDF file 'File_66.pdf':
+  Jaccard similarity: 0.619
+  Words in the Text Extraction Component but not in the actual .txt file: {'ICT—Office', '19—3—2023', '1—3—2023', 'E—mail', 'dagen', 'Incassant—ID', 'Voorwaarden', 'Klantadvies', 'NLOP—042540', '"Fleet', 'SWIFT—code', '180,12"', 'Artikelnummer_Omschrijving', 'toepassing', 'NL—H', 'btw', 'NLOP—SQ049701', 'Totaal', 'Complete®', '31—3—2023', '1', 'Btw—bedrag', 'Pagina', 'Machtigings—id', 't/m', 'Btw—code', 'NL2YRABOO331069008', '088—2030100', 'NLOP—000032211', 'Sub—Totaal', '_', 'kortingspercentage', 'Midden—Nederland', 'RABONLZU'}
+  Words in the .txt file but not in the Text Extraction Component: {'ea', '39a', '088-2030100', '19-3-2023', '31-3-2023', 'toepassing,', 'Machtigings-id', 'ICT-Office', '2023', '1-3-2023', 'E-mail', '-', 'Midden-Nederland', 'NLOP-SO049701', 'Pagina2', 'Pagina1', 'Btw', 'NLOP-042540', 'Btw-bedrag', 'Incassant-ID', 'Klant', 'Total', 'NLOP-000032211', '180,12', 'NL27RABO0331069008', 'Voorwaarde', 'advies', '1-3-', 'SWIFT-code', 'NL-H', 'Artikelnummer', 'days', 'Omschrijving', 'FleetComplete', 'Kortingspercentage', 'labSC', 'Btw-code', 'Sub-Total'}
+
+For the PDF file 'File_67.pdf':
+  Jaccard similarity: 0.576
+  Words in the Text Extraction Component but not in the actual .txt file: {'13412', '.', 'BTW®', 'n', 'Nassauplein', 'Leitweg—|D', 'BTW—bedrag', '41.90', '2.', 'wen', 'NL—4791', 'UEFA', '15—5—2023', 'NLSO', 'is', 'labs', 'naar', 'R1190633', '4', 'zo', 'E—Mail:', 'afgetrokken', '2—5—2023', ']', 'I', 'i', 'var', 'terug', 'a.s.', 'e', 'EC‘s—Gravenhage', 'N', 'NV—', 'SWIFT—BIC:', 'wort', 'V.,', ':', 'BTW%®', 'tegoedbedrag', 'volledigheid', '|', 'je', 'Logistic', '_', '5—pocket—stretch—jeans', 'Bestelnr,', 'VRO2024', '>'}
+  Words in the .txt file but not in the Text Extraction Component: {'terug,', 'Bestelnr.', 'UEAFA', 'Rl', 'NV·', 'Logistlc', '412', 'NLS0', '5-pocket-stretch-jeans', 'tegoed', 'B.V.,', '1,', 'GERMANY', "EC's-Gravenhage", 'volledigheid.', 'afgetrokken.', '•', 'BTW%', 'EURO2024', 'Nl-4791', 'BTW-bedrag', 'B.V.·', '2-5-2023', 'SWIFT-BIC:', '190633', '15-5-2023', 'WORKWEAR', 'e.s.', 'NL3-', 'Leitweg-lD', 'labSC', 'Nassaupleln', 'E-Mail:'}
+
+For the PDF file 'File_68.pdf':
+  Jaccard similarity: 0.802
+  Words in the Text Extraction Component but not in the actual .txt file: {'|', '8541495828001', 'levering', 'ontvangst', 'toegezonden', 'betalingsvoorwaarden', '_', 'huismerk', 'aanbieding', 'u', 'labs', 'accepteren', 'of'}
+  Words in the .txt file but not in the Text Extraction Component: {'by', 'Powered', 'huismerk)', 'en/of', '(www.tcpdf.org)', 'betalingsvoorwaarden.', 'ontvangst.', 'VZA', '€', 'aanbieding:', 'op:', '854149582B01', 'accepteren.', 'leverings-', '21%', 'TCPDF', 'Prijs', 'labSC', 'toegezonden.'}
+
+For the PDF file 'File_69.pdf':
+  Jaccard similarity: 0.913
+  Words in the Text Extraction Component but not in the actual .txt file: {'factuur', '34', 'postbus', 'Delft,', '3412', 'www.exact.com.', 'KM'}
+  Words in the .txt file but not in the Text Extraction Component: {'39a', 'factuur,', '3412KM', 'www.exact.com', '-', 'for', '>Postbus'}
+
+For the PDF file 'File_70.pdf':
+  Jaccard similarity: 0.908
+  Words in the Text Extraction Component but not in the actual .txt file: {'LES', 'Z', '.', 'ook', 'vragen', '99990120230516', 'schade', 'BB2', 'deal', 'email', '1116.'}
+  Words in the .txt file but not in the Text Extraction Component: {'vragen,', 'ook,', '-', 'schade,', 'e-mail', '1', 'iDEAL', '999901202305161116.', '2'}
+
+For the PDF file 'File_71.pdf':
+  Jaccard similarity: 0.759
+  Words in the Text Extraction Component but not in the actual .txt file: {'Swalpje', 'Korting/Bedrag', '01-07-2022', 'Bankrekeningnummer:', 'unit', 'NL001480883B23', '0402422066', 'het', 'volgens', 'www.labfs.nl', '…B', 'KYOCERä', 'BTW-nummer:', 'u', 'LABÍS'}
+  Words in the .txt file but not in the Text Extraction Component: {'www.labsf.nl', '50219MW002', 'Bedrag', 'p.st.', '(Het', 'Swalp', '7,', 'Order', 'nummer:', 'aan:', 'NL.001.480.883.B23', 'Projectnaam:', '-', '8001637', '€', 'Korting', '01-07-2022)', '(volgens', 'rek.nr.:', '1400-005', 'nr:', '040.24.22.066', 'KYOCERA', 'unit:', 'Bank', 'LABfs'}
+
+For the PDF file 'File_72.pdf':
+  Jaccard similarity: 0.757
+  Words in the Text Extraction Component but not in the actual .txt file: {'Chassisnummer:', '.', 'bruine', 'bpm-bedrag,', '1100305003230', 'Bijkomende', 'kent', 'eindredactie', '17-5-2025', 'glad', 'info.ford-nieuwegein@zeeuwenzeeuw', 'toepassing', 'bpm-vrijstelling', 'VVN-17-J', 'NLOO7091606BO1', 'SRKENQ', 'info.fordazeeuwenzeeuw.nl', '2-4,', 'meer', 'Kleur:', 'belast', 'afschrijvingstabel', 'Transmissie:', 'WFOYXXTTGYPDOO481', 'm/s', '|', 'je', 'Brandstof:', 'BAR', 'Imm,', 'waarover', '16-5-2023', 'hoogte', '_', 'mm', 'BR'}
+  Words in the .txt file but not in the Text Extraction Component: {'NL0904MVEB1*', '24,', 'bpmbedrag,', 'Transmissie', '(0)', 'Chassisnummer', 'toepassing,', 'info.ford@zeeuwenzeeuw.nl', '1752025', 'afschrijvingstabel.', 'Kleur', '10.6.016', '(meer)', 'zeeuwenzeeuw.nl', '(belast)', '€', '1652023', 'bpmvrijstelling', '1e', '9mm,', '/', ',', '–', 'info.fordnieuwegein@', ':', 'NL007091606B01', 'eindreductie', 'Bijkomend', '&Zeeuw', 'kent,', 'VVN17J', 'glad,', 'WF0YXXTTGYPD00481', 'bruin,', '4mm,', 'hoogte,', 'Brandstof', 'toepassing.', '100305003230', 'waarover,', 'I'}
+
+For the PDF file 'File_73.pdf':
+  Jaccard similarity: 0.543
+  Words in the Text Extraction Component but not in the actual .txt file: {'euro', '289,95:', 'BTW-nummer:', 'Beconnummer:', 'BTW:', 'specificatie:', 'Telefoon:', 'debiteurennummer', '(dossier', 'IBAN:', 'NL91RABO0159290902', 'Rabobank:', 'werkzaamheden:', 'euro:', 'NL00598622B01', 'raadplegen,', 'toepassing', 'BIC:'}
+  Words in the .txt file but not in the Text Extraction Component: {'verwerking', 'alfa', 'NL61RABO0159290902', 'ASP', 'Maandelijkse', 'Apr', '01', '25-04-2023', 'kosten', 'Telefoon', '5,', 'Rabobank', 'SPECIFICATIE:', '18-04-2023', 'toepassing,', '27,50', 'april', 'en/of', 'Salarisadministratie', 'T.', '9998', 'Loonadm.', '0,25', '(KvK', '48,00', 'nieuwe', 'Aantal/Uren', 'S.', 'Schöne', 'accountants', '0,00', 'Overige', '-', 'IBAN', 'Aanvullende', 'periode', '€', 'nr', '159,45', 'debiteurnummer', '12,00', '17-04-2023', 'Salaris', 'Periodieke', '35,25', '13,00', 'Voor', 'producten', 'medewerkers', '2984', '2023-04,', 'adviseurs', 'Stroken', 'Mw', 'NL005098622B01', 'Beconnummer', '1,00', 'mutaties', '82,50', 'Personeel', '0,75', 'raadplegen', 'BIC', '55,00', 'Omschrijving', 'Invoer', 'specificatie', '3499', '124,20', '0,50', 'Datum', '30', 'Mutaties'}
+
+For the PDF file 'File_74.pdf':
+  Jaccard similarity: 0.824
+  Words in the Text Extraction Component but not in the actual .txt file: {'iOS,', 'Seters.', 'B.V.', '39', 'nummer', '€18,95', 'pad', 'NL27INGBQ0Q0026500', 'NL820471616BO1'}
+  Words in the .txt file but not in the Text Extraction Component: {'39A', 'NL27INGB0000026500', 'nummer:', 'b.v.', 'NL820471616B01', 'Seters', '-', 'iPad', '1', '€', 'IOS,', 'B.v.'}
+
+For the PDF file 'File_75.pdf':
+  Jaccard similarity: 0.817
+  Words in the Text Extraction Component but not in the actual .txt file: {'Seters.', 'B.V.', 'Labs', '39', 'NL82047161601', 'nummer', 'NL27INGB0000265000', '&', 'b.d.', 'pad'}
+  Words in the .txt file but not in the Text Extraction Component: {'39A', 'NL27INGB0000026500', 'nummer:', 'b.v.', 'Labsc', 'NL820471616B01', 'Seters', '-', 'iPad', '–', '€', 'B.v.'}
+
+For the PDF file 'File_76.pdf':
+  Jaccard similarity: 0.744
+  Words in the Text Extraction Component but not in the actual .txt file: {'Chassisnummer:', '.', 'bruine', 'bpm-bedrag,', '1100305003230', 'Bijkomende', 'kent', 'eindredactie', '17-5-2025', 'glad', 'info.ford-nieuwegein@zeeuwenzeeuw', '030-600-6464', 'toepassing', 'bpm-vrijstelling', 'VVN-17-J', 'NLOO7091606BO1', 'SRKENQ', 'info.fordazeeuwenzeeuw.nl', '2-4,', 'meer', 'Kleur:', 'belast', 'afschrijvingstabel', 'Transmissie:', 'WFOYXXTTGYPDOO481', 'm/s', '|', 'je', 'Brandstof:', 'Imm,', 'waarover', '16-5-2023', 'hoogte', '_', 'mm', 'BR'}
+  Words in the .txt file but not in the Text Extraction Component: {'NL0904MVEB1*', '24,', 'bpmbedrag,', '030', '600', 'Transmissie', '(0)', 'Chassisnummer', 'toepassing,', 'info.ford@zeeuwenzeeuw.nl', '1752025', 'afschrijvingstabel.', 'Kleur', '10.6.016', '(meer)', 'zeeuwenzeeuw.nl', '(belast)', '€', '1652023', 'bpmvrijstelling', '1e', '6464', '9mm,', '/', ',', '–', 'info.fordnieuwegein@', ':', 'NL007091606B01', 'eindreductie', 'Bijkomend', '&Zeeuw', 'kent,', 'VVN17J', 'glad,', 'WF0YXXTTGYPD00481', 'bruin,', '4mm,', 'hoogte,', 'Brandstof', 'toepassing.', '100305003230', 'waarover,', 'I'}
+
+For the PDF file 'File_77.pdf':
+  Jaccard similarity: 0.771
+  Words in the Text Extraction Component but not in the actual .txt file: {'omschrijving', 'is', '072-572', 'Bankrekeningnummer:', 'nota:', 'vermelden', 'zie', 'NL6SRABOO304648477', 'voldoen', '072-574', 's.v.p.', '8000943207', 'polisvoorwaarden', '_', 'mailadres', 'nv'}
+  Words in the .txt file but not in the Text Extraction Component: {'polisvrw)', 'NL68RABO0304648477', '-', 'is:', 'Bankrekeningnummer', 'tnv', 'DE', 'ASSURADEUREN', '072', 'email-adres', 'WAERDSE', ':', '-572', '800943207', '574', 'vermelden,', 'voldoen.', '(zie', 'svp', 'omschrijvings/'}
+
+For the PDF file 'File_78.pdf':
+  Jaccard similarity: 0.780
+  Words in the Text Extraction Component but not in the actual .txt file: {'Labs', 'verlaagd', 'Swift/BIC', 'code', 'stikstof', 'It', 'www.linde—gas.nl,', 'dalen', 'geleverd', 'verhoogde', 'nummer', 'Totaall', 'snoof', 'geretourneerd', 'koolzuur', 'NL001442508B01', 'u', 'huurperiode:01.05.2023—31.05.2023', '+', 'N', 'www.linde—gas.nl.', 'producten', 'elk', 'je', 'word', 'your', '0660', '_', 'EUR', 'zuurstof'}
+  Words in the .txt file but not in the Text Extraction Component: {'koolzuur,', 'Swift/BICcode', '7', 'huurperiode:01.05.2023-31.05.2023', 'geretourneerd:', '(code', 'lt', 'verlaagd:', 'en/of', 'verhoogd:', 'elt', 'nummer:', 'world', 'energieprijzen,', 'NL0014.42.508.B01', '-', 'zuurstof,', 'www.linde-gas.nl.', 'producten,', 'Totaal', 'geleverd:', 'our', 'stikstof,', 'bv', 'dalen,', 'labSC', 'www.linde-gas.nl,'}
+
+For the PDF file 'File_79.pdf':
+  Jaccard similarity: 0.897
+  Words in the Text Extraction Component but not in the actual .txt file: {'je', '4', 'Lab9SC', '1/5', 'groep', 'm/s', 'toepassing', 'stelopdracht'}
+  Words in the .txt file but not in the Text Extraction Component: {'bestelopdracht', '1/4', '/', '--------', 'LabSC', 'toepassing,', 'groep:'}
+
+For the PDF file 'File_80.pdf':
+  Jaccard similarity: 0.568
+  Words in the Text Extraction Component but not in the actual .txt file: {'[3)', '46—42390', '45', 'Kaart:', 'NLB075.08.093.B.01', 'POWERBOND', '74', '*', 'code', 'kassabon', '€1441490', 'Rekeningsdatum', 'x', 'u', '98', 'N', '10', '5550721230601', '00461', 'MONTÀ', 'NL—6163', 'BTW—nummer', '01.06', '21%', 'uw.hornbach.nu', '15,19', 'ex', 'Datum'}
+  Words in the .txt file but not in the Text Extraction Component: {'38X', '19', 'kassabon.', '01', '21', '15,', '%', 'is', '[3]', 'te', 'HONTA', 'doen.', '46-42390', 'code:', '-', '<<', 'Reken1ngsdatum', 'POWERBONO', 'BTW-nummer:', '55507212306010046174', 'iets', '3,98', '----------', 'NL8075.08.093.B.01', '4,45', 'altijd', '•', 'Haestro', 'Kaart', '>>Datum', 'CT441490', 'NL-6163', '.06', 'W', 'X', 'Er'}
+
+For the PDF file 'File_81.pdf':
+  Jaccard similarity: 0.600
+  Words in the Text Extraction Component but not in the actual .txt file: {'en', 'www.bijteus.nl', '80', 'keer', 'Tussenrekening', 'Macchiato', 'Wijnarrangement', '46', '50', '1-6-2023', '40', '1,65', '10', '60', 'OrderNr.:', '47', '142', '235', 'Omschrijving'}
+  Words in the .txt file but not in the Text Extraction Component: {'Macchlato', '4G', '%', '0msr.hrllv1ng', '7,65', '3,60', 'Tussenreken1ng', 'x)', '€', 'www,bijteus.nl', 'à', 'keer!', '1-6-23', '10,80', '47,50', '0rderNr.:', 'a', '235.40', 'Wijnarra.', 'ipv', '142,50'}
+
+For the PDF file 'File_82.pdf':
+  Jaccard similarity: 0.492
+  Words in the Text Extraction Component but not in the actual .txt file: {'ziens!', '#', '58%', 'Aástt++*:4++4444448091', 'code', '[33)', '1.559/', 'Nederland', '0000000643050', 'BT', 'korting!', 'u', 'FOGACBSF8OFSB8CD', 'Handelaarsid:', 'selalstaplalalsleldalalalolelelslsfeleleralalslelci4alafelelaialoletslolslsk', '55.24', '97:18:14', 'om', 'diesel', '36', '(POMP)', 'BTV', '92', '&', 'sfosletealalelalfelefaislefaelelatelafalelelelelalalelslelalelelaloelajoljee', 'PDG', '_', 'EEsparen', '1862110901', 'X', '8', '055£654'}
+  Words in the .txt file but not in the Text Extraction Component: {'Handelaars', '€€sparen', '€€€€', '%', '!', 'ziens', 'voer', 'F06ACBBF80F5B8CD', 'A0000000043050', 'korting', '5;', 'code:', '*Diesel', '€', 'Baronienweg', '07:18:14', '58', '(POMP', 'e', '€92,36', '1862110001', 'id:', '1.559/e)', 't/m', '055C64', 'a', '€€€', '59.24', '***************8051'}
+
+For the PDF file 'File_83.pdf':
+  Jaccard similarity: 0.432
+  Words in the Text Extraction Component but not in the actual .txt file: {'[T', '(00053069)', '172', 'Koophandel®', '0000008870128', 'B', 'B.V.', '.', 'deponeringsgatum', '098', '——aane', 'on', 'F', 'vanaf', 'L', 'voorwaarden', 'nummer', 'Btw-nummer:', 'r', '1%—022006', 'u', 'of', '/_7>Ö', '€101032401', 'Pesthuis', 'waad', 'NLB23807071801', 'vide', 'CRM_', '16—022006', '28—02—2023——', '/', 'LW', 'op', '1547562', 'm.', 'KVKnr:', '.Jaarabonnement——', 'U>Û', 'NL31DEUTO319810577', '|', 'je', 'er', 'o_L«Uf.)', '_', '3569'}
+  Words in the .txt file but not in the Text Extraction Component: {'KVK-nr:', '0101032401', 'BV', 'nummer:', 'Jaarabonnement', 'vanaf:', 'deponeringsdatum', '16-02-2006', 'voorwaarden,', '-', '(0005-3069)', '€', 'CRM_1547562', '28-02-2023', 'Koophandel', 'Postbus', '1/2', '000008870128', '088', '3500', 'Btw-nr:', 'NL31DEUT0319810577', 'FACTUUR', 'NL823807071B01', 'KVK'}
+
+For the PDF file 'File_84.pdf':
+  Jaccard similarity: 0.818
+  Words in the Text Extraction Component but not in the actual .txt file: {'Lopikerkapel', '|', 'NL0098622B01', '1592290902', '+', 'debiteurennummer', '(dossier', 'NL91RABO0159290902', 'euro', 'raadplegen,', 'toepassing'}
+  Words in the .txt file but not in the Text Extraction Component: {'alfa', 'NL61RABO0159290902', '(KvK', 'raadplegen', '159290902', 'accountants', '5,', 'LOPIKERKAPEL', 'toepassing,', 'adviseurs', '€', 'nr', 'debiteurnummer', 'en/of', 'NL005098622B01'}
+
+For the PDF file 'File_85.pdf':
+  Jaccard similarity: 0.483
+  Words in the Text Extraction Component but not in the actual .txt file: {'100', 'Factuurdatum:', '1,021,24', 'NLSSINGBO6S1512258', 'cru', 'F', 'labs', 'NL&4RABOO147688221', 'ref.:', 'industrie', 'r', 'Page:', 'terms:', 'Btw', 'Verzenddatum:', 'INGENL2A00', 'Vervaldatum:', 'u', 'identificatie', 'NLOO2552413B01', 'ga', '|', 'RABONL2UXX', 'a', 'no.:', 'Orderno.:'}
+  Words in the .txt file but not in the Text Extraction Component: {'Orderno.', '5,00', 'industrial', 'Regel', '3', 'identification', 'RABONL2Uxxx', '39a', 'over', 'Voorwaarden:', 'plaatsgevonden.', 'heeft', 'terms', 'Gelieve', 'NL84RABO0147688221', 'volledige', 'Art.', 'NL002552413B01', '*', 'Verzonden', 'blijven', '2', 'Order', 'Besteld', 'te', '1.021,24', 'nr.', 'het', 'Levering', 'Goederen', '-', 'betaling', 'details', 'Page', 'ref.', 'Eenh.', 'de', 'maken', 'van', 'totaalbedrag', 'NL55INGB0661512258', 'via:Factuur', 'ROL', '155,00', 'eigendom', ':', 'no.', 'aan', 'genoemde', 'Factuur', 'Verzenddatum', '1,00', 'Aantal', 'totdat', '775,00', 'INGBNL2Axxx', 'Prijs', 'voor', 'Vervaldatum', 'Factuurdatum', 'door', '1-00', 'labSC', 'vervaldatum!'}
+
+For the PDF file 'File_86.pdf':
+  Jaccard similarity: 0.820
+  Words in the Text Extraction Component but not in the actual .txt file: {'(Onra0', '89—C', '=', '3084', 'voorwaarden', 'Factuur—/afleverdatum', 'toegezonden', 'BTW—ID', '_', 'vooruitbetaald', 'BTW—code', 'tel'}
+  Words in the .txt file but not in the Text Extraction Component: {'·', '89-C', 'Factuur-/afleverdatum', '1/', 'tel.:', 'voorwaarden,', 'BTW-ID', '30A4', 'KamervanKoophandel', 'BTW-code', 'vooruitbetaald.', 'toegezonden.'}
+
+For the PDF file 'File_87.pdf':
+  Jaccard similarity: 0.901
+  Words in the Text Extraction Component but not in the actual .txt file: {'factuur', '34', 'vragen', 'postbus', 'Delft,', '3412', 'www.exact.com.', 'KM'}
+  Words in the .txt file but not in the Text Extraction Component: {'vragen.', '39a', 'factuur,', '3412KM', 'www.exact.com', '-', 'for', '>Postbus'}
+
+For the PDF file 'File_88.pdf':
+  Jaccard similarity: 0.782
+  Words in the Text Extraction Component but not in the actual .txt file: {'UTRECHT,', 'Ordernummer:', 'voldoen', 'AFZENDER:', 'Factuurdatum:', '202,25', 'Betaalconditie:', 'referenties:', 'INGENL2A', 'toepassing,', 'Serienummer:', '*', 'klant:', '70,', 'Vervaldatum:'}
+  Words in the .txt file but not in the Text Extraction Component: {'39A', 'Betaalconditie', 'INGBNL2A', 'Factuurnummer', ':::::::::', 'klant', 'exact', 'Vervaldatum', 'T:+31', 'voldoen:', 'Klantnummer', 'Ordernummer', 'Factuurdatum', 'AFZENDER', 'toepassing', 'referentie:', 'Serienummer'}
+
+For the PDF file 'File_89.pdf':
+  Jaccard similarity: 0.730
+  Words in the Text Extraction Component but not in the actual .txt file: {'€10.000,00', '01-10-2023', '035-6911859', 'maanden', 'A', 'erop', 'groet', 'Premievervaldatum:', '€0,00', 'periode', 'betaaltermijn', '€114,05', 'verschuldigd:', 'voldaan', 'verzekerde'}
+  Words in the .txt file but not in the Text Extraction Component: {'voldaan.', 'Dé', 'verschuldigd', '59', '114,05', 'SINDS', 'verzekering:', '10.000,00', 'NL', '18', 'BROUWER', '691', '0,00', 'erop,', '035', 'Premievervaldatum', '€', '27', 'ASSURANTIËN', '1934', '(betaaltermijn:', ':', 'groet,', '(verzekerde', '-A', 'maand(en))', 'periode:', '01-10-2023)'}
+
+For the PDF file 'File_90.pdf':
+  Jaccard similarity: 0.859
+  Words in the Text Extraction Component but not in the actual .txt file: {'(Onra0', 'stuks', '3084', 'voorwaarden', 'NZ', 'toegezonden', '-', '21,0%', 'tel'}
+  Words in the .txt file but not in the Text Extraction Component: {'stuk(s)', '21,0', '·', 'tel.:', '1/', 'voorwaarden,', '%', '30A4', 'KamervanKoophandel', 'toegezonden.'}
+
+For the PDF file 'File_91.pdf':
+  Jaccard similarity: 0.815
+  Words in the Text Extraction Component but not in the actual .txt file: {'factuur', '(KG)', 'INGBNL2A', 'KM', 'excl.', 'GN', 'Verzending', '4824', 'Netherlands', 'WWW.DHLPARCELNL', 'BQ1,', 'incl.', 'richtlijnen', 'code', '3412', 'toepassing', 'of'}
+  Words in the .txt file but not in the Text Extraction Component: {'B.V.', '(Kg)', 'WWW.DHLPARCEL.NL', '(Excl.', '(Incl.', 'richtlijnen.', 'nummer:', 'BRECDA', 'code:', '-', 'B01,', 'Netherlands)', 'from', '4824GN', 'BTW)', 'INGBNL2A.', 'Factuur', '(The', 'Verzendig', '3412KM', 'factuur:', 'toepassing.', 'toegezonden.'}
+
+For the PDF file 'File_92.pdf':
+  Jaccard similarity: 0.614
+  Words in the Text Extraction Component but not in the actual .txt file: {'k', '90—00', 'Nieuwegein', 'NL—3439', '01', 'R', '[7)', 'code', 'dagen', 'AC—TIVE', 'regels', 'kassabon', 'MK', 'per', 'i', 'x', 'toepassing', 'u', 'mond', '38', 'e', '"\'(', 'N', '1633901', 'TA', 'NL8075.08.093,', 'o', 'BTW—nummer:', '08098', "Ü{Ï\\{::1FÎï;:T'ï", '|', 'je', 'IN', 'doen', '_', 'ZUA', 'aankoop'}
+  Words in the .txt file but not in the Text Extraction Component: {'re9els', 'kassabon.', 'HH', 'NL-3439', 'Nieuwe9ein', 'dasen', '%', 'toepassin9', 'doen.', 'code:', '-', '6,', 'CT633901', '[7]', 'AC-TIVE', 'BTW-nummer:', '----------', 'NL8075.08.093.B.01', 'ZWA', '10', ',1,50', 'aankoop.', '90-00', 'HDUT/SPEEDBODR', 'X', '9,38', '080C98'}
+
+For the PDF file 'File_93.pdf':
+  Jaccard similarity: 0.667
+  Words in the Text Extraction Component but not in the actual .txt file: {'10—07—2023', 'orders', 'KvK—nummer:', 'Btw—nummer:', 'E—mail:', 'voor', '81871139', '26—06—2023'}
+  Words in the .txt file but not in the Text Extraction Component: {'INGBNL2A', 'E-mail:', '4083', 'Btw-nummer:', 'NL76', 'IBAN:', 'INGB', 'KvK-nummer:81871139', '26-06-2023', '0007', '85', 'BIC:', '10-07-2023'}
+
+For the PDF file 'File_94.pdf':
+  Jaccard similarity: 0.638
+  Words in the Text Extraction Component but not in the actual .txt file: {'03-08-2023', 'contract', 'NO3377993', 'Paskosten', 'eerstvolgende', 'B.V', 'nr.', 'VVRS4T', 'klant', 'LSCO15', 'D1151778980001', 'KVK-/Ondernemingsnr.', 'kenteken', 'kenteken/referentienummer', 'NLO04010462B01', 'LSCO38', 'm/s', 'NL96ABNAQ0401863042', '_'}
+  Words in the .txt file but not in the Text Extraction Component: {'contract:', 'travelcard', 'kenteken:', 'over', '1324', 'kosten', 'Subtotaal', 'LSC015', 'NL004010462B01', 'eerst', 'KVK-/', '21,00%', 'nummer:', 'NL96ABNA0401863042', '-', 'Ondernemingsnr.', 'nr', 'Postbus', '56,57', 'LSC038', '1', '03-06-2023', 'volgende', 'kenteken/referentie', 'VVR54T', 'N03377993', 'TOTAAL', 'D115178980001', '9,82', 'Pas', 'klant:', 'I'}
+
+For the PDF file 'File_95.pdf':
+  Jaccard similarity: 0.772
+  Words in the Text Extraction Component but not in the actual .txt file: {'NO3417517', '4271', 'contract', 'at', 'is', 'NL96ABNAO401863042', 'eerstvolgende', 'B.V', 'nr.', 'carwash', 'VVRS4T', 'klant', 'D1151778980001', 'valt', 'u', 'ga', 'KVK-/Ondernemingsnr.', 'NL96ABNAO401863042Travelcard', '€02', 'kenteken', 'NLO04010462B01', 'travee', 'm/s', '|', 'je', '_', 'red'}
+  Words in the .txt file but not in the Text Extraction Component: {'contract:', 'travelcard', 'kenteken:', 'CO2', 'Subtotaal', 'NL004010462B01', 'is.', 'eerst', 'KVK-/', 'nummer:', 'NL96ABNA0401863042', '-', 'Ondernemingsnr.', 'nr', "'t", 'valt,', '744,79', '129,26', '1', '42,71', 'volgende', 'afgeschreven.', '615,53', 'VVR54T', 'TOTAAL', 'D115178980001', 'klant:', 'N03417517', 'I'}
+
+For the PDF file 'File_96.pdf':
+  Jaccard similarity: 0.797
+  Words in the Text Extraction Component but not in the actual .txt file: {'(EUR):', 'Due:', 'year', '(0%):', 'store', 'advise', 'order:', 'info', '1E3515583EH', 'labs', 'Subtotal:'}
+  Words in the .txt file but not in the Text Extraction Component: {'Item', '1-Year', 'labSC', 'Due', 'info:', 'Subtotal', 'advies', 'e-store', 'no.:IE3515583EH', '123', 'Qty', '(EUR)', '(0%)'}
+
+For the PDF file 'File_97.pdf':
+  Jaccard similarity: 0.765
+  Words in the Text Extraction Component but not in the actual .txt file: {'etuis', 'certificaten', 'incidentele', 'retourneren.', 'app:', '.', 'bv.', 'Labs', '13.5', 'teruggekregen', '03000242010).', "risico's", '(zelfs', 'toegestaan', 'Wanneer', 'email,', 'bekend', 'ontstaan', 'belastingen', 'koop', 'telefoonnummer', '12.2', 'was', 'app.', 'voorwaarden', 'wijze,', 'aard', 'bestemming,', '20,', 'anderszins,', 'standaardlevering),', 'schadevergoeding,', 'registreren.', 'formulering,', 'leven,', 'vervolgschade', 'verklaring,', 'app,', 'nummer)', 'publiceren', 'etc.', 'Advies', 'koopt', 'indirecte,', 'gratis', 'antwoordnummer', '12.1', 'fraude,', 'uitbetaling', '|', '21%', 'Caramelite).', 'ruilen.', 'verklaren,', 'aftersales-service,', '9a', 'uit,', '14,', 'had', '("Nespresso")', 'insolventie'}
+  Words in the .txt file but not in the Text Extraction Component: {'INDIEN', 'BIJ', 'biedt', 'verhinderen.', '21', 'inlichtingen.', 'bestemming', 'teruggekregen,', '18', 'telefoonnummer:', 'BEKEND', 'nummer:', '(tel:', 'B.V', 'februari', 'VAT', 'manier', 'plaatsvinden', '€', '18.3', 'OOK', 'formulerings-,', 'verdelen.', 'DE', '(ZELFS', 'APP.', 'GEBRUIK', 'HAD', '(voor', 'periode,', 'Dan', '12.1.', '18.2', 'afhankelijk', 'Nespresso-kanalen.', '–', 'wil,', 'registeren.', 'apps:', 'maanden', 'etuis,', 'aanmerking', 'gelden', 'risico’s', 'UIT', 'Avant', '(“Nespresso”)', 'stakingen,', 'Na', '-belastingen', 'standaardlevering)', 'aankoop', 'Kvk', 'Vastgesteld', 'regels.', '9', 'productie,', 'één', '16.2', 'strekt).', '13.3', 'koop,', 'onder', 'uit?', 'AANSPRAKELIJK', '0', '(bv.', 'periode', 'gebeurtenissen', '12.2.', '()', 'e-mail)', 'kopen', 'SCHADE', 'kopen(zolang', 'iedereen', 'vertraging', 'advies', 'buiten', 'WEBSITE/MOBIELE', '08000242010)', 'billijke', 'INCIDENTELE', 'DIE', '2015', 'VOORTVLOEIT', 'VAN', 'nummer))', 'klanten', '(Antwoordnummer', 'VERKOOP', 'mogelijkheid', 'HAAR', 'koffies', '2.4.', 'koopt,', 'GEEN', 'meerdere', 'EXPLORATIONS,', 'toegestaan)', '"avant', 'apps,', 'publiceren,', '-', 'zodra', 'beschikbaarheid.', 'transport', 'GESTELD', 'afgelopen', '18.4', '18.', 'contactnl@Nespresso.com', 'retourneren:', 'AMSTELVEEN', 'Tel:', ':', 'DEZE', 'Limited', 'verklaring', 'nieuwe,', 'GEVAL', 'IN', 'VOOR', 'WORDEN', 'GOEDEREN', 'wanneer', 'première"', 'KUNNEN', 'Edition', 'schadevergoeding', 'oorlogen,', 'EXPLORATIONS-koffie', 'EXPLORATIONS', 'Première.', '39a', 'Clubleden', 'verklaren', 'ONTSTAAN', 'verplichtingen', '%', 'ZIJN', 'omstandigheden', 'derde,', 'HET', 'geregistreerd,', 'number:', 'AARD', 'gekocht,', 'voorwaarden,', '18.1', 'insolvabiliteit', 'verplichtingen,', '(gratis', 'fraude.', 'pinbetaling', 'OF', 'ruilen', 'GOEDEREN,', 'KAN', 'Alleen', 'kwaliteitsproblemen', 'beperkte', 'leven', 'certificate:', '20)', 'kwijten', 'INDIRECTE,', 'Caramelito).', 'beschikbare', 'Explorations', 'natuurrampen', 'E-mail:', 'VERVOLGSCHADE', 'WELKE', 'WAS', 'labSC', 'Première'}
+
+For the PDF file 'File_98.pdf':
+  Jaccard similarity: 0.768
+  Words in the Text Extraction Component but not in the actual .txt file: {'omschrijving', 'is', '072-572', '8000944994', 'vermelden', 'zie', 'NL6SRABOO304648477', 'voldoen', '072-574', 's.v.p.', 'polisvoorwaarden', '_', '€', 'mailadres', 'nv'}
+  Words in the .txt file but not in the Text Extraction Component: {'polisvrw)', '800944994', 'NL68RABO0304648477', '\x02', '-', 'is:', 'tnv', 'DE', 'ASSURADEUREN', '072', 'email-adres', 'WAERDSE', ':', '-572', '574', '\U00100000', 'vermelden,', 'voldoen.', '(zie', 'svp', 'omschrijvings/'}
+
+For the PDF file 'File_99.pdf':
+  Jaccard similarity: 0.638
+  Words in the Text Extraction Component but not in the actual .txt file: {'excl.', 'ballast', 'Labs', 'product:', 'T.a.v.:', 'Verwijderingsbijdrage,', 'bijv.', 'incl.', '5626', '3412', 'referenties', 'BTW-nummer:', 'u', 'KM', 'Ideal', 'CC', 'Advies', 'm/s', 'Factuurnummer:', 'creditcard', 'Omschrijving:'}
+  Words in the .txt file but not in the Text Extraction Component: {'39a', '4,91', 'Artikelnr.', 'labSC', 'Verwijderingsbijdrage', 'Bedrag', 'Nr.:', 'Attn.:', '(Bijv.', 'Nr.', 'creditcard)', '0,28', 'iDeal', '€', 'referentie:', '(excl.', 'ballasts', 'BTW)', '1/1', 'advies', '5626DC', '3412KM', '(incl.', '162285', 'products:'}
+
+For the PDF file 'File_100.pdf':
+  Jaccard similarity: 0.799
+  Words in the Text Extraction Component but not in the actual .txt file: {'Lopikerkapel', '|', 'NL0098622B01', '1592290902', 'bedrijf', '+', 'debiteurennummer', '(dossier', 'euro', 'raadplegen,', 'NLG1RABO0159290902', 'toepassing'}
+  Words in the .txt file but not in the Text Extraction Component: {'·', 'alfa', 'NL61RABO0159290902', '(KvK', 'raadplegen', '159290902', 'bedrijf:', 'accountants', '5,', 'LOPIKERKAPEL', 'toepassing,', 'adviseurs', '€', 'nr', 'debiteurnummer', 'en/of', 'NL005098622B01'}
+
