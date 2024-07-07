@@ -102,7 +102,6 @@ def extract_entities(user_input, text, language):
         if ": No Matches Found" in entity_type:
             # Extract the word from the message
             word = entity_type.split(":")[0]
-            print("1")
             # Append the word with the message to entities
             # entities.append(f"{word}: No Matches Found")
             # Use OpenAI key to find information in text

@@ -27,7 +27,6 @@ def on_run_button_click():
         error_label.config(text="")  # Clear the error message
         print("Loading Document...")
         text, language = get_final_text(file_path)
-        print(text)
         print("Extracting information...")
         information = extract_information(entity_info, text, language)
         print(information)
