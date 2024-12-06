@@ -7,18 +7,18 @@ The entire tool, including both logic and GUI components, is predominantly built
 
 ### Software Architecture
 
-#### Main Components
-- The tool consists of two main components: the Text Extraction Component and the Information Retrieval Component.
+#### Main Modules
+- The tool consists of two main modules: the Text Extraction Module and the Information Retrieval Module.
 
-#### Text Extraction Component
-- **Modules**:
+#### Text Extraction Module
+- **Components**:
   - `preprocessing.py`
   - `ocr_extraction.py`
   - `spell_correction.py`
   - `ai_correction.py`
 
-#### Information Retrieval Component
-- **Modules**:
+#### Information Retrieval Module
+- **Components**:
   - `fuzzy_regex.py`
   - `ner_extraction.py`
   - `ai_correction.py`
